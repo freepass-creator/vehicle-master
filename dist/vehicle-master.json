@@ -11739,6 +11739,141 @@
             }
           ],
           "id": "mf-002.md-056"
+        },
+        {
+          "name": "봉고3",
+          "code": null,
+          "count": 0,
+          "source": "supplemental",
+          "sub_models": [
+            {
+              "name": "봉고III",
+              "gen_code": null,
+              "start": "200401",
+              "end": null,
+              "period": "04~현재",
+              "source": "supplemental",
+              "powertrains": [
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-l"
+                    },
+                    {
+                      "name": "GL",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-gl"
+                    },
+                    {
+                      "name": "GLS",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-gls"
+                    }
+                  ],
+                  "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd"
+                },
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-l"
+                    },
+                    {
+                      "name": "GL",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-gl"
+                    },
+                    {
+                      "name": "GLS",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-gls"
+                    }
+                  ],
+                  "id": "mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd"
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-l"
+                    },
+                    {
+                      "name": "GL",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-gl"
+                    },
+                    {
+                      "name": "GLS",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-gls"
+                    }
+                  ],
+                  "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd"
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-l"
+                    },
+                    {
+                      "name": "GL",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-gl"
+                    },
+                    {
+                      "name": "GLS",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-gls"
+                    }
+                  ],
+                  "id": "mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd"
+                },
+                {
+                  "fuel": "전기",
+                  "displacement": null,
+                  "displacement_l": null,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-l"
+                    },
+                    {
+                      "name": "GL",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-gl"
+                    },
+                    {
+                      "name": "GLS",
+                      "id": "mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-gls"
+                    }
+                  ],
+                  "id": "mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd"
+                }
+              ],
+              "id": "mf-002.md-봉고3.sm-봉고iii"
+            }
+          ],
+          "id": "mf-002.md-봉고3"
         }
       ],
       "id": "mf-002"
@@ -24766,6 +24901,141 @@
             }
           ],
           "id": "mf-001.md-028"
+        },
+        {
+          "name": "포터",
+          "code": null,
+          "count": 0,
+          "source": "supplemental",
+          "sub_models": [
+            {
+              "name": "포터 II",
+              "gen_code": null,
+              "start": "200401",
+              "end": null,
+              "period": "04~현재",
+              "source": "supplemental",
+              "powertrains": [
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-스마트"
+                    },
+                    {
+                      "name": "모던",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-모던"
+                    },
+                    {
+                      "name": "프리미엄",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-프리미엄"
+                    }
+                  ],
+                  "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd"
+                },
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-스마트"
+                    },
+                    {
+                      "name": "모던",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-모던"
+                    },
+                    {
+                      "name": "프리미엄",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-프리미엄"
+                    }
+                  ],
+                  "id": "mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd"
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-스마트"
+                    },
+                    {
+                      "name": "모던",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-모던"
+                    },
+                    {
+                      "name": "프리미엄",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-프리미엄"
+                    }
+                  ],
+                  "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd"
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-스마트"
+                    },
+                    {
+                      "name": "모던",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-모던"
+                    },
+                    {
+                      "name": "프리미엄",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-프리미엄"
+                    }
+                  ],
+                  "id": "mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd"
+                },
+                {
+                  "fuel": "전기",
+                  "displacement": null,
+                  "displacement_l": null,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-스마트"
+                    },
+                    {
+                      "name": "모던",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-모던"
+                    },
+                    {
+                      "name": "프리미엄",
+                      "id": "mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-프리미엄"
+                    }
+                  ],
+                  "id": "mf-001.md-포터.sm-포터-ii.pw-전기-2wd"
+                }
+              ],
+              "id": "mf-001.md-포터.sm-포터-ii"
+            }
+          ],
+          "id": "mf-001.md-포터"
         }
       ],
       "id": "mf-001"
@@ -101916,5 +102186,5 @@
       "id": "mf-085"
     }
   ],
-  "version": "2026-06-11+0cb40edf"
+  "version": "2026-06-11+2a05048d"
 }

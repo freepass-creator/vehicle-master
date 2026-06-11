@@ -1021,6 +1021,21 @@ mf-002.md-043.sm-크레도스.pw-가솔린-2-0.tr-lx-di,기아,002,국산,크레
 mf-002.md-043.sm-크레도스.pw-가솔린-1-8.tr-vs-di,기아,002,국산,크레도스,043,크레도스,,95~98,encar,가솔린,1.8,False,,5,,,VS Di,,False,False
 mf-002.md-011.sm-리갈.pw-가솔린-2-0.tr-고급형,기아,002,국산,리갈,011,리갈,,02~05,encar,가솔린,2.0,False,,5,,,고급형,,False,False
 mf-002.md-020.sm-비스토.pw-가솔린-0-8.tr-기본형,기아,002,국산,비스토,020,비스토,,99~04,encar,가솔린,0.8,False,,5,,,기본형,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-l,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,2WD,,,,L,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-gl,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,2WD,,,,GL,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-2wd.tr-gls,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,2WD,,,,GLS,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-l,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,4WD,,,,L,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-gl,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,4WD,,,,GL,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-디젤-2-5-4wd.tr-gls,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,디젤,2.5,False,4WD,,,,GLS,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-l,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,2WD,,,,L,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-gl,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,2WD,,,,GL,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-2wd.tr-gls,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,2WD,,,,GLS,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-l,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,4WD,,,,L,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-gl,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,4WD,,,,GL,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-lpg-2-5-4wd.tr-gls,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,LPG,2.5,False,4WD,,,,GLS,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-l,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,전기,,False,2WD,,,,L,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-gl,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,전기,,False,2WD,,,,GL,,False,False
+mf-002.md-봉고3.sm-봉고iii.pw-전기-2wd.tr-gls,기아,002,국산,봉고3,봉고3,봉고III,,04~현재,supplemental,전기,,False,2WD,,,,GLS,,False,False
 mf-001.md-004.sm-gn7.pw-가솔린-2-5-2wd.tr-프리미엄,현대,001,국산,그랜저,004,더 뉴 그랜저 GN7,GN7,26~현재,welrix,가솔린,2.5,False,2WD,,,,프리미엄,4250,False,False
 mf-001.md-004.sm-gn7.pw-가솔린-2-5-2wd.tr-익스클루시브,현대,001,국산,그랜저,004,더 뉴 그랜저 GN7,GN7,26~현재,welrix,가솔린,2.5,False,2WD,,,,익스클루시브,4700,False,False
 mf-001.md-004.sm-gn7.pw-가솔린-2-5-2wd.tr-캘리그래피,현대,001,국산,그랜저,004,더 뉴 그랜저 GN7,GN7,26~현재,welrix,가솔린,2.5,False,2WD,,,,캘리그래피,5317,False,False
@@ -2211,6 +2226,21 @@ mf-001.md-038.sm-프레스토.pw-가솔린-1-5.tr-슈퍼형,현대,001,국산,�
 mf-001.md-057.sm-블루온.pw-전기-16-4.tr-ev,현대,001,국산,블루온,057,블루온,,10~11,encar,전기,,False,,,16.4,140,EV,,False,False
 mf-001.md-014.sm-스쿠프.pw-가솔린-1-5.tr-기본형,현대,001,국산,스쿠프,014,스쿠프,,90~95,encar,가솔린,1.5,False,,4,,,기본형,,False,False
 mf-001.md-029.sm-뉴-클릭.pw-가솔린-1-4.tr-팬시팩-i,현대,001,국산,클릭,029,뉴 클릭,,05~10,encar,가솔린,1.4,False,,5,,,팬시팩 I,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-스마트,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,2WD,,,,스마트,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-모던,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,2WD,,,,모던,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-2wd.tr-프리미엄,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,2WD,,,,프리미엄,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-스마트,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,4WD,,,,스마트,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-모던,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,4WD,,,,모던,,False,False
+mf-001.md-포터.sm-포터-ii.pw-디젤-2-5-4wd.tr-프리미엄,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,디젤,2.5,False,4WD,,,,프리미엄,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-스마트,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,2WD,,,,스마트,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-모던,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,2WD,,,,모던,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-2wd.tr-프리미엄,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,2WD,,,,프리미엄,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-스마트,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,4WD,,,,스마트,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-모던,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,4WD,,,,모던,,False,False
+mf-001.md-포터.sm-포터-ii.pw-lpg-2-5-4wd.tr-프리미엄,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,LPG,2.5,False,4WD,,,,프리미엄,,False,False
+mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-스마트,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,전기,,False,2WD,,,,스마트,,False,False
+mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-모던,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,전기,,False,2WD,,,,모던,,False,False
+mf-001.md-포터.sm-포터-ii.pw-전기-2wd.tr-프리미엄,현대,001,국산,포터,포터,포터 II,,04~현재,supplemental,전기,,False,2WD,,,,프리미엄,,False,False
 mf-007.md-002.sm-rg3.pw-전기-awd.tr-e,제네시스,007,국산,G80,002,일렉트리파이드 G80 RG3,RG3,21~현재,encar,전기,,False,AWD,5,,,e,,False,False
 mf-007.md-002.sm-rg3.pw-가솔린-2-5-awd.tr-세부등급-없음,제네시스,007,국산,G80,002,G80 RG3,RG3,20~현재,encar,가솔린,2.5,True,AWD,5,,,(세부등급 없음),,False,False
 mf-007.md-002.sm-rg3.pw-가솔린-3-5-awd.tr-세부등급-없음,제네시스,007,국산,G80,002,G80 RG3,RG3,20~현재,encar,가솔린,3.5,True,AWD,5,,,(세부등급 없음),,False,False

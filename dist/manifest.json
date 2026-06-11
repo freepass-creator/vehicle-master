@@ -1,6 +1,6 @@
 {
   "name": "vehicle-master",
-  "version": "2026-06-11+0cb40edf",
+  "version": "2026-06-11+2a05048d",
   "generated": "2026-06-11",
   "source": "encar + welrix + namuwiki crosscheck",
   "levels": [
@@ -12,10 +12,10 @@
   ],
   "counts": {
     "manufacturers": 75,
-    "models": 1119,
-    "sub_models": 1803,
-    "powertrains": 2940,
-    "trims": 6320
+    "models": 1121,
+    "sub_models": 1805,
+    "powertrains": 2950,
+    "trims": 6350
   },
   "files": {
     "tree": "vehicle-master.json",

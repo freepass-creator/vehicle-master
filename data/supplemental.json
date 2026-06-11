@@ -1,0 +1,42 @@
+[
+  {
+    "maker": "현대",
+    "model": "포터",
+    "sub_models": [
+      {
+        "name": "포터 II",
+        "gen_code": "",
+        "year_start": "2004",
+        "year_end": "현재",
+        "powertrains": [
+          {"fuel": "디젤", "displacement_l": 2.5, "drivetrain": "2WD"},
+          {"fuel": "디젤", "displacement_l": 2.5, "drivetrain": "4WD"},
+          {"fuel": "LPG", "displacement_l": 2.5, "drivetrain": "2WD"},
+          {"fuel": "LPG", "displacement_l": 2.5, "drivetrain": "4WD"},
+          {"fuel": "전기", "displacement_l": null, "drivetrain": "2WD"}
+        ],
+        "trims": ["스마트", "모던", "프리미엄"]
+      }
+    ]
+  },
+  {
+    "maker": "기아",
+    "model": "봉고3",
+    "sub_models": [
+      {
+        "name": "봉고III",
+        "gen_code": "",
+        "year_start": "2004",
+        "year_end": "현재",
+        "powertrains": [
+          {"fuel": "디젤", "displacement_l": 2.5, "drivetrain": "2WD"},
+          {"fuel": "디젤", "displacement_l": 2.5, "drivetrain": "4WD"},
+          {"fuel": "LPG", "displacement_l": 2.5, "drivetrain": "2WD"},
+          {"fuel": "LPG", "displacement_l": 2.5, "drivetrain": "4WD"},
+          {"fuel": "전기", "displacement_l": null, "drivetrain": "2WD"}
+        ],
+        "trims": ["L", "GL", "GLS"]
+      }
+    ]
+  }
+]

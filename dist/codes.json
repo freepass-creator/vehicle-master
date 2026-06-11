@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-11+0cb40edf",
+  "version": "2026-06-11+2a05048d",
   "manufacturers": {
     "002": {
       "name": "기아",
@@ -668,6 +668,11 @@
       "name": "피아트132",
       "eng": "Fiat 132"
     },
+    "002-봉고3": {
+      "manufacturer": "기아",
+      "name": "봉고3",
+      "eng": null
+    },
     "001-004": {
       "manufacturer": "현대",
       "name": "그랜저",
@@ -912,6 +917,11 @@
       "manufacturer": "현대",
       "name": "코티나",
       "eng": "Cotina"
+    },
+    "001-포터": {
+      "manufacturer": "현대",
+      "name": "포터",
+      "eng": null
     },
     "007-002": {
       "manufacturer": "제네시스",
@@ -6587,6 +6597,12 @@
       "gen_code": null,
       "period": "79~81"
     },
+    "mf-002.md-봉고3.sm-봉고iii": {
+      "model": "봉고3",
+      "sub_model": "봉고III",
+      "gen_code": null,
+      "period": "04~현재"
+    },
     "mf-001.md-004.sm-gn7": {
       "model": "그랜저",
       "sub_model": "그랜저 GN7",
@@ -7216,6 +7232,12 @@
       "sub_model": "코티나",
       "gen_code": null,
       "period": "68~83"
+    },
+    "mf-001.md-포터.sm-포터-ii": {
+      "model": "포터",
+      "sub_model": "포터 II",
+      "gen_code": null,
+      "period": "04~현재"
     },
     "mf-007.md-002.sm-rg3": {
       "model": "G80",

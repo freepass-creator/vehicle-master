@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-11+0cb40edf",
-  "count": 1803,
+  "version": "2026-06-11+2a05048d",
+  "count": 1805,
   "entries": [
     {
       "id": "mf-002.md-036.sm-ka4",
@@ -5783,6 +5783,69 @@
       "title": "기아 피아트132",
       "variants": [],
       "trims": []
+    },
+    {
+      "id": "mf-002.md-봉고3.sm-봉고iii",
+      "maker": "기아",
+      "model": "봉고3",
+      "sub_model": "봉고III",
+      "gen_code": null,
+      "origin": "국산",
+      "year_start": "2004",
+      "year_end": "현재",
+      "title": "기아 봉고III",
+      "variants": [
+        {
+          "label": "디젤 2.5 2WD",
+          "fuel": "디젤",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "디젤 2.5 4WD",
+          "fuel": "디젤",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "4WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "LPG 2.5 2WD",
+          "fuel": "LPG",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "LPG 2.5 4WD",
+          "fuel": "LPG",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "4WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "전기 2WD",
+          "fuel": "전기",
+          "displacement_l": null,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        }
+      ],
+      "trims": [
+        "GL",
+        "GLS",
+        "L"
+      ]
     },
     {
       "id": "mf-001.md-004.sm-gn7",
@@ -12175,6 +12238,69 @@
       "title": "현대 코티나",
       "variants": [],
       "trims": []
+    },
+    {
+      "id": "mf-001.md-포터.sm-포터-ii",
+      "maker": "현대",
+      "model": "포터",
+      "sub_model": "포터 II",
+      "gen_code": null,
+      "origin": "국산",
+      "year_start": "2004",
+      "year_end": "현재",
+      "title": "현대 포터 II",
+      "variants": [
+        {
+          "label": "디젤 2.5 2WD",
+          "fuel": "디젤",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "디젤 2.5 4WD",
+          "fuel": "디젤",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "4WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "LPG 2.5 2WD",
+          "fuel": "LPG",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "LPG 2.5 4WD",
+          "fuel": "LPG",
+          "displacement_l": 2.5,
+          "turbo": false,
+          "drivetrain": "4WD",
+          "seat": null,
+          "battery_kwh": null
+        },
+        {
+          "label": "전기 2WD",
+          "fuel": "전기",
+          "displacement_l": null,
+          "turbo": false,
+          "drivetrain": "2WD",
+          "seat": null,
+          "battery_kwh": null
+        }
+      ],
+      "trims": [
+        "모던",
+        "스마트",
+        "프리미엄"
+      ]
     },
     {
       "id": "mf-007.md-002.sm-rg3",

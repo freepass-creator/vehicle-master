@@ -10263,6 +10263,119 @@
               "powertrains": []
             }
           ]
+        },
+        {
+          "name": "봉고3",
+          "code": null,
+          "count": 0,
+          "source": "supplemental",
+          "sub_models": [
+            {
+              "name": "봉고III",
+              "gen_code": null,
+              "start": "200401",
+              "end": null,
+              "period": "04~현재",
+              "source": "supplemental",
+              "powertrains": [
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L"
+                    },
+                    {
+                      "name": "GL"
+                    },
+                    {
+                      "name": "GLS"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L"
+                    },
+                    {
+                      "name": "GL"
+                    },
+                    {
+                      "name": "GLS"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L"
+                    },
+                    {
+                      "name": "GL"
+                    },
+                    {
+                      "name": "GLS"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L"
+                    },
+                    {
+                      "name": "GL"
+                    },
+                    {
+                      "name": "GLS"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "전기",
+                  "displacement": null,
+                  "displacement_l": null,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "L"
+                    },
+                    {
+                      "name": "GL"
+                    },
+                    {
+                      "name": "GLS"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -21570,6 +21683,119 @@
               "end": "198307",
               "period": "68~83",
               "powertrains": []
+            }
+          ]
+        },
+        {
+          "name": "포터",
+          "code": null,
+          "count": 0,
+          "source": "supplemental",
+          "sub_models": [
+            {
+              "name": "포터 II",
+              "gen_code": null,
+              "start": "200401",
+              "end": null,
+              "period": "04~현재",
+              "source": "supplemental",
+              "powertrains": [
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트"
+                    },
+                    {
+                      "name": "모던"
+                    },
+                    {
+                      "name": "프리미엄"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "디젤",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트"
+                    },
+                    {
+                      "name": "모던"
+                    },
+                    {
+                      "name": "프리미엄"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트"
+                    },
+                    {
+                      "name": "모던"
+                    },
+                    {
+                      "name": "프리미엄"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "LPG",
+                  "displacement": 2500,
+                  "displacement_l": 2.5,
+                  "turbo": false,
+                  "drivetrain": "4WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트"
+                    },
+                    {
+                      "name": "모던"
+                    },
+                    {
+                      "name": "프리미엄"
+                    }
+                  ]
+                },
+                {
+                  "fuel": "전기",
+                  "displacement": null,
+                  "displacement_l": null,
+                  "turbo": false,
+                  "drivetrain": "2WD",
+                  "seat": null,
+                  "trims": [
+                    {
+                      "name": "스마트"
+                    },
+                    {
+                      "name": "모던"
+                    },
+                    {
+                      "name": "프리미엄"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

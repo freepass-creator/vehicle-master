@@ -9,7 +9,7 @@
 import subprocess, sys, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 STEPS = ["crawl_encar.py", "apply_ev_battery.py", "unify_variants.py",
-         "apply_gen_codes.py", "apply_trim_rank.py", "apply_welrix.py", "apply_trim_class.py"]
+         "apply_gen_codes.py", "apply_trim_rank.py", "apply_welrix.py", "apply_trim_class.py", "apply_supplemental.py"]
 ARGS = {"crawl_encar.py": ["merge"]}
 for s in STEPS:
     cmd = [sys.executable, os.path.join(HERE, s)] + ARGS.get(s, [])
