@@ -93,11 +93,13 @@ def build(date_str):
                     e = "%gkWh" % p["battery_kwh"] if p.get("battery_kwh") is not None else (
                         "%g%s" % (p["displacement_l"], "T" if p.get("turbo") else "") if p.get("displacement_l") is not None else "")
                     label = " ".join(x for x in [p.get("fuel"), e, p.get("drivetrain")] if x)
+                    ptrims = [t["name"] for t in p.get("trims", []) if not t.get("fleet")]
                     variants.append({"label": label, "fuel": p.get("fuel"),
                                      "displacement_l": p.get("displacement_l"), "turbo": p.get("turbo"),
                                      "drivetrain": p.get("drivetrain"), "seat": p.get("seat"),
-                                     "battery_kwh": p.get("battery_kwh")})
-                    ctrims += [t["name"] for t in p.get("trims", []) if not t.get("fleet")]
+                                     "battery_kwh": p.get("battery_kwh"),
+                                     "trims": ptrims})   # 파워트레인별 트림 (LPG에 가솔린 트림 안 섞이게)
+                    ctrims += ptrims
                 ye = s.get("end")
                 match_entries.append({
                     "id": s["id"], "maker": mk, "model": g["name"], "sub_model": s["name"],
