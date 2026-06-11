@@ -80,6 +80,34 @@ def build(date_str):
     w("vehicle-master.flat.json", {"version": version, "rows": flat})
     w("codes.json", {"version": version, **codes})
 
+    # 매칭 전용 슬림 인덱스 — 세부모델당 1엔트리 (외부 ERP 시트→우리 규격 매칭용)
+    def norm_maker(name):
+        return re.sub(r"\(.*?\)", "", name or "").strip()  # 쉐보레(GM대우)→쉐보레
+    match_entries = []
+    for m in tree["manufacturers"]:
+        mk = norm_maker(m["name"])
+        for g in m.get("models", []):
+            for s in g.get("sub_models", []):
+                variants, ctrims = [], []
+                for p in s.get("powertrains", []):
+                    e = "%gkWh" % p["battery_kwh"] if p.get("battery_kwh") is not None else (
+                        "%g%s" % (p["displacement_l"], "T" if p.get("turbo") else "") if p.get("displacement_l") is not None else "")
+                    label = " ".join(x for x in [p.get("fuel"), e, p.get("drivetrain")] if x)
+                    variants.append({"label": label, "fuel": p.get("fuel"),
+                                     "displacement_l": p.get("displacement_l"), "turbo": p.get("turbo"),
+                                     "drivetrain": p.get("drivetrain"), "seat": p.get("seat"),
+                                     "battery_kwh": p.get("battery_kwh")})
+                    ctrims += [t["name"] for t in p.get("trims", []) if not t.get("fleet")]
+                ye = s.get("end")
+                match_entries.append({
+                    "id": s["id"], "maker": mk, "model": g["name"], "sub_model": s["name"],
+                    "gen_code": s.get("gen_code"), "origin": m.get("car_type"),
+                    "year_start": (s.get("start") or "")[:4], "year_end": (ye[:4] if ye else "현재"),
+                    "title": ("%s %s" % (mk, s["name"])).strip(),
+                    "variants": variants, "trims": sorted(set(ctrims)),
+                })
+    w("match-index.json", {"version": version, "count": len(match_entries), "entries": match_entries})
+
     # CSV (엑셀 호환 utf-8-sig)
     cols = list(flat[0].keys()) if flat else []
     with open(os.path.join(DIST, "vehicle-master.flat.csv"), "w", encoding="utf-8-sig", newline="") as f:
