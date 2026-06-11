@@ -1,0 +1,1676 @@
+{
+  "name": "닛산",
+  "count": 341,
+  "code": "033",
+  "eng": "Nissan",
+  "order": 140.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.닛산.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "180SX",
+      "count": 0,
+      "code": "026",
+      "eng": "180SX",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.180SX.)))",
+      "sub_models": [
+        {
+          "name": "180SX",
+          "count": 0,
+          "code": "026",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.180SX._.Model.180SX.))))",
+          "start": "198901",
+          "end": "199812",
+          "period": "89~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "200SX",
+      "count": 0,
+      "code": "001",
+      "eng": "200SX",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.200SX.)))",
+      "sub_models": [
+        {
+          "name": "200SX",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.200SX._.Model.200SX.))))",
+          "start": "197401",
+          "end": "200212",
+          "period": "74~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "240SX",
+      "count": 0,
+      "code": "002",
+      "eng": "240SX",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.240SX.)))",
+      "sub_models": [
+        {
+          "name": "240SX",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.240SX._.Model.240SX.))))",
+          "start": "198901",
+          "end": "199812",
+          "period": "89~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "280ZX",
+      "count": 0,
+      "code": "003",
+      "eng": "280ZX",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.280ZX.)))",
+      "sub_models": [
+        {
+          "name": "280ZX",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.280ZX._.Model.280ZX.))))",
+          "start": "197801",
+          "end": "198312",
+          "period": "78~83",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "300ZX",
+      "count": 1,
+      "code": "004",
+      "eng": "300ZX",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.300ZX.)))",
+      "sub_models": [
+        {
+          "name": "300ZX",
+          "count": 1,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.300ZX._.Model.300ZX.))))",
+          "start": "198301",
+          "end": "200012",
+          "period": "83~00",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2960,
+              "displacement_l": 3.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z32"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "350Z",
+      "count": 3,
+      "code": "018",
+      "eng": "350Z",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.350Z.)))",
+      "sub_models": [
+        {
+          "name": "350Z",
+          "count": 3,
+          "code": "018",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.350Z._.Model.350Z.))))",
+          "start": "200301",
+          "end": "200912",
+          "period": "03~09",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z33"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z33"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "370Z",
+      "count": 4,
+      "code": "027",
+      "eng": "370Z",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.370Z.)))",
+      "sub_models": [
+        {
+          "name": "370Z",
+          "count": 4,
+          "code": "027",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.370Z._.Model.370Z.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_027_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3696,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z34"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GT-R",
+      "count": 2,
+      "code": "030",
+      "eng": "GT-R",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.GT-R.)))",
+      "sub_models": [
+        {
+          "name": "GT-R",
+          "count": 2,
+          "code": "030",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.GT-R._.Model.GT-R.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_030_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3800,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.8 미드나잇 오팔에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3799,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R35"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NV",
+      "count": 0,
+      "code": "038",
+      "eng": "NV",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.NV.)))",
+      "sub_models": [
+        {
+          "name": "NV",
+          "count": 0,
+          "code": "037",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.NV._.Model.NV.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_037_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "노트",
+      "count": 0,
+      "code": "050",
+      "eng": "Note",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.노트.)))",
+      "sub_models": [
+        {
+          "name": "노트",
+          "count": 0,
+          "code": "055",
+          "eng": null,
+          "order": 39.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.노트._.Model.노트.))))",
+          "start": "200501",
+          "end": null,
+          "period": "05~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "라페스타",
+      "count": 0,
+      "code": "049",
+      "eng": "Lafesta",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.라페스타.)))",
+      "sub_models": [
+        {
+          "name": "라페스타",
+          "count": 0,
+          "code": "053",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.라페스타._.Model.라페스타.))))",
+          "start": "200401",
+          "end": "201712",
+          "period": "04~17",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "로그",
+      "count": 1,
+      "code": "023",
+      "eng": "Rogue",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.로그.)))",
+      "sub_models": [
+        {
+          "name": "로그 (T32)",
+          "count": 0,
+          "code": "054",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.로그._.Model.로그 (T32_).))))",
+          "start": "201401",
+          "end": "202012",
+          "period": "14~20",
+          "powertrains": []
+        },
+        {
+          "name": "로그 (S35)",
+          "count": 1,
+          "code": "023",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.로그._.Model.로그 (S35_).))))",
+          "start": "200701",
+          "end": "201312",
+          "period": "07~13",
+          "image": "/carsdata/cars/cm_cardb/file/033_023_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "로렐",
+      "count": 0,
+      "code": "033",
+      "eng": "Laurel",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.로렐.)))",
+      "sub_models": [
+        {
+          "name": "로렐",
+          "count": 0,
+          "code": "033",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.로렐._.Model.로렐.))))",
+          "start": "196801",
+          "end": "200212",
+          "period": "68~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "리프",
+      "count": 9,
+      "code": "046",
+      "eng": "Leaf",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.리프.)))",
+      "sub_models": [
+        {
+          "name": "리프 (ZE1)",
+          "count": 9,
+          "code": "050",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.리프._.Model.리프 (ZE1_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_050_2019.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV SL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "리프",
+          "count": 0,
+          "code": "046",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.리프._.Model.리프.))))",
+          "start": "201001",
+          "end": "201812",
+          "period": "10~18",
+          "image": "/carsdata/cars/cm_cardb/file/033_046_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마치",
+      "count": 2,
+      "code": "016",
+      "eng": "March",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.마치.)))",
+      "sub_models": [
+        {
+          "name": "마치",
+          "count": 2,
+          "code": "016",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.마치._.Model.마치.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_016_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1240,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "K12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "맥시마",
+      "count": 20,
+      "code": "006",
+      "eng": "Maxima",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.맥시마.)))",
+      "sub_models": [
+        {
+          "name": "맥시마 (A36)",
+          "count": 20,
+          "code": "047",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.맥시마._.Model.맥시마 (A36_).))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_047_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5 플래티넘"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "맥시마",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.맥시마._.Model.맥시마.))))",
+          "start": "197601",
+          "end": "201412",
+          "period": "76~14",
+          "image": "/carsdata/cars/cm_cardb/file/033_006_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "모코",
+      "count": 0,
+      "code": "045",
+      "eng": "Moco",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.모코.)))",
+      "sub_models": [
+        {
+          "name": "모코",
+          "count": 0,
+          "code": "045",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.모코._.Model.모코.))))",
+          "start": "200201",
+          "end": null,
+          "period": "02~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_045_2016.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "무라노",
+      "count": 11,
+      "code": "024",
+      "eng": "Murano",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.무라노.)))",
+      "sub_models": [
+        {
+          "name": "무라노 (Z52)",
+          "count": 5,
+          "code": "048",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.무라노._.Model.무라노 (Z52_).))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_048_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 하이브리드 플래티넘"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "무라노",
+          "count": 6,
+          "code": "024",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.무라노._.Model.무라노.))))",
+          "start": "200201",
+          "end": "201412",
+          "period": "02~14",
+          "image": "/carsdata/cars/cm_cardb/file/033_024_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z51"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "버사",
+      "count": 0,
+      "code": "022",
+      "eng": "Versa",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.버사.)))",
+      "sub_models": [
+        {
+          "name": "버사",
+          "count": 0,
+          "code": "022",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.버사._.Model.버사.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_022_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "베르사",
+      "count": 0,
+      "code": "041",
+      "eng": "Versa",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.베르사.)))",
+      "sub_models": [
+        {
+          "name": "베르사",
+          "count": 0,
+          "code": "040",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.베르사._.Model.베르사.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_040_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "블루버드 실피",
+      "count": 0,
+      "code": "017",
+      "eng": "Bluebird Sylphy",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.블루버드 실피.)))",
+      "sub_models": [
+        {
+          "name": "블루버드 실피",
+          "count": 0,
+          "code": "017",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.블루버드 실피._.Model.블루버드 실피.))))",
+          "start": "200001",
+          "end": "201212",
+          "period": "00~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "블루버드",
+      "count": 0,
+      "code": "042",
+      "eng": "Bluebird",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.블루버드.)))",
+      "sub_models": [
+        {
+          "name": "블루버드",
+          "count": 0,
+          "code": "042",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.블루버드._.Model.블루버드.))))",
+          "start": "195701",
+          "end": "200112",
+          "period": "57~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "세드릭",
+      "count": 0,
+      "code": "021",
+      "eng": "Cedric",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.세드릭.)))",
+      "sub_models": [
+        {
+          "name": "세드릭",
+          "count": 0,
+          "code": "021",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.세드릭._.Model.세드릭.))))",
+          "start": "196001",
+          "end": "200412",
+          "period": "60~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "세레나",
+      "count": 0,
+      "code": "048",
+      "eng": "Serena",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.세레나.)))",
+      "sub_models": [
+        {
+          "name": "세레나",
+          "count": 0,
+          "code": "052",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.세레나._.Model.세레나.))))",
+          "start": "199101",
+          "end": null,
+          "period": "91~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "세피로",
+      "count": 0,
+      "code": "028",
+      "eng": "CEFIRO",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.세피로.)))",
+      "sub_models": [
+        {
+          "name": "세피로",
+          "count": 0,
+          "code": "028",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.세피로._.Model.세피로.))))",
+          "start": "198801",
+          "end": "200312",
+          "period": "88~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "센트라",
+      "count": 1,
+      "code": "009",
+      "eng": "Sentra",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.센트라.)))",
+      "sub_models": [
+        {
+          "name": "센트라",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.센트라._.Model.센트라.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_009_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B17"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스카이라인",
+      "count": 5,
+      "code": "011",
+      "eng": "Skyline",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.스카이라인.)))",
+      "sub_models": [
+        {
+          "name": "스카이라인",
+          "count": 5,
+          "code": "011",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.스카이라인._.Model.스카이라인.))))",
+          "start": "198108",
+          "end": null,
+          "period": "81~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2568,
+              "displacement_l": 2.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R33"
+                },
+                {
+                  "name": "R34"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2498,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R33"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스테이지아",
+      "count": 0,
+      "code": "051",
+      "eng": "Stagea",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.스테이지아.)))",
+      "sub_models": [
+        {
+          "name": "스테이지아",
+          "count": 0,
+          "code": "056",
+          "eng": null,
+          "order": 40.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.스테이지아._.Model.스테이지아.))))",
+          "start": "199601",
+          "end": "200712",
+          "period": "96~07",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "시마",
+      "count": 0,
+      "code": "013",
+      "eng": "Cima",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.시마.)))",
+      "sub_models": [
+        {
+          "name": "시마",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.시마._.Model.시마.))))",
+          "start": "198801",
+          "end": null,
+          "period": "88~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "실비아",
+      "count": 0,
+      "code": "015",
+      "eng": "Silvia",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.실비아.)))",
+      "sub_models": [
+        {
+          "name": "실비아",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.실비아._.Model.실비아.))))",
+          "start": "196401",
+          "end": "200212",
+          "period": "64~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "알마다",
+      "count": 0,
+      "code": "031",
+      "eng": "Armada",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.알마다.)))",
+      "sub_models": [
+        {
+          "name": "알마다",
+          "count": 0,
+          "code": "031",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.알마다._.Model.알마다.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_031_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "알티마",
+      "count": 176,
+      "code": "005",
+      "eng": "Altima",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.알티마.)))",
+      "sub_models": [
+        {
+          "name": "알티마 (L34)",
+          "count": 26,
+          "code": "051",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.알티마._.Model.알티마 (L34_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_051_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 SL 테크"
+                },
+                {
+                  "name": "2.5 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 터보"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "알티마",
+          "count": 150,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.알티마._.Model.알티마.))))",
+          "start": "199301",
+          "end": "201812",
+          "period": "93~18",
+          "image": "/carsdata/cars/cm_cardb/file/033_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L32"
+                },
+                {
+                  "name": "L33"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L32"
+                },
+                {
+                  "name": "L33"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엑스테라",
+      "count": 0,
+      "code": "010",
+      "eng": "Xterra",
+      "order": 32.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.엑스테라.)))",
+      "sub_models": [
+        {
+          "name": "엑스테라",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.엑스테라._.Model.엑스테라.))))",
+          "start": "200001",
+          "end": null,
+          "period": "00~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_010_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "엑스트레일",
+      "count": 12,
+      "code": "047",
+      "eng": "X-Trail",
+      "order": 33.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.엑스트레일.)))",
+      "sub_models": [
+        {
+          "name": "엑스트레일",
+          "count": 12,
+          "code": "049",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.엑스트레일._.Model.엑스트레일.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_049_2019.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.5 4WD"
+                },
+                {
+                  "name": "2.5 테크 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.5 스마트 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘그란드",
+      "count": 1,
+      "code": "036",
+      "eng": "Elgrand",
+      "order": 34.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.엘그란드.)))",
+      "sub_models": [
+        {
+          "name": "엘그란드",
+          "count": 1,
+          "code": "036",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.엘그란드._.Model.엘그란드.))))",
+          "start": "199701",
+          "end": null,
+          "period": "97~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_036_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E51"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "윙로드",
+      "count": 0,
+      "code": "029",
+      "eng": "Wingroad",
+      "order": 35.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.윙로드.)))",
+      "sub_models": [
+        {
+          "name": "윙로드",
+          "count": 0,
+          "code": "029",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.윙로드._.Model.윙로드.))))",
+          "start": "200601",
+          "end": null,
+          "period": "06~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_029_2017.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "쥬크",
+      "count": 29,
+      "code": "040",
+      "eng": "Juke",
+      "order": 36.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.쥬크.)))",
+      "sub_models": [
+        {
+          "name": "쥬크",
+          "count": 29,
+          "code": "039",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.쥬크._.Model.쥬크.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_039_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1618,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F15"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "캐시카이",
+      "count": 2,
+      "code": "043",
+      "eng": "Qashqai",
+      "order": 37.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.캐시카이.)))",
+      "sub_models": [
+        {
+          "name": "캐시카이 2세대",
+          "count": 2,
+          "code": "043",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.캐시카이._.Model.캐시카이 2세대.))))",
+          "start": "201409",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_043_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 SL"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "퀘스트",
+      "count": 0,
+      "code": "008",
+      "eng": "Quest",
+      "order": 38.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.퀘스트.)))",
+      "sub_models": [
+        {
+          "name": "퀘스트",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.퀘스트._.Model.퀘스트.))))",
+          "start": "199301",
+          "end": null,
+          "period": "93~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_008_2017.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "큐브",
+      "count": 42,
+      "code": "020",
+      "eng": "Cube",
+      "order": 39.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.큐브.)))",
+      "sub_models": [
+        {
+          "name": "큐브",
+          "count": 42,
+          "code": "020",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.큐브._.Model.큐브.))))",
+          "start": "199801",
+          "end": "201912",
+          "period": "98~19",
+          "image": "/carsdata/cars/cm_cardb/file/033_020_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "타이탄",
+      "count": 0,
+      "code": "032",
+      "eng": "Titan",
+      "order": 40.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.타이탄.)))",
+      "sub_models": [
+        {
+          "name": "타이탄",
+          "count": 0,
+          "code": "032",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.타이탄._.Model.타이탄.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_032_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "티아나",
+      "count": 1,
+      "code": "034",
+      "eng": "Teana",
+      "order": 41.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.티아나.)))",
+      "sub_models": [
+        {
+          "name": "티아나",
+          "count": 1,
+          "code": "034",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.티아나._.Model.티아나.))))",
+          "start": "200301",
+          "end": null,
+          "period": "03~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_034_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "J32"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파오",
+      "count": 0,
+      "code": "012",
+      "eng": "Pao",
+      "order": 42.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.파오.)))",
+      "sub_models": [
+        {
+          "name": "파오",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 28.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.파오._.Model.파오.))))",
+          "start": "198901",
+          "end": "199112",
+          "period": "89~91",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "패스파인더",
+      "count": 16,
+      "code": "007",
+      "eng": "Pathfinder",
+      "order": 43.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.패스파인더.)))",
+      "sub_models": [
+        {
+          "name": "패스파인더 4세대",
+          "count": 16,
+          "code": "041",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.패스파인더._.Model.패스파인더 4세대.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_041_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "3.5 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "패스파인더",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.패스파인더._.Model.패스파인더.))))",
+          "start": "198601",
+          "end": "201212",
+          "period": "86~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "펄사",
+      "count": 0,
+      "code": "039",
+      "eng": "Pulsar",
+      "order": 44.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.펄사.)))",
+      "sub_models": [
+        {
+          "name": "펄사",
+          "count": 0,
+          "code": "038",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.펄사._.Model.펄사.))))",
+          "start": "197801",
+          "end": "200012",
+          "period": "78~00",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "푸가",
+      "count": 0,
+      "code": "044",
+      "eng": "FUGA",
+      "order": 45.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.푸가.)))",
+      "sub_models": [
+        {
+          "name": "푸가",
+          "count": 0,
+          "code": "044",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.푸가._.Model.푸가.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프레리",
+      "count": 0,
+      "code": "035",
+      "eng": "Prairie",
+      "order": 46.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.프레리.)))",
+      "sub_models": [
+        {
+          "name": "프레리",
+          "count": 0,
+          "code": "035",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.프레리._.Model.프레리.))))",
+          "start": "198201",
+          "end": "200412",
+          "period": "82~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프레지던트",
+      "count": 0,
+      "code": "025",
+      "eng": "PRESIDENT",
+      "order": 47.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.프레지던트.)))",
+      "sub_models": [
+        {
+          "name": "프레지던트",
+          "count": 0,
+          "code": "025",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.프레지던트._.Model.프레지던트.))))",
+          "start": "196501",
+          "end": "201012",
+          "period": "65~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프론티어",
+      "count": 1,
+      "code": "019",
+      "eng": "Frontier",
+      "order": 48.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.프론티어.)))",
+      "sub_models": [
+        {
+          "name": "프론티어",
+          "count": 1,
+          "code": "019",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.프론티어._.Model.프론티어.))))",
+          "start": "199701",
+          "end": null,
+          "period": "97~현재",
+          "image": "/carsdata/cars/cm_cardb/file/033_019_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3275,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "D22"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "휘가로",
+      "count": 2,
+      "code": "014",
+      "eng": "Figaro",
+      "order": 49.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.휘가로.)))",
+      "sub_models": [
+        {
+          "name": "휘가로",
+          "count": 2,
+          "code": "014",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.휘가로._.Model.휘가로.))))",
+          "start": "199101",
+          "end": "199112",
+          "period": "91~91",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 980,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E-FK10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "037",
+      "eng": "Others",
+      "order": 50.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 35.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닛산._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "name": "페라리",
+  "count": 207,
+  "code": "041",
+  "eng": "Ferrari",
+  "order": 650.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.페라리.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "12 칠린드리",
+      "count": 0,
+      "code": "035",
+      "eng": "12 Cilindri",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.12 칠린드리.)))",
+      "sub_models": [
+        {
+          "name": "12 칠린드리 스파이더",
+          "count": 0,
+          "code": "128",
+          "eng": null,
+          "order": 35.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.12 칠린드리._.Model.12 칠린드리 스파이더.))))",
+          "start": "202508",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "296",
+      "count": 31,
+      "code": "030",
+      "eng": "296",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.296.)))",
+      "sub_models": [
+        {
+          "name": "296 GTB",
+          "count": 13,
+          "code": "122",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.296._.Model.296 GTB.))))",
+          "start": "202201",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/cdccf639-8561-4c90-92c7-3eea970a40be.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 V6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "296 GTS",
+          "count": 18,
+          "code": "123",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.296._.Model.296 GTS.))))",
+          "start": "202208",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d29c11f7-dd9f-472b-9ec1-2761b7a47d96.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 V6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "308",
+      "count": 1,
+      "code": "033",
+      "eng": "308",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.308.)))",
+      "sub_models": [
+        {
+          "name": "308 GTS",
+          "count": 1,
+          "code": "126",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.308._.Model.308 GTS.))))",
+          "start": "197501",
+          "end": "198501",
+          "period": "75~85",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3200,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.2 V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "328",
+      "count": 0,
+      "code": "034",
+      "eng": "328",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.328.)))",
+      "sub_models": [
+        {
+          "name": "328 GTB",
+          "count": 0,
+          "code": "127",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.328._.Model.328 GTB.))))",
+          "start": "198501",
+          "end": "199001",
+          "period": "85~90",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "348",
+      "count": 0,
+      "code": "019",
+      "eng": "348",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.348.)))",
+      "sub_models": [
+        {
+          "name": "348",
+          "count": 0,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.348._.Model.348.))))",
+          "start": "198901",
+          "end": "199512",
+          "period": "89~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "360",
+      "count": 0,
+      "code": "004",
+      "eng": "360",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.360.)))",
+      "sub_models": [
+        {
+          "name": "360",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.360._.Model.360.))))",
+          "start": "199901",
+          "end": "200512",
+          "period": "99~05",
+          "image": "/carsdata/cars/cm_cardb/file/041_004_2005.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "456",
+      "count": 1,
+      "code": "009",
+      "eng": "456",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.456.)))",
+      "sub_models": [
+        {
+          "name": "456",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.456._.Model.456.))))",
+          "start": "199201",
+          "end": "200312",
+          "period": "92~03",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5474,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M GTA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "458",
+      "count": 8,
+      "code": "018",
+      "eng": "458",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.458.)))",
+      "sub_models": [
+        {
+          "name": "458",
+          "count": 8,
+          "code": "104",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.458._.Model.458.))))",
+          "start": "201001",
+          "end": "201512",
+          "period": "10~15",
+          "image": "/carsdata/cars/cm_cardb/file/041_104_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4499,
+              "displacement_l": 4.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스파이더"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4497,
+              "displacement_l": 4.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스페치알레"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4496,
+              "displacement_l": 4.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "이탈리아"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "488",
+      "count": 9,
+      "code": "022",
+      "eng": "488",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.488.)))",
+      "sub_models": [
+        {
+          "name": "488 GTB",
+          "count": 4,
+          "code": "109",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.488._.Model.488 GTB.))))",
+          "start": "201501",
+          "end": "202012",
+          "period": "15~20",
+          "image": "/carsdata/cars/cm_cardb/file/041_109_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3902,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "488 스파이더",
+          "count": 4,
+          "code": "110",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.488._.Model.488 스파이더.))))",
+          "start": "201501",
+          "end": "202012",
+          "period": "15~20",
+          "image": "/carsdata/cars/cm_cardb/file/041_110_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3902,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "488 피스타",
+          "count": 1,
+          "code": "117",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.488._.Model.488 피스타.))))",
+          "start": "201801",
+          "end": "202012",
+          "period": "18~20",
+          "image": "/carsdata/cars/cm_cardb/file/0bff7959-e25e-4e8e-8eec-2aa9c0df19d2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3902,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9 스파이더"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "512 TR",
+      "count": 0,
+      "code": "026",
+      "eng": "512 TR",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.512 TR.)))",
+      "sub_models": [
+        {
+          "name": "512 TR",
+          "count": 0,
+          "code": "114",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.512 TR._.Model.512 TR.))))",
+          "start": "199201",
+          "end": "199412",
+          "period": "92~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "550",
+      "count": 0,
+      "code": "003",
+      "eng": "550",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.550.)))",
+      "sub_models": [
+        {
+          "name": "550",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.550._.Model.550.))))",
+          "start": "199601",
+          "end": "200112",
+          "period": "96~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "575M",
+      "count": 0,
+      "code": "008",
+      "eng": "575M",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.575M.)))",
+      "sub_models": [
+        {
+          "name": "575M",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.575M._.Model.575M.))))",
+          "start": "200201",
+          "end": "200612",
+          "period": "02~06",
+          "image": "/carsdata/cars/cm_cardb/file/041_008_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "599",
+      "count": 2,
+      "code": "017",
+      "eng": "599",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.599.)))",
+      "sub_models": [
+        {
+          "name": "599 GTB",
+          "count": 2,
+          "code": "103",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.599._.Model.599 GTB.))))",
+          "start": "200601",
+          "end": "201212",
+          "period": "06~12",
+          "image": "/carsdata/cars/cm_cardb/file/041_103_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5999,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "피오라노 V12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "599 GTO",
+          "count": 0,
+          "code": "108",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.599._.Model.599 GTO.))))",
+          "start": "201001",
+          "end": "201212",
+          "period": "10~12",
+          "powertrains": []
+        },
+        {
+          "name": "599XX",
+          "count": 0,
+          "code": "102",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.599._.Model.599XX.))))",
+          "start": "200901",
+          "end": "200912",
+          "period": "09~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "612",
+      "count": 0,
+      "code": "010",
+      "eng": "612",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.612.)))",
+      "sub_models": [
+        {
+          "name": "612",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.612._.Model.612.))))",
+          "start": "200401",
+          "end": "201112",
+          "period": "04~11",
+          "image": "/carsdata/cars/cm_cardb/file/041_010_2011.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "812",
+      "count": 8,
+      "code": "024",
+      "eng": "812",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.812.)))",
+      "sub_models": [
+        {
+          "name": "812 슈퍼패스트",
+          "count": 5,
+          "code": "112",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.812._.Model.812 슈퍼패스트.))))",
+          "start": "201706",
+          "end": "202409",
+          "period": "17~24",
+          "image": "/carsdata/cars/cm_cardb/file/041_112_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6496,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.5 V12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "812 GTS",
+          "count": 3,
+          "code": "118",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.812._.Model.812 GTS.))))",
+          "start": "202001",
+          "end": "202409",
+          "period": "20~24",
+          "image": "/carsdata/cars/cm_cardb/file/d97dbcc4-baf3-497c-852b-603a4d65e867.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6496,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.5 V12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "849",
+      "count": 0,
+      "code": "037",
+      "eng": "849",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.849.)))",
+      "sub_models": [
+        {
+          "name": "849",
+          "count": 0,
+          "code": "130",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.849._.Model.849.))))",
+          "start": "202511",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "F12 베를리네타",
+      "count": 0,
+      "code": "020",
+      "eng": "F12 Berlinetta",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F12 베를리네타.)))",
+      "sub_models": [
+        {
+          "name": "F12 베를리네타",
+          "count": 0,
+          "code": "106",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F12 베를리네타._.Model.F12 베를리네타.))))",
+          "start": "201201",
+          "end": "201712",
+          "period": "12~17",
+          "image": "/carsdata/cars/cm_cardb/file/041_106_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "F355",
+      "count": 1,
+      "code": "001",
+      "eng": "F355",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F355.)))",
+      "sub_models": [
+        {
+          "name": "F355",
+          "count": 1,
+          "code": "001",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F355._.Model.F355.))))",
+          "start": "199401",
+          "end": "199912",
+          "period": "94~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3496,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GTS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F40",
+      "count": 0,
+      "code": "005",
+      "eng": "F40",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F40.)))",
+      "sub_models": [
+        {
+          "name": "F40",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F40._.Model.F40.))))",
+          "start": "198701",
+          "end": "199212",
+          "period": "87~92",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "F430",
+      "count": 2,
+      "code": "011",
+      "eng": "F430",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F430.)))",
+      "sub_models": [
+        {
+          "name": "F430",
+          "count": 2,
+          "code": "011",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F430._.Model.F430.))))",
+          "start": "200401",
+          "end": "200912",
+          "period": "04~09",
+          "image": "/carsdata/cars/cm_cardb/file/041_011_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4308,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.3 V8"
+                },
+                {
+                  "name": "4.3 스파이더"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F50",
+      "count": 0,
+      "code": "006",
+      "eng": "F50",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F50.)))",
+      "sub_models": [
+        {
+          "name": "F50",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F50._.Model.F50.))))",
+          "start": "199501",
+          "end": "199712",
+          "period": "95~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "F8",
+      "count": 19,
+      "code": "027",
+      "eng": "F8",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.F8.)))",
+      "sub_models": [
+        {
+          "name": "F8 트리뷰토",
+          "count": 1,
+          "code": "115",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F8._.Model.F8 트리뷰토.))))",
+          "start": "201907",
+          "end": "202409",
+          "period": "19~24",
+          "image": "/carsdata/cars/cm_cardb/file/041_115_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3902,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9 V8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F8 스파이더",
+          "count": 18,
+          "code": "119",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.F8._.Model.F8 스파이더.))))",
+          "start": "201901",
+          "end": "202409",
+          "period": "19~24",
+          "image": "/carsdata/cars/cm_cardb/file/041_119_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3902,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9 V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FF",
+      "count": 4,
+      "code": "021",
+      "eng": "FF",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.FF.)))",
+      "sub_models": [
+        {
+          "name": "FF",
+          "count": 4,
+          "code": "107",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.FF._.Model.FF.))))",
+          "start": "201101",
+          "end": "201612",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/041_107_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6262,
+              "displacement_l": 6.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.3 V12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GTC4 루쏘",
+      "count": 4,
+      "code": "023",
+      "eng": "GTC4 Lusso",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.GTC4 루쏘.)))",
+      "sub_models": [
+        {
+          "name": "GTC4 루쏘",
+          "count": 4,
+          "code": "111",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.GTC4 루쏘._.Model.GTC4 루쏘.))))",
+          "start": "201601",
+          "end": "202109",
+          "period": "16~21",
+          "image": "/carsdata/cars/cm_cardb/file/041_111_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6262,
+              "displacement_l": 6.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.3 V12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "T 3.9 V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SF90",
+      "count": 23,
+      "code": "028",
+      "eng": "SF90",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.SF90.)))",
+      "sub_models": [
+        {
+          "name": "SF90 스트라달레",
+          "count": 7,
+          "code": "116",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.SF90._.Model.SF90 스트라달레.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/041_116_2020.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3990,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SF90 스파이더",
+          "count": 16,
+          "code": "121",
+          "eng": null,
+          "order": 28.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.SF90._.Model.SF90 스파이더.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/13cebc3e-59da-405e-9255-bb8df6e3ff73.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3990,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "라페라리",
+      "count": 0,
+      "code": "031",
+      "eng": "Laferrari",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.라페라리.)))",
+      "sub_models": [
+        {
+          "name": "라페라리",
+          "count": 0,
+          "code": "124",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.라페라리._.Model.라페라리.))))",
+          "start": "201709",
+          "end": "201806",
+          "period": "17~18",
+          "image": "/carsdata/cars/cm_cardb/file/8235d22a-45ff-4ccc-afc1-3b3722d1395f.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "로마",
+      "count": 48,
+      "code": "029",
+      "eng": "Roma",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.로마.)))",
+      "sub_models": [
+        {
+          "name": "로마",
+          "count": 48,
+          "code": "120",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.로마._.Model.로마.))))",
+          "start": "202003",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/44686c4d-962d-4daf-8b0d-1e19123bd801.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9 스파이더"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아말피",
+      "count": 0,
+      "code": "036",
+      "eng": "Amalfi",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.아말피.)))",
+      "sub_models": [
+        {
+          "name": "아말피",
+          "count": 0,
+          "code": "129",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.아말피._.Model.아말피.))))",
+          "start": "202510",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "엔초페라리",
+      "count": 0,
+      "code": "012",
+      "eng": "ENZO FERRARI",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.엔초페라리.)))",
+      "sub_models": [
+        {
+          "name": "엔초페라리",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.엔초페라리._.Model.엔초페라리.))))",
+          "start": "200201",
+          "end": "200412",
+          "period": "02~04",
+          "image": "/carsdata/cars/cm_cardb/file/041_012_2004.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "캘리포니아",
+      "count": 9,
+      "code": "014",
+      "eng": "California",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.캘리포니아.)))",
+      "sub_models": [
+        {
+          "name": "캘리포니아",
+          "count": 9,
+          "code": "100",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.캘리포니아._.Model.캘리포니아.))))",
+          "start": "200801",
+          "end": "201712",
+          "period": "08~17",
+          "image": "/carsdata/cars/cm_cardb/file/041_100_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "T 3.9 V8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.3 V8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4300,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30 4.3 V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "포르토피노",
+      "count": 25,
+      "code": "025",
+      "eng": "Portofino",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.포르토피노.)))",
+      "sub_models": [
+        {
+          "name": "포르토피노",
+          "count": 25,
+          "code": "113",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.포르토피노._.Model.포르토피노.))))",
+          "start": "201803",
+          "end": "202409",
+          "period": "18~24",
+          "image": "/carsdata/cars/cm_cardb/file/041_113_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3855,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.9 V8"
+                },
+                {
+                  "name": "M 3.9 V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "푸로산게",
+      "count": 12,
+      "code": "032",
+      "eng": "Purosangue",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.ModelGroup.푸로산게.)))",
+      "sub_models": [
+        {
+          "name": "푸로산게",
+          "count": 12,
+          "code": "125",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.페라리._.(C.ModelGroup.푸로산게._.Model.푸로산게.))))",
+          "start": "202210",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7634c5fe-1a77-4eac-8b2b-acd4c1fc673e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6496,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.5 V12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

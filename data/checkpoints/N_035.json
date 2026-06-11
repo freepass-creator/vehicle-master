@@ -1,0 +1,1917 @@
+{
+  "name": "렉서스",
+  "count": 863,
+  "code": "035",
+  "eng": "Lexus",
+  "order": 200.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.렉서스.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CT200h",
+      "count": 37,
+      "code": "009",
+      "eng": "CT200h",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.CT200h.)))",
+      "sub_models": [
+        {
+          "name": "CT200h",
+          "count": 37,
+          "code": "029",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.CT200h._.Model.CT200h.))))",
+          "start": "201002",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_029_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ZWA10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ES",
+      "count": 264,
+      "code": "001",
+      "eng": "ES",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.ES.)))",
+      "sub_models": [
+        {
+          "name": "ES300h 7세대",
+          "count": 185,
+          "code": "053",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.ES300h 7세대.))))",
+          "start": "201810",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e17f2a8a-317d-42b5-8776-c4f512a008df.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2487,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                },
+                {
+                  "name": "F-Sport 디자인 패키지"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "럭셔리 플러스"
+                },
+                {
+                  "name": "리미티드"
+                },
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 ES350",
+          "count": 9,
+          "code": "036",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.뉴 ES350.))))",
+          "start": "201207",
+          "end": "201812",
+          "period": "12~18",
+          "image": "/carsdata/cars/cm_cardb/file/035_036_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XV60"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 ES300h",
+          "count": 58,
+          "code": "037",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.뉴 ES300h.))))",
+          "start": "201207",
+          "end": "201812",
+          "period": "12~18",
+          "image": "/carsdata/cars/cm_cardb/file/035_037_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2490,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XV60"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2494,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XV60"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 ES250",
+          "count": 0,
+          "code": "066",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.뉴 ES250.))))",
+          "start": "201207",
+          "end": "201812",
+          "period": "12~18",
+          "powertrains": []
+        },
+        {
+          "name": "ES350",
+          "count": 11,
+          "code": "016",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.ES350.))))",
+          "start": "200603",
+          "end": "201212",
+          "period": "06~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_016_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XV40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ES330",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.ES330.))))",
+          "start": "200107",
+          "end": "200612",
+          "period": "01~06",
+          "image": "/carsdata/cars/cm_cardb/file/035_009_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3311,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XV30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ES300",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.ES._.Model.ES300.))))",
+          "start": "199110",
+          "end": "200612",
+          "period": "91~06",
+          "image": "/carsdata/cars/cm_cardb/file/035_001_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "GS",
+      "count": 18,
+      "code": "002",
+      "eng": "GS",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.GS.)))",
+      "sub_models": [
+        {
+          "name": "뉴 GS200t",
+          "count": 0,
+          "code": "045",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS200t.))))",
+          "start": "201606",
+          "end": "201712",
+          "period": "16~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_045_2018.png",
+          "powertrains": []
+        },
+        {
+          "name": "뉴 GS250",
+          "count": 2,
+          "code": "032",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS250.))))",
+          "start": "201203",
+          "end": "201612",
+          "period": "12~16",
+          "image": "/carsdata/cars/cm_cardb/file/035_032_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 GS300",
+          "count": 2,
+          "code": "049",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS300.))))",
+          "start": "201711",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_049_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 GS350",
+          "count": 3,
+          "code": "031",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS350.))))",
+          "start": "201203",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_031_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 GS450h",
+          "count": 2,
+          "code": "035",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS450h.))))",
+          "start": "201203",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_035_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 GS F",
+          "count": 1,
+          "code": "046",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.뉴 GS F.))))",
+          "start": "201606",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_046_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4969,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GS300",
+          "count": 2,
+          "code": "002",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS300.))))",
+          "start": "199110",
+          "end": "201212",
+          "period": "91~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_002_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S190"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GS350",
+          "count": 3,
+          "code": "018",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS350.))))",
+          "start": "199701",
+          "end": "201212",
+          "period": "97~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_018_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S190"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GS400",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS400.))))",
+          "start": "199701",
+          "end": "200512",
+          "period": "97~05",
+          "powertrains": []
+        },
+        {
+          "name": "GS430",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS430.))))",
+          "start": "199701",
+          "end": "201212",
+          "period": "97~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_012_2012.png",
+          "powertrains": []
+        },
+        {
+          "name": "GS450h",
+          "count": 1,
+          "code": "027",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS450h.))))",
+          "start": "199701",
+          "end": "201212",
+          "period": "97~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_027_2012.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S190"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GS460",
+          "count": 2,
+          "code": "026",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GS._.Model.GS460.))))",
+          "start": "200501",
+          "end": "201212",
+          "period": "05~12",
+          "image": "/carsdata/cars/cm_cardb/file/035_026_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4608,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S190"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GX",
+      "count": 1,
+      "code": "007",
+      "eng": "GX",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.GX.)))",
+      "sub_models": [
+        {
+          "name": "GX460",
+          "count": 0,
+          "code": "024",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GX._.Model.GX460.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_024_2018.png",
+          "powertrains": []
+        },
+        {
+          "name": "GX470",
+          "count": 1,
+          "code": "020",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.GX._.Model.GX470.))))",
+          "start": "200201",
+          "end": "200912",
+          "period": "02~09",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4700,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "J120"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IS",
+      "count": 47,
+      "code": "003",
+      "eng": "IS",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.IS.)))",
+      "sub_models": [
+        {
+          "name": "뉴 IS200t",
+          "count": 7,
+          "code": "041",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.뉴 IS200t.))))",
+          "start": "201511",
+          "end": "201712",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_041_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                },
+                {
+                  "name": "슈프림"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 IS300",
+          "count": 10,
+          "code": "051",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.뉴 IS300.))))",
+          "start": "201712",
+          "end": "202108",
+          "period": "17~21",
+          "image": "/carsdata/cars/cm_cardb/file/035_051_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                },
+                {
+                  "name": "슈프림"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 IS250",
+          "count": 4,
+          "code": "038",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.뉴 IS250.))))",
+          "start": "201306",
+          "end": "201511",
+          "period": "13~15",
+          "image": "/carsdata/cars/cm_cardb/file/035_038_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XE30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IS200",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.IS200.))))",
+          "start": "199801",
+          "end": "200512",
+          "period": "98~05",
+          "image": "/carsdata/cars/cm_cardb/file/035_003_2005.png",
+          "powertrains": []
+        },
+        {
+          "name": "IS250",
+          "count": 26,
+          "code": "013",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.IS250.))))",
+          "start": "200501",
+          "end": "201312",
+          "period": "05~13",
+          "image": "/carsdata/cars/cm_cardb/file/035_013_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XE20"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XE20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IS300",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.IS300.))))",
+          "start": "199801",
+          "end": "201312",
+          "period": "98~13",
+          "powertrains": []
+        },
+        {
+          "name": "IS350",
+          "count": 0,
+          "code": "017",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.IS350.))))",
+          "start": "200501",
+          "end": "201312",
+          "period": "05~13",
+          "powertrains": []
+        },
+        {
+          "name": "IS F",
+          "count": 0,
+          "code": "030",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.IS._.Model.IS F.))))",
+          "start": "200701",
+          "end": "201412",
+          "period": "07~14",
+          "image": "/carsdata/cars/cm_cardb/file/035_030_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "LC",
+      "count": 0,
+      "code": "015",
+      "eng": "LC",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.LC.)))",
+      "sub_models": [
+        {
+          "name": "LC",
+          "count": 0,
+          "code": "047",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LC._.Model.LC.))))",
+          "start": "201703",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_047_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "LM",
+      "count": 15,
+      "code": "018",
+      "eng": "LM",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.LM.)))",
+      "sub_models": [
+        {
+          "name": "LM 2세대",
+          "count": 15,
+          "code": "064",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LM._.Model.LM 2세대.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/85a1b132-5348-4d41-bba1-6ac7a17a182b.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2393,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "500h 로얄"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2393,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "500h 이그제큐티브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LS",
+      "count": 96,
+      "code": "004",
+      "eng": "LS",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.LS.)))",
+      "sub_models": [
+        {
+          "name": "LS500 5세대",
+          "count": 37,
+          "code": "052",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS500 5세대.))))",
+          "start": "201805",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/93e39869-80b8-4801-b17e-a10ec095b9c9.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3445,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.5 럭셔리 AWD"
+                },
+                {
+                  "name": "3.5 슈프림 AWD"
+                },
+                {
+                  "name": "3.5 플래티넘 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS500h 5세대",
+          "count": 24,
+          "code": "050",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS500h 5세대.))))",
+          "start": "201712",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_050_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.5 플래티넘 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.5 럭셔리 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS600hL",
+          "count": 5,
+          "code": "025",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS600hL.))))",
+          "start": "200601",
+          "end": "201712",
+          "period": "06~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_025_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 4969,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XF40"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 6000,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4인승 Ottoman"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 4969,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XF40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS460L",
+          "count": 6,
+          "code": "022",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS460L.))))",
+          "start": "200601",
+          "end": "201712",
+          "period": "06~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_022_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4608,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5인승 Ottoman"
+                },
+                {
+                  "name": "XF40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS460",
+          "count": 20,
+          "code": "021",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS460.))))",
+          "start": "200601",
+          "end": "201712",
+          "period": "06~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_021_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4608,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "XF40"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4608,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XF40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS430",
+          "count": 4,
+          "code": "005",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS430.))))",
+          "start": "200001",
+          "end": "200612",
+          "period": "00~06",
+          "image": "/carsdata/cars/cm_cardb/file/035_005_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4293,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XF30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LS400",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LS._.Model.LS400.))))",
+          "start": "198901",
+          "end": "200012",
+          "period": "89~00",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "LX",
+      "count": 9,
+      "code": "008",
+      "eng": "LX",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.LX.)))",
+      "sub_models": [
+        {
+          "name": "LX 4세대",
+          "count": 8,
+          "code": "067",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LX._.Model.LX 4세대.))))",
+          "start": "202502",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ce5890ce-0b2b-4b47-89dd-f7b889be4885.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3445,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "700h VIP"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3445,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "700h 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3445,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "700h 오버트레일"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LX",
+          "count": 1,
+          "code": "023",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.LX._.Model.LX.))))",
+          "start": "199601",
+          "end": "202412",
+          "period": "96~24",
+          "image": "/carsdata/cars/cm_cardb/file/035_023_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5663,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "J200"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NX",
+      "count": 201,
+      "code": "013",
+      "eng": "NX",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.NX.)))",
+      "sub_models": [
+        {
+          "name": "NX450h+ 2세대",
+          "count": 25,
+          "code": "058",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.NX._.Model.NX450h+ 2세대.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d8b3081d-6f48-4b95-bef1-ff6d2bb0347d.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2487,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NX350h 2세대",
+          "count": 87,
+          "code": "057",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.NX._.Model.NX350h 2세대.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2ae4c6f6-ed14-44a9-842f-2e0a83613e75.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2487,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NX200t",
+          "count": 2,
+          "code": "039",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.NX._.Model.NX200t.))))",
+          "start": "201502",
+          "end": "201712",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/035_039_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NX300h",
+          "count": 82,
+          "code": "034",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.NX._.Model.NX300h.))))",
+          "start": "201410",
+          "end": "202101",
+          "period": "14~21",
+          "image": "/carsdata/cars/cm_cardb/file/035_034_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2494,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NX300",
+          "count": 5,
+          "code": "048",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.NX._.Model.NX300.))))",
+          "start": "201711",
+          "end": "202101",
+          "period": "17~21",
+          "image": "/carsdata/cars/cm_cardb/file/035_048_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RC",
+      "count": 0,
+      "code": "014",
+      "eng": "RC",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.RC.)))",
+      "sub_models": [
+        {
+          "name": "RC200t",
+          "count": 0,
+          "code": "042",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RC._.Model.RC200t.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_042_2018.png",
+          "powertrains": []
+        },
+        {
+          "name": "RC300",
+          "count": 0,
+          "code": "055",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RC._.Model.RC300.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_055_2020.png",
+          "powertrains": []
+        },
+        {
+          "name": "RC350",
+          "count": 0,
+          "code": "033",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RC._.Model.RC350.))))",
+          "start": "201504",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_033_2020.png",
+          "powertrains": []
+        },
+        {
+          "name": "RC F",
+          "count": 0,
+          "code": "040",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RC._.Model.RC F.))))",
+          "start": "201504",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/035_040_2020.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RX",
+      "count": 74,
+      "code": "005",
+      "eng": "RX",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.RX.)))",
+      "sub_models": [
+        {
+          "name": "RX350h 5세대",
+          "count": 20,
+          "code": "061",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX350h 5세대.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/91bc1571-2f84-4466-be86-eb600b6ad5d8.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2487,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX450h+ 5세대",
+          "count": 5,
+          "code": "062",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX450h+ 5세대.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6c677597-4503-4b64-b45d-2dccab69b4fb.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2487,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX500h 5세대",
+          "count": 10,
+          "code": "063",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX500h 5세대.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/c6657327-fba1-47c1-a9a4-7495aeece912.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2393,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX350 4세대",
+          "count": 2,
+          "code": "043",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX350 4세대.))))",
+          "start": "201601",
+          "end": "202307",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/035_043_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX450h 4세대",
+          "count": 28,
+          "code": "044",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX450h 4세대.))))",
+          "start": "201601",
+          "end": "202307",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/035_044_2020.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "F-Sport"
+                },
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "슈프림 플러스"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX450hL 4세대",
+          "count": 2,
+          "code": "056",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX450hL 4세대.))))",
+          "start": "202001",
+          "end": "202307",
+          "period": "20~23",
+          "image": "/carsdata/cars/cm_cardb/file/65532ef7-8ea6-437a-b2ca-34e5dd5c9fcd.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리 플러스"
+                },
+                {
+                  "name": "이그제큐티브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX450h",
+          "count": 0,
+          "code": "028",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX450h.))))",
+          "start": "200901",
+          "end": "201512",
+          "period": "09~15",
+          "image": "/carsdata/cars/cm_cardb/file/035_028_2015.png",
+          "powertrains": []
+        },
+        {
+          "name": "RX400h",
+          "count": 0,
+          "code": "019",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX400h.))))",
+          "start": "200301",
+          "end": "200912",
+          "period": "03~09",
+          "image": "/carsdata/cars/cm_cardb/file/035_019_2009.png",
+          "powertrains": []
+        },
+        {
+          "name": "RX350",
+          "count": 4,
+          "code": "015",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX350.))))",
+          "start": "199701",
+          "end": "201512",
+          "period": "97~15",
+          "image": "/carsdata/cars/cm_cardb/file/035_015_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AL10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX330",
+          "count": 3,
+          "code": "008",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX330.))))",
+          "start": "200301",
+          "end": "200912",
+          "period": "03~09",
+          "image": "/carsdata/cars/cm_cardb/file/035_008_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3311,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "XU30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RX300",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RX._.Model.RX300.))))",
+          "start": "199701",
+          "end": "200312",
+          "period": "97~03",
+          "image": "/carsdata/cars/cm_cardb/file/035_006_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RZ",
+      "count": 7,
+      "code": "017",
+      "eng": "RZ",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.RZ.)))",
+      "sub_models": [
+        {
+          "name": "RZ450e",
+          "count": 7,
+          "code": "060",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.RZ._.Model.RZ450e.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/daefb4d0-1c77-46a2-9b6e-a9f66b5fbaf8.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 201,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SC",
+      "count": 4,
+      "code": "006",
+      "eng": "SC",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.SC.)))",
+      "sub_models": [
+        {
+          "name": "SC300",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.SC._.Model.SC300.))))",
+          "start": "199101",
+          "end": "200012",
+          "period": "91~00",
+          "powertrains": []
+        },
+        {
+          "name": "SC430",
+          "count": 4,
+          "code": "007",
+          "eng": null,
+          "order": 28.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.SC._.Model.SC430.))))",
+          "start": "200101",
+          "end": "201012",
+          "period": "01~10",
+          "image": "/carsdata/cars/cm_cardb/file/035_007_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4293,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Z40"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UX",
+      "count": 90,
+      "code": "016",
+      "eng": "UX",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.UX.)))",
+      "sub_models": [
+        {
+          "name": "UX300h",
+          "count": 19,
+          "code": "065",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.UX._.Model.UX300h.))))",
+          "start": "202408",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7f56ebc7-d42e-4bcc-85b0-b0628f2a2e5f.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1987,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 2WD"
+                },
+                {
+                  "name": "2.0 F-Sport 2WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UX250h",
+          "count": 62,
+          "code": "054",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.UX._.Model.UX250h.))))",
+          "start": "201903",
+          "end": "202408",
+          "period": "19~24",
+          "image": "/carsdata/cars/cm_cardb/file/035_054_2020.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1987,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 2WD"
+                },
+                {
+                  "name": "2.0 F-Sport 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1987,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UX300e",
+          "count": 9,
+          "code": "059",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.UX._.Model.UX300e.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/07138efd-0d8b-481a-bb1f-f506d6e170c3.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 153,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "012",
+      "eng": "Others",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.렉서스._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

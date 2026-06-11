@@ -1,0 +1,29 @@
+{
+  "name": "vehicle-master",
+  "version": "2026-06-11+0cb40edf",
+  "generated": "2026-06-11",
+  "source": "encar + welrix + namuwiki crosscheck",
+  "levels": [
+    "제조사",
+    "모델",
+    "세부모델",
+    "파워트레인",
+    "세부트림"
+  ],
+  "counts": {
+    "manufacturers": 75,
+    "models": 1119,
+    "sub_models": 1803,
+    "powertrains": 2940,
+    "trims": 6320
+  },
+  "files": {
+    "tree": "vehicle-master.json",
+    "flat_json": "vehicle-master.flat.json",
+    "flat_csv": "vehicle-master.flat.csv",
+    "codes": "codes.json",
+    "schema": "SCHEMA.md"
+  },
+  "id_scheme": "mf-{mfCode}.md-{modelCode}.sm-{genCode}.pw-{fuel-disp-drive}.tr-{trim}",
+  "notes": "trims[].fleet=true 는 택시/렌트/특장 영업용. 일반 표시 시 제외 권장. msrp_manwon=신차가(만원)."
+}

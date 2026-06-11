@@ -1,0 +1,1214 @@
+{
+  "name": "제네시스",
+  "count": 15042,
+  "code": "007",
+  "eng": "Genesis",
+  "order": 15.0,
+  "_action": "(And.Hidden.N._.(C.CarType.Y._.Manufacturer.제네시스.))",
+  "car_type": "국산",
+  "models": [
+    {
+      "name": "EQ900",
+      "count": 857,
+      "code": "001",
+      "eng": "EQ900",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.EQ900.)))",
+      "sub_models": [
+        {
+          "name": "EQ900",
+          "count": 857,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.EQ900._.Model.EQ900.))))",
+          "start": "201512",
+          "end": "201812",
+          "period": "15~18",
+          "image": "/carsdata/cars/cm_cardb/file/007_001_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5038,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5038,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.3T 수출형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 5038,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "5.0 AWD 구조변경 (바이퓨얼)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "G70",
+      "count": 1483,
+      "code": "003",
+      "eng": "G70",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.G70.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 G70",
+          "count": 505,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G70._.Model.더 뉴 G70.))))",
+          "start": "202010",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/8c9ee415-59af-49b9-8547-4775568f03c2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 G70 슈팅브레이크",
+          "count": 54,
+          "code": "013",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G70._.Model.더 뉴 G70 슈팅브레이크.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/81dad38f-2924-431d-b93a-ca368ae93b43.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G70",
+          "count": 924,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G70._.Model.G70.))))",
+          "start": "201709",
+          "end": "202012",
+          "period": "17~20",
+          "image": "/carsdata/cars/cm_cardb/file/007_003_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "어드밴스드"
+                },
+                {
+                  "name": "엘리트"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "어드밴스드"
+                },
+                {
+                  "name": "엘리트"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "엘리트"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "어드밴스드"
+                },
+                {
+                  "name": "엘리트"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "스포츠 패키지"
+                },
+                {
+                  "name": "어드밴스드"
+                },
+                {
+                  "name": "엘리트"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "스포츠 패키지"
+                },
+                {
+                  "name": "어드밴스드"
+                },
+                {
+                  "name": "엘리트"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "G80",
+      "count": 5137,
+      "code": "002",
+      "eng": "G80",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.G80.)))",
+      "sub_models": [
+        {
+          "name": "G80 (RG3)",
+          "count": 3344,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G80._.Model.G80 (RG3_).))))",
+          "start": "202003",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/43dd31a5-e615-414b-a366-e4dded4986c6.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "일렉트리파이드 G80 (RG3)",
+          "count": 47,
+          "code": "009",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G80._.Model.일렉트리파이드 G80 (RG3_).))))",
+          "start": "202107",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/23676c1c-758d-4b80-9144-2d2b98a30153.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 167,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "e-AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G80",
+          "count": 1746,
+          "code": "002",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G80._.Model.G80.))))",
+          "start": "201607",
+          "end": "202004",
+          "period": "16~20",
+          "image": "/carsdata/cars/cm_cardb/file/007_002_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "럭셔리 스페셜"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "파이니스트"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.8 GDI 구조변경 (LPG)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "G90",
+      "count": 1683,
+      "code": "004",
+      "eng": "G90",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.G90.)))",
+      "sub_models": [
+        {
+          "name": "G90 (RS4)",
+          "count": 861,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G90._.Model.G90 (RS4_).))))",
+          "start": "202112",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/243f3e4f-36df-4975-9b1d-1ca8f8734420.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G90",
+          "count": 822,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.G90._.Model.G90.))))",
+          "start": "201811",
+          "end": "202111",
+          "period": "18~21",
+          "image": "/carsdata/cars/cm_cardb/file/007_004_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5038,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "리무진 프레스티지"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프리미엄 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 5038,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "5.0 AWD 구조변경 (바이퓨얼)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3342,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GV60",
+      "count": 87,
+      "code": "007",
+      "eng": "GV60",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.GV60.)))",
+      "sub_models": [
+        {
+          "name": "GV60",
+          "count": 87,
+          "code": "010",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.GV60._.Model.GV60.))))",
+          "start": "202110",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a18792c2-a51d-47a0-8048-63ba835a7abc.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 111,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 120,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GV70",
+      "count": 2157,
+      "code": "006",
+      "eng": "GV70",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.GV70.)))",
+      "sub_models": [
+        {
+          "name": "GV70",
+          "count": 2108,
+          "code": "008",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.GV70._.Model.GV70.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7f0d2066-490f-43d3-b8f5-937034d0aeb0.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2151,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2151,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "일렉트리파이드 GV70",
+          "count": 49,
+          "code": "012",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.GV70._.Model.일렉트리파이드 GV70.))))",
+          "start": "202202",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2b50b3a6-0628-48eb-970c-7a30377216a6.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 120,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "e-AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GV80",
+      "count": 3635,
+      "code": "005",
+      "eng": "GV80",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.ModelGroup.GV80.)))",
+      "sub_models": [
+        {
+          "name": "GV80",
+          "count": 3456,
+          "code": "005",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.GV80._.Model.GV80.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1c658a73-d993-4105-bd7d-95e4750bdbb4.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.5T 가솔린 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 디젤 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "3.5T 가솔린 2WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GV80 쿠페",
+          "count": 179,
+          "code": "014",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.제네시스._.(C.ModelGroup.GV80._.Model.GV80 쿠페.))))",
+          "start": "202310",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/154aa4b0-7a9c-4a0a-b85d-fed3d28d9891.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3470,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "블랙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

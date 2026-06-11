@@ -1,0 +1,47 @@
+{
+  "name": "기타 수입차",
+  "count": 13,
+  "code": "999",
+  "eng": "etc",
+  "order": 1000.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.기타 수입차.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "기타",
+      "count": 13,
+      "code": "001",
+      "eng": "Others",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.기타 수입차._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 13,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.기타 수입차._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": null,
+          "end": null,
+          "period": null,
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 1,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 15,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

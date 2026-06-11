@@ -1,0 +1,3760 @@
+[
+  {
+    "manufacturer": "기아",
+    "model": "레이 EV",
+    "sub_model": "더 뉴 기아 레이 EV (생산 23~현재)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드)",
+        "kwh": 35.2,
+        "range_km": 205,
+        "drivetrain": "2WD (전륜구동)",
+        "applies_to_trims": [
+          "라이트",
+          "에어",
+          "2인승 밴",
+          "4인승 승용"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.kia.com/kr/vehicles/ray-ev/specification",
+      "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000114306",
+      "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20%EB%A0%88%EC%9D%B4%20EV",
+      "https://www.carnoon.co.kr/newcar/vehicle/11580",
+      "https://www.autoview.co.kr/news/articleView.html?idxno=81210"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 1종뿐 (스탠다드/롱레인지 분리 없음). 모든 트림(라이트/에어)과 차형(1인승 밴/2인승 밴/4인승 승용) 공통으로 동일한 35.2kWh 팩을 사용. 셀 종류는 CATL 각형 LFP(리튬인산철), 팩은 현대모비스 조립(국내 생산). 공인 1회충전 주행거리: 복합 205km / 도심 233km / 고속도로 171km (14인치 타이어 기준). 모터 최고출력 64.3kW(약 87ps), 최대토크 147Nm, 전륜구동(2WD). 복합전비 5.1km/kWh. 급속충전 150kW급으로 10→80% 약 40분, 완속 7kW로 10→100% 약 6시간. usable kWh(사용가능 용량)는 공식 제원·환경부 공인 자료에 별도 명시가 없어 미상(LFP 특성상 총용량에 가깝게 사용하는 것으로 추정되나 확정 수치 부재). 페이스리프트성 배터리 증설은 없으며 2023년 출시 이후 현재까지 35.2kWh 단일 사양 유지. 동일 모델에 대해 4개 독립 출처(기아 공식 제원 페이지, 현대차그룹 보도자료, 나무위키, 카눈)가 모두 35.2kWh/205km로 일치."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "레이",
+    "sub_model": "레이 EV (1세대, 생산 2011~2017/2018 단종)",
+    "period": "11~17",
+    "batteries": [
+      {
+        "label": "단일 옵션 (스탠다드)",
+        "kwh": 16.4,
+        "range_km": 139,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EV"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kia_Ray",
+      "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20%EB%A0%88%EC%9D%B4%20EV",
+      "https://www.greencarcongress.com/2011/12/ray-20111222.html",
+      "https://www.netcarshow.com/kia/2012-ray_ev/"
+    ],
+    "confidence": "high",
+    "notes": "엔카 변형 \"-/4인승\" + 트림 \"EV\" + 생산 11~17 은 1세대 레이 EV (국내 최초 양산 전기차)에 해당. 배터리 옵션은 단 하나: 16.4kWh 리튬이온(330V), SK이노베이션(현 SK온) 공급, 50kW 모터, 전륜구동, 4인승. 주행거리는 출처별 표기 차이 주의 — 도심주행모드 약 139km, 일반(복합/병기) 약 91km 로 함께 표기됨(range_km=139는 도심모드 공인치). 사용가능 용량(usable kWh)은 공식 미공개라 미기재(공칭 16.4kWh만 확인). 페이스리프트성 배터리 증설은 이 세대에 없음 — 단종 후 2023년 '더 기아 레이 EV(2세대)'로 부활하며 35.2kWh LFP/복합 205km로 별개 모델임. 11~17 범위는 1세대 단일 사양이므로 35.2kWh와 혼동 금지. 1세대는 초기 관용/기관 보급 위주(2012년 약 2,500대) 판매."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "니로 EV",
+    "sub_model": "디 올 뉴 니로 EV",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "단일 (스탠다드)",
+        "kwh": 68,
+        "usable_kwh": 64.8,
+        "range_km": 401,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "에어",
+          "어스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/1666/Kia-Niro-EV",
+      "https://www.carnoon.co.kr/newcar/vehicle/11085",
+      "https://auto.danawa.com/auto/?Work=model&Model=4396&Lineup=52390&Tab=spec",
+      "http://www.carguy.kr/news/articleView.html?idxno=43449"
+    ],
+    "confidence": "high",
+    "notes": "디 올 뉴 니로 EV(코드명 SG2, 2022년~현재 생산)는 배터리 옵션이 단일입니다 — 스탠다드/롱레인지 구분이나 58 vs 77.4kWh 같은 멀티 옵션이 없습니다. 모든 트림(에어/어스)이 동일한 배터리·구동(전륜 2WD)·주행거리를 공유합니다.\\n\\n용량 표기 주의: 한국에서 흔히 인용되는 64.8kWh는 '사용가능(usable)' 용량입니다. 공칭(nominal/total)은 약 68.0kWh (EV Database 기준). 국내 카탈로그·다나와·카눈은 64.8kWh를 대표값으로 표기.\\n\\n공인 1회충전 주행거리: 국내(환경부/공인) 복합 401km (도심 436km, 고속도로 358km). 유럽 WLTP는 463km, EV Database 추정 실주행 385km로 인증 기준에 따라 다름 — 국내 차량 질의이므로 401km(복합)가 정답.\\n\\n참고: 같은 차명이라도 1세대 e-니로(DE, 2018~2021)는 64kWh(usable 64) 또는 39.2kWh 두 옵션이 있었으나, 본 질의의 '디 올 뉴 니로 EV(22~현재)'는 64.8kWh 단일. 페이스리프트성 배터리 증설(아이오닉5 사례) 없음 — 2022 출시 이후 현재까지 동일 용량 유지."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "니로 (Niro)",
+    "sub_model": "니로 플러스 (Niro Plus)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 옵션)",
+        "kwh": 64,
+        "usable_kwh": 64,
+        "range_km": 392,
+        "drivetrain": "2WD (FF, 전륜구동)",
+        "applies_to_trims": [
+          "라이트 (택시형)",
+          "어스",
+          "에어",
+          "에어 (택시형)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.kia.com/kr/vehicles/niro-plus/price",
+      "https://auto.danawa.com/auto/?Work=model&Model=4199&Tab=spec",
+      "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20%EB%8B%88%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EC%8A%A4",
+      "https://www.carguy.kr/news/articleView.html?idxno=44594",
+      "https://www.khan.co.kr/article/202205121149011"
+    ],
+    "confidence": "high",
+    "notes": "[배터리 단일 옵션] 니로 플러스는 스탠다드/롱레인지 같은 복수 배터리 옵션이 없음. 전 트림(라이트·어스·에어, 택시형 포함) 동일하게 64.0kWh 단일 사양. 라이트/에어 택시형 vs 어스/에어 일반형 차이는 배터리가 아니라 편의·안전사양·미터기·호출기 등 PBV(목적기반모빌리티) 구성 차이임.\n\n[세대 주의 — 매우 중요] 니로 플러스는 2세대 니로 EV(SG2, 64.8kWh/401km)가 아니라 1세대 니로 EV(DE, 2018~) 플랫폼 기반으로 출시된 택시·PBV 전용 모델임. 택시 특성상 가격 인상 억제 위해 구형 DE 플랫폼을 유지. 따라서 64.0kWh이며 64.8kWh로 혼동 금지. 다나와·카눈 등 일부 매체가 64.8로 표기하는 경우가 있으나 이는 2세대 니로 EV와의 혼동이며, 기아 공식·시승기·출시 보도 모두 64.0kWh로 일치.\n\n[페이스리프트 배터리 증설 없음] 생산기간 2022.5~현재(2024~2026년형 포함) 동안 배터리 용량 변경(증설) 없음. 아이오닉5(58→63·72.6→84)와 같은 배터리 증설 페이스리프트가 니로 플러스에는 적용되지 않았음. 시종일관 64.0kWh / 복합 392km(도심 433km / 고속 342km) 유지.\n\n[제원 상세] 배터리 제조사 SK온. 정격전압 356V, 정격용량 180Ah. 모터 최고출력 150kW(=ps환산 약 204ps, 일부 매체 110ps/구동축 환산값과 혼선 있음), 최대토크 395Nm. 복합전비 약 5.3km/kWh. 공차중량 1,760kg.\n\n[usable kWh 주의] 공칭 64.0kWh가 곧 사용가능 용량으로 통용되나, 실사용가능(BMS 버퍼 제외) 용량은 출처에 따라 약 64.0kWh(공칭=사용가능 표기)로 봄. DE 플랫폼 1세대 니로 EV의 글로벌 사양상 사용가능 용량은 약 64.0kWh로 동일하게 명시됨. 미세 버퍼 수치는 공식 미공개라 별도 confidence 하향 없이 공칭=사용가능으로 표기."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "니로",
+    "sub_model": "니로 EV",
+    "period": "18~22",
+    "batteries": [
+      {
+        "label": "롱레인지 (일반형, 64kWh)",
+        "kwh": 67.5,
+        "usable_kwh": 64,
+        "range_km": 385,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "노블레스",
+          "프레스티지",
+          "택시형"
+        ]
+      },
+      {
+        "label": "숏레인지 (슬림 패키지, 도심형, 39.2kWh)",
+        "kwh": 42,
+        "usable_kwh": 39.2,
+        "range_km": 246,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": []
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20%EB%8B%88%EB%A1%9C%20EV",
+      "https://ev-database.org/car/1125/Kia-e-Niro-64-kWh",
+      "https://ev-database.org/car/1137/Kia-e-Niro-39-kWh",
+      "https://evkx.net/models/kia/niro/e-niro_64_kwh/",
+      "https://www.motorgraph.com/news/articleView.html?idxno=20583"
+    ],
+    "confidence": "high",
+    "notes": "1세대 니로 EV(코드명 DE, 2018~2022 생산, 모두 5인승·전륜구동 단일모터 150kW)에 해당. 두 가지 배터리 옵션이 존재했음: (1) 64kWh 일반형 — 총공칭 67.5kWh / 사용가능 64.0kWh (3.5kWh 버퍼), 국내 복합 385km / WLTP 455km. (2) 39.2kWh '슬림 패키지' 도심형 — 총 42.0kWh / 사용가능 39.2kWh, 국내 복합 246km / WLTP 289km. 슬림 패키지는 출시 초기 저가 선택형 옵션이었고 2021년 연식변경(MY21) 이후 단종되어 64kWh 단일 사양으로 정리됨. 엔카 트림(노블레스/프레스티지/택시형)은 통상 64kWh 일반형에 대응(택시형도 64kWh). 39.2kWh는 특정 명명 트림이 아니라 별도 배터리 선택옵션이라 applies_to_trims는 비움. 주의: 2세대(SG2, 2022~)는 64.8kWh·국내 401km로 별개 차량이며 본 건(18~22 생산)과 혼동 금지. 국내 복합거리(385/246)는 환경부 인증 기준, WLTP(455/289)는 유럽 기준으로 둘 다 병기. 사용가능/공칭 구분 및 64kWh 수치는 EV Database·EVKX 등 복수 출처에서 일치 확인됨(교차검증 통과)."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV6",
+    "sub_model": "더 뉴 EV6 (페이스리프트, CV, 2024~현재)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (Standard)",
+        "kwh": 63,
+        "usable_kwh": 60,
+        "drivetrain": "2WD (후륜, 125kW)",
+        "range_km": 382,
+        "applies_to_trims": [
+          "라이트",
+          "에어",
+          "어스"
+        ]
+      },
+      {
+        "label": "롱레인지 2WD (Long Range)",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "drivetrain": "2WD (후륜, 168kW)",
+        "range_km": 494,
+        "applies_to_trims": [
+          "라이트",
+          "에어",
+          "어스",
+          "GT 라인"
+        ]
+      },
+      {
+        "label": "롱레인지 4WD (Long Range AWD)",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "drivetrain": "4WD (전후륜 듀얼모터, 239kW)",
+        "range_km": 461,
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT 라인"
+        ]
+      },
+      {
+        "label": "GT (고성능 4WD)",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "drivetrain": "4WD (듀얼모터, 약 448kW)",
+        "applies_to_trims": [
+          "GT"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/기아 EV6",
+      "https://en.wikipedia.org/wiki/Kia_EV6",
+      "https://www.kia.com/kr/vehicles/ev6/specification",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/price/price_ev6.pdf",
+      "https://ev-database.org/car/3029/Kia-EV6-Long-Range-AWD",
+      "https://www.auto-data.net/en/kia-ev6-facelift-2024-long-range-84-kwh-325hp-4wd-51793",
+      "https://www.electrive.com/2024/12/19/first-drive-in-the-kia-ev6-range-upgrade-for-the-long-distance-pro/",
+      "https://v.daum.net/v/5LmvWoUlCT"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과: 더 뉴 EV6(2024 페이스리프트)는 4세대 배터리 적용으로 기존 58/77.4kWh → 63/84kWh로 증설됨(아이오닉5/6와 동일한 셀 변경 패턴). 두 가지 배터리 옵션 명확.\n\n[배터리]\n- 스탠다드: 63.0kWh(공칭). 2WD(후륜) 전용. 4WD 스탠다드는 없음. 2025년 1월 라이트 트림 4,660만원에 조용히 재출시.\n- 롱레인지: 84.0kWh(공칭). 2WD/4WD 모두 존재.\n- GT는 84kWh 롱레인지 팩 기반 고성능 4WD.\n\n[사용가능 용량(usable)] 제조사가 별도 공시하지 않음. 84kWh의 80kWh는 EV-Database 추정치(별표 표기), 63kWh의 60kWh는 동일 비율 추정. usable 수치는 confidence 낮음(추정).\n\n[주행거리 - 중요: 한국 공인 vs WLTP 상이]\n- 한국 환경부/공인 기준: 스탠다드 2WD(19\") 382km, 롱레인지 2WD(19\", 빌트인캠 미적용) 494km(기존 475km에서 증가). 4WD 한국 공인값은 출처에서 명확히 확인 안 됨(2WD보다 낮음).\n- WLTP(해외): 스탠다드 ~428km, 롱레인지 2WD 521~546km, 4WD 432~461km. 본 결과의 4WD range_km(461)는 WLTP auto-data 상한값으로, 한국 공인값과 다를 수 있어 주의.\n- 주행거리는 휠 사이즈(19/20인치), 빌트인캠 적용 여부에 따라 변동.\n\n[트림 매핑] 라이트=스탠다드/롱레인지 모두 가능(엔트리). 에어/어스=중상위, 2WD/4WD 선택 가능. GT 라인=스포티 외관 84kWh. GT=별도 고성능 트림(84kWh 4WD). 엔카 변형(2WD/5인승, 4WD/5인승)과 일치.\n\n배터리 kWh(63/84) 자체는 namuwiki·Wikipedia·EV-DB·기아 공식·언론이 모두 일치하여 high. 주행거리는 한국 공인 기준 채택했으나 4WD값과 usable은 상대적으로 불확실."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV6",
+    "sub_model": "EV6 (CV, 2021~2024 페이스리프트 이전)",
+    "period": "21~24",
+    "batteries": [
+      {
+        "label": "스탠다드 (숏레인지)",
+        "kwh": 58,
+        "usable_kwh": 54,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 370,
+        "applies_to_trims": [
+          "라이트",
+          "에어"
+        ]
+      },
+      {
+        "label": "롱레인지",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 475,
+        "applies_to_trims": [
+          "라이트",
+          "에어",
+          "어스",
+          "GT Line"
+        ]
+      },
+      {
+        "label": "롱레인지",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "drivetrain": "4WD",
+        "range_km": 441,
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT Line"
+        ]
+      }
+    ],
+    "sources": [
+      "https://auto.danawa.com/auto/?Work=model&Model=4022&Tab=spec",
+      "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20EV6",
+      "https://en.wikipedia.org/wiki/Kia_EV6",
+      "https://www.kiamedia.com/us/en/models/ev6/2022/specifications",
+      "https://insideevs.com/news/565543/kia-ev6-comparison-battery-range/",
+      "https://auto.danawa.com/news/?Tab=N1&Work=detail&no=4732535",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/battery_info/battery_info.pdf"
+    ],
+    "confidence": "high",
+    "notes": "생산기간 21~24의 1세대 EV6(코드명 CV, 페이스리프트 이전)는 두 가지 배터리 옵션 - 스탠다드 58.0kWh, 롱레인지 77.4kWh (NCM, 니켈-코발트-망간 80/10/10). 화학상 공칭(gross) 기준이며, 사용가능(usable/net) 용량 54.0/74.0kWh는 E-GMP 플랫폼 표준값으로 추정치(나무위키/위키백과에 명시 표기는 없어 가정 적용). 주행거리는 국내 산업부 인증(19인치 기준): 스탠다드 2WD 370km, 롱레인지 2WD 475km(최대), 롱레인지 4WD 441km. GT Line은 20인치 휠로 짧아짐(2WD 434km/4WD 403km, 다나와 23년형). 엔카 변형 '-/5인승'=2WD(후륜), '4WD/5인승'=4WD. 스탠다드(58kWh)는 라이트/에어 저가 트림에만 조합, 어스·GT Line은 롱레인지(77.4kWh) 전용. 주의: 2024 페이스리프트(코드명 CV PE)부터 84.0kWh로 증설되어 주행거리 ~494km로 증가 - 이는 생산기간 21~24 본 세부모델과 별개이므로 혼동 금지(아이오닉5 58/72.6→63/84와 동일 패턴). 한국 출시는 2021년 8월. 출처 다수(다나와 제원/나무위키/위키백과/기아 미국미디어/InsideEVs) 일치."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "쏘울",
+    "sub_model": "쏘울 부스터 EV",
+    "period": "19~21",
+    "batteries": [
+      {
+        "label": "롱레인지 (64kWh)",
+        "kwh": 64,
+        "usable_kwh": 64,
+        "range_km": 386,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "노블레스"
+        ]
+      },
+      {
+        "label": "스탠다드 (39.2kWh, 도심형)",
+        "kwh": 39.2,
+        "usable_kwh": 39.2,
+        "range_km": 250,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "프레스티지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://zdnet.co.kr/view/?no=20200323085922",
+      "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+      "https://www.evspecifications.com/en/model/0b3e236",
+      "http://pr.kia.com/ko/media/news/news/2019-0305-01.do",
+      "https://m.carisyou.com/magazine/NEWCARINTRO/74922"
+    ],
+    "confidence": "high",
+    "notes": "3세대 쏘울(SK3) 전동화 모델 = 쏘울 부스터 EV (생산 2019~2021). 배터리 옵션 2종으로 명확히 교차검증됨: (1) 64kWh 롱레인지 = 국내 공인 1회충전 386km(EPA 약 391km), (2) 39.2kWh 도심형 = 250km. 트림 매핑 주의: 2019 출시 초기에는 라이트/에어/노블레스 구성에 39.2kWh가 '슬림 패키지' 옵션이었으나, 2021년형부터 트림별 배터리 차등화로 재편되어 프레스티지=39.2kWh / 노블레스=64kWh로 고정됨. 따라서 엔카 기준 노블레스는 64kWh, 프레스티지는 39.2kWh로 보면 됨. 사용가능 용량(usable): 기아는 공식적으로 '64kWh' '39.2kWh'로 마케팅했고 국내 자료 대부분 이를 명목=사용가능으로 표기. 단, evspecifications는 64kWh팩을 총 67kWh / 사용가능 64kWh, WLTP 452km로 기재(미국/유럽 인증치라 국내 386km와 상이) — 총용량 67 vs 64 구분은 출처별 편차가 있어 usable=64는 medium 신뢰. 모두 전륜 2WD 단일 구동(4WD 없음). 페이스리프트성 배터리 증설은 없었고 단종 시까지 64/39.2 2종 유지."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "쏘울",
+    "sub_model": "쏘울 EV",
+    "period": "14~19",
+    "batteries": [
+      {
+        "label": "초기형 (27kWh급)",
+        "kwh": 30.5,
+        "usable_kwh": 27,
+        "range_km": 148,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EV"
+        ]
+      },
+      {
+        "label": "페이스리프트/배터리 증설형 (30kWh급)",
+        "kwh": 31.8,
+        "usable_kwh": 30,
+        "range_km": 180,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EV"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+      "https://auto.danawa.com/auto/?Work=model&Model=3148&Lineup=40307&Tab=spec",
+      "https://namu.wiki/w/기아 쏘울 EV",
+      "https://zdnet.co.kr/view/?no=20170502091519",
+      "https://www.motorgraph.com/news/articleView.html?idxno=12235",
+      "https://moneys.mt.co.kr/news/mwView.php?no=2017050209198085602"
+    ],
+    "confidence": "high",
+    "notes": "생산 14~19 = 2세대(PS) 차체 기반 쏘울 EV(1세대 전기차). 3세대(SK3) \"쏘울 부스터 EV\"(39.2/64kWh, 2019~)와 혼동 금지 — 그건 별도 세부모델임. 엔카 변형 '-/5인승' 트림 'EV'는 이 PS 기반 모델 단일 라인업이며, 차이는 연식에 따른 배터리 증설뿐(별도 트림명 X).\\n\\n배터리 옵션(연식별):\\n1) 2014~2017년식: 공칭 30.5kWh / 사용가능 27kWh / 국내 인증 148km (복합연비 5.0km/kWh). 리튬폴리머, CHAdeMO 급속.\\n2) 2018~2019년식(2017말 페이스리프트, 셀 8개 추가 증설): 공칭 31.8kWh / 사용가능 30kWh / 국내 인증 180km (도심 202km·고속 152km). 모터 81.4kW·285Nm 동일.\\n\\n교차검증: 영문 위키백과(27/30kWh usable, 30.5/31.8 gross) ↔ 다나와(148km, 리튬폴리머) ↔ ZDNet·머니S·모터그래프(2018형 30kWh·180km 환경부 인증)로 일치. 'usable 27/30 vs gross 30.5/31.8' 구분 명확. 일부 영문 소스가 31.8을 그냥 '30kWh'로 반올림 표기하므로 주의."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV3",
+    "sub_model": "EV3",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "스탠다드",
+        "kwh": 58.3,
+        "usable_kwh": 55,
+        "range_km": 350,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT라인"
+        ]
+      },
+      {
+        "label": "롱레인지",
+        "kwh": 81.4,
+        "usable_kwh": 78,
+        "range_km": 501,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT라인"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/EV3",
+      "https://www.kia.com/kr/vehicles/ev3/specification",
+      "https://www.evspecifications.com/en/model/7945391",
+      "https://www.evspecifications.com/en/model/f4a0390",
+      "https://evkx.net/models/kia/ev3/ev3_standard_range/",
+      "https://ino1.com/car/ev3-guide/"
+    ],
+    "confidence": "high",
+    "notes": "기아 EV3(생산 24~현재), 2WD/5인승 기준. 배터리 2종: 스탠다드 총 58.3kWh(사용가능 약 55kWh), 롱레인지 총 81.4kWh(사용가능 약 78kWh). 셀: SK On NMC, 400V 아키텍처. 국내 공인 복합 주행거리(요청 변형 2WD 기준): 스탠다드 347~350km(17/19인치 휠), 롱레인지 2WD 478~501km(휠 크기에 따라 변동, 최대 501km). 스탠다드/롱레인지 모두 에어·어스·GT라인 트림에서 선택 가능(엔카 기준 변형 2WD/5인승 부합). 참고로 GT(고성능 215kW 듀얼모터 4WD, 81.4kWh, 약 410km)는 별도 모델로 2WD 요청 범위 밖이라 제외. 유럽 WLTP 수치(스탠다드 436km, 롱레인지 605km)는 국내 공인치와 다르므로 위 km는 국내 인증 기준만 기재. EV3는 생산 24~현재 단일세대로 페이스리프트 배터리 증설 이슈 없음. 사용가능 용량은 해외 EV스펙 DB 추정치로 ±소폭 오차 가능."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV9",
+    "sub_model": "EV9 (2023~현재)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (Standard)",
+        "kwh": 76.1,
+        "usable_kwh": 74,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 374,
+        "applies_to_trims": [
+          "에어 2WD"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range) 2WD",
+        "kwh": 99.8,
+        "usable_kwh": 96,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 501,
+        "applies_to_trims": [
+          "에어",
+          "어스"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range) 4WD",
+        "kwh": 99.8,
+        "usable_kwh": 96,
+        "drivetrain": "4WD (AWD)",
+        "range_km": 454,
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT라인"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kia_EV9",
+      "https://www.kia.com/kr/vehicles/ev9/specification",
+      "https://ev-database.org/uk/car/1834/Kia-EV9-998-kWh-RWD",
+      "https://ev-database.org/car/1833/Kia-EV9-761-kWh-RWD",
+      "https://www.motorgraph.com/news/articleView.html?idxno=32087",
+      "https://namu.wiki/w/EV9"
+    ],
+    "confidence": "high",
+    "notes": "두 가지 배터리 옵션 확인 (76.1kWh / 99.8kWh), 4개 이상 출처 교차검증 일치.\n\n[배터리 구성]\n- 스탠다드: 76.1kWh (사용가능 74kWh), 2WD 전용. 국내 공인 복합 374km(19인치). EPA 230마일.\n- 롱레인지: 99.8kWh (사용가능 96kWh), 2WD/4WD 모두. 국내 최대 배터리.\n\n[구동/트림별 국내 공인 1회충전 주행거리(환경부, 기아 공식 사양표 기준)]\n- 롱레인지 2WD 19인치: 복합 501km / 20인치: 480km\n- 롱레인지 4WD 19인치: 445km / 21인치: 454km\n- GT라인(4WD 21인치): 443km\n주의: 4WD/대구경 휠일수록 주행거리 감소(2WD 19인치 501km가 최장).\n\n[트림 매핑 주의]\n엔카 분류(GT라인/어스/에어)와 기아 공식 사양표 분류(스탠다드/롱레인지/GT라인)가 다름. 76.1kWh 스탠다드는 2WD 6인승 보급형(에어 계열)에만 적용. GT라인은 99.8kWh 4WD 전용. 어스/에어는 99.8kWh 2WD·4WD 모두 선택 가능.\n\n[GT 별도 모델]\n2024.11 출시된 고성능 'EV9 GT'(엔카의 GT라인과 다른 별도 최상위 모델)도 동일 99.8kWh AWD 사용. 배터리 증설 아님.\n\n[페이스리프트 배터리 증설 여부]\n2023~2026 현행 세대 내 배터리 용량 증설(아이오닉5식 58→63 같은) 확인 안 됨. 76.1/99.8 구성 유지. usable 96kWh는 EV Database 추정치(estimated)이며 76.1의 usable 74kWh도 데이터베이스 추정 — 기아 공식은 총용량(nominal)만 공표하므로 usable은 medium 신뢰. 총용량·국내 주행거리는 기아 공식·환경부 기준으로 high."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "PV5",
+    "sub_model": "PV5",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (Standard)",
+        "kwh": 51.5,
+        "range_km": 280,
+        "drivetrain": "2WD (전륜, 120kW 단일모터)",
+        "applies_to_trims": [
+          "스탠다드 베이직",
+          "베이직 (카고/2인승 한정)"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range)",
+        "kwh": 71.2,
+        "range_km": 358,
+        "drivetrain": "2WD (전륜, 120kW 단일모터)",
+        "applies_to_trims": [
+          "롱레인지 베이직",
+          "베이직 (패신저 5인승)",
+          "플러스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.hyundaimotorgroup.com/ko/story/CONT0000000000178473",
+      "https://www.kia.com/kr/vehicles/pv5-passenger/specification",
+      "https://ko.wikipedia.org/wiki/기아_PV5",
+      "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000178271",
+      "https://www.bloter.net/news/articleView.html?idxno=638074",
+      "https://www.carguy.kr/news/articleView.html?idxno=53825"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과: 기아 PV5(SW1, 2025~현재 PBV 전용 모델)는 CATL 공급 각형(prismatic) NCM 셀 + Cell-to-Pack(CTP) 기술 적용. 배터리 옵션은 2가지로 일관 확인됨 — 스탠다드 51.5kWh / 롱레인지 71.2kWh. 두 수치는 공칭(총)용량이며, 공식적으로 공개된 사용가능(usable/net) 용량 수치는 확인되지 않아 생략함(usable_kwh 미상).\\n\\n[중요: 차형별 배터리 가용 옵션이 다름]\\n- 패신저(승용, 5인승 2-3-0): 롱레인지 71.2kWh 단일 구성. 산업부 공인 복합 358km (도심 404 / 고속 301, 전비 4.5km/kWh). 트림=베이직(4,709만원)/플러스(5,000만원). 즉 패신저에는 스탠다드(51.5kWh) 옵션이 없음.\\n- 카고(화물) 및 2인승 구성: 스탠다드 51.5kWh(복합 280km, 전비 4.8km/kWh)와 롱레인지 71.2kWh(복합 377km, 전비 4.7km/kWh) 모두 선택 가능.\\n\\n따라서 엔카에 표기된 '스탠다드 베이직'은 51.5kWh(카고/2인승 계열)에 대응하고, '롱레인지 베이직/플러스'는 71.2kWh에 대응하는 것으로 해석됨. 동일 71.2kWh라도 차형(패신저 358km vs 카고 377km)에 따라 공인 주행거리가 다른 점 주의.\\n\\n신모델(2025 출시)이라 페이스리프트 배터리 증설 이력은 아직 없음. 환경부/산업부 인증 기준 수치 사용. 나무위키는 403으로 직접 열람 실패했으나 위키백과·현대차그룹 공식 스토리·기아 공식 제원·블로터/카가이 보도 등 4개 이상 독립 출처가 51.5/71.2kWh 및 280/358/377km로 상호 일치."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV4",
+    "sub_model": "EV4",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "스탠다드",
+        "kwh": 58.3,
+        "drivetrain": "2WD",
+        "range_km": 382,
+        "applies_to_trims": [
+          "에어",
+          "어스"
+        ]
+      },
+      {
+        "label": "롱레인지",
+        "kwh": 81.4,
+        "drivetrain": "2WD",
+        "range_km": 533,
+        "applies_to_trims": [
+          "에어",
+          "어스",
+          "GT라인"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.kia.com/kr/vehicles/ev4/specification",
+      "https://ko.wikipedia.org/wiki/기아_EV4",
+      "https://namu.wiki/w/기아 EV4",
+      "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000171628",
+      "https://www.evspecifications.com/en/model/ac74393"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과 국내 시판 EV4(생산 25~현재)는 배터리 2옵션으로 명확히 확정됨: 스탠다드 58.3kWh / 롱레인지 81.4kWh (공칭 총용량). 기아 공식 한국 제원, 한국 위키백과, 현대차그룹 보도자료, evspecifications.com 4개 출처가 모두 동일 수치로 일치 → confidence high.\n\n[구동/트림] 엔카 기준 변형 2WD/5인승 + 트림 GT라인/어스/에어 모두 후륜구동(2WD, RWD) 기본형에 해당. 트림별 배터리 매칭: 에어=스탠다드(58.3) 또는 롱레인지(81.4) 둘 다 선택 가능(국내 가격표상 에어 스탠다드가 최저가 4,042만원). 어스/GT라인은 통상 롱레인지(81.4) 중심 구성이나 스탠다드 선택지도 존재할 수 있음(국내 가격표 세부 조합은 시점별 변동). 별도 고성능 GT(질문의 GT라인과 다름)는 듀얼모터 AWD로 본 변형(2WD)에서 제외.\n\n[주행거리 주의] 한국 공인(산업부 인증, 2WD 17인치 복합) 기준: 스탠다드 382km / 롱레인지 533km. 19인치는 롱레인지 502km. 반면 유럽 WLTP는 동일 배터리라도 425~440km(스탠다드)/600km대(롱레인지)로 더 높게 나오므로 시험사이클 차이에 주의(같은 차종이라도 출처 국가별 km 상이).\n\n[usable kWh 미확정] 공식 출처에서 사용가능 용량(usable)을 명시하지 않음. 표기된 58.3/81.4는 공칭(총)용량으로 해석되며 usable은 별도 확인 불가 → 본 값은 생략. 페이스리프트성 배터리 증설 이력 없음(EV4는 25년 신규 출시 1세대 현행, 아이오닉5식 58→63 증설 사례 해당 없음)."
+  },
+  {
+    "manufacturer": "기아",
+    "model": "EV5",
+    "sub_model": "EV5",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "롱레인지 (Long Range) 2WD",
+        "kwh": 81.4,
+        "usable_kwh": 78,
+        "range_km": 460,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "GT-Line",
+          "어스(Earth)",
+          "에어(Air)"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range) 4WD",
+        "kwh": 81.4,
+        "usable_kwh": 78,
+        "range_km": 420,
+        "drivetrain": "4WD",
+        "applies_to_trims": [
+          "GT-Line",
+          "어스(Earth)"
+        ]
+      },
+      {
+        "label": "스탠다드 (Standard) 2WD",
+        "kwh": 60.3,
+        "range_km": 335,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "에어(Air)",
+          "어스(Earth)",
+          "GT-Line"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.kia.com/kr/vehicles/ev5/specification",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/price/price_ev5.pdf",
+      "https://namu.wiki/w/EV5",
+      "https://en.wikipedia.org/wiki/Kia_EV5",
+      "https://www.top-rider.com/article/view/trd202507250004",
+      "https://www.top-rider.com/article/view/trd202601220006",
+      "https://mauto.danawa.com/news/?Work=detail&no=5874984",
+      "https://ev-database.org/car/3300/Kia-EV5-814-kWh"
+    ],
+    "confidence": "high",
+    "notes": "한국 시판 EV5(준중형 전기 SUV, 광주공장 생산, 25~현재)는 두 가지 배터리로 구성됨. 두 팩 모두 NMC(NCM, CATL 공급)이며 400V 아키텍처.\n\n1) 롱레인지 81.4kWh(총)/78.0kWh(사용가능): 2025년 9월 국내 출시. 환경부 공인 상온 복합 주행거리 2WD 460km(싱글모터 160kW/약 217마력), 4WD 420km(18인치)·406km(19인치, 듀얼모터 230kW). 정격전압 403V. 트림 GT-Line/어스/에어.\n\n2) 스탠다드 60.3kWh(총): 2026년 2월 라인업 추가(가격 인하용 보급형). 2WD 전용(싱글모터 115kW). 상온 복합 약 335km(18인치)·325km(19인치). 정격전압 299V. 스탠다드의 usable kWh는 공식 미공개. 출시 시점 일부 자료가 '정부 인증 대기 중'으로 표기했으나 2026년 초 출시 완료.\n\n주의사항:\n- 페이스리프트/배터리 증설이 아니라, 동일 세대 내 '롱레인지(81.4)'와 나중에 추가된 '스탠다드(60.3)' 두 등급. 종전 일부 위키 기록은 스탠다드(60.3)를 누락(국내 한정·후행 추가 탓).\n- 글로벌(특히 중국) 시장의 64.2kWh LFP·64kWh급은 한국 미적용. 한국형 스탠다드는 60.3kWh NMC로 별개. 혼동 주의.\n- 모터/전비 등 세부 수치는 인치(18/19) 휠 사양에 따라 주행거리 차이 있음."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "투싼 (ix / ix35 FCEV)",
+    "sub_model": "뉴 투싼 ix (생산 13~15) — 수소연료전지차 Fuel Cell",
+    "period": "13~15",
+    "batteries": [
+      {
+        "label": "보조(트랙션) 리튬폴리머 배터리 — 파워 어시스트용",
+        "kwh": 0.95,
+        "drivetrain": "2WD (전륜)",
+        "range_km": 594,
+        "applies_to_trims": [
+          "수소 Fuel Cell (FCEV)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_ix35_FCEV",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%ED%88%AC%EC%8B%BC%20ix%20FCEV",
+      "https://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_%ED%88%AC%EC%8B%BCix_FCEV",
+      "https://www.hyundainews.com/en-us/releases/1708",
+      "https://grokipedia.com/page/Hyundai_ix35_FCEV"
+    ],
+    "confidence": "medium",
+    "notes": "★중요: 이 차는 배터리전기차(BEV)가 아니라 수소연료전지차(FCEV)입니다. 엔카에서 트림이 '수소(Fuel Cell)'로 잡힌 그대로, 주동력원은 수소연료전지 스택이고 배터리는 가속/회생제동 버퍼용 소형 보조배터리입니다. 따라서 아이오닉5처럼 58/77.4kWh 같은 '대용량 배터리 옵션'은 존재하지 않습니다. 배터리 옵션은 사실상 1종(0.95kWh 리튬폴리머, LG화학 공동개발)뿐.\n\n[수치 충돌 해소] 일부 검색요약/포럼에서 '24kWh 배터리'라는 표기가 보이는데 명백한 오기입니다. 실제로는 가속 시 파워 어시스트로 추가 공급하는 출력 '24kW'(에너지 kWh가 아닌 출력 kW)를 잘못 옮긴 것. FCEV 보조배터리가 24kWh일 물리적 근거가 없음(스택이 100kW 발전, 배터리는 버퍼 역할). 공인 보조배터리 에너지용량은 0.95kWh로 일관.\n\n[세대/연식] 해당 세부모델은 2세대 투싼 ix(ix35) 기반 FCEV로, 2013년 세계 최초 양산형 수소차 출시(국내 생산 ~2015, 글로벌 ~2018). 페이스리프트성 배터리 증설 이슈 없음(애초에 BEV 배터리가 아님).\n\n[부가 사양] 모터 100kW(136마력)/300Nm, 수소탱크 700bar 5.64kg, 주행거리는 출처별 415km(구사양)~594km(영문위키/현대)~635km(국문위키). 일반 가솔린/디젤 투싼ix와는 별개 라인.\n\n[구동/인승] 엔카 표기대로 2WD/5인승, 트림=수소(Fuel Cell) 단일.\n\n[usable_kwh 미확정] 0.95kWh는 현대 보도자료 계열에서 일관 확인되나, 환경부 공인 제원표(usable kWh 명시)를 1차 PDF로 직접 확정 못함(브로슈어 PDF 403/빈페이지). usable 수치 별도 미공개. → confidence=medium."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "코나",
+    "sub_model": "코나 일렉트릭 (SX2)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (Standard Range)",
+        "kwh": 48.6,
+        "usable_kwh": 48,
+        "range_km": 311,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "E-VALUE+",
+          "프리미엄"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range)",
+        "kwh": 64.8,
+        "usable_kwh": 64.2,
+        "range_km": 417,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "모던 플러스",
+          "프리미엄",
+          "인스퍼레이션",
+          "N-Line 인스퍼레이션"
+        ]
+      }
+    ],
+    "sources": [
+      "https://auto.danawa.com/auto/?Work=model&Model=4510&Tab=spec",
+      "https://en.wikipedia.org/wiki/Hyundai_Kona",
+      "http://www.carmgz.kr/news/articleView.html?idxno=7429",
+      "https://m.carisyou.com/magazine/NEWCARINTRO/76934",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%BD%94%EB%82%98%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD"
+    ],
+    "confidence": "high",
+    "notes": "2세대 코나 일렉트릭(SX2, 2023~현재, 풀체인지) 한국 시판 기준. 배터리 2종 = 스탠다드 48.6kWh / 롱레인지 64.8kWh (CATL NCM). 다나와(산업부 인증 제원 집계)·Wikipedia·카매거진/카이즈유 신차자료가 일치 → 공칭 용량 high confidence.\n\n[트림 매핑] 질문의 두 트림(인스퍼레이션, 프리미엄) 중 '인스퍼레이션'은 롱레인지(64.8kWh) 전용입니다(롱레인지 인스퍼레이션 / N-Line 인스퍼레이션). '프리미엄'은 스탠다드(48.6kWh)·롱레인지(64.8kWh) 양쪽에 모두 존재합니다(스탠다드 프리미엄 ↔ 롱레인지 프리미엄). 따라서 엔카 변형 '-/5인승'에서 트림만으로 배터리를 단정하면 안 됩니다: 인스퍼레이션=64.8kWh 확정, 프리미엄=48.6 또는 64.8 둘 다 가능.\n\n[주행거리 상충 주의 — medium] 롱레인지 417km는 모든 출처 일치(17인치/상온/복합, 산업부 인증). 스탠다드는 출처별로 다름: 다나와 제원표=311km, 그러나 2023년 출시 보도(카매거진/카이즈유)는 368km(17인치)로 기재. 311km는 18인치 등 특정 휠/사양 조합 수치일 가능성이 높고, 출시 기본 인증치는 368km. 스탠다드 공인거리는 사양(휠)에 따라 311~368km 범위로 보고 개별 견적/연식 확인 권장.\n\n[usable kWh — low~medium] 한국 제조사 공식 usable 수치는 미공개. 해외 EV 스펙 DB(EV Database/evspecifications)는 양 배터리 모두 버퍼 약 0.6kWh로 추정(스탠다드 usable≈48.0, 롱레인지 usable≈64.2). 추정치이며 공인값 아님.\n\n[유럽 사양 혼동 주의] 동일 SX2라도 유럽 WLTP 사양은 배터리 표기가 48.4 / 65.4kWh, 주행거리 377/514km로 한국과 다름. 본 답변은 한국 시판(산업부 복합) 기준만 정리.\n\n[페이스리프트 증설 여부] 현재(2026.6 기준)까지 SX2는 48.6/64.8 단일 세대 유지, 아이오닉5식 배터리 증설 페이스리프트 정보 없음. (참고: 1세대 OS는 39.2/64kWh였고 SX2에서 48.6/64.8로 증대됨.)"
+  },
+  {
+    "manufacturer": "현대",
+    "model": "코나",
+    "sub_model": "코나 일렉트릭",
+    "period": "18~23",
+    "batteries": [
+      {
+        "label": "스탠다드 (숏레인지, 라이트/택시형)",
+        "kwh": 42,
+        "usable_kwh": 39.2,
+        "range_km": 254,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "모던",
+          "택시형",
+          "라이트"
+        ]
+      },
+      {
+        "label": "롱레인지",
+        "kwh": 67.1,
+        "usable_kwh": 64,
+        "range_km": 406,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "모던",
+          "프리미엄"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%BD%94%EB%82%98%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD/1%EC%84%B8%EB%8C%80",
+      "https://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_%EC%BD%94%EB%82%98",
+      "https://ev-database.org/uk/car/1239/Hyundai-Kona-Electric-39-kWh",
+      "https://ev-database.org/car/1204/Hyundai-Kona-Electric-64-kWh",
+      "https://www.hyundai.com/contents/repn-car/catalog/kona-electric-price.pdf"
+    ],
+    "confidence": "high",
+    "notes": "코나 일렉트릭 1세대(차명 OS, 2018~2023, 엔카 '코나 일렉트릭', 5인승). 배터리는 2가지 옵션: 사용가능 39.2kWh(총 약 42kWh, 공인 254km)와 사용가능 64.0kWh(총 약 67.1kWh, 국내 공인 406km / WLTP 484km). 둘 다 전륜 단일모터 2WD이며 AWD는 없음. 39.2kWh는 저용량 엔트리/라이트 팩으로 택시형(영업용)·하위 모던에 주로 매칭, 64kWh는 모던·프리미엄 롱레인지에 매칭(트림-배터리 매핑은 연식·패키지에 따라 변동 가능). 주의: 아이오닉5처럼 페이스리프트 때 배터리를 증설한 사례와 달리, 코나 EV는 2020년형 부분변경에서 배터리 용량·주행거리(39.2/254, 64/406)를 그대로 유지함(증설 없음). 총용량(42·67.1kWh)은 출처별로 셀 기준에 따라 다소 차이가 있을 수 있어 usable 값(39.2/64.0)이 가장 신뢰도 높음. 국내 공인거리 254/406km는 환경부 복합 기준이며 연식·옵션(휠 등)에 따라 미세 차이 가능."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "캐스퍼",
+    "sub_model": "캐스퍼 일렉트릭",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (42kWh)",
+        "kwh": 42,
+        "usable_kwh": 39,
+        "range_km": 278,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "프리미엄"
+        ]
+      },
+      {
+        "label": "롱레인지 (49kWh)",
+        "kwh": 49,
+        "usable_kwh": 46,
+        "range_km": 315,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "인스퍼레이션",
+          "크로스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_Casper",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%BA%90%EC%8A%A4%ED%8D%BC%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD",
+      "https://casper.hyundai.com/vehicles/electric/spec",
+      "https://www.carnoon.co.kr/newcar/vehicle/11689"
+    ],
+    "confidence": "high",
+    "notes": "생산기간 24~현재, 단일 세대(AX1 EV)로 아직 페이스리프트 배터리 증설 없음 — 세대 혼동 위험 낮음.\n\n[배터리 2종 - 다수 출처 일치] LGES NMC(NCMA) 리튬이온 2종:\n- 스탠다드 42.0kWh (gross): 프리미엄 트림 전용. 모터 71.1kW(97PS). 국내 복합 주행거리 278km(WLTP 300km).\n- 롱레인지 49.0kWh (gross): 인스퍼레이션·크로스 트림. 모터 84.5kW(115PS). 국내 복합 주행거리 인스퍼레이션 315km(15인치)/295km(17인치 익스테리어 디자인), 크로스 285km(17인치). WLTP 355km.\n\n[usable kWh 주의] 현대는 net(사용가능) 용량을 공식 발표하지 않음. 39kWh(스탠다드)/46kWh(롱레인지)는 EV-Database 등 독립 출처 추정치이므로 range_km·label·gross kWh보다 신뢰도 낮음.\n\n[주행거리 출처 주의] 278/315/285/295km는 국내 환경부 복합 인증 기준. Wikipedia의 300/355km는 WLTP 기준이라 수치가 다름 — 혼동 금지.\n\n[구동] 전 트림 전륜 단일모터(2WD). AWD 없음. 캐스퍼 일렉트릭은 내연 캐스퍼보다 차체가 약간 커진 별도 전용 보디(해외명 INSTER)이며 4인승 구성."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉5",
+    "sub_model": "더 뉴 아이오닉5 (페이스리프트, 2024~현재)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (63kWh)",
+        "kwh": 63,
+        "usable_kwh": 59,
+        "drivetrain": "2WD(RWD)",
+        "range_km": 368,
+        "applies_to_trims": [
+          "E-Value+"
+        ]
+      },
+      {
+        "label": "롱레인지 (84kWh) 2WD",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "drivetrain": "2WD(RWD)",
+        "range_km": 485,
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "N Line",
+          "프레스티지 N Line",
+          "영업용"
+        ]
+      },
+      {
+        "label": "롱레인지 (84kWh) AWD",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "drivetrain": "4WD(AWD)",
+        "range_km": 451,
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "N Line",
+          "프레스티지 N Line"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%205",
+      "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5",
+      "https://www.carnoon.co.kr/newcar/vehicle/11664",
+      "https://ev-database.org/car/2236/Hyundai-IONIQ-5-84-kWh-RWD",
+      "https://ev-database.org/car/2235/Hyundai-IONIQ-5-63-kWh-RWD",
+      "https://www.hyundai.co.kr/news/CONT0000000000137598",
+      "https://www.bloter.net/news/articleView.html?idxno=619350"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 요약: 더 뉴 아이오닉5(2024.3 출시 페이스리프트)는 롱레인지 배터리를 기존 77.4kWh → 84.0kWh(사용가능 80.0kWh)로 증설, 복합주행거리 458→485km(2WD 19인치 기준)로 향상. 스탠다드는 2024.9 재출시되며 58.0→63.0kWh로 증설, 환경부 인증 복합 368km. ※페이스리프트 전(NE 초기형)은 스탠다드 58.0kWh/롱레인지 72.6kWh→연식변경 77.4kWh였으므로 연식 혼동 주의(엔카 변형이 24~현재면 63/84 적용).\n\n주행거리는 트림·휠·구동에 따라 달라짐(환경부 복합, 카눈 가격표 기준): 롱레인지 2WD 19인치 485km / 2WD 20인치 453km / AWD 19인치 451km / AWD 20인치 425km / N Line 2WD 20인치 441km, AWD 20인치 411km. range_km에는 각 옵션의 대표(최대)값을 기재.\n\n트림 매핑: E-Value+ = 스탠다드 63kWh(2WD 전용). 익스클루시브/프레스티지/N Line/프레스티지 N Line/영업용 = 롱레인지 84kWh(2WD 또는 AWD 선택, 단 영업용·E-Value+ 계열은 통상 2WD). 영업용은 법인/렌터카·택시형 트림으로 84kWh 롱레인지 2WD 기반.\n\n사용가능 용량: 84kWh=80.0kWh(EV-Database 확정). 63kWh 스탠다드의 usable은 출처별 약 59kWh로 표기(EV-Database NE 스탠다드 63/59). MY24 스탠다드 usable 정밀치는 출처 편차 있어 59로 보수 기재 — 이 항목만 medium 신뢰."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉5",
+    "sub_model": "아이오닉5 (NE, 생산 21~현재)",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (초기형, 2021~2023)",
+        "kwh": 58,
+        "usable_kwh": 54,
+        "range_km": 336,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "영업용"
+        ]
+      },
+      {
+        "label": "롱레인지 (초기형, 2021 출시)",
+        "kwh": 72.6,
+        "usable_kwh": 70,
+        "range_km": 429,
+        "drivetrain": "2WD/AWD",
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "영업용 롱레인지 패키지"
+        ]
+      },
+      {
+        "label": "롱레인지 (2023년형, 2022.07 증량)",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "range_km": 458,
+        "drivetrain": "2WD/AWD",
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "영업용 롱레인지 패키지",
+          "N(별도 84kWh)"
+        ]
+      },
+      {
+        "label": "스탠다드 (더 뉴 아이오닉5 페이스리프트, 2024)",
+        "kwh": 63,
+        "range_km": 368,
+        "drivetrain": "2WD",
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "영업용"
+        ]
+      },
+      {
+        "label": "롱레인지 (더 뉴 아이오닉5 페이스리프트, 2024)",
+        "kwh": 84,
+        "range_km": 485,
+        "drivetrain": "2WD/AWD",
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "영업용 롱레인지 패키지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%205",
+      "http://www.worktoday.co.kr/news/articleView.html?idxno=26820",
+      "https://www.motorgraph.com/news/articleView.html?idxno=29675",
+      "https://www.hyundai.com/kr/ko/service-membership/ev/ev-battery-cell-information"
+    ],
+    "confidence": "high",
+    "notes": "엔카 변형 \"생산 21~현재\"는 NE 전 생애주기를 포함하므로 배터리 옵션이 연식별로 3차례 변경됨 — 교차검증 시 연식 구분 필수.\n\n[배터리 변천]\n1) 2021 출시: 스탠다드 58.0kWh / 롱레인지 72.6kWh.\n2) 2023년형(2022.07): 롱레인지를 77.4kWh로 증량(주행 429→458km). 스탠다드는 58kWh 유지. ※여기서 '72.6→77.4' 혼동 주의.\n3) 더 뉴 아이오닉5 페이스리프트(2024.03~): 스탠다드 58→63.0kWh, 롱레인지 77.4→84.0kWh(주행 최대 485km). 스탠다드 주행 368km.\n\n[트림 ↔ 배터리]\n- 영업용/영업용 롱레인지 패키지: 영업용(택시·렌터카 등)은 통상 스탠다드 또는 롱레인지 기반 깡통트림. '영업용 롱레인지 패키지'는 롱레인지 팩(72.6/77.4/84) 적용.\n- 익스클루시브/프레스티지: 스탠다드·롱레인지 모두 선택 가능한 일반 트림 등급(배터리 변형 아님).\n- N: 고성능 별도 모델로 84.0kWh(가용 약 78kWh) 전용. 위 라인업과 별개이며 페이스리프트와 함께 운영.\n\n[가용용량 주의] 58kWh→약 54kWh, 77.4kWh→약 74kWh는 시장(영국 63kWh 등) 및 출처별 표기 차이가 있어 근사치. 63/84kWh의 공칭 가용용량은 출처가 일관되지 않아 생략(추정 약 60/80kWh대). 72.6 vs 77.4는 동일 '롱레인지' 명칭이라 연식 미확인 시 상충 가능 — 이 경우만 confidence medium."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉6",
+    "sub_model": "더 뉴 아이오닉6",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "스탠다드",
+        "kwh": 63,
+        "drivetrain": "2WD",
+        "range_km": 437,
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지"
+        ]
+      },
+      {
+        "label": "롱레인지 (2WD)",
+        "kwh": 84,
+        "drivetrain": "2WD",
+        "range_km": 562,
+        "applies_to_trims": [
+          "익스클루시브",
+          "익스클루시브 N Line",
+          "프레스티지",
+          "프레스티지 N Line"
+        ]
+      },
+      {
+        "label": "롱레인지 (AWD)",
+        "kwh": 84,
+        "drivetrain": "AWD",
+        "range_km": 533,
+        "applies_to_trims": [
+          "익스클루시브",
+          "익스클루시브 N Line",
+          "프레스티지",
+          "프레스티지 N Line"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000182012",
+      "https://www.motorgraph.com/news/articleView.html?idxno=42382",
+      "https://namu.wiki/w/현대 아이오닉 6",
+      "https://ko.wikipedia.org/wiki/아이오닉_6",
+      "https://jasonryu.net/2025/07/28/new-car-hyundai-the-new-ioniq-6/",
+      "https://www.inews24.com/view/1881198"
+    ],
+    "confidence": "high",
+    "notes": "[배터리 옵션 2종] 더 뉴 아이오닉6(CE 페이스리프트, 2025.7 출시~현재)는 4세대 배터리를 적용하며 ① 스탠다드 63kWh, ② 롱레인지 84kWh 의 2가지 옵션을 제공. 현대 공식 보도자료·모터그래프·전기형 대비 비교가 모두 일치(전기형 53/77.4kWh → 후기형 63/84kWh로 증설). 아이오닉5와 동일한 페이스리프트 배터리 증설 패턴.\n\n[공인 주행거리, 18인치 기준] 스탠다드 2WD = 437km. 롱레인지 2WD = 562km(국내 전기 세단 최장, 환경부 인증 568km는 도심 아닌 별도 기준치). 롱레인지 AWD = 533km(독립 출처 jasonryu.net 제원표 기준, 도심/고속 565/492km). 휠 20인치 N Line은 주행거리 짧아짐(롱레인지 2WD 20인치 약 511km, AWD 20인치 약 431km대로 보도). range_km 값은 모두 18인치 기준치.\n\n[usable kWh] 현대가 더 뉴 아이오닉6 페이스리프트의 사용가능(usable) 용량을 별도 공시하지 않음 — kwh 값(63/84)은 총 공칭 용량(nominal)임. 따라서 usable_kwh는 미기재(confidence 보존). \n\n[트림 매핑 주의] 엔카 트림의 \"N\"은 차량을 다시 확인 필요: (a) N Line(외관 스포티 패키지, 배터리 동일)일 가능성이 큼, (b) 별개 고성능 모델 '아이오닉6 N'(2025년 별도 출시, 84kWh NCM, AWD 듀얼모터 609마력)은 다른 세부모델로 취급해야 함. 본 결과는 일반 더 뉴 아이오닉6(스탠다드/롱레인지)의 배터리 기준이며, 고성능 '아이오닉6 N'은 별도 sub_model로 분리 권장. 익스클루시브/프레스티지/N Line은 스탠다드(63)·롱레인지(84) 양쪽에서 선택되는 사양 트림이므로 배터리는 스탠다드/롱레인지 선택에 의해 결정됨(트림이 배터리를 직접 고정하지 않음)."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉6",
+    "sub_model": "아이오닉6",
+    "period": "22~25",
+    "batteries": [
+      {
+        "label": "스탠다드 (Standard Range)",
+        "kwh": 53,
+        "usable_kwh": 53,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 367,
+        "applies_to_trims": [
+          "E-Lite",
+          "E-Value+"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range) 2WD",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 524,
+        "applies_to_trims": [
+          "E-Lite",
+          "E-Value+",
+          "익스클루시브",
+          "익스클루시브 플러스",
+          "프레스티지"
+        ]
+      },
+      {
+        "label": "롱레인지 (Long Range) AWD",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "drivetrain": "AWD (4륜)",
+        "range_km": 484,
+        "applies_to_trims": [
+          "익스클루시브",
+          "익스클루시브 플러스",
+          "프레스티지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_Ioniq_6",
+      "https://auto.danawa.com/auto/?Work=model&Model=4087&Tab=spec",
+      "https://ev-database.org/uk/car/1719/Hyundai-IONIQ-6-Long-Range-AWD",
+      "https://www.motorgraph.com/news/articleView.html?idxno=30514",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%206"
+    ],
+    "confidence": "high",
+    "notes": "생산 22~25 = 아이오닉6 CE 페이스리프트 이전(pre-FL). 배터리 옵션 2종 교차검증 일치: 스탠다드 53.0kWh / 롱레인지 77.4kWh(usable 74.0kWh, EV6와 동일 팩). 출처 4곳(위키백과·다나와·EV Database·국내 언론) 모두 53 / 77.4 로 일치.\n\n[구동/트림 매핑] 스탠다드 53kWh는 2WD 전용(367km, 국내 환경부/산업부 인증). 롱레인지 77.4kWh는 2WD(524km)와 AWD(484km) 모두 제공. AWD는 스탠다드 배터리 없음(롱레인지 전용). 엔카 변형 \"-/5인승\"=2WD, \"AWD/5인승\"=AWD. E-Lite·E-Value+는 스탠다드/롱레인지 둘 다 선택 가능한 하위 트림이고, 익스클루시브/익스클루시브 플러스/프레스티지는 롱레인지 전용 경향(트림×배터리 매핑은 연식 옵션표마다 다를 수 있어 hint 수준).\n\n[페이스리프트 주의] 사용자가 우려한 \"배터리 증설\"은 아이오닉6에는 해당 없음. 2025년 페이스리프트(568km 인증, 국내 최장 전기세단)도 배터리는 77.4kWh 동일 유지 — 아이오닉5(58/72.6 → 63/84)와 달리 셀 증설 아님. 따라서 63/84kWh 라는 수치는 아이오닉6에 적용 불가(초기 검색엔진이 아이오닉5 FL 수치를 혼동한 것으로 판단, 어떤 1차 출처에서도 확인 안 됨).\n\n[참고] WLTP 기준 롱레인지 2WD는 614km(유럽). 본 range_km는 국내 인증(km) 기준으로 기재. 초기 기획은 72.6kWh였으나 양산은 77.4kWh로 변경됨."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉 (일렉트릭)",
+    "sub_model": "더 뉴 아이오닉 일렉트릭 (2019~2021 페이스리프트)",
+    "period": "19~21",
+    "batteries": [
+      {
+        "label": "단일 옵션 (배터리 증설판)",
+        "kwh": 40.4,
+        "usable_kwh": 38.3,
+        "range_km": 271,
+        "drivetrain": "2WD (FWD, 전륜)",
+        "applies_to_trims": [
+          "N",
+          "Q"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.motorpd.com/news/articleView.html?idxno=871",
+      "https://www.top-rider.com/article/view/trd201905020002",
+      "https://www.mediapen.com/newsamp/view/430879",
+      "https://www.autoview.co.kr/news/articleView.html?idxno=67616",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD",
+      "https://en.wikipedia.org/wiki/Hyundai_Ioniq",
+      "https://ev-database.org/car/1165/Hyundai-IONIQ-Electric"
+    ],
+    "confidence": "high",
+    "notes": "생산기간 19~21 + 엔카 트림 N/Q는 정확히 '더 뉴 아이오닉 일렉트릭'(2019.5 출시 페이스리프트)에 일치. 이 세대는 배터리 옵션이 단 1개(스탠다드/롱레인지 구분 없음)이며 전륜구동 단일 구동계임.\n\n배터리 용량 표기 주의: 한국 현대 공식/언론(모터피디·탑라이더·미디어펜)·나무위키는 모두 '38.3kWh'로 표기하는데, 이는 사용가능(usable) 용량 기준임. EV Database 기준 공칭(nominal/total) 용량은 40.4kWh, usable 38.3kWh(약 95%). 즉 '38.3kWh' 한 숫자만 보면 총용량으로 오해하기 쉬우나 실제 셀팩 총용량은 40.4kWh.\n\n주행거리: 환경부 공인 1회충전 271km(한국 기준, 전 출처 일치). 참고로 WLTP는 311km, EPA는 약 270km(170mi)로 측정 기준에 따라 다름 — 한국 시판차 기준은 271km 사용.\n\n세대 구분: 이전 '아이오닉 일렉트릭'(2016~2018, 생산기간 다름)은 28kWh(usable 약 28kWh, 공인 191km)로 완전히 다름. 본 건은 19~21 생산이므로 38.3kWh판이 맞음. 아이오닉5(58/72.6→63/84)와 같은 차내 증설 분기는 이 모델엔 해당 없음(단일 옵션).\n\n가격 참고: N 4,140만원 / Q 4,440만원.\""
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉",
+    "sub_model": "아이오닉 일렉트릭",
+    "period": "16~19",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 옵션, 페이스리프트 이전 AE)",
+        "kwh": 28,
+        "usable_kwh": 28,
+        "range_km": 191,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "I",
+          "N",
+          "Q"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/1057/Hyundai-IONIQ-Electric",
+      "https://www.motorgraph.com/news/articleView.html?idxno=9541",
+      "https://autodiary.kr/2016/05/4143290/",
+      "https://www.dailycar.co.kr/content/news.html?type=view&autoId=32090",
+      "https://insideevs.com/news/353953/new-hyundai-ioniq-electric-price/",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD"
+    ],
+    "confidence": "high",
+    "notes": "생산 16~19 = 페이스리프트 이전 1세대 AE 아이오닉 일렉트릭. 배터리 옵션은 단일 = 28kWh 리튬이온폴리머. 트림 I/N/Q 모두 동일 배터리(트림별 배터리 차이 없음, 옵션·편의사양 차이만). 구동은 전륜 단일(4WD 없음), 5인승.\n\n용량 교차검증: EV-Database는 총(gross) 30.5kWh / 사용가능(usable/net) 28.0kWh 로 표기. 한국 언론·현대 보도자료는 통상 '28kWh급'으로 표기 — 즉 한국에서 흔히 말하는 28kWh는 사용가능 용량 기준에 가깝고, 공칭 총용량은 약 30.5kWh. 본 응답의 kwh=28은 한국 통용 표기(사용가능)에 맞췄으며, 총용량 30.5는 EV-DB 단일 출처라 별도 명기.\n\n주행거리: 환경부 공인(복합) 191km (도심 206 / 고속도로 173km, 2016 인증). 해외 NEDC 280km, 미국 EPA 약 124mi(200km)로 측정 기준에 따라 상이.\n\n페이스리프트 주의: 2019년 7월 출시된 '더 뉴 아이오닉 일렉트릭' 페이스리프트에서 배터리가 38.3kWh로 증설(주행거리 277km급)됨. 따라서 2019년 후반 생산분 일부는 38.3kWh일 수 있으나, 엔카 세부모델 '아이오닉 일렉트릭(생산 16~19)'·트림 I/N/Q는 페이스리프트 이전 28kWh 차량으로 분류되는 것이 정확. 38.3kWh 차량은 보통 별도 세부모델/연식으로 구분됨.\n\n확신도 high: 28kWh와 191km는 한국 언론 3곳 이상 + 해외 EV-DB로 일치. 다만 '총 vs 사용가능' 구분(30.5 vs 28)은 EV-DB 단일 출처라 그 부분만 medium."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "넥쏘",
+    "sub_model": "넥쏘 (NH2)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "고전압 구동배터리 (수소연료전지차 버퍼배터리)",
+        "kwh": 2.64,
+        "usable_kwh": 2.64,
+        "range_km": 720,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "익스클루시브",
+          "익스클루시브 스페셜",
+          "프레스티지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_Nexo",
+      "https://ko.wikipedia.org/wiki/현대_넥쏘",
+      "https://namu.wiki/w/현대 넥쏘/2세대",
+      "https://insideevs.com/news/755466/2026-hyundai-nexo-hydrogen-fuel-cell-official-specs/",
+      "https://auto.danawa.com/auto/?Work=model&Model=4677"
+    ],
+    "confidence": "medium",
+    "notes": "★중요: 넥쏘(NH2)는 배터리전기차(BEV)가 아니라 수소연료전지차(FCEV)임. 주행 에너지는 수소탱크(6.69kg, 162.6L = 54.2L×3개)에서 나오며, 표기된 2.64kWh는 회생제동/순간출력을 담당하는 소형 고전압 버퍼배터리 용량임. 일반 전기차의 58/77.4kWh 같은 대용량 구동배터리와 직접 비교 불가.\n\n배터리 옵션은 단일(스탠다드/롱레인지 구분 없음) — 모든 트림 동일한 2.64kWh / 80kW 버퍼배터리 + 6.69kg 수소탱크.\n\n교차검증 결과:\n- 고전압 버퍼배터리 2.64kWh: 영문 위키백과 + InsideEVs 두 출처에서 명시 일치(InsideEVs: 'up to 2.64 kWh, up to 80 kW'). 한국어 위키/나무위키는 배터리 출력 80kW만 명기하고 kWh는 미표기지만 80kW 수치는 일치.\n- 162.6kWh는 오독(誤讀) 주의: 실제로는 수소탱크 용량 162.6'리터'이며 kWh 아님.\n\n공인 주행거리 상충: 720km(산업부 복합신고연비 107.6km/kg, 18인치·익스클루시브 기준 = 국내 인증치) vs 826km WLTP(해외 보도) — 인증 기준이 다름. 익스클루시브 스페셜(7,928만원, 세제혜택후)도 동일 파워트레인이라 720km 적용.\n\n시스템 출력도 출처별 상충: 한국어 출처(위키/나무위키) = 연료전지 스택 94kW + 모터 150kW + 배터리 80kW. 일부 영문 보도 = 스택 110kW / 시스템 총출력 190kW(글로벌/예비 스펙). 국내시판 기준은 스택 94kW·모터 150kW로 보는 것이 타당.\n\nconfidence=medium: 2.64kWh 버퍼배터리 수치는 2개 영문 출처 일치하나 한국 공식(현대닷컴/환경부)이 kWh를 직접 명시한 1차 출처는 확보 못함. 또한 사용자가 'BEV 구동배터리'를 기대했다면 차종 자체가 FCEV라는 점이 핵심 주의사항."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "넥쏘",
+    "sub_model": "넥쏘",
+    "period": "18~현재",
+    "batteries": [
+      {
+        "label": "고전압 보조배터리 (FCEV 출력보조용)",
+        "kwh": 1.56,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "모던",
+          "프리미엄"
+        ],
+        "range_km": 630
+      }
+    ],
+    "sources": [
+      "https://www.auto-data.net/en/hyundai-nexo-i-1.56-kwh-184hp-fuel-cell-cvt-33869",
+      "https://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_%EB%84%A5%EC%8F%98",
+      "https://auto.danawa.com/auto/?Work=model&Model=3564&Tab=spec",
+      "https://www.clien.net/service/board/park/12867986"
+    ],
+    "confidence": "high",
+    "notes": "중요: 넥쏘(FE, 2018~2025 생산)는 배터리전기차(BEV)가 아니라 수소연료전지차(FCEV)임. 따라서 여기서 말하는 '배터리'는 주행 에너지원이 아니라, 가속 시 출력 보조 및 회생제동 충전을 담당하는 소형 고전압 보조배터리(리튬이온 폴리머)임. 용량은 1.56kWh로, 일반 하이브리드 배터리(쏘나타HEV 약 1.76kWh)보다도 작음. 배터리 출력은 약 40kW(일부 자료 80kW로 표기, 시스템/세대 차이). 1회충전(완충)이 아니라 '수소 1회충전' 주행거리 약 609~630km(WLTP/국내 인증 기준, 5인승 -)는 수소탱크(6.33kg)에서 나옴 — 배터리 용량과 무관. usable kWh는 공식 미공개. 트림(모던/프리미엄)에 따른 배터리 용량 차이 없음(동일 파워트레인, 옵션 차이만). 참고로 2025년 출시된 신형 넥쏘(NH2/2세대)는 보조배터리가 약 2.64kWh로 증설됨 — 본 건(18~현재 FE)과 구분 필요. BEV 같은 '스탠다드/롱레인지' 배터리 옵션 개념은 넥쏘에 존재하지 않음."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "아이오닉9",
+    "sub_model": "아이오닉9",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (롱레인지) - 2WD",
+        "kwh": 110.3,
+        "usable_kwh": 107,
+        "drivetrain": "2WD (후륜)",
+        "range_km": 532,
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "캘리그래피"
+        ]
+      },
+      {
+        "label": "단일 배터리 (롱레인지) - AWD HTRAC 항속형",
+        "kwh": 110.3,
+        "usable_kwh": 107,
+        "drivetrain": "AWD (4WD)",
+        "range_km": 503,
+        "applies_to_trims": [
+          "익스클루시브",
+          "프레스티지",
+          "캘리그래피"
+        ]
+      },
+      {
+        "label": "단일 배터리 (롱레인지) - AWD 성능형(Performance)",
+        "kwh": 110.3,
+        "usable_kwh": 107,
+        "drivetrain": "AWD (4WD) 성능형",
+        "range_km": 501,
+        "applies_to_trims": [
+          "캘리그래피"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_Ioniq_9",
+      "https://namu.wiki/w/현대 아이오닉 9",
+      "https://www.carnoon.co.kr/newcar/vehicle/11744",
+      "https://evkx.net/models/hyundai/ioniq_9/ioniq_9_awd_long_range/",
+      "https://www.hyundai.com/kr/ko/e/vehicles/ioniq9/intro"
+    ],
+    "confidence": "high",
+    "notes": "배터리는 단일 옵션. 아이오닉5(58/63·77.4/84)처럼 스탠다드/롱레인지 분기가 없으며, 모든 구동/트림(익스클루시브·프레스티지·캘리그래피, 6·7인승)이 동일하게 총 110.3kWh를 탑재함. 사용가능 용량 107.0kWh(버퍼 약 3.3kWh ≈ 3%)는 EVKX.net 출처이며 현대 공식 카탈로그에는 보통 총용량만 표기. 주행거리는 국내 환경부/현대 공인 복합 기준(19인치 휠): 2WD 532km, AWD HTRAC 항속형 503km, AWD 성능형 501km. 21인치 휠 선택 시 2WD는 511km로 하향(AWD는 503/501 유지). WLTP 기준은 더 높음(2WD 620km 등). 800V 시스템(공칭 약 610V), 350kW 충전 시 10→80% 약 24분. 생산 2025~현재 단일 세대로 아직 페이스리프트 배터리 증설 이력 없음. 엔카 변형(2WD/7인승, AWD/7인승)은 모두 110.3kWh로 동일."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "ST1",
+    "sub_model": "ST1",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드/롱레인지 구분 없음)",
+        "kwh": 76.1,
+        "drivetrain": "2WD (후륜, 160kW PMSM)",
+        "range_km": 317,
+        "applies_to_trims": [
+          "스마트",
+          "프리미엄",
+          "스타일"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_ST1",
+      "https://en.wikipedia.org/wiki/Hyundai_ST1",
+      "https://namu.wiki/w/%ED%98%84%EB%8C%80%20ST1",
+      "https://www.bloter.net/news/articleView.html?idxno=614146"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과: 한국어/영문 위키백과 + 나무위키 + 블로터 기사 모두 단일 배터리 옵션으로 일치. 배터리 옵션은 1종뿐이며 스탠다드/롱레인지 분할은 없음. ▶용량: 최종 양산/인증 기준은 76.1kWh (SK온 NMC). 단, 출시 전 블로터 기사는 정부 등록 기준 76.2kWh로 보도 — 0.1kWh 반올림 차이로 사실상 동일 배터리. ▶사용가능 용량(usable kWh): 현대가 공식 비공개 (어떤 출처에도 없음). ▶주행거리는 차체/특장 형태별로 다름 (단일 배터리, 적재중량 차이): 카고 317km / 카고냉동 298km / 샤시캡 327km / 특장 하이탑 289km. range_km 필드에는 표준 카고 317km만 기재. ▶구동: 후륜 2WD, 160kW(215hp)/350Nm PMSM 단일 모터. 충전 AC 11kW, DC 최대 350kW(10→80% 약 20분). ▶인승: 엔카 변형의 '2인승'에 해당(카고형은 2도어 2인승). 'null/-인승'은 샤시캡 등 특장 베이스 표기로 추정. ▶트림: 스타일/스마트/프리미엄 (냉동은 스마트·프리미엄, 샤시캡/하이탑은 스마트). 모든 트림 동일 76.1kWh — 트림별 배터리 차이 없음. ▶2026 연식변경(2026 ST1): 편의사양만 추가, 배터리 용량 변경 없음 — 아이오닉5식 배터리 증설 페이스리프트 아님. 생산기간 24~현재 동안 배터리 용량은 76.1kWh로 일관됨."
+  },
+  {
+    "manufacturer": "현대",
+    "model": "블루온",
+    "sub_model": "블루온",
+    "period": "10~11",
+    "batteries": [
+      {
+        "label": "단일 (LiPoly 16.4kWh)",
+        "kwh": 16.4,
+        "range_km": 140,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EV"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyundai_BlueOn",
+      "https://namu.wiki/w/현대 블루온",
+      "https://ko.wikipedia.org/wiki/현대_블루온",
+      "https://www.zdnet.co.kr/view/?no=20100909195914",
+      "https://biz.heraldcorp.com/article/2743074"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단일(스탠다드/롱레인지 구분 없음). 영문 위키백과·나무위키·ZDNet 모두 16.4kWh 리튬폴리머(LiPoly) 팩 + 1회충전 140km로 일치. 모터 최고출력 61kW/210Nm(한국어 위키백과). usable kWh는 공식 출처에 명시 없음(생략). 주의사항 3가지: (1) 일부 언론(헤럴드)은 주행거리를 144km로 표기 — 공식 제원은 140km이며 144km는 보도 오차로 추정. (2) 생산기간 표기 차이 있음: 위키백과는 2009~2010, 엔카 기준은 생산 10~11 — 블루온은 2010년 공개 후 2010년 말~2011년 정부기관/공공기관에만 시범 보급(민간 미판매)된 한정생산 차량이라 연식 범위가 자료마다 다름. (3) 페이스리프트나 배터리 증설 버전 없음 — 단종까지 단일 사양. 차데모(CHAdeMO) 급속충전, 380V 3상 급속 25분(80%)/220V 완속 6시간(완충)."
+  },
+  {
+    "manufacturer": "제네시스",
+    "model": "G80",
+    "sub_model": "일렉트리파이드 G80 (RG3)",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "프리페이스리프트 (3세대 배터리)",
+        "kwh": 87.2,
+        "usable_kwh": 82.5,
+        "range_km": 427,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "e",
+          "AWD 5인승",
+          "2021~2024 생산분"
+        ]
+      },
+      {
+        "label": "페이스리프트 (4세대 배터리)",
+        "kwh": 94.5,
+        "range_km": 475,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "e",
+          "AWD 5인승",
+          "2024.09~현재 생산분"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/1703/Genesis-G80-Electrified-Luxury",
+      "https://namu.wiki/w/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4%20Electrified%20G80",
+      "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/electrified-g80/specs.html",
+      "https://newsroom.genesis.com/ko-ko/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%252C-G80-%EC%A0%84%EB%8F%99%ED%99%94-%EB%AA%A8%EB%8D%B8-%EC%B6%9C%EC%8B%9C/",
+      "https://www.motorgraph.com/news/articleView.html?idxno=40929",
+      "https://auto.danawa.com/auto/?Work=model&Model=4401&Tab=spec"
+    ],
+    "confidence": "high",
+    "notes": "엔카 변형 'AWD/5인승/트림 e'는 RG3 세대(2021~현재) 전체를 포괄. 이 차는 전 기간 AWD 단일 구동(전·후륜 모터 합산 272kW/700Nm), 5인승 단일 구성으로 운영되어 구동/시트로는 배터리 구분 불가 → 생산시점(페이스리프트)으로 구분해야 함.\n\n[배터리 옵션 2가지 — 둘 다 단일옵션, 동시판매 아님]\n1) 프리페이스리프트(2021.12~2024.08): 87.2kWh 공칭 / 82.5kWh 사용가능(EV-database). 산업부 인증 1회충전 427km(19인치, 복합전비 4.3km/kWh). WLTP는 520km(EU기준, 참고용). 배터리=SK온 NCM. 출시가 8,281만원.\n2) 페이스리프트(2024.09~현재): '4세대 배터리' 94.5kWh로 증설(+7.3kWh), 휠베이스 130mm 연장. 제네시스 공식 KR 제원상 523V/180.9Ah, 복합 475km(도심492/고속454). 기존比 +48km. 사용가능 용량은 제조사가 별도 미공개(94.5는 공칭치).\n\n주의: 아이오닉5처럼 페이스리프트 배터리 증설(87.2→94.5)이 일어난 케이스이므로, 동일 RG3 코드라도 연식에 따라 kWh가 다름. 엔카 매물이 어느 연식인지 확인 필요. 사용가능 용량은 프리페이스리프트만 EV-DB 출처로 확인됨(82.5kWh), 페이스리프트 usable은 미확인."
+  },
+  {
+    "manufacturer": "제네시스",
+    "model": "GV70",
+    "sub_model": "일렉트리파이드 GV70 (Electrified GV70)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "초기형 (2022~2024)",
+        "kwh": 77.4,
+        "usable_kwh": 74.4,
+        "range_km": 400,
+        "drivetrain": "AWD (듀얼모터)",
+        "applies_to_trims": [
+          "e",
+          "19인치=400km / 20인치=373km"
+        ]
+      },
+      {
+        "label": "부분변경/페이스리프트 (2024년 11월 공개, 2025~현재)",
+        "kwh": 84,
+        "usable_kwh": 80,
+        "range_km": 423,
+        "drivetrain": "AWD (듀얼모터)",
+        "applies_to_trims": [
+          "e",
+          "국내 423km(추정) / WLTP 약 479km / EPA 약 423km(263mi)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/제네시스 Electrified GV70",
+      "https://en.wikipedia.org/wiki/Genesis_GV70",
+      "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/electrified-gv70/specs.html",
+      "https://www.evspecifications.com/en/news/27fa931",
+      "https://electrek.co/2024/10/25/genesis-gv70-electrified-update-gets-bigger-battery-more-range/",
+      "https://www.top-rider.com/article/view/trd202202240002"
+    ],
+    "confidence": "high",
+    "notes": "일렉트리파이드 GV70는 아이오닉5 같은 스탠다드/롱레인지 배터리 분리가 없음 — 전 라인업이 AWD 듀얼모터 단일 사양이고, 배터리 옵션이 둘로 나뉘는 유일한 기준은 '페이스리프트 시점'임. 따라서 엔카의 'AWD/5인승/트림 e'는 두 배터리(77.4 vs 84) 중 하나에 해당하며, 정확한 구분은 연식(2024년 11월 이전=77.4 / 이후=84)으로 판별해야 함. (1) 초기형 77.4kWh: E-GMP 표준팩, 사용가능 약 74.4kWh, 국내 공인 400km(19인치)/373km(20인치), 전·후 218마력 모터, 부스트 490마력. (2) 페이스리프트 84kWh: 사용가능 약 80kWh, 충전구 국내는 CCS 유지(미국 시장은 NACS로 변경), 350kW 초급속 10→80% 약 18분, 출력 약 429마력. 84kWh 국내 공인 주행거리(423km)는 시장/휠별로 편차가 있어 medium 신뢰. 77.4→84kWh 증설은 아이오닉5(58/72.6→63/84) 페리 증설과 동일 맥락의 E-GMP 배터리 업그레이드. 두 배터리 모두 총용량(공칭) 기준이며 usable은 통상 추정치. 교차검증: 나무위키·영문 위키백과·제네시스 공식·evspecifications·electrek 일치."
+  },
+  {
+    "manufacturer": "제네시스",
+    "model": "GV60",
+    "sub_model": "GV60",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "초기형(전기형) 롱레인지 - 후륜",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "range_km": 451,
+        "drivetrain": "2WD(후륜)",
+        "applies_to_trims": [
+          "스탠다드 2WD"
+        ]
+      },
+      {
+        "label": "초기형(전기형) 롱레인지 - 사륜",
+        "kwh": 77.4,
+        "usable_kwh": 74,
+        "range_km": 400,
+        "drivetrain": "AWD(사륜)",
+        "applies_to_trims": [
+          "스탠다드 AWD",
+          "퍼포먼스 AWD"
+        ]
+      },
+      {
+        "label": "페이스리프트(2025.3~) 4세대 배터리 - 후륜",
+        "kwh": 84,
+        "range_km": 481,
+        "drivetrain": "2WD(후륜)",
+        "applies_to_trims": [
+          "스탠다드 2WD"
+        ]
+      },
+      {
+        "label": "페이스리프트(2025.3~) 4세대 배터리 - 사륜",
+        "kwh": 84,
+        "range_km": 437,
+        "drivetrain": "AWD(사륜)",
+        "applies_to_trims": [
+          "스탠다드 AWD 19인치(437km)/20인치(415km)",
+          "퍼포먼스 AWD 21인치(382km)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/제네시스 GV60",
+      "https://ko.wikipedia.org/wiki/제네시스_GV60",
+      "https://en.wikipedia.org/wiki/Genesis_GV60",
+      "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/specs.html",
+      "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000171386",
+      "https://evkx.net/models/genesis/gv60/gv60_awd/"
+    ],
+    "confidence": "high",
+    "notes": "생산기간 21~현재 동안 배터리가 두 차례 사양으로 나뉨. (1) 초기형(2021~2024/2025.초): 77.4kWh(사용가능 약 74.0kWh), 800V 시스템. 후륜 451km / 사륜 약 400km. (2) 2025.1.6 공개·2025.3.6 판매 시작한 부분변경(페이스리프트, JW 코드)부터 '4세대 고전압 배터리' 84.0kWh로 증설(아이오닉5와 동일 흐름). 후륜 481km, 스탠다드 AWD 437km(19인치)/415km(20인치), 퍼포먼스 AWD 382km(21인치). 제네시스 코리아 공식 제원표는 697V×120.6Ah≈84kWh로 현재 국내 판매차=84kWh 페이스리프트임을 확인. 84kWh형 사용가능 용량(usable)은 출처마다 명시가 일관되지 않아(약 78kWh 추정) 기재 생략. 엔카 변형 '-/5인승, AWD/5인승'은 후륜·사륜 구분에 해당하며 전 모델 5인승. 두산바이크·택시형 등 특수형 없음. 주행거리는 휠 사이즈에 따라 달라짐(수치는 공인 복합 기준)."
+  },
+  {
+    "manufacturer": "KG모빌리티(쌍용)",
+    "model": "코란도",
+    "sub_model": "코란도 EV (이모션)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "이모션 (E100, 초기형 2022)",
+        "kwh": 61.5,
+        "usable_kwh": 56,
+        "range_km": 307,
+        "drivetrain": "2WD (전륜, 단일 전방모터)",
+        "applies_to_trims": [
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "label": "코란도 EV (페이스리프트/재출시 2024, BYD LFP)",
+        "kwh": 73.4,
+        "range_km": 404,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": []
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/KGM%20%EC%BD%94%EB%9E%80%EB%8F%84%20EV",
+      "https://ev-database.org/uk/car/1589/SsangYong-Korando-e-Motion",
+      "https://auto.danawa.com/auto/?Work=model&Model=4089&Lineup=49478&Tab=spec",
+      "https://www.motorgraph.com/news/articleView.html?idxno=28054",
+      "https://www.iautocar.co.kr/news/articleView.html?idxno=31599"
+    ],
+    "confidence": "high",
+    "notes": "엔카 트림 'E5'는 2022년 출시 초기형 코란도 이모션(E100)에 해당. 배터리=LG에너지솔루션 61.5kWh 리튬이온(NCM), 사용가능 약 56.0kWh, 환경부 공인 1회충전 상온 307km(저온 252km), 2WD 전륜, 190마력. E3/E5 두 트림 모두 동일 배터리·주행거리(차이는 편의사양). 다나와는 구동방식을 'RR'로 표기하나 이는 데이터 오기로 보이며 실제는 전륜(FWD/2WD)임. \n\n주의: 이 세부모델의 생산기간이 '22~현재'로 묶여 있으나, 코란도 EV는 2022년 LG 61.5kWh 배터리 공급 중단으로 단종됐다가 2024년 BYD 73.4kWh 리튬인산철(LFP)·공인 404km로 배터리 증설하여 '코란도 EV'로 재출시됨(페이스리프트 배터리 증설 사례). 따라서 '이모션' 명칭+E5 트림은 61.5kWh 초기형이며, 73.4kWh/404km는 2024년 이후 재출시판으로 구분 필요. 해외(WLTP) 기준 주행거리는 약 290km(국내 307km는 KR 인증)."
+  },
+  {
+    "manufacturer": "KG모빌리티(쌍용)",
+    "model": "토레스",
+    "sub_model": "토레스 EVX",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (출시 초기, 2023~2025년형)",
+        "kwh": 73.4,
+        "usable_kwh": 73.4,
+        "range_km": 433,
+        "drivetrain": "2WD (전륜, FF)",
+        "applies_to_trims": [
+          "E5",
+          "E7",
+          "TV5",
+          "TV7"
+        ]
+      },
+      {
+        "label": "알파 (페이스리프트 증설, 2025년형~현재)",
+        "kwh": 83,
+        "usable_kwh": 80.6,
+        "range_km": 452,
+        "drivetrain": "2WD (전륜, FF)",
+        "applies_to_trims": [
+          "E5",
+          "E7",
+          "TV5",
+          "TV7"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/KGM%20%ED%86%A0%EB%A0%88%EC%8A%A4%20EVX",
+      "https://auto.danawa.com/auto/?Work=model&Model=4492&Lineup=50378&Tab=spec",
+      "https://auto.danawa.com/news//?Tab=N1&Work=detail&no=5790615",
+      "https://www.carnoon.co.kr/newcar/vehicle/11418",
+      "https://ev-database.org/car/3389/KGM-Torres-EVX-806-kWh",
+      "https://www.top-rider.com/news/articleView.html?idxno=63682",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=529885"
+    ],
+    "confidence": "high",
+    "notes": "배터리는 두 세대(증설 전/후)로 명확히 구분됨. (1) 출시 초기 73.4kWh LFP(중국 BYD 블레이드, cell-to-pack), 환경부 복합 433km(18인치)·405km(20인치)·저온 333km. (2) 2025년형 '알파' 페이스리프트에서 80.6kWh(사용가능)로 증설, gross 약 83kWh, 복합 452km(18인치)·433km(20인치). 두 세대 모두 전륜 단일모터 207PS(152kW)/339Nm, 4WD 없음. 출시 후 약 1년 6개월 만의 배터리 증설이라 아이오닉5형 페이스리프트 증설 케이스에 해당하니 연식 구분 필수(73.4 → 80.6).\n\n트림/변형 매핑: E5·E7 = 일반 승용 5인승 SUV. TV5·TV7 = 토레스 밴(Torres Van) = 화물형(2열 폴딩/적재) 구성으로, 엔카의 '2인승' 변형이 이 밴 라인업에 해당하고 '5인승'은 E5/E7 승용. EV-Database WLTP 기준은 462km(73.4)로 환경부(433km) 수치와 측정기준이 다름. 환경부 복합거리(433/452km)가 한국 시판 공인값. usable_kwh 80.6은 EV-Database/제조사 보도자료 일치 교차검증됨.\""
+  },
+  {
+    "manufacturer": "KG모빌리티(쌍용)",
+    "model": "무쏘 (Musso)",
+    "sub_model": "무쏘 EV (O100)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (옵션 없음)",
+        "kwh": 80.6,
+        "range_km": 401,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "MX",
+          "블랙엣지"
+        ]
+      },
+      {
+        "label": "단일 배터리 (옵션 없음)",
+        "kwh": 80.6,
+        "range_km": 342,
+        "drivetrain": "AWD (듀얼모터)",
+        "applies_to_trims": [
+          "MX",
+          "블랙엣지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/KGM%20%EB%AC%B4%EC%8F%98%20EV",
+      "https://auto.danawa.com/auto/?Work=model&Model=4666&Tab=spec",
+      "https://www.carnoon.co.kr/newcar/vehicle/11750-116000",
+      "https://www.carguy.kr/news/articleView.html?idxno=53313"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 1종뿐 (스탠다드/롱레인지 구분 없음). 전 트림·전 구동에 동일하게 80.6kWh LFP 블레이드 배터리(BYD 공급) 탑재. kWh 값은 다나와·카눈·카가이 3개 출처가 모두 80.6kWh로 일치 (검색 스니펫에 80.7/80.8kWh 표기도 일부 보였으나 정식 제원표 출처는 모두 80.6kWh이므로 80.6 채택). 사용가능 용량(usable kWh)은 어느 출처에도 공표되지 않아 미상. 주행거리는 17인치 휠 기준 상온 복합 2WD 401km / AWD 342km (출처에 따라 400/340으로 반올림 표기). 저온 복합은 2WD 357km / AWD 297km. 전비 2WD 4.2km/kWh, AWD 3.4km/kWh. 출력 2WD 207ps / AWD 413ps. 트림(MX·블랙엣지)은 사양·외관 차이일 뿐 배터리 용량은 동일하며 트림에 따른 배터리 분화 없음. 페이스리프트 배터리 증설 이슈는 25년 출시 신모델이라 아직 해당 없음."
+  },
+  {
+    "manufacturer": "쉐보레(GM대우/한국GM)",
+    "model": "볼트 EV",
+    "sub_model": "뉴 볼트 EV (생산 21~23)",
+    "period": "21~23",
+    "batteries": [
+      {
+        "label": "단일 (대용량)",
+        "kwh": 66,
+        "usable_kwh": 64,
+        "range_km": 414,
+        "drivetrain": "2WD (전륜구동)",
+        "applies_to_trims": [
+          "EV 프리미어"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ko.wikipedia.org/wiki/쉐보레_볼트",
+      "https://namu.wiki/w/쉐보레 볼트 EV",
+      "https://news.chevrolet.co.kr/ko/chevrolet/newsroom.detail.html/Pages/news/kr/ko/2021/august/0811_chevroletbolt.html",
+      "https://auto.danawa.com/auto/?Work=model&Model=3424&Tab=spec",
+      "https://www.hankyung.com/article/202006096555i",
+      "https://www.evpost.co.kr/wp/쉐보레-볼트-euv-ev-가격-스펙-공개-3천만원-중반-구입가능/"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단일임 (스탠다드/롱레인지 구분 없음 — 아이오닉5 같은 복수 옵션 아님). 공칭 총용량 66kWh, LG에너지솔루션 리튬이온, 288셀. 한국 도입은 최상위 '프리미어(Premier)' 1개 트림만 수입, 전륜 2WD, 5인승. 환경부 공인 1회충전 복합 주행거리 414km(복합 전비 5.4km/kWh), 모터 150kW/204PS·36.7kg.m. 연식별 주의: 한국에서는 2020~2023 뉴 볼트 EV 전 기간 동일하게 66kWh/414km로 공인·표기됨(2017~2019 구형 60kWh/383km와 구분). 미국 시장에서는 후기 연식(MY2022+)을 일부 자료가 65kWh로 표기하나, 한국 공인/제조사/다나와 표기는 일관되게 66kWh이므로 66kWh 채택. usable(사용가능) 약 64kWh는 실측 추정치(자료에 따라 62~65kWh)로, 한국 공인 스펙시트는 usable을 별도 공개하지 않고 66kWh를 정격으로 표기 — usable_kwh는 medium 신뢰. EUV(별도 모델)는 403km/65kWh로 본 모델과 다름, 혼동 주의."
+  },
+  {
+    "manufacturer": "쉐보레(GM대우/한국GM)",
+    "model": "볼트 EV (Bolt EV)",
+    "sub_model": "볼트 EV (1세대, 생산 17~21)",
+    "period": "17~21",
+    "batteries": [
+      {
+        "label": "초기형 (2017~2019년형)",
+        "kwh": 60,
+        "usable_kwh": 60,
+        "range_km": 383,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "EV",
+          "EV LT 디럭스",
+          "EV 프리미어"
+        ]
+      },
+      {
+        "label": "증설형 / 뉴 볼트 EV (2020~2021년형)",
+        "kwh": 66,
+        "usable_kwh": 66,
+        "range_km": 414,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "EV",
+          "EV LT 디럭스",
+          "EV 프리미어"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+      "https://namu.wiki/w/%EC%89%90%EB%B3%B4%EB%A0%88%20%EB%B3%BC%ED%8A%B8%20EV",
+      "https://media.chevrolet.com/media/kr/ko/chevrolet/news.detail.html/content/Pages/news/kr/ko/2020/June/0609_Chevrolet.html",
+      "https://www.top-rider.com/news/articleView.html?idxno=28714",
+      "https://auto.danawa.com/auto/?Work=model&Model=4080"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 스탠다드/롱레인지 같은 동시 선택지가 아니라 '연식(페이스리프트) 기준 증설'임. 트림(EV/EV LT 디럭스/EV 프리미어)·구동(단일 전륜 2WD)에 따른 배터리 차이는 없고, 연식만이 용량 변수임. ▶2017~2019년형: 60kWh, 한국 인증 383km(EPA 238mi). ▶2020년형(뉴 볼트 EV, 2020.6 국내 인증)부터 배터리팩 약 10% 증설로 66kWh, 환경부 인증 414km(EPA 259mi/417km)로 상향 — 셀 수(288셀)는 동일하고 화학조성 변경. 따라서 같은 '볼트 EV' 매물이라도 2019 이하면 60kWh/383km, 2020 이상이면 66kWh/414km로 봐야 함(아이오닉5 58→63 증설과 유사한 페이스리프트 증설 사례). usable과 nominal(총)을 별도 구분 공개한 출처는 드물어 양쪽 값을 동일하게 표기함(실 가용은 60kWh형 약 57, 66kWh형 약 65로 추정되나 공식 분리수치 미확인). 별개로 2017~2019년형은 미국 등에서 LG 배터리 화재 리콜로 일부 차량이 더 큰 용량 팩으로 교체된 이력이 있어 개체별 실측 편차 가능."
+  },
+  {
+    "manufacturer": "쉐보레(GM대우)",
+    "model": "볼트 EUV",
+    "sub_model": "볼트 EUV",
+    "period": "21~23",
+    "batteries": [
+      {
+        "label": "단일 배터리 (옵션 구분 없음)",
+        "kwh": 66,
+        "usable_kwh": 65,
+        "range_km": 403,
+        "drivetrain": "2WD (전륜, FWD)",
+        "applies_to_trims": [
+          "레드라인",
+          "프리미어"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EC%89%90%EB%B3%B4%EB%A0%88%20%EB%B3%BC%ED%8A%B8%20EUV",
+      "https://auto.danawa.com/auto/?Work=model&Model=3756&Tab=spec",
+      "https://ikkujun.com/1337",
+      "https://www.evspecs.org/technical-data/chevrolet/bolt-euv/battery-capacity-usable-kwh"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단일(스탠다드/롱레인지 같은 구분 없음). 레드라인/프리미어 트림은 외장 디자인·스피커 수만 다르고 배터리/모터 동일(204ps, 36.7kg·m, 전륜 FWD).\n\n[kWh 수치 출처별 차이 — 교차검증 결과]\n- 한국 시장(나무위키·다나와·ikkujun 등 환경부/MOLIT 인증 기준): 66 kWh, 복합 1회충전 403km(도심 440 / 고속 358), 복합 전비 5.5km/kWh. → 국내 카탈로그·인증 표기는 66 kWh가 표준.\n- EVspecs(국제/WLTP 기준): gross 68 kWh / usable 65 kWh, WLTP 397km. 셀 화학 NMC, GM BEV2 플랫폼.\n- 미국 EPA 기준: 65 kWh, 247마일(약 397km).\n→ 종합: 공칭(국내표기) 66kWh, 사용가능 약 65kWh. gross를 68로 보는 자료도 있으나 국내 인증 표기는 66. usable_kwh=65로 정리.\n\n[연식/세대 주의] 볼트 EUV는 1세대 단일 세대(2021~2023 단종)로 페이스리프트에 따른 배터리 증설 없음. 다만 형제차 볼트 EV는 초기(2017~2019) 60kWh → 후기(2020~2023) 65~66kWh로 증설된 이력이 있어 EUV(2021 출시)는 처음부터 후기형 66kWh급 팩 사용. 아이오닉5식 페리 증설 이슈 해당 없음. LG에너지솔루션 288셀 NMC 팩."
+  },
+  {
+    "manufacturer": "르노코리아(삼성)",
+    "model": "SM3",
+    "sub_model": "SM3 Z.E.",
+    "period": "13~20",
+    "batteries": [
+      {
+        "label": "초기형 (22kWh, 2013~2017)",
+        "kwh": 22,
+        "range_km": 135,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "RE",
+          "SE",
+          "SE 플러스"
+        ]
+      },
+      {
+        "label": "페이스리프트 (35.9kWh, 2017/2018~2020)",
+        "kwh": 35.9,
+        "range_km": 213,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "RE",
+          "SE",
+          "SE 플러스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samsung_SM3_Z.E.",
+      "https://www.auto-data.net/en/renault-samsung-sm3-ii-l38-z.e.-35.9-kwh-95hp-33178",
+      "https://electrek.co/2017/11/23/renault-samsung-motors-sm3-ze-all-electric-sedan/",
+      "https://www.greencarreports.com/news/1113996_renault-samsung-sm3-ze-electric-sedan-battery-upgrade-gives-130-mile-range-in-korean-tests",
+      "https://www.hankookilbo.com/News/Read/201711231795895537",
+      "https://www.daangn.com/kr/cars/sm3-z-e-bev-22kwh-fwd-se-bmvscsz5xjs8/"
+    ],
+    "confidence": "medium",
+    "notes": "SM3 Z.E.는 생산기간(2013~2020) 중 배터리가 한 차례 증설되어 두 가지 옵션이 존재합니다. (1) 초기형 22kWh(LG화학), 공인 주행거리 약 135km — 2013년 부산공장 양산. (2) 2017년 11월 공개·2018년형부터 35.9kWh(약 36kWh)로 증설, 공인 213km(한국 인증 기준). 모터/토크는 양 세대 공통 70kW(95마력)/226Nm. 트림 RE/SE/SE 플러스는 중고 매물 기준 두 배터리 모두에 걸쳐 동일 명칭으로 존재하므로(당근 매물에서 22kWh RE/SE/SE 플러스 확인) 트림만으로 배터리를 특정할 수 없고 연식으로 구분해야 합니다. 엔카 변형 '-/5인승'은 일반 승용형(택시형 별도 운영분이 일부 존재할 수 있음). usable kWh(사용가능 용량)는 어느 공인 출처에서도 명시되지 않아 미상 — 22/35.9는 모두 공칭(gross) 값. 일부 영문 기사가 22kWh를 24kWh로 혼기하나 한국·다수 출처는 22kWh로 일치. confidence를 medium으로 둔 이유: kWh·주행거리는 교차검증 일치하나 usable 용량 부재 + 트림↔배터리 1:1 매핑은 연식 의존이라 변형명만으로는 불확실."
+  },
+  {
+    "manufacturer": "르노코리아(삼성)",
+    "model": "트위지",
+    "sub_model": "트위지",
+    "period": "17~22",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 옵션)",
+        "kwh": 6.1,
+        "usable_kwh": 6.1,
+        "range_km": 55,
+        "drivetrain": "2WD (RWD)",
+        "applies_to_trims": [
+          "라이프",
+          "인텐스",
+          "카고",
+          "1인승",
+          "2인승"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/르노%20트위지",
+      "https://en.wikipedia.org/wiki/Renault_Twizy",
+      "https://auto.danawa.com/auto/?Work=model&Model=3446&Lineup=44906&Tab=spec"
+    ],
+    "confidence": "high",
+    "notes": "초소형 전기차(쿼드리사이클). 국내 2017~2022 단일 세대로 판매되어 페이스리프트에 따른 배터리 증설 없음 → 배터리 옵션은 6.1kWh 단 하나뿐(스탠다드/롱레인지 구분 없음). 모든 변형(1인승 카고형, 2인승)과 트림(라이프/인텐스/카고)이 동일한 6.1kWh 리튬이온 배터리 공유. 1인승 카고형은 부산 생산 제외로 재고 소진 후 단종.\n\n배터리 용량: 명목/공칭 6.1kWh로 통일 표기. 일부 해외 EV 스펙 DB(EVspecs 등)는 gross 약 7kWh / usable 6.1kWh로 구분하나, 위키백과·나무위키·국내 자료는 6.1kWh 단일 수치만 표기하므로 본 표에서는 kwh=usable_kwh=6.1로 둠(국내 인증 기준).\n\n주행거리 주의: range_km=55는 한국 환경부/정부 공인 복합 주행거리 기준. 유럽(NEDC) 인증치는 100km, 르노 실주행 공표치는 약 80km로 출처별 상이 — 한국 시판차 기준이므로 55km 채택. 충전 약 3시간 30분(가정용 220V), 최고속도 80km/h."
+  },
+  {
+    "manufacturer": "르노코리아(르노삼성)",
+    "model": "조에 (ZOE)",
+    "sub_model": "조에",
+    "period": "20~22",
+    "batteries": [
+      {
+        "label": "단일 (ZE50)",
+        "kwh": 54.5,
+        "usable_kwh": 52,
+        "range_km": 309,
+        "drivetrain": "2WD (전륜, R110 모터)",
+        "applies_to_trims": [
+          "인텐스",
+          "인텐스 에코",
+          "젠"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/르노 조에",
+      "https://en.wikipedia.org/wiki/Renault_Zoe",
+      "https://ev-database.org/car/1164/Renault-Zoe-ZE50-R110",
+      "https://m.renault.co.kr/vehicles/zoe_spec.jsp",
+      "https://www.motorgraph.com/news/articleView.html?idxno=26201"
+    ],
+    "confidence": "high",
+    "notes": "국내 시판(2020.08~2022) 르노삼성/르노코리아 조에는 2세대 ZE50 세대만 도입되었고 배터리 옵션은 단 1종(스탠다드/롱레인지 구분 없음)이다. 총용량은 한국 자료가 54.5kWh, EV-database가 54.7kWh로 약간 상충하나 모두 사용가능 용량 52kWh로 일치 → usable=52kWh가 가장 신뢰도 높음. 국내 환경부/제조사 공인 1회충전 주행거리는 상온 309km(저온 약 236km)이며, 해외 WLTP 수치(385~395km)와 구분 필요. 구동은 전륜 2WD 단일(R110 80kW 모터), 인텐스·인텐스 에코·젠 트림은 모두 동일 배터리이며 트림 차이는 편의/외장 사양일 뿐 배터리 용량 차이는 없다. 1세대 ZE40(41kWh usable)은 국내 미도입. 아이오닉5형 페이스리프트 배터리 증설은 국내 조에 운영기간(20~22) 중 없었음. 충전: 50kW DC 급속(미디어), 22kW AC."
+  },
+  {
+    "manufacturer": "르노코리아(삼성)",
+    "model": "세닉 E-Tech 일렉트릭",
+    "sub_model": "세닉",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "롱레인지 (한국 단일 옵션, EV87 / 컴포트 레인지)",
+        "kwh": 87,
+        "usable_kwh": 87,
+        "range_km": 460,
+        "drivetrain": "2WD (전륜구동)",
+        "applies_to_trims": [
+          "아이코닉",
+          "테크노",
+          "테크노 플러스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://renault.co.kr/ko/inside/news_view.jsp?syr=all&sort=&searchType=&searchStr=&index=1621",
+      "https://www.carnoon.co.kr/newcar/vehicle/11799",
+      "https://ko.wikipedia.org/wiki/르노_세닉_E-테크",
+      "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+      "https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp"
+    ],
+    "confidence": "high",
+    "notes": "한국 시판(르노코리아, 2025~)은 87kWh 단일 배터리만 출시. 유럽 사양의 60kWh 스탠다드(170PS, 420km WLTP)는 국내 미판매이므로 제외함. 한국형은 고용량(High/Comfort Range) 버전 1종만으로, 3개 트림(테크노/테크노 플러스/아이코닉) 전부 배터리 사양 동일 — 트림 차이는 편의·내장·ADAS이며 배터리 옵션 분기 없음. 구동은 전륜(2WD) 단일, 모터 160kW(218PS)/300Nm, 1단 변속. 배터리는 LG에너지솔루션 NCM. 주행거리는 산업부 인증 복합 460km(도심 486 / 고속도로 429km, 19인치 기준; 휠 사이즈에 따라 변동 가능). 유럽 WLTP는 약 590~623km로 한국 인증치(460km)와 측정 기준이 달라 큰 차이가 나니 한국 공인값을 기준으로 사용할 것. 총/사용가능 용량 표기는 출처별로 약간 상충: 국내 보도·제원은 '87kWh'를 헤드라인으로 표기, EV Database는 nominal 92.0 / usable 87.0kWh, 영문 위키 계열은 gross 91 / usable 87kWh로 기재. 모델명 'EV87'의 87이 사용가능 용량을 의미하므로 usable 87kWh로 정리. 페이스리프트/배터리 증설 이력은 현재(2026-06) 국내 없음 — 출시 초기 사양 그대로."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "sub_model": "i4",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "롱레인지 (단일 대용량 팩 - eDrive40 후륜)",
+        "kwh": 83.9,
+        "usable_kwh": 81.5,
+        "drivetrain": "2WD",
+        "range_km": 493,
+        "applies_to_trims": [
+          "eDrive40 M 스포츠",
+          "eDrive40 M 스포츠 프로",
+          "eDrive40 M 스포츠 프로 퍼스트 에디션"
+        ]
+      },
+      {
+        "label": "롱레인지 (단일 대용량 팩 - M50 xDrive 사륜)",
+        "kwh": 83.9,
+        "usable_kwh": 81.5,
+        "drivetrain": "AWD",
+        "range_km": 416,
+        "applies_to_trims": [
+          "M50",
+          "M50 프로"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/BMW_i4",
+      "https://ev-database.org/car/3205/BMW-i4-eDrive40",
+      "https://www.press.bmwgroup.com/korea/article/detail/T0449444KO/",
+      "https://namu.wiki/w/BMW%20i4"
+    ],
+    "confidence": "high",
+    "notes": "엔카에 표시된 5개 트림은 모두 단일 대용량(롱레인지) 배터리 팩 1종을 공유함 → 배터리 옵션이 트림별로 나뉘지 않음. 구동방식만 다름: eDrive40 계열(M 스포츠/프로/퍼스트에디션)은 후륜구동(RWD), M50/M50 프로는 사륜구동(xDrive/AWD). 두 구동 모두 동일한 83.9kWh(공칭, 일부 자료 83.0kWh) / 사용가능 약 81.5kWh(자료별 80.7~81.5kWh 편차) 팩 사용.\n\n[교차검증] 위키백과(영문): eDrive40·xDrive40·M50 모두 83.9kWh gross / 81.5kWh usable. EV-Database: eDrive40 83.9kWh nominal / 81.3kWh usable. BMW Korea 보도자료/국내 매체는 반올림하여 '84kWh'로 표기. 세 출처 모두 ~84kWh 단일 팩으로 일치.\n\n[주행거리] eDrive40(RWD) WLTP 493~590km(국내 환경부 인증은 더 짧음, 일부 자료 420km대), M50(AWD) WLTP 416~510km. 국내 환경부 인증 주행거리는 17~20인치 휠/옵션에 따라 변동.\n\n[페이스리프트 주의] 아이오닉5처럼 페이스리프트에서 배터리를 증설(58/72.6→63/84)한 사례와 달리, i4(G26)는 2021 출시부터 2024 LCI까지 동일하게 83.9kWh 팩을 유지함(배터리 증설 없음). 따라서 생산기간 21~현재 전 구간 동일 용량으로 봐도 무방. 다만 국내 미판매인 eDrive35(70.2kWh/66kWh usable, 후륜)는 별도 소용량 팩이며 본 엔카 트림(M50/eDrive40)에는 해당 없음.\n\nnamu.wiki는 403으로 직접 본문 확인 불가했으나 검색 스니펫상 '84kWh'로 위 자료와 일치.\""
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i5",
+    "sub_model": "i5 (G60)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "표준(단일 배터리) - 후륜 eDrive40",
+        "kwh": 84.4,
+        "usable_kwh": 81.2,
+        "range_km": 453,
+        "drivetrain": "2WD (RWD)",
+        "applies_to_trims": [
+          "eDrive 40",
+          "eDrive 40 M 스포츠",
+          "eDrive 40 M 스포츠 프로",
+          "40 M 스포츠",
+          "40 M 스포츠 프로"
+        ]
+      },
+      {
+        "label": "표준(단일 배터리) - 사륜 M60 xDrive",
+        "kwh": 84.4,
+        "usable_kwh": 81.2,
+        "range_km": 371,
+        "drivetrain": "4WD (xDrive / AWD)",
+        "applies_to_trims": [
+          "M60",
+          "M60 xDrive"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/BMW%20i5",
+      "https://ev-database.org/car/1907/BMW-i5-M60-xDrive-Sedan",
+      "https://ev-database.org/uk/car/1906/BMW-i5-eDrive40-Saloon",
+      "https://www.bmw.co.kr/ko/all-models/bmw-i/i5/bmw-i5-overview.html",
+      "https://www.bmw.co.kr/ko/all-models/m-series/bmw-i5-m60/bmw-i5-m60xdrive-overview.html",
+      "https://www.auto-data.net/en/bmw-i5-sedan-g60-83.9-kwh-394hp-xdrive40-51139"
+    ],
+    "confidence": "high",
+    "notes": "i5(G60, 생산 2023~현재)는 모든 트림이 단일 배터리 팩을 공유함 — 스탠다드/롱레인지 같은 용량 분기가 없음. 총(공칭) 약 84.4kWh / 사용가능 81.2kWh (버퍼 약 3.2kWh). 출처별로 총용량 표기가 83.9~84.4kWh로 소폭 차이(자료 반올림 차이)나며, 사용가능 용량 81.2kWh는 EV Database 등 다수 출처에서 일치. 트림 차이(eDrive40/xDrive40/M60)는 배터리 용량이 아니라 모터 구성(후륜 vs 사륜)·출력 차이임. 주행거리는 구동방식에 따라 갈림: 한국 공인(환경부 인증) 기준 eDrive40 후륜 453km, M60 xDrive 사륜 371km (BMW코리아·다나와 기준). 엔카의 '40 M 스포츠/프로'(구동표기 없음)와 'eDrive 40 ...'는 모두 후륜 eDrive40 동일 파워트레인의 트림명일 가능성이 높음. xDrive40(사륜 40)은 글로벌엔 존재하나 한국 정식 라인업에선 eDrive40·M60 중심이라 별도 공인거리는 확인 못함(WLTP 기준 약 500~516km대). 참고로 i5는 페이스리프트 전이라 아이오닉5 같은 배터리 증설(58→63 등) 이슈는 현재 해당 없음."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i7",
+    "sub_model": "i7 (G70)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리팩 (전 트림 공통) - eDrive50",
+        "kwh": 105.7,
+        "usable_kwh": 101.7,
+        "drivetrain": "2WD (후륜구동)",
+        "range_km": 455,
+        "applies_to_trims": [
+          "eDrive 50 M 스포츠",
+          "eDrive 50 M 스포츠 리미티드"
+        ]
+      },
+      {
+        "label": "단일 배터리팩 (전 트림 공통) - xDrive60",
+        "kwh": 105.7,
+        "usable_kwh": 101.7,
+        "drivetrain": "4WD (xDrive 사륜구동)",
+        "range_km": 438,
+        "applies_to_trims": [
+          "60 M 스포츠",
+          "60 M 스포츠 인디비주얼",
+          "60 디자인 퓨어 엑셀런스"
+        ]
+      },
+      {
+        "label": "단일 배터리팩 (전 트림 공통) - M70 xDrive",
+        "kwh": 105.7,
+        "usable_kwh": 101.7,
+        "drivetrain": "4WD (xDrive 사륜구동)",
+        "range_km": 391,
+        "applies_to_trims": [
+          "M70",
+          "M70 M 퍼포먼스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/BMW_7_Series_(G70)",
+      "https://namu.wiki/w/BMW%20i7",
+      "https://www.press.bmwgroup.com/usa/article/detail/T0413219EN_US/the-bmw-i7-m70-xdrive?language=en_US",
+      "https://www.auto-data.net/en/bmw-i7-g70-105.7-kwh-455hp-edrive50-51756",
+      "https://evkx.net/models/bmw/i7/i7_xdrive60/",
+      "https://blog.carlab.kr/2026/02/25/3594/"
+    ],
+    "confidence": "high",
+    "notes": "핵심 결론: i7 (G70)의 모든 전기 변형(eDrive50 RWD, xDrive60 AWD, M70 xDrive AWD)은 동일한 단일 배터리팩을 사용 — 총 105.7kWh(공칭), 사용가능 약 101.7kWh(버퍼 약 4kWh, 3.8%). 스탠다드/롱레인지 같은 배터리 옵션 분기는 없음. 트림(60/M70/eDrive50)·구동만 다를 뿐 셀 용량은 동일.\n\n주행거리 주의: range_km는 국내(환경부 인증) 복합 기준 추정치 — eDrive50 약 455km, xDrive60 약 438km, M70 약 391km. 동일 출처계열(나무위키/국내 블로그)에서 일관. 단 출처마다 미세 편차 있고 연식/타이어/옵션(휠 사이즈)에 따라 변동. WLTP 기준은 더 높음(eDrive50 575~611km, xDrive60 591~625km, M70 488~560km, 영문 위키 인용) — 국내 공인치와 혼동 금지.\n\n세대/연식: eDrive50은 후행 추가 변형(초기 출시는 xDrive60·M70 위주, eDrive50은 2023~2024 합류)이나 동일 G70 플랫폼·동일 팩이라 배터리 증설 이슈 없음. 아이오닉5식 페이스리프트 용량 증대 사례에 해당하지 않음.\n\n교차검증: 영문 위키백과 + 나무위키 + BMW 그룹 프레스 + auto-data + EVKX + 국내 카랩 블로그 6개 출처가 105.7/101.7kWh로 일치."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "iX3",
+    "sub_model": "iX3",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드, 단일 옵션)",
+        "kwh": 80,
+        "usable_kwh": 73.83,
+        "range_km": 344,
+        "drivetrain": "2WD (후륜구동, 단일 모터)",
+        "applies_to_trims": [
+          "M 스포츠",
+          "전 트림 공통"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/BMW_iX3_(G08)",
+      "https://auto.danawa.com/auto/?Work=model&Model=3983&Tab=item",
+      "https://namu.wiki/w/BMW%20iX3"
+    ],
+    "confidence": "high",
+    "notes": "생산 21~현재 + 엔카 5인승/M스포츠 트림은 1세대 iX3(G08, 2021~2024)에 해당. 이 세대는 배터리 옵션이 단 1종(단일)으로, 스탠다드/롱레인지 구분 없음. ▶용량 교차검증: 영문 위키백과(G08 전용 페이지) = 총 80kWh / 사용가능 73.83kWh, 후륜구동(RWD) 단일모터 210kW. 다나와·나무위키(국내) = 74kWh로 표기(=사용가능 73.83을 반올림한 수치). 즉 '74kWh'와 '80kWh'는 상충이 아니라 각각 usable/gross. 배터리 제조사 CATL. ▶주행거리: 한국 환경부 공인 1회충전 344km, WLTP 기준 460km(영문위키)~615km(국내 일부 표기, 측정조건 차이). 한국 공인 기준은 344km 채택 권장. ▶주의: 2025년 출시된 2세대 '뉴 iX3'(코드네임 NA5, Neue Klasse, 800V)는 108.7kWh(50 xDrive)/82.6kWh(40)로 완전히 다른 모델 — 같은 sub_model로 혼동 금지. 본 답변은 생산 21~현재 + M스포츠 조건에 맞춰 1세대 G08 기준으로 작성. 신형 NA5는 별도 세부모델로 분리되어야 함."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "iX",
+    "sub_model": "iX (i20, 생산 2021~현재)",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (xDrive40, 프리페이스리프트 2021~2024)",
+        "kwh": 76.6,
+        "usable_kwh": 71,
+        "range_km": 313,
+        "drivetrain": "AWD(xDrive)",
+        "applies_to_trims": [
+          "40 퍼스트에디션"
+        ]
+      },
+      {
+        "label": "롱레인지 (xDrive50, 프리페이스리프트 2021~2024)",
+        "kwh": 111.5,
+        "usable_kwh": 105,
+        "range_km": 447,
+        "drivetrain": "AWD(xDrive)",
+        "applies_to_trims": [
+          "50 스포츠 스페셜 에디션",
+          "50 스포츠 플러스"
+        ]
+      },
+      {
+        "label": "고성능 (M70 xDrive, 페이스리프트 2025~)",
+        "kwh": 112.8,
+        "usable_kwh": 108.9,
+        "range_km": 448,
+        "drivetrain": "AWD(xDrive)",
+        "applies_to_trims": [
+          "M70"
+        ]
+      },
+      {
+        "label": "엔트리 (xDrive45, 페이스리프트 2025~) — 트림명 매칭 불확실",
+        "kwh": 100.1,
+        "usable_kwh": 94.8,
+        "range_km": 446,
+        "drivetrain": "AWD(xDrive)",
+        "applies_to_trims": [
+          "45 M 스포츠"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/BMW_iX",
+      "https://ev-database.org/car/3109/BMW-iX-xDrive45",
+      "https://www.press.bmwgroup.com/korea/article/detail/T0451799KO/",
+      "https://www.top-rider.com/news/articleView.html?idxno=61500",
+      "https://www.motorgraph.com/news/articleView.html?idxno=28632",
+      "https://www.arenaev.com/bmw_ix_m70_2025-specs-795.php",
+      "https://www.bmwblog.com/2025/03/04/2026-bmw-ix-m70-review-performance-range-seats/"
+    ],
+    "confidence": "medium",
+    "notes": "**중요: 이 엔카 '세부모델 iX(생산 21~현재)'는 페이스리프트 전후 2세대를 한 묶음으로 표기하고 있어 트림→배터리 매칭에 주의가 필요함.**\n\n[세대/배터리 구분 — 교차검증 결과]\n- xDrive40 (프리페이스리프트 2021~2024): 총 76.6kWh / 사용가능 71kWh. 국내 인증 313km, WLTP 372~425km. (Wikipedia + 한국 언론 일치)\n- xDrive50 (프리페이스리프트 2021~2024): 총 111.5kWh / 사용가능 105kWh. 국내 인증 447km, WLTP 549~630km. (Wikipedia + 데일리카/모터그래프 일치)\n- M60 (프리페이스리프트 2024 국내 추가): xDrive50과 동일한 111.5kWh 팩 사용. → 위 리스트에 'M60'은 없고 'M70'만 있으므로 별도 항목 생략.\n- M70 xDrive (페이스리프트 2025~): 총 112.8kWh(미국) / 사용가능 108.9kWh(유럽). WLTP 600km, 국내 인증 약 448km, 659마력. (BMW Press + ArenaEV + BMWBlog 일치)\n- xDrive45 (페이스리프트 2025~): 총 100.1kWh / 사용가능 94.8kWh. WLTP 490~602km. (EV-Database + Wikipedia 일치)\n- xDrive60 M Sport (페이스리프트 2025~, 50의 후신): 총 113.4kWh / 사용가능 약 109.1kWh, WLTP 최대 701km. → 리스트에 없어 항목 생략.\n\n[트림 매칭 불확실성 — confidence medium 이유]\n1) '45 M 스포츠' — xDrive45는 전 세계적으로 '페이스리프트(2025~)'에서만 쓰인 명칭. 하지만 같은 리스트에 프리페이스리프트의 '40 퍼스트에디션'(출시 초기 한정판)·'50 스포츠'가 섞여 있어, 엔카 정규화 과정의 명칭 혼선 가능성 있음. xDrive45=94.8/100.1kWh로 기재했으나 매칭은 재확인 필요.\n2) 'M70'은 프리페이스리프트 국내 최상위였던 M60(111.5kWh)이 아니라 페이스리프트 명칭(112.8/108.9kWh)임. 연식에 따라 배터리가 다름.\n3) 국내(환경부/공단) 인증 주행거리는 WLTP보다 보수적이며 히터 테스트 등 기준 차이로 외국 수치와 다름.\n\n[페이스리프트 배터리 증설 주의] 프리페이스리프트 50/M60(111.5kWh)에서 페이스리프트 60(113.4kWh)/M70(112.8kWh)으로 셀 화학·인버터 개선을 통해 가용량이 증대됨(물리적 크기는 유사). 따라서 동일 'iX' 세부모델 안에서도 연식 확인이 필수."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i3",
+    "sub_model": "i3",
+    "period": "14~22",
+    "batteries": [
+      {
+        "label": "94Ah (2세대 배터리, 2017~2018 국내)",
+        "kwh": 33.2,
+        "usable_kwh": 27.2,
+        "range_km": 208,
+        "drivetrain": "RWD(후륜)",
+        "applies_to_trims": [
+          "룩스(LUX)",
+          "솔(SOL)",
+          "솔+(SOL+)"
+        ]
+      },
+      {
+        "label": "120Ah (3세대 배터리, 2019~2022 국내 페이스리프트)",
+        "kwh": 42.2,
+        "usable_kwh": 37.9,
+        "range_km": 248,
+        "drivetrain": "RWD(후륜)",
+        "applies_to_trims": [
+          "룩스(LUX)",
+          "솔(SOL)",
+          "솔+(SOL+)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/BMW%20i3",
+      "https://en.wikipedia.org/wiki/BMW_i3",
+      "https://www.press.bmwgroup.com/korea/article/detail/T0295514KO",
+      "https://ev-database.org/car/1068/BMW-i3-94-Ah",
+      "https://ev-database.org/car/1145/BMW-i3-120-Ah",
+      "https://www.batterydesign.net/bmw-i3/",
+      "https://www.press.bmwgroup.com/usa/article/detail/T0285420EN_US/the-new-2019-bmw-i3-120ah-and-i3s-120ah?language=en_US",
+      "https://mobile.newsis.com/view/NISX20190502_0000639829"
+    ],
+    "confidence": "high",
+    "notes": "엔카 단일 세부모델 \"i3\"(생산 14~22) 안에 **배터리 세대 2개**가 섞여 있어 주의. 룩스/솔/솔+ 트림명은 두 세대 모두에 동일하게 사용되었으므로 트림명만으로는 배터리 구분 불가 → 연식으로 구분해야 함.\\n\\n[94Ah 세대] 2017~2018 국내 판매. 공칭 약 33kWh(EV Database 33.2, BatteryDesign 33.77 등 출처별 33~33.8 편차), 사용가능 27.2kWh. 국내 공인 주행거리는 약 208km대(나무위키 표기 208~248km 범위 중 94Ah는 하단). 국내 트림: i3 94Ah LUX(약 5,950만), SOL+(약 6,550만). 셀 제조사 삼성SDI.\\n\\n[120Ah 세대] 2019.5 BMW코리아 공식 출시, 페이스리프트로 배터리 증설. 공칭(gross) 42.2kWh, 사용가능 37.9kWh, **국내 공인 1회충전 248km**(BMW코리아·뉴시스·모터그래프 일치). 국내 트림: New i3 120Ah LUX(6,000만), SOL+(6,560만).\\n\\n[60Ah 원판(22.6kWh급, 2013~2016)] 글로벌 초기형이며 국내 정식 판매분은 사실상 94Ah부터로 봐야 함(국내 출시 시점). 따라서 한국 시판 옵션으로는 위 2개(94Ah/120Ah)만 적용.\\n\\n주의: i3에는 레인지익스텐더(REx, 가솔린 보조발전기) 사양이 별도로 있으나 배터리 용량은 순수전기형과 동일. usable 용량(27.2/37.9)은 글로벌(BMW/EV DB) 기준으로 한국 환경부 인증 표기와 동일."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "iX1",
+    "sub_model": "iX1 (U11)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 배터리)",
+        "kwh": 66.5,
+        "usable_kwh": 64.7,
+        "range_km": 310,
+        "drivetrain": "xDrive (AWD)",
+        "applies_to_trims": [
+          "30 M 스포츠",
+          "30 M 스포츠 프로 스페셜 에디션",
+          "30 xLine"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.carnoon.co.kr/newcar/vehicle/11398",
+      "https://ev-database.org/car/1701/BMW-iX1-xDrive30",
+      "https://evkx.net/models/bmw/ix1/ix1_xdrive30/",
+      "https://www.bmw.co.kr/ko/all-models/bmw-i/iX1/2022/bmw-iX1-technical-data.html",
+      "https://namu.wiki/w/BMW%20iX1"
+    ],
+    "confidence": "high",
+    "notes": "국내 시판 iX1 (U11, 2023~현재)은 단일 배터리 사양. 엔카 변형 xDrive30 5인승의 세 트림(30 M 스포츠 / 30 M 스포츠 프로 스페셜 에디션 / 30 xLine)은 모두 동일한 xDrive30 파워트레인으로 배터리·주행거리가 같고 장비/마감만 차이남. 따라서 스탠다드/롱레인지 같은 배터리 옵션 분기 없음.\n\n용량 수치 교차검증: 공칭(gross) 66.5kWh = BMW 코리아, 카눈, EV Database 일치. 사용가능(net) 64.7kWh = EV Database·EVKX 일치 (일부 해외 소스 64.8kWh로 미세 차이). EVKX가 언급하는 68.0kWh는 셀 총용량 기준 수치로, 같은 팩의 다른 표기일 뿐 별도 옵션 아님.\n\n주행거리: 국내 환경부 공인 1회충전 복합 310km (복합전비 4.2km/kWh). WLTP는 417~440km(휠 크기 등 옵션별)로 더 높게 표기되니 혼동 주의. 나무위키의 438km는 WLTP 기준값.\n\n페이스리프트(LCI) 주의: 본 수치는 출시~현재(MY23~25) 기준. 2026년형 LCI에서 배터리 증설(약 64.7→64.8/eDrive35 등 신규 트림) 가능성이 보도되고 있으나, 엔카 기준 변형(xDrive30 30 M스포츠/xLine 등)은 LCI 이전 사양이므로 위 수치 적용. 함께 판매되는 후륜 eDrive20은 동일 66.5kWh 팩에 주행거리만 다름(약 340km)이므로 xDrive30과 혼동 금지."
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "iX2",
+    "sub_model": "iX2 (U10)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (전 트림 공용)",
+        "kwh": 66.5,
+        "usable_kwh": 64.8,
+        "range_km": 350,
+        "drivetrain": "2WD (eDrive20, 전륜구동)",
+        "applies_to_trims": [
+          "eDrive20",
+          "eDrive20 M 스포츠"
+        ]
+      },
+      {
+        "label": "단일 배터리 (전 트림 공용)",
+        "kwh": 66.5,
+        "usable_kwh": 64.8,
+        "range_km": 417,
+        "drivetrain": "4WD (xDrive30, AWD)",
+        "applies_to_trims": [
+          "xDrive30"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/2097/BMW-iX2-eDrive20",
+      "https://www.auto-data.net/en/bmw-ix2-u10-66.5-kwh-204hp-edrive20-51144",
+      "https://www.imaeil.com/page/view/2025031111464734132",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=528831",
+      "https://ev-database.org/car/2040/BMW-iX2-xDrive30"
+    ],
+    "confidence": "high",
+    "notes": "BMW iX2 (U10)는 배터리 옵션이 하나뿐임 — 스탠다드/롱레인지 같은 복수 용량 구분이 없음. eDrive20(전륜)과 xDrive30(4WD) 모두 동일한 66.5kWh(총)/64.8kWh(사용가능, 일부 출처 64.7kWh) 리튬이온 팩 공유. 질문에 언급된 58 vs 77.4kWh 같은 복수 배터리 옵션은 iX2에는 해당 없음(아이오닉5/EV6 사례와 다름). 주행거리는 기준에 따라 크게 다름: 한국 환경부 인증(복합) eDrive20 = 350km(BMW코리아 2025-03 공식 출시 발표). WLTP 기준 eDrive20 = 449~478km(휠 크기/구성에 따라). xDrive30의 range_km(417)은 EV Database WLTP 추정치이며 국내 환경부 인증 수치는 미확인 — 출시 시점/사양 다를 수 있음. 엔카 변형 '-/5인승 eDrive20 M 스포츠'는 별도 배터리가 아니라 외장/사양 패키지일 뿐 동일 배터리. 130kW 급속충전(10→80% 29분). U10은 페이스리프트/배터리 증설 이력 없이 단일 세대(2024~현재). usable_kwh는 출처간 64.7~64.8로 미세 상충(±0.1kWh)."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "G-클래스",
+    "sub_model": "G-클래스 W465 (G580 EQ, 2024~현재)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드, 옵션 구분 없음)",
+        "kwh": 122,
+        "usable_kwh": 116,
+        "range_km": 392,
+        "drivetrain": "4WD (4모터 4륜구동, 587hp)",
+        "applies_to_trims": [
+          "G580 EQ 에디션 1",
+          "G580 EQ 테크놀로지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20G%20580%20with%20EQ%20%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80",
+      "https://www.batterydesign.net/mercedes-g-580-eq-battery/",
+      "https://ev-database.org/car/2192/Mercedes-Benz-G-580",
+      "https://www.electimes.com/news/articleView.html?idxno=345697",
+      "https://www.autoissue.co.kr/news/articleView.html?idxno=6823"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 1종뿐(스탠다드/롱레인지 구분 없음). 에디션1(70대 한정, 2.39억)과 일반형 G580 EQ 테크놀로지는 배터리/주행거리 동일, 사양·장식 차이만 있음.\n\n[용량 교차검증]\n- 사용가능(usable) 116kWh: BatteryDesign(엔지니어링), EV Database, 나무위키 모두 일치 → 신뢰도 높음.\n- 총(공칭) 용량은 출처마다 약간 차이: BatteryDesign 121.968kWh(≈122, 216셀 108s2p, NMC811, 12모듈), EV Database 124kWh. 측정/반올림 기준 차이. 본 답변은 122kWh 채택.\n- 국내 언론·전기신문 등은 '118kWh'로 표기 → 이는 국내 마케팅상 정격(usable에 가까운) 수치로 보이며 116과 122 사이의 또 다른 표기. 공칭(122)·usable(116)과 혼선 주의.\n\n[주행거리]\n- 국내 환경부 인증 복합 392km (전 트림 공통, 다수 국내 출처 일치).\n- WLTP 기준은 434~473km(EV Database)로 국내 인증치(392km)보다 김 → 인증 기준 다름. 한국 시판 기준은 392km.\n\n[세대 구분] W465는 2024년~현재 생산 첫 전동화 G클래스. 아직 페이스리프트/배터리 증설 이력 없음(아이오닉5식 증설 우려 해당 없음). 5인승 구성."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQE",
+    "sub_model": "EQE SUV X294 (생산 2023~현재, 4MATIC/5인승)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "초기형(2023 출시분) 표준 배터리",
+        "kwh": 90.6,
+        "usable_kwh": 90.6,
+        "drivetrain": "4MATIC (AWD)",
+        "applies_to_trims": [
+          "EQE350 4MATIC",
+          "EQE500 4MATIC",
+          "EQE500 런치에디션"
+        ],
+        "range_km": 445
+      },
+      {
+        "label": "EQE350 4MATIC (EV Database 기준 총/사용 구분)",
+        "kwh": 100,
+        "usable_kwh": 90.6,
+        "drivetrain": "4MATIC (AWD)",
+        "applies_to_trims": [
+          "EQE350 4MATIC"
+        ],
+        "range_km": 445
+      },
+      {
+        "label": "EQE500 4MATIC 후기형/신연식(MY24+) 증설 추정",
+        "kwh": 96.5,
+        "usable_kwh": 90.6,
+        "drivetrain": "4MATIC (AWD)",
+        "applies_to_trims": [
+          "EQE500 4MATIC",
+          "EQE500 런치에디션"
+        ],
+        "range_km": 449
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQE_SUV",
+      "https://ev-database.org/car/2047/Mercedes-Benz-EQE-SUV-350-4MATIC",
+      "https://ev-database.org/uk/car/1762/Mercedes-Benz-EQE-SUV-500-4MATIC",
+      "https://www.carnoon.co.kr/newcar/vehicle/11569",
+      "https://auto.danawa.com/auto/?Work=model&Model=4430&Lineup=50281&Tab=spec",
+      "https://namu.wiki/w/메르세데스-벤츠 EQE"
+    ],
+    "confidence": "medium",
+    "notes": "[배터리 핵심] EQE SUV X294의 사용가능(net) 용량은 EQE350 4MATIC·EQE500 4MATIC 모두 90.6 kWh 로 일관됨(EV Database, Wikipedia 초기형 헤드라인 수치 일치). 단, 출처마다 표기 기준이 달라 주의:\n- EV Database: 총(nominal) 100.0 kWh / 사용가능 90.6 kWh.\n- Wikipedia(EN): 초기 2023 라인업 90.6 kWh(328V). MY24 페이스리프트성 증설로 EQE350+/EQE500은 96.0 kWh로, EQE350 4MATIC은 90.6 kWh(기존 89.0에서)로 상향됨 — 사용자가 우려한 '연식별 배터리 증설'이 실제로 존재함.\n- 한국 카눈(환경부 공인 추정): EQE350 4MATIC ≈ 90.56 kWh, EQE500 4MATIC(신연식) 96.5 kWh, 구형 EQE500 88.8 kWh로 기재 → 국내 판매분도 연식에 따라 88.8 / 90.6 / 96.x kWh가 혼재.\n\n[주행거리] 한국 환경부 복합 공인 주행거리(카눈)는 EQE350 4MATIC 445 km, EQE500 4MATIC 449 km로, WLTP(566/479, 547/460 km)보다 보수적임. 환경부 복합 기준을 권장.\n\n[런치에디션] EQE500 런치에디션은 별도 배터리 사양이 아니라 EQE500 4MATIC 동일 파워트레인(90.6 kWh급)에 옵션 패키지 추가로 판단됨. 전용 배터리 수치는 미확인.\n\n[불확실성] 총용량 96.0/96.5/100.0 kWh, 초기 89.0 kWh 등 출처 간 nominal 수치가 상충하여 confidence=medium. 정밀 거래/광고용으로는 해당 차량의 정확한 연식(MY23 vs MY24+)을 확인해 88.8/90.6/96.x 중 어느 것인지 특정 필요. 나무위키 본문은 403으로 직접 확인 못 했고 다나와 spec 페이지로 한국 수치 보강 권장."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQE",
+    "sub_model": "EQE V295 (세단, 2022~현재)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (89kWh usable)",
+        "kwh": 100,
+        "usable_kwh": 89,
+        "range_km": 626,
+        "drivetrain": "RWD/AWD",
+        "applies_to_trims": [
+          "EQE 300",
+          "EQE 350",
+          "EQE 350 4MATIC"
+        ]
+      },
+      {
+        "label": "롱레인지 (90.56kWh usable)",
+        "kwh": 100,
+        "usable_kwh": 90.56,
+        "range_km": 669,
+        "drivetrain": "RWD/AWD",
+        "applies_to_trims": [
+          "EQE 350+",
+          "EQE 500 4MATIC",
+          "AMG EQE 53 4MATIC+"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQE",
+      "https://www.evspecs.org/technical-data/mercedes-benz/eqe/battery-capacity-usable-kwh",
+      "https://paultan.org/2022/12/13/mercedes-benz-eqe350-launched-in-malaysia-up-to-669-km-range-wltp-from-90-56-kwh-battery-rm420k/",
+      "https://econmingle.com/car/mercedes-benz-eqe-350-plus-suv-rwd-467km-range/"
+    ],
+    "confidence": "high",
+    "notes": "중요: 이 데이터는 EQE '세단' V295 기준(질문이 V295이므로 정확). EQE 'SUV'는 차대코드 X294로 별개이니 혼동 주의(엔카 변형 -/5인승, 4MATIC/5인승은 세단 구동 구분).\n\n배터리 옵션은 사실상 하나의 ~100kWh NCM811 팩이며, 사용가능 용량만 셀 공급사 차이로 2단계로 갈림: (1) EQE 300 + EQE 350/350 4MATIC = 89kWh usable, (2) EQE 350+ / EQE 500 / AMG EQE 53 = 90.56kWh(~90.6) usable. 즉 아이오닉5식 58 vs 77.4 같은 큰 용량차가 아니라 89 vs 90.56로 미세차(사용가능 기준). 총용량(gross)은 출처에 따라 100kWh(위키 표) ~ 105.6/107.8kWh까지 엇갈려 gross는 medium 신뢰도, usable은 high.\n\n주행거리(km): WLTP 기준 광범위(EQE300 ~626, 350+ 최대 669, EQE53 AMG ~459~526). 한국 환경부 공인은 EQE 350+ 세단 약 471km(19인치, 한국에너지공단 인증), 타이어/연식에 따라 490km 표기도 있음. EQE300/EQE53 세단의 환경부 공인치는 본 조사에서 확정 못함(low).\n\n급속충전 최대 약 170kW 공통. 페이스리프트 배터리 증설: '96kWh급'으로 늘었다는 일부 보도는 이후 연식변경/타시장(또는 EQS·차기형) 혼선 가능성이 있어 V295 세단 확정 증설로 보지 않음 — 검증 필요(주의)."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQS SUV",
+    "sub_model": "EQS SUV X296 (2023~현재)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "표준 단일 배터리 (초기 생산분, 2023 런칭 사양)",
+        "kwh": 120,
+        "usable_kwh": 107.8,
+        "range_km": 660,
+        "drivetrain": "4MATIC / 2WD(450+)",
+        "applies_to_trims": [
+          "EQS450 4MATIC",
+          "EQS450+",
+          "EQS580 4MATIC",
+          "마이바흐 EQS680"
+        ]
+      },
+      {
+        "label": "표준 단일 배터리 (2024 모델이어 이후 용량 상향분)",
+        "kwh": 125,
+        "usable_kwh": 118,
+        "range_km": 613,
+        "drivetrain": "4MATIC",
+        "applies_to_trims": [
+          "EQS450 4MATIC",
+          "EQS450 런치에디션",
+          "EQS580 4MATIC",
+          "EQS580 런치에디션",
+          "마이바흐 EQS680"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS_SUV",
+      "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0_EQS_SUV",
+      "https://ev-database.org/uk/car/2090/Mercedes-Benz-EQS-SUV-580-4MATIC",
+      "https://ev-database.org/uk/car/2088/Mercedes-Benz-EQS-SUV-450-4MATIC",
+      "https://ev-database.org/car/2086/Mercedes-Benz-EQS-SUV-Maybach-680",
+      "https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20EQS%20SUV"
+    ],
+    "confidence": "medium",
+    "notes": "핵심: X296는 모든 트림이 동일한 단일 배터리 팩을 공유한다(스탠다드/롱레인지 같은 용량 옵션 분기 없음). 트림(450/450+/580/마이바흐680)과 런치에디션은 모터 출력·사양 차이일 뿐 배터리 용량은 같음. 5인승/7인승도 배터리 동일.\\n\\n[중요 - 생산기간 내 배터리 용량 상향, 사용자가 우려한 아이오닉5형 증설 케이스에 해당]\\n- 2023 런칭 사양: 약 120 kWh 총 / 107.8(≈108.4) kWh usable. EN/KO 위키백과 표기 및 벤츠 초기 공식 커뮤니케이션 기준.\\n- 2024 모델이어 이후: EV Database가 450 4MATIC·580 4MATIC·마이바흐680 전부 125 kWh 총 / 118 kWh usable 로 표기. 생산 중 용량(또는 가용용량 해제)이 상향됨.\\n\\n[출처 상충] usable 용량이 출처별로 107.8 vs 118 kWh 로 갈림 → 같은 물리 팩의 시기별/측정기준 차이로 판단되나 정확한 전환 시점은 미확정이라 confidence=medium.\\n\\n[주행거리] WLTP 기준, 환경부 국내 공인거리(상온/저온 복합)는 별도이며 더 짧음 — 다나와/나무위키 국내 복합전비 3.5~3.7 km/kWh, 국내 인증 복합 주행거리는 대략 447~498 km대로 보고됨(휠 사이즈·구동 따라 변동). 위 range_km는 WLTP 값이므로 국내 환경부 공인거리와 직접 비교 주의.\\n\\n나무위키는 WebFetch 403으로 본문 직접 확인 불가, 검색 스니펫(107.1~118 kWh, CATL 셀, 국내 복합 447~498 km)으로만 교차 참고함. 배터리 셀 공급사는 CATL로 보고됨(미검증)."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQS",
+    "sub_model": "EQS V297 (세단, 생산 2021~현재)",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (소용량 팩) - EQS350",
+        "kwh": 100,
+        "usable_kwh": 90.6,
+        "range_km": 626,
+        "drivetrain": "2WD (후륜)",
+        "applies_to_trims": [
+          "EQS350"
+        ]
+      },
+      {
+        "label": "롱레인지 (대용량 팩) - 후륜 EQS450+",
+        "kwh": 120,
+        "usable_kwh": 107.8,
+        "range_km": 782,
+        "drivetrain": "2WD (후륜)",
+        "applies_to_trims": [
+          "EQS450+",
+          "EQS450+ AMG 라인"
+        ]
+      },
+      {
+        "label": "롱레인지 (대용량 팩) - 4MATIC EQS450",
+        "kwh": 120,
+        "usable_kwh": 108.4,
+        "range_km": 685,
+        "drivetrain": "4MATIC (4WD)",
+        "applies_to_trims": [
+          "EQS450 4MATIC"
+        ]
+      },
+      {
+        "label": "롱레인지 (대용량 팩) - AMG EQS53",
+        "kwh": 120,
+        "usable_kwh": 107.8,
+        "range_km": 586,
+        "drivetrain": "4MATIC+ (4WD)",
+        "applies_to_trims": [
+          "EQS53 AMG +"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS",
+      "https://www.auto-data.net/en/mercedes-benz-eqs-v297-eqs-450-120-kwh-333hp-43148",
+      "https://evkx.net/models/mercedes/eqs/eqs_53_4maticplus/",
+      "https://evkx.net/models/mercedes/eqs/eqs_450_4matic/",
+      "https://namu.wiki/w/EQS"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과(위키백과 + auto-data.net + EVKX.net 3개 이상 출처 일치).\n\n[배터리 옵션 2종]\n1) 소용량 팩 = EQS350 전용. 총 100kWh / 사용가능 90.6kWh. CATL 각형 셀(초기 2022년식 일부는 파라시스).\n2) 대용량 팩 = EQS450 이상 전 트림 공통. 총 공칭 120kWh. 사용가능은 구동에 따라 미세 차이 — 후륜(450+/53)은 107.8kWh, 4MATIC(450 4MATIC)은 108.4kWh로 EVKX가 구분 표기(버퍼 차이). 자료에 따라 대용량 팩을 107.8~108.4kWh(net), gross 108.4kWh로 적기도 함 — 즉 'gross 120 / net 약 108'이 정설.\n\n[주행거리] WLTP 기준 추정치. 후륜 450+가 최장(약 782km, 카탈로그/연식·옵션에 따라 631~785km 범위). 4MATIC 450 약 685km, AMG 53은 고출력으로 최단 약 586km. 국내 환경부 공인 1회충전거리는 옵션·연식별로 더 짧게 인증됨(미반영).\n\n[주의 - 페이스리프트] 2026 페이스리프트 V297은 800V로 전환되며 배터리가 112/122kWh로 증설됨(450+ 최대 WLTP 926km). 단 질문의 엔카 트림(EQS350/450/450+/53)은 2021~2025 프리페이스리프트 팩(100/120kWh)에 해당. 연식 확인 필요.\n\n[택시/특장] 해당 없음(고급 세단). EQS450+와 EQS450+ AMG 라인은 동일 파워트레인·동일 배터리, AMG 라인은 외관/휠 패키지 차이일 뿐 배터리 동일."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQA",
+    "sub_model": "EQA H243",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (EQA 250)",
+        "kwh": 69.7,
+        "usable_kwh": 66.5,
+        "range_km": 306,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EQA250",
+          "EQA250 AMG 라인",
+          "EQA250 AMG 패키지",
+          "EQA250 AMG 패키지 플러스",
+          "EQA250 일렉트릭 아트",
+          "EQA250 프로그레시브"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQA",
+      "https://ev-database.org/car/1697/Mercedes-Benz-EQA-250",
+      "https://www.auto-data.net/en/mercedes-benz-eqa-h243-eqa-250-73.9-kwh-190hp-47747",
+      "https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20EQA",
+      "https://auto.danawa.com/auto/?Work=model&Model=3738&Lineup=49213&Tab=spec",
+      "https://ikkujun.com/1230"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과 한국 시판 EQA H243 전 트림은 단일 배터리(스탠다드)만 존재. 국내 판매 트림은 모두 EQA250(전륜 2WD, 1모터, 190hp)이며, 엔카의 6개 트림(EQA250 / AMG 라인 / AMG 패키지 / AMG 패키지 플러스 / 일렉트릭 아트 / 프로그레시브)은 외관·옵션 차이일 뿐 파워트레인·배터리는 동일.\n\n[배터리 용량] 공칭(gross) 69.7kWh / 사용가능(usable, net) 66.5kWh. 위키백과·EV Database·auto-data 3개 출처가 69.7/66.5로 일치. 일부 한국 매체가 표기하는 '66.5kWh'는 사용가능 용량(net) 기준이며, 페이스리프트(2024년형) 후 일부 자료의 '65.9kWh'도 net 표기 변동치로 동일 배터리로 봄(셀 증설 아님, 효율/표기 차이).\n\n[주행거리] 국내 환경부 공인(MOTIE) 기준: 초기형(2021~) 약 306km, 페이스리프트(2024년형~) 약 367km. WLTP 기준은 더 높음(490~496km대) — 한국 인증 수치(306/367km)와 WLTP 수치를 혼동 주의.\n\n[주의 - 다른 배터리 옵션] 해외에는 EQA 250+ (공칭 73.9kWh / 사용가능 70.5kWh, WLTP ~563km)와 4WD 모델(EQA 300 4MATIC, EQA 350 4MATIC, 동일 66.5kWh급)이 존재하나, 한국 정식 출시 트림은 EQA250 단일 구성이므로 위 트림표에는 해당 없음. 즉 한국 EQA H243은 사실상 배터리 옵션이 1종."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQB",
+    "sub_model": "EQB X243",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드 단일옵션)",
+        "kwh": 69.7,
+        "usable_kwh": 66.5,
+        "range_km": 313,
+        "drivetrain": "4MATIC (AWD)",
+        "applies_to_trims": [
+          "EQB300",
+          "EQB300 AMG 라인",
+          "EQB300 일렉트릭 아트",
+          "EQB300 프로그레시브"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1559/Mercedes-Benz-EQB-300-4MATIC",
+      "https://ev-database.org/uk/car/1989/Mercedes-Benz-EQB-300-4MATIC",
+      "https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20EQB",
+      "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0_EQB",
+      "https://www.motoya.co.kr/news/articleView.html?idxno=35627",
+      "https://auto.danawa.com/auto/?Work=model&Model=3826",
+      "https://evkx.net/models/mercedes/eqb/eqb_300_4matic/specifications/"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과 일치도 높음. (1) 총용량(공칭/gross) 69.7 kWh, 사용가능(usable) 66.5 kWh — EV Database·EVKX·evspecifications 모두 동일. 한국 언론(모토야 등)·다나와는 SK온 배터리 탑재 + 66.5 kWh로 표기(사용가능 용량을 대표 용량으로 표기하는 한국 관행). (2) 배터리 옵션은 X243 전체에 단일(스탠다드/롱레인지 분리 없음). EQB300 4MATIC의 한국 4개 트림(AMG라인/일렉트릭아트/프로그레시브/기본)은 모두 동일 배터리·동일 구동(4MATIC AWD). 국내는 5인승 4MATIC 위주(해외 7인승 및 EQB250 전륜/EQB350 별도 존재). (3) 주행거리: 한국 환경부 공인 313 km(18인치 기준, 복합전비 4.1 km/kWh) / 글로벌 WLTP는 약 412 km로 표기 기준 차이 — 둘 다 신뢰 가능, 국내 카탈로그는 313 km. (4) 페이스리프트 주의: 2023년 F/L(X243 F/L) 전후로 배터리 증설 없음 — EV Database의 2022-2023 차량(id 1559)과 2024-2026 차량(id 1989) 모두 69.7/66.5 kWh로 동일. 아이오닉5식 배터리 증설 우려는 EQB에는 해당 없음. (5) 위키백과(한국어)는 배터리 kWh 미기재(주행거리 4MATIC 412 km만 표기), 나무위키·EV Database·다나와로 보완. 일부 미국 MB 사이트가 70.5 kWh로 표기한 건 연식별 측정/표기 편차로 보이며 국내 사양은 69.7/66.5 kWh 기준."
+  },
+  {
+    "manufacturer": "메르세데스-벤츠",
+    "model": "EQC",
+    "sub_model": "EQC N293 (EQC400 4MATIC, 5인승)",
+    "period": "19~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (스탠다드, 옵션 없음)",
+        "kwh": 85,
+        "usable_kwh": 80,
+        "range_km": 309,
+        "drivetrain": "4MATIC (AWD)",
+        "applies_to_trims": [
+          "EQC400",
+          "EQC400 에디션 1886",
+          "EQC400 프리미엄"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz_EQC",
+      "https://www.auto-data.net/en/mercedes-benz-eqc-n293-eqc-400-85-kwh-408hp-4matic-34406",
+      "https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20EQC",
+      "https://auto.danawa.com/auto/?Work=model&Model=3696&Tab=spec"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 1종뿐 (스탠다드/롱레인지 구분 없음). 핵심 주의점: 출처별 kWh 표기가 80 vs 85로 갈리는데 이는 상충이 아니라 정의 차이임 — 총(공칭/gross) 85kWh, 사용가능(usable) 80kWh. 벤츠 공식·나무위키·다나와(국내)는 사용가능 80kWh를 '배터리 용량'으로 표기, auto-data 등 해외 DB는 gross 85 / usable 80을 분리 표기. 셀 구성 384셀. 구동은 EQC400 4MATIC(전후륜 듀얼모터 AWD) 단일, 408마력(국내 표기 402~408)·765Nm. 국내 환경부/공인 복합 주행거리 309km(국내 인증, 다나와 기준), WLTP 417km(위키), 일부 DB는 WLTP 373~437km 범위 표기(휠/옵션 차이). 한국 트림 EQC400 / 에디션 1886 / 프리미엄은 모두 동일 파워트레인·동일 85kWh(usable 80) 배터리를 공유하는 사양·편의장비 차이 트림이며 배터리 증설 페이스리프트는 없었음(N293 단일 세대, 2019~2023 생산). EQC400 4MATIC 단일 모델로 국내 판매됨."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "e-트론",
+    "sub_model": "e-트론 (2020~2024, 프리페이스리프트 SUV/스포트백)",
+    "period": "20~24",
+    "batteries": [
+      {
+        "label": "50 (스탠다드, 일부 시장 미수입)",
+        "kwh": 71.2,
+        "usable_kwh": 64,
+        "range_km": 220,
+        "drivetrain": "콰트로(AWD)",
+        "applies_to_trims": [
+          "50",
+          "50 스포트백"
+        ]
+      },
+      {
+        "label": "55 (롱레인지)",
+        "kwh": 95,
+        "usable_kwh": 86.5,
+        "range_km": 304,
+        "drivetrain": "콰트로(AWD)",
+        "applies_to_trims": [
+          "55",
+          "55 스포트백"
+        ]
+      },
+      {
+        "label": "S (롱레인지, 3모터)",
+        "kwh": 95,
+        "usable_kwh": 86,
+        "range_km": 306,
+        "drivetrain": "콰트로(AWD, 3모터)",
+        "applies_to_trims": [
+          "S",
+          "S 스포트백"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EB%94%94_e-%ED%8A%B8%EB%A1%A0",
+      "https://en.wikipedia.org/wiki/Audi_e-tron",
+      "https://ev-database.org/car/1355/Audi-e-tron-55-quattro",
+      "https://ev-database.org/car/1658/Audi-e-tron-S",
+      "https://www.evspecs.org/technical-data/audi/e-tron/battery-capacity-usable-kwh",
+      "https://www.evspecs.org/tech-specs/audi/e-tron/s-quattro",
+      "https://www.carnoon.co.kr/newcar/vehicle/10436",
+      "https://www.fortunekorea.co.kr/news/articleView.html?idxno=13811"
+    ],
+    "confidence": "high",
+    "notes": "[배터리 패키지] 2020~2024 e-트론(SUV/스포트백, 프리페이스리프트, 내부코드 GE)은 50 트림과 55/S 트림이 서로 다른 두 종류 배터리를 씀.\n- 50: 총 71.2kWh / 사용가능 64kWh (NMC). 국내 인증 220km. ※ 50 트림은 국내 정식 수입 폭이 적어 엔카 매물 대부분은 55/S. 50 표기 매물은 옵션 표기 오류 가능성 확인 권장.\n- 55: 총 95kWh / 사용가능 84~86.5kWh. 2021년 OTA 소프트웨어 업데이트로 사용가능 용량이 약 83.6→86.5kWh로 상향됨(총 용량 불변)→ 출처별 84 vs 86.5 상충은 이 업데이트 전후 차이. 국내 인증 304km(55 스포트백 콰트로). EV Database 86.5 / EVspecs 84 / 위키 86.\n- S: 55와 동일한 95kWh 팩, 3모터 고성능. 사용가능 약 86kWh, WLTP 364~372km, 국내 인증 약 306km.\n\n[세대 주의] 2023년 페이스리프트에서 모델명이 \"Q8 e-트론\"으로 변경되며 배터리가 대폭 증설됨(50→89kWh급, 55→114kWh급). 본 건은 \"e-트론\" 명칭(2020~2024 프리페이스리프트)이므로 그 증설은 적용 안 됨. 즉 이 차체에서는 50/55/S 모두 71.2 또는 95kWh 두 종류뿐이고 중간 배터리 증설 없음.\n\n[엔카 변형] '-/5인승'과 '콰트로/5인승'은 모두 동일 AWD 콰트로 5인승(이 차는 전 트림 콰트로 표준). 변형 차이로 인한 배터리 차이는 없고, 트림(50/55/S)이 배터리를 결정함."
+  },
+  {
+    "manufacturer": "아우디 (Audi)",
+    "model": "Q4 e-트론",
+    "sub_model": "Q4 e-트론 (F4)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "롱레인지 (82kWh 단일 옵션)",
+        "kwh": 82,
+        "usable_kwh": 77,
+        "range_km": 411,
+        "drivetrain": "2WD (RWD, 후륜 단일모터 204PS)",
+        "applies_to_trims": [
+          "40",
+          "40 프리미엄"
+        ]
+      },
+      {
+        "label": "롱레인지 (82kWh 단일 옵션, 스포트백)",
+        "kwh": 82,
+        "usable_kwh": 77,
+        "range_km": 409,
+        "drivetrain": "2WD (RWD, 후륜 단일모터 204PS)",
+        "applies_to_trims": [
+          "40 스포트백",
+          "40 프리미엄 스포트백"
+        ]
+      },
+      {
+        "label": "롱레인지 (82kWh 단일 옵션, 고출력)",
+        "kwh": 82,
+        "usable_kwh": 77,
+        "range_km": 406,
+        "drivetrain": "2WD (RWD, 후륜 단일모터 286PS)",
+        "applies_to_trims": [
+          "45",
+          "45 스포트백",
+          "45 프리미엄",
+          "45 프리미엄 스포트백"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EB%94%94_Q4_e-%ED%8A%B8%EB%A1%A0",
+      "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+      "https://www.carnoon.co.kr/newcar/vehicle/11117",
+      "https://ev-database.org/uk/car/2013/Audi-Q4-e-tron-45",
+      "https://paultan.org/2023/09/25/2024-audi-q4-e-tron-updated/",
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20Q4%20e-%ED%8A%B8%EB%A1%A0"
+    ],
+    "confidence": "high",
+    "notes": "엔카의 40/45 트림은 모두 페이스리프트(F4) 세대에 해당하며, 한국 시판분은 트림(40/40SB/45/40·45 프리미엄/스포트백) 관계없이 단일 배터리 = 총 82kWh / 사용가능 약 77kWh (니켈리튬이온, 리어 단일모터 RWD). 따라서 '배터리 옵션이 여러 개'인 차종이 아니라 사실상 1팩이며, 40과 45의 차이는 모터 출력(204PS vs 286PS)·주행거리(약 409~411km vs 406km)일 뿐 배터리 용량은 동일.\n\n[페이스리프트 증설 주의 — 반대 케이스] 2024 F/L에서 유럽 entry 모델용으로 추가된 소형 63kWh(사용가능 59kWh) 팩이 존재하나, 이는 유럽 한정이며 한국 40/45에는 적용되지 않음. 또 구형(2021~2023, 본 F4 이전)에는 35 e-트론용 55kWh(사용가능 52kWh) 팩과 50 e-트론 콰트로(AWD 82/77)가 있었으나, 한국 엔카 'F4 / 40·45 / 5인승 RWD' 범위 밖. 즉 아이오닉5식 '증설'이 아니라 오히려 한국은 처음부터 큰 82kWh로 통일.\n\n주행거리는 한국 복합(환경부 인증 추정) 기준 carnoon 수치(40=411km, 40SB=409km, 45=406km) 채택. WLTP(유럽)는 더 길게 표기됨(45 SB 최대 562km)이므로 혼동 주의. 구동: 엔카 변형이 5인승 단일이고 콰트로(AWD) 표기가 없어 전 트림 RWD로 판단. usable 77kWh는 제조사 net(82 gross) 공칭값으로, EVDatabase는 76.6~77로 미세 편차 표기."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "e-트론 GT",
+    "sub_model": "e-트론 GT",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "초기형 (2021~2024 pre-facelift)",
+        "kwh": 93.4,
+        "usable_kwh": 83.7,
+        "range_km": 487,
+        "drivetrain": "콰트로 (AWD)",
+        "applies_to_trims": [
+          "e-tron GT quattro (초기형)"
+        ]
+      },
+      {
+        "label": "페이스리프트 (2024~현재)",
+        "kwh": 105,
+        "usable_kwh": 97,
+        "range_km": 622,
+        "drivetrain": "콰트로 (AWD)",
+        "applies_to_trims": [
+          "GT",
+          "GT 프리미엄"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/1420/Audi-e-tron-GT-quattro",
+      "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EB%94%94_e-%ED%8A%B8%EB%A1%A0_GT",
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20e-%ED%8A%B8%EB%A1%A0%20GT",
+      "https://v.daum.net/v/zLUuJbc6wk",
+      "https://en.wikipedia.org/wiki/Audi_e-tron_GT"
+    ],
+    "confidence": "high",
+    "notes": "생산기간 21~현재가 2024 페이스리프트(배터리 증설)를 가로지름 — 배터리 옵션 2개로 분리.\n\n[초기형 2021~2024] 총 93.4kWh / 사용가능 83.7kWh(≈84kWh). EV Database와 ko.wikipedia 두 출처 일치. EV Database WLTP 주행거리 487km(TEL)~454km(TEH). ko.wikipedia는 EPA 기준 383km(미국 사양, WLTP보다 짧음)로 별도 표기 — 시장별 인증 기준 차이 주의.\n\n[페이스리프트 2024~현재] 총 105kWh / 사용가능 97kWh. namu.wiki와 글로벌오토뉴스(daum) 두 출처 일치. WLTP 최대 622km(e-트론 GT 콰트로 기본형 기준, 라인업 중 최장). 충전 10~80% 18분, 320kW 초급속.\n\n엔카의 'GT'·'GT 프리미엄' 트림은 한국 시장 페이스리프트(2024~) 라인업 명칭으로, 페이스리프트 콰트로(105kWh)에 해당할 가능성이 높음 — 다만 엔카 등록 차량 중 일부는 21~24년식 초기형(93.4kWh)일 수 있으므로 연식 확인 필요.\n\n주행거리는 모두 WLTP/EPA 기준이며 환경부 공인(상온/저온 복합) 수치는 본 검색에서 확인하지 못함 — 한국 공인 1회충전 주행거리는 별도 확인 권장. 배터리 용량 자체는 글로벌 공통 사양으로 신뢰도 높음.\n\n차량은 콰트로(듀얼모터 AWD), 5인승 그란투리스모(4도어 쿠페). RS/S 트림은 같은 배터리를 공유하나 본 건은 GT·GT프리미엄(기본 콰트로) 한정."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "e-트론 GT",
+    "sub_model": "RS e-트론 GT",
+    "period": "21~현재",
+    "batteries": [
+      {
+        "label": "초기형 (2021-2024 pre-facelift)",
+        "kwh": 93.4,
+        "usable_kwh": 84,
+        "range_km": 336,
+        "drivetrain": "AWD (콰트로)",
+        "applies_to_trims": [
+          "GT RS"
+        ]
+      },
+      {
+        "label": "페이스리프트 퍼포먼스 (2024/2025+)",
+        "kwh": 105,
+        "usable_kwh": 97,
+        "range_km": 384,
+        "drivetrain": "AWD (콰트로)",
+        "applies_to_trims": [
+          "GT RS 퍼포먼스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audi_e-tron_GT",
+      "https://www.evspecs.org/tech-specs/audi/e-tron-gt/rs",
+      "https://www.evspecs.org/tech-specs/audi/e-tron-gt/rs-performance",
+      "https://www.evspecs.org/technical-data/audi/e-tron-gt-2021-2024/battery-capacity-usable-kwh",
+      "https://www.audi.co.kr/ko/aboutaudi/news_article/news_240805/",
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20e-%ED%8A%B8%EB%A1%A0%20GT"
+    ],
+    "confidence": "medium",
+    "notes": "생산기간 '21~현재'는 배터리 증설 페이스리프트를 가로지름. 두 세대를 반드시 구분해야 함.\n\n[초기형 2021-2024] 'RS e-트론 GT' (트림 GT RS): 총 93.4kWh / 사용가능 약 84kWh. Wikipedia(EN)·EVspecs(2021-2024 데이터) 교차일치. WLTP 주행거리는 약 472-488km(콰트로)이나 RS는 출력↑로 짧음. 국내 인증 복합은 약 336km로 알려짐.\n\n[페이스리프트 2024/2025+] 'RS e-트론 GT 퍼포먼스' (트림 GT RS 퍼포먼스): 총 105kWh / 사용가능 97kWh. 아우디미디어·EVspecs·아우디코리아 보도 교차일치. WLTP는 약 592-598km이나 국내 인증 복합은 약 384km(아우디코리아 출시자료). 출력 550kW.\n\n주의사항:\n- 엔카 트림 'GT RS'=초기형(93.4kWh), 'GT RS 퍼포먼스'=페이스리프트(105kWh)로 매핑하는 것이 가장 합리적. 단 엔카 매물에 따라 105kWh 페이스리프트가 'GT RS'로 표기됐을 가능성 배제 못함 → 차대번호/연식 확인 권장.\n- 4인승/5인승(시트 구성) 변형은 배터리 용량과 무관(동일 팩).\n- range_km는 출처별로 WLTP(572-598km)와 국내 복합인증(336/384km)이 크게 다름. 위 값은 국내 인증 기준으로 채움.\n- usable_kwh: 초기형은 출처에 따라 83.7~84kWh로 표기 차이 있음.\n- 나무위키는 403/스크래핑 차단으로 본문 직접 확인 못함(검색 스니펫만 반영) → confidence medium."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "Q6 e-트론",
+    "sub_model": "Q6 e-트론 (GF)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "100kWh (한국 시판 전 트림 공통)",
+        "kwh": 100,
+        "usable_kwh": 94.9,
+        "drivetrain": "2WD",
+        "range_km": 468,
+        "applies_to_trims": [
+          "퍼포먼스",
+          "퍼포먼스 프리미엄"
+        ]
+      },
+      {
+        "label": "100kWh (콰트로)",
+        "kwh": 100,
+        "usable_kwh": 94.9,
+        "drivetrain": "4WD",
+        "range_km": 400,
+        "applies_to_trims": [
+          "프리미엄",
+          "콰트로 프리미엄"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.audi-mediacenter.com/en/audi-q6-suv-e-tron-897/technical-data",
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20Q6%20e-%ED%8A%B8%EB%A1%A0",
+      "https://www.motorgraph.com/news/articleView.html?idxno=41808",
+      "https://www.carnoon.co.kr/newcar/vehicle/11728",
+      "https://www.audi.co.kr/ko/aboutaudi/news_article/250318/20250318",
+      "https://www.sisajournal-e.com/news/articleView.html?idxno=406832"
+    ],
+    "confidence": "high",
+    "notes": "한국 시판 Q6 e-트론(GF)은 엔카 기준 트림 전부 동일하게 총 100kWh(공칭, gross) / 사용가능 94.9kWh(net, 약 5.1kWh 버퍼) 리튬이온 배터리를 탑재. 트림은 배터리 용량이 아니라 구동방식·출력·옵션으로만 구분됨.\n\n[구동/주행거리 매핑]\n- 퍼포먼스 / 퍼포먼스 프리미엄 = 후륜(RWD, 단일모터 225kW/약306마력), 환경부 복합 468km. 엔카의 \"-/5인승\" 변형에 해당.\n- 콰트로 프리미엄(= 프리미엄, 엔카 \"콰트로/5인승\") = 사륜(AWD, 듀얼모터 285kW/약387마력), 환경부 복합 400km.\n\n[주의 - 출처 상충 가능 항목]\n1) 글로벌 라인업에는 별도의 후륜 기본형(83kWh gross / 75.8kWh net, 185kW)이 존재하나(Audi MediaCenter 확인), 이 모델은 한국 출시 트림(퍼포먼스/퍼포먼스 프리미엄/콰트로 프리미엄)에 해당하지 않음. 한국에는 100kWh 버전만 도입됨. 만약 향후 83kWh 기본형이 추가되면 별도 배터리 옵션으로 분리 필요.\n2) WLTP 기준(글로벌)으로는 동일 100kWh 차량이 퍼포먼스 556~661km / 콰트로 542~642km로 표기되어 한국 환경부 인증치(468/400km)와 다름 — 인증 기준 차이일 뿐 배터리 용량은 동일.\n3) SQ6 e-트론(고성능, 100kWh, 360kW, 412km)도 같은 GF 차체이나 엔카의 Q6 e-트론 세부모델 트림에는 미포함.\n\n[페이스리프트/증설 여부] 2025~현재 1세대로, 현재까지 배터리 증설(아이오닉5식 58→63 같은) 사례 없음. GF 코드는 단일 세대."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "A6 e-트론",
+    "sub_model": "A6 e-트론 (생산 25~현재)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "퍼포먼스 (100kWh, 한국 시판 트림 해당)",
+        "kwh": 100,
+        "usable_kwh": 94.9,
+        "range_km": 469,
+        "drivetrain": "2WD (후륜구동, 싱글모터)",
+        "applies_to_trims": [
+          "퍼포먼스 S Line",
+          "퍼포먼스 S Line 블랙 에디션",
+          "퍼포먼스 어드밴스드"
+        ]
+      },
+      {
+        "label": "스탠다드 (83kWh, 글로벌 기본형 - 한국 미시판 추정)",
+        "kwh": 83,
+        "usable_kwh": 75.8,
+        "drivetrain": "2WD (후륜구동)",
+        "applies_to_trims": []
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20A6%20e-%ED%8A%B8%EB%A1%A0",
+      "https://www.carnoon.co.kr/newcar/vehicle/11811",
+      "https://www.top-rider.com/article/view/trd202508120002",
+      "https://www.sedaily.com/NewsView/2GWLY5NLTO"
+    ],
+    "notes": "엔카 기준 3개 트림(퍼포먼스 S Line / 퍼포먼스 S Line 블랙 에디션 / 퍼포먼스 어드밴스드)은 모두 동일 사양: 100kWh(순 94.9kWh) 배터리, 후륜구동 싱글모터, 환경부 공인 복합 주행거리 469km(상온 복합 469km / 저온 복합 305km), 2025년형 기준. 800V 아키텍처, 270kW 급속충전(10→80% 약 21분). 출력은 퍼포먼스 트림 약 381마력(367.2PS는 카탈로그 정격 표기 차이).\\n\\n주의 1) 글로벌 사양에는 스탠다드 배터리(총 83kWh / 순 75.8kWh, 후륜 기본형)가 존재하나, 한국에는 100kWh 퍼포먼스 트림만 도입된 것으로 확인됨(엔카 변형이 모두 '퍼포먼스'인 점과 일치). usable 수치는 Wikipedia/나무위키 94.9kWh 대 일부 영문매체 94.4kWh로 소폭 상충 → 다수 출처(94.9) 채택.\\n주의 2) 페이스리프트/연식 증설: 2026년형 퍼포먼스 S-line+는 동일 100kWh로 공인 주행거리가 504km로 상향됨(배터리 증설 아님, 효율/사양 개선). 엔카 변형은 '생산 25~현재'·5인승이므로 25년형(469km)이 기준이며 26년형(504km)이 섞일 수 있어 연식 확인 권장.\\n주의 3) WLTP 기준(퍼포먼스 RWD 약 750km)과 한국 공인(469km)은 측정방식 차이로 크게 다름 — 한국 교차검증은 환경부 공인값 469km 사용.\\n주의 4) S6 e-트론(콰트로 AWD, 듀얼모터)은 동일 100kWh이나 별도 모델로 본 세부모델 트림에는 미포함.",
+    "confidence": "high"
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "Q8 e-트론",
+    "sub_model": "Q8 e-트론 (GE)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "50 (콰트로)",
+        "kwh": 95,
+        "usable_kwh": 89,
+        "range_km": 298,
+        "drivetrain": "콰트로(AWD)",
+        "applies_to_trims": [
+          "50"
+        ]
+      },
+      {
+        "label": "55 (콰트로) - SUV",
+        "kwh": 114,
+        "usable_kwh": 106,
+        "range_km": 368,
+        "drivetrain": "콰트로(AWD)",
+        "applies_to_trims": [
+          "55",
+          "55 프리미엄"
+        ]
+      },
+      {
+        "label": "55 스포트백 (콰트로)",
+        "kwh": 114,
+        "usable_kwh": 106,
+        "range_km": 351,
+        "drivetrain": "콰트로(AWD)",
+        "applies_to_trims": [
+          "55 스포트백"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EB%94%94_Q8_e-%ED%8A%B8%EB%A1%A0",
+      "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+      "https://www.audi-mediacenter.com/en/q8-suv-e-tron-until-2025-58/technical-data",
+      "https://www.carnoon.co.kr/newcar/vehicle/11683"
+    ],
+    "confidence": "high",
+    "notes": "3개 출처(한국어 위키백과·영문 위키백과·아우디 미디어센터 공식) 배터리 용량 완전 일치. 핵심 구분: 트림 50 = 95kWh총/89kWh사용가능, 트림 55 계열(55·55 스포트백·55 프리미엄) = 모두 114kWh총/106kWh사용가능 동일 팩. '55 프리미엄'은 55 콰트로의 한국 트림 패키지로 배터리 동일, '55 스포트백'은 동일 배터리의 다른 차체(쿠페형, 공기저항 차이로 주행거리만 약간 상이). 구동은 전 트림 콰트로(AWD) 듀얼모터 단일. \n\n주행거리 주의: range_km는 한국 공인(환경부/국토부 복합) 추정치(50≈298km, 55 SUV≈368km, 55 스포트백≈351km) — 카눈/다나와 한국 제원 기준. WLTP 기준은 더 높음(50≈491~492km, 55 SUV≈582km, 55 스포트백≈600km). 두 기준이 다르니 용도에 맞게 선택. \n\n세대 주의: GE(2024~현재 = Q8 e-트론으로 개명된 2023년형 부분변경)는 구형 e-트론(2018~2022, 50=71kWh/64.7사용, 55=95kWh/86.5사용 전후)과 배터리가 완전히 다름. 부분변경 시 배터리 증설(50: 71→95, 55: 95→114)되었으므로 구형 e-트론 수치와 혼동 금지. SQ8 e-트론(고성능)도 114kWh/106kWh로 55와 동일하나 본 검증 트림(50/55)에는 미포함."
+  },
+  {
+    "manufacturer": "아우디",
+    "model": "SQ6 e-트론",
+    "sub_model": "SQ6 e-트론 (GF)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 (롱레인지급, 옵션 분기 없음)",
+        "kwh": 100,
+        "usable_kwh": 94.9,
+        "drivetrain": "콰트로 (AWD)",
+        "range_km": 412,
+        "applies_to_trims": [
+          "기본"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EC%95%84%EC%9A%B0%EB%94%94%20Q6%20e-%ED%8A%B8%EB%A1%A0",
+      "https://ev-database.org/uk/car/2147/Audi-SQ6-SUV-e-tron",
+      "https://www.audi-mediacenter.com/en/the-audi-q6-e-tron-electric-mobility-on-a-new-level-15929/battery-and-charging-15933",
+      "https://www.etnews.com/20250318000143",
+      "https://www.audi.co.kr/ko/models/q6-e-tron/sq6-suv-e-tron-2025/"
+    ],
+    "confidence": "high",
+    "notes": "SQ6 e-트론(GF, PPE 플랫폼, 25~현재)은 배터리 옵션 분기가 없는 단일 사양. 총 100kWh(공칭), 사용가능 94.9kWh 리튬이온 1팩이 전 트림 공통 탑재. 구동은 콰트로(듀얼모터 AWD) 단일. 한국 환경부 인증 1회충전 복합 주행거리 412km(고성능/큰 휠 영향으로 일반 Q6 e-트론 콰트로보다 짧음). 800V 아키텍처, 최대 270kW 급속충전, 10→80% 약 21분. 출력 표기는 부스트 기준 360kW(약 489마력)로 인용되나 EV Database는 380kW 표기 — 측정/부스트 기준 차이. WLTP 주행거리는 최대 598km로 한국 인증치(412km)와 큰 차이(측정 사이클·옵션 휠 차이)이니 한국 시판 기준은 412km를 사용. 스탠다드/롱레인지 같은 용량 분기는 존재하지 않으므로 58 vs 77.4 식 다중 옵션 해당 없음."
+  },
+  {
+    "manufacturer": "아우디 (Audi)",
+    "model": "SQ8 e-트론 (Q8 e-tron 고성능 S 모델)",
+    "sub_model": "SQ8 e-트론 (GE)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (옵션 구분 없음)",
+        "kwh": 114,
+        "usable_kwh": 106,
+        "range_km": 303,
+        "drivetrain": "콰트로 (AWD, 3모터)",
+        "applies_to_trims": [
+          "스포트백",
+          "SUV"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+      "https://www.carnoon.co.kr/newcar/vehicle/11682",
+      "https://ev-database.org/uk/car/1773/Audi-SQ8-e-tron",
+      "https://www.audi.co.kr/ko/models/q8-e-tron/sq8-sportback-e-tron-2024/",
+      "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EB%94%94_Q8_e-%ED%8A%B8%EB%A1%A0"
+    ],
+    "confidence": "high",
+    "notes": "SQ8 e-트론(GE)은 배터리 옵션이 단일(114kWh 총용량 / 106kWh 사용가능)이며, 스탠다드/롱레인지 구분이 없는 단일 고성능 콰트로 구성입니다. 스포트백과 SUV 보디 모두 동일 배터리를 사용합니다.\n\n[페이스리프트 주의] 이전 세대(2019~2022, e-tron 55 / SQ8 e-tron 舊형)는 총 95kWh(사용가능 약 86kWh)였으나, 2023년 Q8 e-tron 리네이밍/페이스리프트(GE)에서 114kWh(106kWh usable)로 증설됨. 따라서 \"24~현재\" 생산분은 114kWh가 맞음. 95kWh 수치가 보이면 구형(D 세대)이므로 혼동 주의.\n\n[주행거리 출처 차이] 국내 인증(환경부/카눈 기준)은 복합 303km(도심 297 / 고속도로 310km)로, 콰트로 3모터 고성능 사양 특성상 효율이 낮음. 반면 WLTP(유럽) 기준은 SQ8 스포트백 e-tron 513km, SQ8 e-tron SUV 499km로 표기됨 — 인증 방식 차이이므로 둘 다 정상치. 국내 시판 기준 답변에는 복합 303km를 채택.\n\n[총용량 vs 사용가능] 114kWh는 공칭(gross), 106kWh가 net(usable). 세 출처(영문 위키백과, 카눈, EV Database)가 모두 일치.\n\n나무위키는 403 차단되어 직접 확인 못 했으나, 한국어 위키백과 및 영문 위키백과·국내 제원 DB(카눈)가 상호 일치하여 high 신뢰도."
+  },
+  {
+    "manufacturer": "미니(MINI)",
+    "model": "쿠퍼 일렉트릭",
+    "sub_model": "쿠퍼 일렉트릭 4세대 (J01, 2024~현재)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 배터리)",
+        "kwh": 54.2,
+        "usable_kwh": 49.2,
+        "range_km": 300,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "SE 클래식",
+          "SE 페이버드"
+        ]
+      },
+      {
+        "label": "JCW (동일 배터리, 고출력 튜닝)",
+        "kwh": 54.2,
+        "usable_kwh": 49.2,
+        "range_km": 291,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "JCW"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.auto-data.net/en/mini-electric-j01-cooper-se-54.2-kwh-218hp-51185",
+      "https://www.auto-data.net/en/mini-electric-j01-jcw-54.2-kwh-258hp-54295",
+      "https://ev-database.org/car/3058/Mini-Cooper-JCW",
+      "https://www.press.bmwgroup.com/ireland/article/detail/T0445640EN/mini-cooper-and-mini-aceman-get-john-cooper-works-treatment?language=en",
+      "https://www.top-rider.com/article/view/trd202404300005",
+      "https://namu.wiki/w/미니 쿠퍼 일렉트릭",
+      "https://auto.danawa.com/auto/?Work=model&Model=4571"
+    ],
+    "confidence": "high",
+    "notes": "[배터리 옵션] 국내 시판 4세대 쿠퍼 일렉트릭(J01)은 단일 배터리. 총용량 54.2kWh / 사용가능 49.2kWh. 엔카 변형의 트림 JCW·SE 클래식·SE 페이버드는 모두 동일한 54.2kWh 배터리를 공유하며, JCW는 같은 배터리에 고출력(258마력/350Nm) 튜닝만 다름(클래식·페이버드 SE는 218마력/330Nm). 즉 트림별 배터리 용량 차이는 없음.\n\n[주행거리] WLTP 기준 SE 387~402km. 국내 환경부 복합 인증 SE 약 300km(18인치 휠 기준), JCW 약 291km. WLTP와 국내 인증치 차이 큼에 유의.\n\n[세대 구분 주의] 동일 차명 '미니 쿠퍼 일렉트릭'이라도 3세대(F56, 2019~2024)는 별개 차로 32.6kWh(사용가능 28.9kWh)/주행 144~234km 수준이며 J01과 혼동 금지. 질문의 생산기간(25~현재) 및 엔카 트림(JCW/SE)은 4세대 J01에 해당.\n\n[참고] 4세대는 글로벌에 쿠퍼 E(40.7kWh, 사용가능 약 36.6kWh, WLTP 305km)와 쿠퍼 SE(54.2kWh) 두 배터리가 존재하나, 한국에는 쿠퍼 E(40.7kWh)는 도입되지 않고 SE/JCW(54.2kWh)만 판매됨.\n\n[상충 데이터·confidence] BMW그룹 보도자료·auto-data·EV Database·ultimatespecs 등 다수 국제 출처가 54.2kWh(사용가능 49.2kWh)로 일치하여 confidence high. 다만 일부 국내 매체(데일리카 등)가 JCW를 '58.1kWh / 291km'로 표기한 사례 발견 — 이는 셀 총량(gross max)이거나 오기로 추정. 사용가능 용량 49.2kWh 및 트림 공통이라는 사실은 변함없음."
+  },
+  {
+    "manufacturer": "미니 (MINI)",
+    "model": "쿠퍼 (해치백)",
+    "sub_model": "쿠퍼 일렉트릭 (Cooper SE, F56)",
+    "period": "22~24",
+    "batteries": [
+      {
+        "label": "단일 (스탠다드, 옵션 없음)",
+        "kwh": 32.6,
+        "usable_kwh": 28.9,
+        "range_km": 159,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "3세대",
+          "4인승",
+          "Cooper SE F56"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EB%AF%B8%EB%8B%88%20%EC%BF%A0%ED%8D%BC%20%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A6%AD",
+      "https://en.wikipedia.org/wiki/Mini_Electric",
+      "https://ev-database.org/car/1409/Mini-Cooper-SE",
+      "https://www.auto-data.net/en/mini-electric-cooper-se-f56-32.6-kwh-184hp-37608"
+    ],
+    "confidence": "high",
+    "notes": "생산 22~24 + 엔카 \"3세대\"는 F56 기반 1세대 미니 쿠퍼 SE(국내명 '쿠퍼 일렉트릭')에 해당. 배터리 옵션은 단 1종(32.6kWh CATL, 사용가능 약 28.9kWh)으로 스탠다드/롱레인지 구분이 없음 — 단일 변형만 시판.\n\n[중요 - 세대/배터리 혼동 주의] 검색 시 자주 등장하는 54.2kWh(주행 402km, WLTP)는 다음 세대인 J01 신형 미니 쿠퍼 일렉트릭(2024~ 중국 스포트라이트 생산, 별도 플랫폼)이라 본 차량(F56, 생산 22~24)과 다름. 본 차량을 J01의 54.2kWh로 적으면 오류.\n\n[국내 공인 주행거리] 환경부 인증 1회충전 주행거리 = 159km (2022-02-28 국내 출시 기준). 해외 WLTP는 225~234km, 미국 EPA는 약 180km(110마일)로 더 높음 — 한국 환경부 인증치가 가장 보수적이므로 국내 차량 기준은 159km 사용 권장.\n\n[교차검증] 32.6kWh(총)/28.9kWh(사용가능)는 나무위키·Wikipedia·EV Database·auto-data.net 4개 출처 일치. 고전압 배터리 공급사는 CATL."
+  },
+  {
+    "manufacturer": "미니 (MINI)",
+    "model": "컨트리맨 (Countryman)",
+    "sub_model": "쿠퍼 컨트리맨 일렉트릭 3세대 (U25, 2025~현재)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 옵션 (전 트림 공통)",
+        "kwh": 66.5,
+        "usable_kwh": 64.7,
+        "range_km": 349,
+        "drivetrain": "2WD(전륜) - E 클래식",
+        "applies_to_trims": [
+          "E 클래식"
+        ]
+      },
+      {
+        "label": "단일 배터리 옵션 (전 트림 공통)",
+        "kwh": 66.5,
+        "usable_kwh": 64.7,
+        "range_km": 326,
+        "drivetrain": "AWD(ALL4, 듀얼모터) - SE ALL4",
+        "applies_to_trims": [
+          "ALL4 SE JCW",
+          "ALL4 SE 페이버드"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/1995/Mini-Countryman-SE-ALL4",
+      "https://www.carnoon.co.kr/newcar/vehicle/11764",
+      "https://namu.wiki/w/%EB%AF%B8%EB%8B%88%20%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%A7%A8/3%EC%84%B8%EB%8C%80",
+      "https://cleanchargenetwork.com/ev-model/2024-mini-countryman-se-all4/",
+      "https://www.autoelectronics.co.kr/article/articleview.asp?idx=6662"
+    ],
+    "confidence": "high",
+    "notes": "배터리는 트림(E/SE ALL4) 무관 단일 옵션: 공칭 약 66.5kWh, 사용가능 약 64.7kWh (자료에 따라 65.2kWh 표기도 있어 사용가능 용량은 ±0.5kWh 오차 가능). 스탠다드/롱레인지 같은 복수 배터리 옵션은 없음(아이오닉5식 58/77.4 구분 해당 없음). 3세대(U25)는 BMW UKL 신규 전기 전용이 아닌 통합 플랫폼 신차로 2024~2025 출시, 아직 페이스리프트 배터리 증설 이력 없음 — 따라서 연식/세대 혼동 위험 낮음. 차이는 배터리가 아니라 구동/출력/주행거리: E=단일모터 전륜 204PS 복합 349km, SE ALL4=듀얼모터 4륜 313PS 복합 326km(국내 산업부/복합 기준). WLTP는 더 길어 E 최대 ~462km, SE ALL4 ~433km. 주의: carnoon이 E를 '후륜'으로 표기했으나 미니/대다수 자료 기준 E는 전륜구동이며 표기 오류로 판단. 환경부 단독 인증치는 E 367km/SE 344km로 보도된 바 있음(산업부 복합치 349/326과 구분)."
+  },
+  {
+    "manufacturer": "미니 (MINI)",
+    "model": "에이스맨 (Aceman, J05)",
+    "sub_model": "에이스맨 1세대 (2025~현재)",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "에이스맨 E (스탠다드)",
+        "kwh": 40.7,
+        "usable_kwh": 38.5,
+        "range_km": 322,
+        "drivetrain": "2WD (전륜 싱글모터)",
+        "applies_to_trims": [
+          "E 클래식"
+        ]
+      },
+      {
+        "label": "에이스맨 SE (롱레인지)",
+        "kwh": 54.2,
+        "usable_kwh": 49.2,
+        "range_km": 312,
+        "drivetrain": "2WD (전륜 싱글모터)",
+        "applies_to_trims": [
+          "SE"
+        ]
+      },
+      {
+        "label": "JCW 에이스맨 (고성능)",
+        "kwh": 56.7,
+        "usable_kwh": 49.2,
+        "range_km": 309,
+        "drivetrain": "2WD (전륜 싱글모터, 258마력)",
+        "applies_to_trims": [
+          "JCW"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/car/2190/Mini-Aceman-E",
+      "https://ev-database.org/uk/car/2191/Mini-Aceman-SE",
+      "https://evkx.net/models/mini/aceman/aceman_se/",
+      "https://www.bloter.net/news/articleView.html?idxno=633067",
+      "https://jasonryu.net/2025/03/18/coming-soon-the-new-all-electric-mini-jcw-and-jcw-aceman/",
+      "https://auto.danawa.com/news/?Tab=N1&Work=detail&no=5717858",
+      "https://namu.wiki/w/미니%20에이스맨"
+    ],
+    "confidence": "medium",
+    "notes": "교차검증 요약: 에이스맨 1세대(J05, 2025~현재)는 단일 배터리가 아니라 3개 파워트레인(E / SE / JCW)으로 나뉘며 팩 용량이 다름. ▶에이스맨 E: 공칭 약 40.7kWh(국내 보도)/EV Database는 nominal 42.5·usable 38.5kWh로 표기, WLTP 298~310km, FWD 184마력. ▶에이스맨 SE: 공칭 54.2kWh·사용가능 49.2kWh(EVKX/EV Database 일치), WLTP 약 406km, FWD 218마력. ▶JCW 에이스맨: 공칭 56.7kWh(국내 보도), FWD 258마력. \n\n[주의/상충점] (1) 질문의 엔카 트림은 \"E 클래식\"과 \"JCW\" 두 개인데, 이는 서로 다른 배터리 그룹(E=40.7kWh급, JCW=56.7kWh급)에 속함 — 같은 변형이 아님. (2) 국내 환경부/에너지공단 인증 1회충전 주행거리가 소스마다 312km vs 322km로 엇갈림(휠 사이즈·세부트림·E vs SE 혼동 추정). 일부 국내 기사는 \"E·SE 모두 54.2kWh 동일 적용·복합 312km\"라고 보도해 E의 40.7kWh와 충돌하므로, E 팩의 정확한 국내 공칭값은 추가 확인 필요(그래서 confidence=medium). (3) E의 usable 38.5kWh, E의 nominal 40.7 vs 42.5 사이 표기차 존재. (4) JCW의 usable 용량은 별도 공인치 미확보(SE와 동일 49.2kWh로 추정 표기). (5) 페이스리프트 증설 이슈는 1세대 25년형 기준 현재까지 없음."
+  },
+  {
+    "manufacturer": "포르쉐",
+    "model": "마칸",
+    "sub_model": "마칸 EV (마칸 일렉트릭, 2024~현재)",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (전 트림 공통)",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "range_km": 455,
+        "drivetrain": "RWD/AWD 공통",
+        "applies_to_trims": [
+          "마칸(베이스, 후륜)",
+          "마칸 4(베이스 4, AWD)",
+          "마칸 4S(AWD)",
+          "마칸 터보(AWD)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://newsroom.porsche.com/en/press-kits/the-new-porsche-macan/Batterie-und-Laden.html",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=523787",
+      "https://auto.danawa.com/auto/?Work=model&Model=4613&Lineup=51698&Tab=spec",
+      "https://evkx.net/models/porsche/macan/macan_4s/",
+      "https://ev-database.org/uk/car/2085/Porsche-Macan-Turbo-Electric"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단 1종. 스탠다드/롱레인지 같은 용량 분기 없음 — 전 트림(마칸/베이스, 마칸4/베이스4, 4S, 터보)이 동일한 100kWh(공칭, gross) / 약 95kWh 사용가능(usable, 정확히는 94.9kWh, 5.1kWh 버퍼) CATL제 리튬이온 팩을 공유. PPE 플랫폼 800V 아키텍처, DC 급속 최대 270kW(10→80% 약 21분).\\n\\n트림별 차이는 배터리 용량이 아니라 모터/구동 구성에 따른 주행거리·출력 차이임:\\n - 한국 환경부 공인(상온) 마칸 베이스(후륜) 455km(도심 495 / 고속 405), 저온 약 302km.\\n - 제조사 WLTP 기준 트림별 최대 주행거리: 마칸 474km, 마칸4 454km, 마칸4S 450km, 터보 429km (출력 클수록 짧아짐).\\n\\n엔카 표기 \\\"4S / 기본 / 베이스 / 베이스 4\\\"는 모두 같은 세부모델(마칸 일렉트릭)의 트림 명칭 표기 차이일 뿐(베이스=기본=마칸 후륜, 베이스4=마칸4 AWD), 배터리 용량은 전부 동일.\\n\\n페이스리프트/용량 증설 이력 없음(2024 최초 출시 이후 현재까지 100kWh 유지). 아이오닉5식 배터리 증설 케이스 아님.\\n\\n수치 출처별 일치: 포르쉐 뉴스룸·EV Database·EVKX·다나와·국내 매체 모두 100kWh gross / 약 95kWh usable로 일치하여 confidence=high."
+  },
+  {
+    "manufacturer": "포르쉐",
+    "model": "타이칸",
+    "sub_model": "타이칸 (J1, 2020~현재)",
+    "period": "20~현재",
+    "batteries": [
+      {
+        "label": "퍼포먼스 배터리 (Performance Battery, 초기형 2020~2024)",
+        "kwh": 79.2,
+        "usable_kwh": 71,
+        "range_km": 408,
+        "drivetrain": "2WD/4WD",
+        "applies_to_trims": [
+          "기본",
+          "베이스",
+          "베이스 4",
+          "4S",
+          "S"
+        ]
+      },
+      {
+        "label": "퍼포먼스 배터리 플러스 (Performance Battery Plus, 초기형 2020~2024)",
+        "kwh": 93.4,
+        "usable_kwh": 83.7,
+        "range_km": 484,
+        "drivetrain": "2WD/4WD",
+        "applies_to_trims": [
+          "4S",
+          "4S 크로스 투리스모",
+          "GTS",
+          "크로스 투리스모",
+          "Turbo",
+          "Turbo S (Turbo계열 기본장착, 그 외 옵션)"
+        ]
+      },
+      {
+        "label": "퍼포먼스 배터리 (Performance Battery, 부분변경 2024~현재)",
+        "kwh": 89,
+        "usable_kwh": 82.3,
+        "range_km": 458,
+        "drivetrain": "2WD/4WD",
+        "applies_to_trims": [
+          "기본",
+          "베이스",
+          "베이스 4",
+          "4S",
+          "S"
+        ]
+      },
+      {
+        "label": "퍼포먼스 배터리 플러스 (Performance Battery Plus, 부분변경 2024~현재)",
+        "kwh": 105,
+        "usable_kwh": 97,
+        "range_km": 500,
+        "drivetrain": "2WD/4WD",
+        "applies_to_trims": [
+          "4S",
+          "4S 크로스 투리스모",
+          "GTS",
+          "GT",
+          "GT 바이작 패키지",
+          "크로스 투리스모",
+          "Turbo",
+          "Turbo S"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Porsche_Taycan",
+      "https://www.evspecs.org/tech-specs/porsche/taycan-2019-2024/taycan",
+      "https://www.autospy.net/news/14345",
+      "https://auto.danawa.com/news/?Work=detail&no=5642857",
+      "https://www.motorgraph.com/news/articleView.html?idxno=33326",
+      "https://namu.wiki/w/%ED%8F%AC%EB%A5%B4%EC%89%90%20%ED%83%80%EC%9D%B4%EC%B9%B8"
+    ],
+    "confidence": "medium",
+    "notes": "타이칸은 동일 세대(J1) 내에서 2024년 부분변경 시 배터리가 크게 증설되었으므로 연식 구분이 핵심임. 엔카에 나열된 트림(4S/4S CT/GT/GTS/S/기본/베이스/베이스4/크로스 투리스모)은 2020~현재 전체 생산기간에 걸쳐 있어 초기형/부분변경 두 세대 배터리가 모두 적용됨. 배터리는 항상 2가지: 기본=퍼포먼스 배터리(PB), 옵션/고성능=퍼포먼스 배터리 플러스(PB+).\n\n[초기형 2020~2024] PB 79.2kWh(사용 71.0), PB+ 93.4kWh(사용 83.7) — Wikipedia·EVspecs 일치(교차검증 확실).\n\n[부분변경 2024~] PB 약 89kWh, PB+ 105kWh로 증설 — 총용량은 모든 출처 일치. 단 '사용가능(usable)' 수치는 출처별로 약간 상충: Wikipedia/InsideEVs는 PB 82.3·PB+ 97.0kWh, 한국 매체(오토스파이넷/다나와)는 PB 83.6·PB+ 98.6kWh로 보고 → 측정/표기 차이로 추정. 이 때문에 전체 confidence=medium. 환경부 공인 1회충전 주행거리(국내)는 출처별 편차가 큼: 부분변경 베이스+PB+ 최대 약 500km, PB+ 미적용 베이스 458km, 환경부 인증 일부 사양 441km, 최고성능 Turbo S 425km로 보고됨(WLTP 유럽 기준은 더 높음 ~592~634km). range_km 값은 동력/사양별로 크게 달라지는 대표치이므로 참고용. GT/GT 바이작(Turbo GT Weissach) 패키지는 부분변경 105kWh 팩 전용. 크로스 투리스모는 4WD 전용. '2인승/4인승/5인승' 변형은 좌석 구성 차이일 뿐 배터리와 무관."
+  },
+  {
+    "manufacturer": "폭스바겐",
+    "model": "ID.4",
+    "sub_model": "ID.4 (생산 22~현재)",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "롱레인지 (국내 단일 사양)",
+        "kwh": 82,
+        "usable_kwh": 77,
+        "range_km": 405,
+        "drivetrain": "2WD (후륜구동)",
+        "applies_to_trims": [
+          "프로",
+          "프로 라이트"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%8F%AD%EC%8A%A4%EB%B0%94%EA%B2%90%20ID.4",
+      "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+      "https://auto.danawa.com/auto/?Work=model&Model=4005&Lineup=50029&Tab=spec",
+      "https://www.motorgraph.com/news/articleView.html?idxno=30441",
+      "https://www.volkswagen.co.kr/ko/electriccar/technology/battery.html"
+    ],
+    "confidence": "high",
+    "notes": "국내(엔카 -/5인승, 프로·프로라이트)에 들어온 ID.4는 모두 82kWh(공칭/총용량) · 77kWh(사용가능) 단일 배터리, 후륜구동(RWD), 150kW(204ps) 싱글모터로 동일. '프로'와 '프로 라이트'는 배터리·모터·주행거리 인증이 모두 같고, 라이트는 일부 편의옵션만 빠진 가격 차등 트림(라이트 5690만/프로 5990만원, 2023년형 기준). 환경부 공인 1회충전 주행거리는 405km(20인치 휠 기준). 2023년형 이후/18~19인치 휠 사양에서는 약 421~440km까지 인증된 케이스도 있어 휠 사이즈에 따라 다름. 글로벌 시장에는 52kWh(usable, Pure/55 gross)·58kWh(usable, 62 gross, 북미 Standard) 등 더 작은 배터리 옵션도 존재하나 국내 미판매. 위키백과 기준 82/77kWh는 2021년 출시부터 동일하며 페이스리프트(2024 APP550 모터 적용)에서도 배터리 용량 증설 없이 모터 효율만 개선됨 — 아이오닉5식 배터리 증설(58/72.6→63/84)과 달리 ID.4는 82/77kWh 유지. '82kWh'가 총용량, 일부 자료의 '77kWh'는 사용가능 용량을 가리키는 것으로, 상충이 아니라 표기 기준 차이임."
+  },
+  {
+    "manufacturer": "폭스바겐",
+    "model": "ID.5",
+    "sub_model": "ID.5",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (프로 / Pro)",
+        "kwh": 82.8,
+        "usable_kwh": 77,
+        "range_km": 451,
+        "drivetrain": "2WD (후륜구동/RWD)",
+        "applies_to_trims": [
+          "프로",
+          "Pro"
+        ]
+      }
+    ],
+    "sources": [
+      "https://www.autotribune.co.kr/news/articleView.html?idxno=43108",
+      "https://www.motorgraph.com/news/articleView.html?idxno=33238",
+      "https://ev-database.org/uk/car/3254/Volkswagen-ID5-Pro",
+      "https://ev-database.org/uk/car/2031/Volkswagen-ID5-Pro",
+      "https://namu.wiki/w/%ED%8F%AD%EC%8A%A4%EB%B0%94%EA%B2%90%20ID.5"
+    ],
+    "confidence": "high",
+    "notes": "한국 시판 ID.5는 '프로(Pro)' 단일 트림 / 단일 배터리만 출시 — 스탠다드/롱레인지 같은 복수 배터리 옵션 없음(국내 한정). 5인승, 후륜구동(RWD/2WD), 모터 210kW(282hp).\n\n배터리 용량 표기 차이(교차검증): (1) 국내 자료·환경부 인증·VW 스펙시트 기준 = 82.8kWh 총용량(정격전압 354V × 234Ah). (2) EV Database(국제/반올림) = 82.0kWh nominal / 77.0kWh usable. 두 수치는 같은 팩이며 82.0은 반올림 표기, 82.8이 한국 등록·인증 기준 공칭값. 사용가능 용량은 약 77kWh로 양측 일치.\n\n연식별 차이(중요): 2025년형과 2026년형(페이스리프트)의 배터리 용량은 동일(82.8/77kWh) — 아이오닉5식 배터리 증설 아님. 변경된 것은 환경부 공인 복합 주행거리뿐: 2025년형 434km → 2026년형 451km (도심 482 / 고속 412km). 효율 개선·소프트웨어 등으로 17km 증가했을 뿐 셀 용량은 그대로.\n\n생산 25~현재 구간 = 위 페이스리프트(MY26) 사양에 해당. 엔카 변형 '-/5인승, 트림 프로'는 이 단일 사양과 매칭됨."
+  },
+  {
+    "manufacturer": "볼보",
+    "model": "XC40",
+    "sub_model": "XC40 리차지",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "트윈(듀얼모터) 표준팩",
+        "kwh": 78,
+        "usable_kwh": 75,
+        "range_km": 337,
+        "drivetrain": "AWD (듀얼모터)",
+        "applies_to_trims": [
+          "트윈",
+          "트윈 얼티메이트"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Volvo_XC40",
+      "https://ev-database.org/car/1798/Volvo-XC40-Recharge-Twin-Motor",
+      "https://auto.danawa.com/auto/?Work=model&Model=4406",
+      "https://www.arenaev.com/volvo_xc40_recharge_twin_motor_78_kwh_2022-specs-272.php",
+      "https://www.top-rider.com/article/view/trd202305030001"
+    ],
+    "confidence": "medium",
+    "notes": "엔카 트림 '트윈/트윈 얼티메이트'는 듀얼모터(AWD, 합산 약 408마력) 사양으로, 한국 시판 모델은 78kWh(공칭/총) 배터리팩을 사용하며 사용가능 용량은 약 75kWh다. 한국 환경부 공인 1회충전 주행거리(복합)는 337km이며, 일부 국내 딜러/집계 페이지에 보이는 389km(도심 418/고속 353)는 상온 최대조건 기준 수치이지 표준 인증치가 아니므로 혼동 주의. 페이스리프트 배터리 증설 주의사항: 2022년 하반기~MY23 글로벌 트윈은 82.0kWh 총/79.0kWh 사용가능(WLTP 535km)으로 증설됐으나, 이 82kWh 팩은 주로 이후 싱글모터 후륜구동/익스텐디드 레인지 사양에 대응한다. 따라서 '트윈/트윈 얼티메이트' 트림 자체는 78kWh로 보는 것이 안전하나, 후기 생산분에서 82kWh로 넘어갔을 가능성이 있어 confidence=medium. 2024년 이후 동일 차량은 EX40으로 개명됨. 정확한 차대번호/생산월 기준 확인이 필요하면 환경부 무공해차 통합누리집 또는 볼보코리아 제원표로 추가 검증 권장."
+  },
+  {
+    "manufacturer": "볼보",
+    "model": "C40",
+    "sub_model": "C40 리차지",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "초기형 (MY22~23)",
+        "kwh": 78,
+        "usable_kwh": 75,
+        "range_km": 356,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "트윈 얼티메이트",
+          "트윈 (듀얼모터)"
+        ]
+      },
+      {
+        "label": "페이스리프트 (MY24~현재)",
+        "kwh": 82,
+        "usable_kwh": 79,
+        "range_km": 407,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "트윈 얼티메이트",
+          "트윈 (듀얼모터)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://ev-database.org/uk/car/1421/Volvo-C40-Recharge-Twin-Pure-Electric",
+      "https://ev-database.org/uk/car/1801/Volvo-C40-Recharge-Twin-Motor",
+      "https://www.auto-data.net/en/volvo-c40-recharge-82-kwh-408hp-awd-twin-motor-47263",
+      "https://www.volvocars.com/kr/news/corporate/230814-MY24-C40-Recharge-launch/",
+      "https://auto.danawa.com/auto/?Work=model&Model=4041"
+    ],
+    "confidence": "high",
+    "notes": "'트윈 얼티메이트(트윈 얼티밋)'는 듀얼모터 AWD 최상위 트림으로, 두 배터리 옵션 모두 이 트림에 해당합니다(차이는 배터리 옵션이 아니라 연식). 페이스리프트 배터리 증설 주의 사례: 2022 출시 초기형은 총 78kWh(사용가능 75kWh)·국내인증 356km이며, 2023년 8월 출시된 MY24부터 총 82kWh(사용가능 79kWh)·국내인증 407km로 증설됨. 엔카에서 본 매물의 생산연식(연식 22 vs 24~)으로 78/82 구분 필요. 단모터 RWD '싱글' 트림(약 69~73kWh, 별도)도 존재하나 질문의 '트윈 얼티메이트'는 듀얼모터 AWD에 해당. kWh 수치는 EV Database/auto-data 교차일치(high), 다만 출처별로 총용량 78~82 표기가 연식 혼동으로 상충 가능하니 매물 연식 확인 권장. 2025년부터 차명이 EC40으로 변경됨.\""
+  },
+  {
+    "manufacturer": "볼보",
+    "model": "EX30",
+    "sub_model": "EX30 크로스 컨트리",
+    "period": "25~현재",
+    "batteries": [
+      {
+        "label": "단일 옵션 (Twin Motor Performance)",
+        "kwh": 69,
+        "usable_kwh": 64,
+        "range_km": 329,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "퍼포먼스 울트라"
+        ]
+      }
+    ],
+    "sources": [
+      "https://auto.danawa.com/auto/?Work=model&Model=4750&Lineup=53369&Tab=spec",
+      "https://www.volvocars.com/kr/news/culture/20250904-Launch-of-the-EX30-Cross-Country/",
+      "https://www.autoview.co.kr/news/articleView.html?idxno=96984",
+      "https://ev-database.org/car/3118/Volvo-EX30-Cross-Country",
+      "https://evkx.net/models/volvo/ex30/ex30_cross_country/",
+      "https://namu.wiki/w/%EB%B3%BC%EB%B3%B4%20EX30"
+    ],
+    "confidence": "high",
+    "notes": "EX30 크로스컨트리(EX30CC)는 국내 단일 파워트레인/단일 트림으로만 출시됨: Twin Motor Performance AWD, 428마력(315kW)/55.4kg.m, 0-100 3.7초. 트림명 '퍼포먼스 울트라'는 별도 배터리 옵션이 아니라 이 단일 사양의 사양명임 → 스탠다드/롱레인지 같은 배터리 분기 없음. 일반 EX30은 싱글모터에 스탠다드(약 51kWh)/익스텐디드(약 69kWh) 두 종이 있으나, CC는 익스텐디드급 대용량 배터리 1종만 탑재.\n\n배터리 용량 표기 상충 정리(중요): 한국 공식/다나와/볼보코리아 보도자료는 'NCM 66kWh'로 표기, 국제 EV Database/EVKX는 공칭 69.0kWh(gross)·사용가능 약 64kWh로 표기. 이는 같은 셀팩(프리즘형, 400V, 107s1p, NMC)을 어떤 기준 숫자로 부르느냐의 차이로 보임 — 한국 66kWh는 사용가능에 가까운 명목치, 국제 69kWh는 총용량(gross), usable≈64kWh. 따라서 schema kwh=69(gross), usable_kwh=64로 기재. 한국 표기 66kWh도 동일 차량을 가리킴.\n\n주행거리도 기준 차이: 한국 산자부(MOLIT/환경부) 복합 인증 329km(저온 280km), 유럽 WLTP 427km. 국내 운영 기준이면 329km 사용 권장.\n\n생산기간(25~현재): 2025-09 국내 출시 최초 연식. 현재까지 페이스리프트로 인한 배터리 증설 사례 없음(아이오닉5 같은 58→63 증설 이슈 해당 없음). 단 국제시장에서 MY27 후속이 별도로 존재하므로 향후 연식 변동 주의."
+  },
+  {
+    "manufacturer": "볼보",
+    "model": "EX30",
+    "sub_model": "EX30",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "익스텐디드 레인지 (Extended Range, 한국 시판 사양)",
+        "kwh": 69,
+        "usable_kwh": 64,
+        "range_km": 351,
+        "drivetrain": "2WD (RWD, 싱글모터)",
+        "applies_to_trims": [
+          "코어(Core)",
+          "울트라(Ultra)"
+        ]
+      },
+      {
+        "label": "스탠다드 레인지 (Standard Range, 글로벌 사양·한국 미판매)",
+        "kwh": 51,
+        "usable_kwh": 49,
+        "range_km": 344,
+        "drivetrain": "2WD (RWD, 싱글모터)",
+        "applies_to_trims": []
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EB%B3%BC%EB%B3%B4%20EX30",
+      "https://en.wikipedia.org/wiki/Volvo_EX30",
+      "https://ev-database.org/car/1910/Volvo-EX30-Single-Motor-ER",
+      "https://www.carnoon.co.kr/newcar/vehicle/11608",
+      "https://www.motorgraph.com/news/articleView.html?idxno=40335",
+      "https://www.volvocars.com/kr/cars/ex30-electric/"
+    ],
+    "confidence": "medium",
+    "notes": "엔카 변형 '-/5인승' + 트림 '울트라'는 한국 시판 사양인 싱글모터 익스텐디드 레인지(RWD)에 해당. 한국에는 익스텐디드 레인지(69kWh NMC, RWD)만 정식 수입되며 코어/울트라 두 트림이 동일 배터리를 공유함(울트라=19인치 휠 등 사양차이, 배터리 동일). 따라서 울트라 트림 = 69kWh 단일 옵션. ※주의: 배터리 용량 표기 상충 — 글로벌 출처(위키백과/EV Database)는 총 69kWh·사용가능 64~65kWh(NMC, 107셀)로 일치하나, 일부 국내 매체·딜러 스펙시트는 '66kWh'를 명목/마케팅 용량으로 표기. 실제 총용량 69kWh가 다수설. ※주행거리도 상충 — WLTP는 약 475~480km이나, 한국 환경부 공인 복합주행거리는 351km(2024.12 인증, 상온 도심387/고속318)로 훨씬 짧음(국내 인증 cycle 기준). 위 range_km는 한국 공인값(351) 사용. 글로벌 스탠다드레인지(51kWh LFP, 344km)와 트윈모터 퍼포먼스(69kWh, 460km AWD)는 한국 미판매로 참고용. 생산 24~현재 단일 세대, 페이스리프트 배터리 증설 이력 없음. 배터리·생산 모두 중국. 2024~25년 배터리 관련 글로벌 리콜 이력 있음."
+  },
+  {
+    "manufacturer": "지프 (Jeep)",
+    "model": "어벤저 (Avenger)",
+    "sub_model": "어벤저",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (단일 옵션)",
+        "kwh": 54,
+        "usable_kwh": 50.8,
+        "range_km": 292,
+        "drivetrain": "2WD (FWD, 전륜)",
+        "applies_to_trims": [
+          "알티튜드",
+          "써밋",
+          "런치 에디션"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EC%A7%80%ED%94%84%20%EC%96%B4%EB%B2%A4%EC%A0%80",
+      "https://en.wikipedia.org/wiki/Jeep_Avenger",
+      "https://ev-database.org/car/1816/Jeep-Avenger-Electric",
+      "https://www.sisajournal-e.com/news/articleView.html?idxno=409688",
+      "https://www.news1.kr/industry/general-industry/5525623"
+    ],
+    "confidence": "high",
+    "notes": "지프 어벤저 BEV(생산 24~현재)는 한국 시판분 기준 배터리 옵션이 1개뿐. 스탠다드/롱레인지 분리 없음(아이오닉5 같은 58/77.4 다중옵션 X). 총 공칭용량 54.0kWh / 사용가능 약 50.8kWh(NCM, 일부 EV DB는 51kWh로도 표기). 구동은 전륜(2WD) 단일, 4WD/AWD 버전(4xe·하이브리드)은 별도 세부모델이며 본 BEV에는 해당 없음. 주행거리는 출처별로 기준이 갈림: 한국 환경부 공인 복합 292km(국내 기사 다수 일치) / 유럽 WLTP 약 400km(EV DB TEL 404km·TEH 385km, 위키 400km). 알티튜드는 국내 상위 트림(약 5,640만원, 18인치 휠 등)이며 동일 단일 배터리 사용. 페이스리프트성 배터리 증설 이력 없음(2024 출시 이후 동일 54kWh 유지). 엔카 변형 '-/5인승'은 표준 5인승 BEV로 배터리 사양 동일."
+  },
+  {
+    "manufacturer": "테슬라",
+    "model": "모델 Y",
+    "sub_model": "모델 Y",
+    "period": "20~현재",
+    "batteries": [
+      {
+        "label": "RWD (후륜, LFP)",
+        "kwh": 62.1,
+        "usable_kwh": 60,
+        "range_km": 400,
+        "drivetrain": "2WD(RWD)",
+        "applies_to_trims": [
+          "RWD",
+          "스탠다드 레인지 RWD",
+          "프리미엄 RWD"
+        ]
+      },
+      {
+        "label": "롱 레인지 (초기 인증, NMC)",
+        "kwh": 81.7,
+        "usable_kwh": 79,
+        "range_km": 500,
+        "drivetrain": "RWD/AWD",
+        "applies_to_trims": [
+          "롱 레인지",
+          "L 롱 레인지",
+          "프리미엄 롱 레인지",
+          "롱 레인지 런치에디션"
+        ]
+      },
+      {
+        "label": "롱 레인지 (2025-07 증설판, NMC)",
+        "kwh": 84.84,
+        "range_km": 523,
+        "drivetrain": "RWD/AWD",
+        "applies_to_trims": [
+          "롱 레인지",
+          "프리미엄 롱 레인지"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC%20%EB%AA%A8%EB%8D%B8%20Y",
+      "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+      "https://www.motorplex.co.kr/news/articleView.html?idxno=7247",
+      "https://www.motorplex.co.kr/news/articleView.html?idxno=6499",
+      "https://www.bloter.net/news/articleView.html?idxno=630665",
+      "https://evkx.net/models/tesla/model_y/model_y_long_range_rwd/",
+      "https://www.tesla.com/ko_kr/support/range-calculator-ref"
+    ],
+    "confidence": "high",
+    "notes": "한국 환경부(국립환경과학원 KENCIS) 인증 기준으로 교차검증. (1) RWD(2WD): 전압 345V/180Ah, 공칭 62.1kWh, LFP 화학, 상온 복합 400km(도심 414/고속 384), 저온 복합 302km. 엔카의 'RWD','스탠다드 레인지 RWD','프리미엄 RWD' 트림이 이 사양. usable ~60kWh는 Wikipedia 추정치(LFP 100% 충전 운용으로 버퍼 작음). (2) 롱 레인지 초기 인증판: 전압 355V/230Ah, 공칭 81.7kWh, NMC, 상온 복합 500km(도심 522/고속 474), 저온 복합 376km. EVKX는 gross 82.0 / usable 79.0kWh(버퍼 3.0kWh, 3.7%)로 표기 — 한국 공칭 81.7과 사실상 동일 배터리. 엔카의 '롱 레인지','L 롱 레인지','프리미엄 롱 레인지','롱 레인지 런치에디션'이 이 계열. (3) 페이스리프트(주니퍼) 이후 2025-07 추가 인증에서 롱 레인지 배터리가 약 3kWh 증설되어 84.84kWh / 상온 복합 523km(도심 544/고속 497)로 개선됨(가격 동결). 따라서 동일 '롱 레인지' 트림이라도 생산/인증 시기에 따라 81.7 → 84.84kWh 두 버전 존재 — 아이오닉5 식 증설 케이스로 주의. 엔카 변형의 'AWD/6인승'은 주니퍼 이후 추가된 6인승(롱레인지 AWD 기반)로 추정되며 배터리는 롱레인지 계열과 동일. 미국 Wikipedia/EVKX 수치(LR AWD 약 75kWh usable, Performance 81kWh)는 시장·연식별 편차가 있어 한국 인증치(81.7/84.84)를 우선 채택. 환경부 인증 주행거리는 5인승 기준이며 RWD 저온 도심/고속 수치는 출처 보도상 일부 역전 표기(저온 도심 267<고속 344)가 있어 도심 raw 값은 참고만 권장."
+  },
+  {
+    "manufacturer": "테슬라",
+    "model": "모델 3",
+    "sub_model": "모델 3",
+    "period": "17~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 레인지 플러스 (초기 LFP)",
+        "kwh": 55,
+        "usable_kwh": 54,
+        "drivetrain": "RWD",
+        "range_km": 423,
+        "applies_to_trims": [
+          "스탠다드 레인지 플러스 RWD"
+        ]
+      },
+      {
+        "label": "RWD (LFP, 페이스리프트 - 중간기)",
+        "kwh": 72.3,
+        "drivetrain": "RWD",
+        "range_km": 403,
+        "applies_to_trims": [
+          "RWD"
+        ]
+      },
+      {
+        "label": "RWD (LFP, 최신 인증)",
+        "kwh": 62.1,
+        "drivetrain": "RWD",
+        "range_km": 431,
+        "applies_to_trims": [
+          "RWD"
+        ]
+      },
+      {
+        "label": "롱 레인지 (NCM/NCA, 초기)",
+        "kwh": 75,
+        "usable_kwh": 75,
+        "drivetrain": "AWD",
+        "range_km": 446,
+        "applies_to_trims": [
+          "롱 레인지",
+          "프리미엄 롱레인지 RWD"
+        ]
+      },
+      {
+        "label": "롱 레인지 (NCM, 증설형 ~82kWh)",
+        "kwh": 82,
+        "usable_kwh": 78.1,
+        "drivetrain": "AWD",
+        "range_km": 511,
+        "applies_to_trims": [
+          "롱 레인지",
+          "프리미엄 롱레인지 RWD"
+        ]
+      },
+      {
+        "label": "프리미엄 롱 레인지 RWD (LG에너지솔루션 NCM, 최신 KENCIS 인증)",
+        "kwh": 85,
+        "drivetrain": "RWD",
+        "range_km": 551,
+        "applies_to_trims": [
+          "프리미엄 롱레인지 RWD",
+          "롱 레인지"
+        ]
+      },
+      {
+        "label": "퍼포먼스 (NCA, 초기)",
+        "kwh": 75,
+        "usable_kwh": 75,
+        "drivetrain": "AWD",
+        "range_km": 446,
+        "applies_to_trims": [
+          "퍼포먼스"
+        ]
+      },
+      {
+        "label": "퍼포먼스 (NCM, 증설형)",
+        "kwh": 82,
+        "usable_kwh": 78.1,
+        "drivetrain": "AWD",
+        "range_km": 480,
+        "applies_to_trims": [
+          "퍼포먼스"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tesla_Model_3",
+      "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC%20%EB%AA%A8%EB%8D%B8%203",
+      "https://www.tesla.com/ko_KR/support/range-calculator-ref",
+      "https://www.news-wa.com/article/automobiles/new-car/2026/05/17/20260517500005",
+      "https://www.news-wa.com/article/automobiles/new-car/2026/01/05/20260105500028",
+      "https://coran.co.kr/810",
+      "https://auto.danawa.com/auto/?Work=model&Model=3408&Tab=spec",
+      "https://www.etnews.com/20211201000110"
+    ],
+    "confidence": "medium",
+    "notes": "생산기간 17~현재(하이랜드 이전 구형 세부모델 \"모델 3\") 기준이나, 연식·셀공급사에 따라 팩 용량이 여러 차례 바뀌어 단일 값으로 못 박기 어려움 — confidence=medium.\n\n[핵심 배터리 옵션 구분]\n1) LFP 계열(보급형 RWD/스탠다드): 한국 시판 LFP팩은 시기별로 ~55kWh(초기 SR+, EPA 423km) → 72.3kWh(중간 RWD, 복합 403km) → 최신 62.1kWh(RWD, 환경부 431km)로 변동. 페이스리프트 때 LFP 용량이 한 번 올랐다가(72.3) 다시 내려간(62.1) 사례라 아이오닉5식 단순 '증설'과 다름, 주의.\n2) NCM/NCA 계열(롱레인지/퍼포먼스): 초기 75kWh(usable 75) → 증설형 약 82kWh(usable 78.1) → 최신 '프리미엄 롱레인지 RWD'는 LG에너지솔루션 85.0kWh NCM 팩으로 환경부 KENCIS 인증, 1회충전 551km(신차 트림).\n\n[엔카 트림 매핑]\n- \"스탠다드 레인지 플러스 RWD\" = LFP 보급형(54~55kWh급, usable~54)\n- \"RWD\" = 후기 LFP RWD(62.1~72.3kWh, 403~431km) — SR+ 후속 명칭\n- \"롱 레인지\" = NCM/NCA 75→82kWh AWD(또는 RWD)\n- \"프리미엄 롱레인지 RWD\" = 최신 85kWh NCM RWD, 551km\n- \"퍼포먼스\" = NCA/NCM 75→82kWh AWD\n\n[불확실성] usable kWh는 NCM 계열 75/78.1만 비교적 신뢰. LFP 팩들의 usable, 그리고 초기 SR+의 정확한 total kWh(50 vs 54 vs 55)는 출처마다 상충(50/54/55kWh 혼재). 한국 환경부 공인거리는 트림·연식별로 RWD 403~431km, 롱레인지 446~551km 범위. 나무위키는 본문 fetch가 403으로 차단되어 검색 스니펫으로만 교차확인함. 자연차종명·소유 무관, 데이터 검증용."
+  },
+  {
+    "manufacturer": "테슬라",
+    "model": "모델 X",
+    "sub_model": "모델 X",
+    "period": "18~현재",
+    "batteries": [
+      {
+        "label": "75D",
+        "kwh": 75,
+        "drivetrain": "AWD(듀얼모터)",
+        "range_km": 383,
+        "applies_to_trims": [
+          "75D"
+        ]
+      },
+      {
+        "label": "100D / 롱레인지 (초기 명칭)",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "drivetrain": "AWD(듀얼모터)",
+        "range_km": 523,
+        "applies_to_trims": [
+          "100D",
+          "롱 레인지",
+          "기본"
+        ]
+      },
+      {
+        "label": "P100D / 퍼포먼스",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "drivetrain": "AWD(듀얼모터, 고성능)",
+        "range_km": 491,
+        "applies_to_trims": [
+          "퍼포먼스",
+          "P100D"
+        ]
+      },
+      {
+        "label": "롱레인지 (현행, 2021~)",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "drivetrain": "AWD(듀얼모터)",
+        "range_km": 499,
+        "applies_to_trims": [
+          "롱 레인지"
+        ]
+      },
+      {
+        "label": "플래드 (Plaid, 2021~)",
+        "kwh": 100,
+        "usable_kwh": 96,
+        "drivetrain": "AWD(트라이모터)",
+        "range_km": 478,
+        "applies_to_trims": [
+          "플래드"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tesla_Model_X",
+      "https://ev-database.org/uk/car/1198/Tesla-Model-X-Long-Range",
+      "https://www.carnoon.co.kr/newcar/vehicle/10870",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=407028",
+      "https://ikkujun.com/1296"
+    ],
+    "confidence": "medium",
+    "notes": "생산기간 18~현재 모델 X의 배터리는 사실상 전 트림 100kWh로 수렴(75D만 75kWh, 초기 90D는 90kWh로 이 세부모델 범위 밖에 가까움). 엔카 트림 매핑: 100D=100kWh, 75D=75kWh, 기본/롱레인지=100kWh, 퍼포먼스=P100D 100kWh, 플래드=100kWh(트라이모터). 인승(5/6/7인승)은 좌석 옵션일 뿐 배터리 용량과 무관 — 동일 팩. 총용량 100kWh는 영문 위키·EV Database·국내 출처(카눈) 모두 일치(교차검증 OK). 단 usable kWh는 EV Database 추정치(롱레인지 95, 플래드 96)로 테슬라/환경부 공식 확정치 아님 → confidence medium. 주행거리(km)는 연식/페이스리프트별 편차 큼: 롱레인지 478~499km, 플래드 439~478km(2025~2026년형), 구형 100D 523km는 EPA 환산치라 국내 공인과 다를 수 있음. 75D는 2019.1 국내 판매중단(autodaily). 나무위키는 403으로 직접 fetch 실패 → 위키백과+EV DB+국내 매체로 대체 교차검증함."
+  },
+  {
+    "manufacturer": "테슬라",
+    "model": "모델 S",
+    "sub_model": "모델 S",
+    "period": "12~현재",
+    "batteries": [
+      {
+        "label": "75 (스탠다드)",
+        "kwh": 75,
+        "usable_kwh": 72.6,
+        "range_km": 359.5,
+        "drivetrain": "AWD (75D)",
+        "applies_to_trims": [
+          "75D",
+          "75"
+        ]
+      },
+      {
+        "label": "90 (구형 대용량)",
+        "kwh": 90,
+        "usable_kwh": 81.8,
+        "range_km": 378,
+        "drivetrain": "AWD (90D) / 후륜(90)",
+        "applies_to_trims": [
+          "90D",
+          "90",
+          "P90D"
+        ]
+      },
+      {
+        "label": "100 (롱레인지)",
+        "kwh": 100,
+        "usable_kwh": 98.4,
+        "range_km": 451.2,
+        "drivetrain": "AWD (100D)",
+        "applies_to_trims": [
+          "100D",
+          "롱 레인지",
+          "기본"
+        ]
+      },
+      {
+        "label": "100 (퍼포먼스)",
+        "kwh": 100,
+        "usable_kwh": 98.4,
+        "range_km": 507,
+        "drivetrain": "AWD (P100D)",
+        "applies_to_trims": [
+          "P100D"
+        ]
+      },
+      {
+        "label": "롱레인지 (2021 페이스리프트)",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "range_km": 652,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "롱 레인지"
+        ]
+      },
+      {
+        "label": "플래드 (2021 페이스리프트)",
+        "kwh": 100,
+        "usable_kwh": 95,
+        "range_km": 628,
+        "drivetrain": "AWD (3모터)",
+        "applies_to_trims": [
+          "플래드"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tesla_Model_S",
+      "https://zdnet.co.kr/view/?no=20170626172437",
+      "https://www.etnews.com/20171121000191",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=400013",
+      "https://www.motorgraph.com/news/articleView.html?idxno=14209",
+      "https://electrek.co/2021/06/17/tesla-reduced-energy-capacity-battery-pack-new-model-s/",
+      "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC%20%EB%AA%A8%EB%8D%B8%20S"
+    ],
+    "confidence": "medium",
+    "notes": "엔카 변형(-/null인승, -/5인승, AWD/5인승)은 모두 동일 5인승 세단으로, 실제 구분은 트림(배터리/구동)에 있음. 트림명은 시기별로 변경됨: 75D→스탠다드, 100D→롱레인지, P100D→퍼포먼스. 2021년 대규모 페이스리프트(리프레시)로 트림이 '롱레인지/플래드' 2종으로 재편됨.\n\n[배터리 용량 명목치는 교차검증 high]: 75D=75kWh, 90D=90kWh, 100D/P100D=100kWh는 영문 위키 및 국내 언론 일치.\n\n[주의 - 페이스리프트 배터리 변화]: 2021 리프레시 시 명목 100kWh는 유지되나 실측 에너지 사용량이 축소됨(Electrek/InsideEVs 보도: 약 104→100kWh급, 사용가능 약 95kWh로 감소). 따라서 같은 '100kWh'라도 구형 100D(usable~98kWh)와 신형 롱레인지/플래드(usable~95kWh)는 다름.\n\n[주행거리]: 75D 359.5km / 90D 378km / 100D 451.2km 는 국립환경과학원 한국 공인 인증치(국내 언론 인용). 단 75D 한국 공인 주행거리는 출처에 따라 약간 상이(약 359~360km)하며 90D 378km도 환경부 인증 보도 기준. 신형 롱레인지 652km/플래드 628km는 WLTP/EPA 기준(국내 정식 출시 인증 여부 불명확).\n\n[usable kWh 불확실]: 75D usable 72.6kWh, 100D usable 98.4kWh는 specs 데이터베이스/포럼 추정치로 제조사 공식 수치 아님 → 이 부분 confidence low. 90D usable 81.8kWh(총 85.8kWh팩 기준)는 Tesla Motors Club 포럼 측정치. 명목 90kWh와 차이 큰 점 유의.\n\n[데이터 출처 한계]: namu.wiki는 403으로 직접 fetch 실패, 검색 스니펫으로만 확인. 전체적으로 명목 용량은 신뢰도 높으나 usable kWh 및 신형 페이스리프트 정밀 수치는 상충 소지 있어 confidence=medium."
+  },
+  {
+    "manufacturer": "테슬라 (Tesla)",
+    "model": "사이버트럭 (Cybertruck)",
+    "sub_model": "사이버트럭 (2023~현재, 1세대)",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "단일 팩 (전 트림 공용)",
+        "kwh": 123,
+        "usable_kwh": 122.4,
+        "range_km": 523,
+        "drivetrain": "AWD (듀얼모터)",
+        "applies_to_trims": [
+          "기본",
+          "AWD",
+          "Cyberbeast"
+        ]
+      },
+      {
+        "label": "단일 팩 (전 트림 공용) - Cyberbeast 구성",
+        "kwh": 123,
+        "usable_kwh": 122.4,
+        "range_km": 510,
+        "drivetrain": "AWD (트라이모터)",
+        "applies_to_trims": [
+          "Cyberbeast"
+        ]
+      },
+      {
+        "label": "단일 팩 (전 트림 공용) - RWD 롱레인지(단종)",
+        "kwh": 123,
+        "usable_kwh": 122.4,
+        "range_km": 560,
+        "drivetrain": "RWD (싱글모터)",
+        "applies_to_trims": [
+          "롱레인지 RWD (단종)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+      "https://insideevs.com/news/699248/tesla-cybertruck-battery-size-and-heat-pump/",
+      "https://www.arenaev.com/epa_documents_reveal_cybertruck_battery_heat_pump_and_charging_indicator_details-news-2830.php",
+      "https://evchargingstations.com/chargingnews/2026-tesla-cybertruck/",
+      "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC%20%EC%82%AC%EC%9D%B4%EB%B2%84%ED%8A%B8%EB%9F%AD"
+    ],
+    "confidence": "medium",
+    "notes": "[핵심] 사이버트럭은 트림(기본/AWD/Cyberbeast)별로 배터리 용량이 다르지 않다. 전 트림이 동일한 구조형(structural) 4680 셀 팩을 공유하며, 816V·150Ah 구성 → 최대 약 123kWh(공칭). EPA 제출 문서 역산 기준 정확값은 122.4kWh로, 비공식 123kWh와 일치(usable로 표기). 트림 차이는 모터 수(듀얼 AWD vs 트라이 Cyberbeast)와 주행거리뿐.\\n\\n[주행거리/구동] EPA 공인거리(소스마다 ±편차): AWD 듀얼모터 ≈325mi(523km), Cyberbeast 트라이모터 ≈300~320mi(480~510km), RWD 롱레인지 ≈350mi(560km). 위키백과 표기는 AWD 340mi(550km)·Cyberbeast 320mi(510km)·RWD 350mi(560km)로 약간 다름 — km는 반올림 편차로 보면 됨.\\n\\n[주의] (1) RWD 롱레인지 트림은 2025년 단종됨. 엔카 변형의 \\\"기본\\\" 트림이 이 RWD를 가리키는지 듀얼모터 AWD를 가리키는지는 불명확. (2) 인승: 전 트림 5인승(앞2+뒤3 벤치). 엔카에 5인승/null 혼재된 것은 표기 누락으로 추정, 실제 5인승 단일. (3) \\\"170kWh\\\" 라는 한국 일부 기사(EPA 인증자료 인용)는 다른 단위 오독으로 보이며, gross 기준으로도 과대 — 신뢰하지 않음. 정설은 ~123kWh. (4) 국내 정식 시판/환경부 공인 자료는 2026년 출시 예정 시점이라 미확정이며, 본 값은 미국 EPA·제조사·위키 기준. confidence=medium 사유: 트림별 배터리 동일성은 확실하나, 한국 공인연비/공인주행거리 미확정 + 소스 간 km 편차 + 엔카 변형↔단종 RWD 매핑 모호."
+  },
+  {
+    "manufacturer": "렉서스",
+    "model": "UX",
+    "sub_model": "UX300e",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "초기형 (54.3kWh, 2020~2022)",
+        "kwh": 54.3,
+        "usable_kwh": 45,
+        "range_km": 233,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "기본"
+        ]
+      },
+      {
+        "label": "개선형 (72.8kWh, 2023~현재)",
+        "kwh": 72.8,
+        "usable_kwh": 64,
+        "range_km": 450,
+        "drivetrain": "2WD (FWD)",
+        "applies_to_trims": [
+          "기본"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EB%A0%89%EC%84%9C%EC%8A%A4%20UX",
+      "https://ev-database.org/uk/car/1251/Lexus-UX-300e",
+      "https://ev-database.org/uk/car/1943/Lexus-UX-300e",
+      "https://newsroom.lexus.eu/lexus-ux-300e-upgraded-with-40-extended-range/",
+      "https://www.motoya.co.kr/news/articleView.html?idxno=36365",
+      "http://www.carguy.kr/news/articleView.html?idxno=43486"
+    ],
+    "confidence": "high",
+    "notes": "UX300e는 단일 구동(2WD/FWD)·단일 모터지만 생산기간 중 배터리가 한 번 증설되어 두 가지 팩이 존재함. 엔카 '생산 22~현재' 범위에 두 팩 모두 걸친다.\n\n[초기형] 총 54.3kWh (usable 45kWh, EV Database 추정). WLTP 315km. 한국 환경부 공인은 상온 233km / 저온 187km (카가이 인증완료 보도). 국내는 2022년 6월 출시.\n\n[개선형] 2023년형부터 신규 72.8kWh 팩 적용 (usable 64kWh, EV Database 추정). WLTP 450km(17인치)/440km(18인치). 렉서스 EU '40% 주행거리 확대' 공식 보도. 국내 모토야/카가이도 367km→450km 확대로 보도.\n\n주의: 233km는 한국 환경부 공인치(초기형), 315/450km는 WLTP 기준이라 직접 비교 불가. range_km 필드에는 초기형=국내 환경부 공인 233km, 개선형=WLTP 450km를 넣었으니 기준이 다름에 유의(개선형의 국내 환경부 공인 상온치는 별도 확인 필요).\n\nusable_kwh(45/64)는 EV Database '추정(estimate)' 표기 값으로, 제조사 공식 사용가능 용량은 아님. 총용량(54.3/72.8)은 나무위키·렉서스·EV Database가 모두 일치하여 신뢰도 높음."
+  },
+  {
+    "manufacturer": "렉서스",
+    "model": "RZ",
+    "sub_model": "RZ450e",
+    "period": "23~현재",
+    "batteries": [
+      {
+        "label": "단일 (롱레인지 옵션 없음)",
+        "kwh": 71.4,
+        "usable_kwh": 64,
+        "range_km": 377,
+        "drivetrain": "AWD (DIRECT4 전후륜 듀얼모터)",
+        "applies_to_trims": [
+          "럭셔리",
+          "전 트림 공통"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/렉서스 RZ",
+      "https://ev-database.org/car/1677/Lexus-RZ-450e",
+      "https://evkx.net/models/lexus/rz/rz_450e/",
+      "https://www.batterydesign.net/lexus-rz-450e/",
+      "https://www.lexus.co.kr/models/RZ-450e/"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단일(스탠다드/롱레인지 구분 없음). 총용량 71.4kWh / 사용가능 64.0kWh (버퍼 약 7.4kWh, 10.4%) — EV Database·EVKX·BatteryDesign 모두 일치. 한국 MOLIT 공인 1회충전 주행거리는 377km(복합), 전비 5.4km/kWh 2등급 (렉서스코리아·나무위키·국내 시승기 일치). 생산 23~현재 기간 내 RZ450e는 배터리 증설 페이스리프트 없음 — 주행거리 차이는 휠 사이즈(18인치 vs 20인치)에 따른 것이지 배터리 용량 차이가 아님. 해외 인증치는 측정기준 상이: WLTP 약 395~440km, EPA 약 196~220마일(약 315~354km). '럭셔리'는 국내 사양/장비 트림 구분일 뿐 배터리·구동(AWD)은 전 트림 동일. 참고: 26년형부터 RZ500e/550e로 라인업 개편되며 단종 수순. ev-database가 분류한 'MY23-25'가 본 생산기간(23~현재)에 해당."
+  },
+  {
+    "manufacturer": "마세라티",
+    "model": "그레칼레",
+    "sub_model": "그레칼레",
+    "period": "22~현재",
+    "batteries": [
+      {
+        "label": "폴고레 (단일 배터리, 옵션 분기 없음)",
+        "kwh": 105,
+        "usable_kwh": 98.6,
+        "range_km": 333,
+        "drivetrain": "AWD",
+        "applies_to_trims": [
+          "폴고레",
+          "Folgore"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maserati_Grecale",
+      "https://ev-database.org/uk/car/1843/Maserati-Grecale-Folgore",
+      "https://evkx.net/models/maserati/grecale/grecale_folgore/",
+      "https://www.ultimatespecs.com/car-specs/Maserati/139936/Maserati-Grecale-Folgore-105-kWh-BEV-AWD.html",
+      "https://www.top-rider.com/article/view/trd202412170006",
+      "https://www.electrive.com/2025/10/30/maserati-grecale-folgore-gets-range-boost-and-battery-preconditioning/"
+    ],
+    "confidence": "high",
+    "notes": "그레칼레 폴고레는 배터리 옵션이 1종(스탠다드/롱레인지 분기 없음)인 단일 트림 BEV임. 구동은 듀얼모터 AWD, 5인승, 400V 시스템.\n\n[배터리 용량 - 교차검증]\n- gross(공칭) 105.0 kWh: 위키백과·EV Database·EVKX·ultimatespecs 다수 일치 → 신뢰도 높음.\n- usable(사용가능) 98.6 kWh: EV Database 기준. 일부 출처는 ~95~96 kWh로 표기(버퍼 추정치 차이)이라 usable은 95~98.6 범위로 보는 게 안전.\n- 주의: 국내 매체(top-rider)는 110.5 kWh로 표기했으나 글로벌 출처 다수가 105 kWh로 수렴 → 110.5는 오기/이상치로 판단.\n\n[주행거리]\n- 국내 환경부 인증 1회충전(상온 복합): 약 333~336 km (top-rider 336km, 국내 시승기 333km). range_km는 보수적으로 333 입력.\n- 유럽 WLTP: MY24-25 = 500~501 km. 휠 사이즈 등 옵션에 따라 426~501 km 변동.\n- 페이스리프트/연식 주의: MY26부터 배터리 증설 없이(105kWh 동일) 효율 개선+배터리 프리컨디셔닝 추가로 WLTP가 약 570~580 km로 상향됨(electrive 2025-10). 배터리 kWh 자체는 변동 없음 → 아이오닉5식 셀 증설(58→63)과는 다름.\n\n[생산기간 22~현재] 폴고레(BEV)는 2023 공개·2024 시판 시작, 현행 단일 세대. 내연 그레칼레(GT/모데나/트로페오)와 별개로 폴고레만 전기차."
+  },
+  {
+    "manufacturer": "캐딜락",
+    "model": "리릭",
+    "sub_model": "리릭",
+    "period": "24~현재",
+    "batteries": [
+      {
+        "label": "단일 배터리 (롱레인지 단일 옵션)",
+        "kwh": 102,
+        "usable_kwh": 100,
+        "range_km": 465,
+        "drivetrain": "RWD (국내 도입 초기 단일모터 후륜) / 일부 AWD 사양 존재",
+        "applies_to_trims": [
+          "스포츠 (Sport)"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+      "https://www.carnoon.co.kr/newcar/vehicle/11678",
+      "https://www.cadillac.co.kr/electric/lyriq",
+      "https://namu.wiki/w/%EC%BA%90%EB%94%9C%EB%9D%BD%20%EB%A6%AC%EB%A6%AD"
+    ],
+    "confidence": "high",
+    "notes": "교차검증 결과 세 출처(영문 위키백과, 카눈 제원, 다수 국내 매체)가 모두 일치: 총용량 102kWh, 사용가능 약 100kWh(usable), GM 얼티엄 플랫폼. 국내 환경부 공인 복합 1회충전 주행거리 465km. 국내 도입(2024년 7월~) 사양은 단일 배터리 옵션만 존재하며 별도의 스탠다드/롱레인지 구분이 없음 — 따라서 58/77.4 같은 다중 용량 옵션 없음. 엔카 기준 트림 '스포츠(Sport)'는 카눈 제원과 일치(국내 단일 트림 표기). 구동: 위키백과는 한국 도입분을 AWD로 기재하나, 카눈 국내 제원은 후륜(단일모터 510PS) 스포츠 트림으로 표기 — 연식/사양별로 RWD 단일모터와 AWD 듀얼모터가 혼재할 수 있어 구동방식 한정은 medium 신뢰. 배터리 용량 자체(102kWh)는 2024~현재 변동 없음(증설 페이스리프트 미발생). 중국 초기 한정 95.7kWh 옵션은 국내 무관. 일부 영문 출처가 100 vs 102kWh를 혼용하나 이는 gross(102)/usable(100) 차이로 정리됨. LYRIQ-V 고성능(112.5kWh급)은 별도 모델로 본 세부모델 범위 밖."
+  },
+  {
+    "manufacturer": "재규어",
+    "model": "I-PACE",
+    "sub_model": "I-PACE",
+    "period": "19~현재",
+    "batteries": [
+      {
+        "label": "단일 옵션 (EV400)",
+        "kwh": 90,
+        "usable_kwh": 84.7,
+        "range_km": 333,
+        "drivetrain": "AWD (듀얼모터 사륜)",
+        "applies_to_trims": [
+          "EV400 HSE",
+          "EV400 SE",
+          "EV400 퍼스트 에디션"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%EC%9E%AC%EA%B7%9C%EC%96%B4%20I-%ED%8E%98%EC%9D%B4%EC%8A%A4",
+      "https://ev-database.org/uk/car/1097/Jaguar-I-Pace-EV400",
+      "https://www.jaguar.com/ko-kr/jdx/ownership/i-pace-battery.html",
+      "https://www.autodaily.co.kr/news/articleView.html?idxno=401553",
+      "https://www.motorgraph.com/news/articleView.html?idxno=21425"
+    ],
+    "confidence": "high",
+    "notes": "배터리 옵션은 단 1종. I-PACE는 전 트림·전 연식이 동일한 'EV400' 듀얼모터 AWD 파워트레인 + 90kWh 단일 배터리를 사용한다. 스탠다드/롱레인지 같은 용량 분기 없음. 트림(EV400 HSE / SE / 퍼스트 에디션)은 사양·편의장비만 다르고 배터리·구동·항속거리는 동일.\n\n- 총용량(공칭) 90kWh, 사용가능 84.7kWh (버퍼 약 5.3kWh) — EV Database. 셀은 LG에너지솔루션 NCM 622 파우치 432셀(36모듈) 구성(나무위키).\n- 국내 환경부 공인 1회충전 주행거리 = 333km (출시 당시, 복합). 여러 한국 매체(오토데일리/모터그래프) 일치.\n- 해외 WLTP는 출시초기 약 470~480km, 이후 연식/옵션에 따라 408km대까지 하향(EV Database 연식별 페이지 1097/1287/1812).\n\n페이스리프트 배터리 증설 주의사항 확인 결과: I-PACE는 2019~현재까지 배터리 '용량 증설 없음'. 2021년식 등에서 충전속도(11kW AC, 최대 DC) 개선은 있었으나 kWh 변화는 없어 아이오닉5 사례(58→63)와 같은 증설 케이스 아님. 엔카 변형 '-/5인승'은 단순 5인승 표기로 배터리 구분과 무관.\n\nusable 84.7kWh는 EV Database 단일 출처 기반(한국 자료엔 사용가능 용량 명시 없음)이라 그 수치만 medium 신뢰, 총 90kWh·333km는 다중출처 일치로 high."
+  },
+  {
+    "manufacturer": "푸조",
+    "model": "2008",
+    "sub_model": "e-2008 2세대",
+    "period": "20~현재",
+    "batteries": [
+      {
+        "label": "전기 단일배터리 (페이스리프트 이전, 2020~2023년식)",
+        "kwh": 50,
+        "usable_kwh": 45,
+        "range_km": 237,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "EV GT",
+          "EV GT Line"
+        ]
+      },
+      {
+        "label": "전기 단일배터리 (페이스리프트, 2023~현재, 54kWh)",
+        "kwh": 54,
+        "usable_kwh": 50.8,
+        "range_km": 401,
+        "drivetrain": "2WD(전륜)",
+        "applies_to_trims": [
+          "EV GT",
+          "EV GT Line"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%91%B8%EC%A1%B0%202008",
+      "https://en.wikipedia.org/wiki/Peugeot_2008",
+      "https://ev-database.org/car/1947/Peugeot-e-2008-54-kWh",
+      "https://ev-database.org/car/1206/Peugeot-e-2008",
+      "https://www.evspecs.org/tech-specs/peugeot/e-2008-2020-2023/50-kwh",
+      "https://www.sisaweek.com/news/articleView.html?idxno=157129"
+    ],
+    "confidence": "medium",
+    "notes": "푸조 e-2008 2세대 전기차는 구동/트림(EV GT, EV GT Line)에 관계없이 전륜구동(2WD) 단일 모터·단일 배터리 구성으로, 트림별 배터리 차이는 없음. 배터리 차이는 '연식(페이스리프트)'으로 갈림 — 이 점이 핵심.\n\n(1) 페이스리프트 이전 (2020~2023): 총용량 50kWh(공칭), 사용가능 약 45~46.2kWh(출처별 45/46.2 상충), 모터 100kW. WLTP 약 320~345km. 한국 환경부 공인은 상온 복합 약 237km(초기) / 일부 개선분 265km로 보도. range_km 237은 국내 환경부 인증 기준치를 사용(WLTP는 더 높음).\n\n(2) 페이스리프트 (2023~현재): 총용량 54kWh, 사용가능 50.8kWh(EV Database), 모터 115kW(156마력). WLTP 약 397~406km. 한국 인증 주행거리는 별도 확인 필요(국내 도입분은 326~340km대 보도). range_km 401은 WLTP 중간값.\n\n주의: 아이오닉5형 대용량 증설은 아니고, 50→54kWh의 소폭 증설(셀 화학 개선 포함)임. usable 수치가 출처마다 45/46.2/50.8로 다소 상충하므로 confidence=medium. 국내 환경부 공인 km는 도입 연식/타이어/옵션에 따라 변동 — 정확한 국내 인증치는 자동차 다나와/카눈 제원표 또는 환경부 무공해차 통합누리집 재확인 권장. 디젤·가솔린 2008과 혼동 금지(질문은 전기 e-2008 한정).\""
+  },
+  {
+    "manufacturer": "푸조",
+    "model": "208",
+    "sub_model": "e-208 2세대",
+    "period": "20~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (50kWh, 페이스리프트 이전 2020~2023)",
+        "kwh": 50,
+        "usable_kwh": 46.3,
+        "range_km": 340,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "GT",
+          "GT Line",
+          "알뤼르"
+        ]
+      },
+      {
+        "label": "스탠다드 (51kWh, 페이스리프트 MY24 2023~현재)",
+        "kwh": 51,
+        "usable_kwh": 48.1,
+        "range_km": 400,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "GT",
+          "GT Line",
+          "알뤼르"
+        ]
+      }
+    ],
+    "sources": [
+      "https://namu.wiki/w/%ED%91%B8%EC%A1%B0%20208/2%EC%84%B8%EB%8C%80",
+      "https://ev-database.org/car/1168/Peugeot-e-208",
+      "https://ev-database.org/car/1949/Peugeot-e-208-51-kWh",
+      "https://www.batterydesign.net/peugeot-e-208/",
+      "https://www.media.stellantis.com/em-en/peugeot/press/new-100-electric-peugeot-e-208-more-powerful-more-efficient-and-up-to-400-km-in-range"
+    ],
+    "confidence": "high",
+    "notes": "e-208 2세대(코드 P21)는 단일 배터리 사양만 존재하며 롱레인지 옵션이 없음. 구동은 전륜(2WD) 단일. 핵심은 2023년 페이스리프트(MY24)에서 배터리가 50kWh→51kWh로 증설되고 모터출력 100kW(136hp)→115kW(156hp)로 상향, WLTP 주행거리 340km→약400km로 개선된 점(요청에서 주의 요청한 페이스리프트 배터리 증설 패턴에 정확히 해당). usable 용량은 EV Database 기준 46.3kWh(50팩)/48.1kWh(51팩). 한국 시판분은 50/51kWh 두 시기가 모두 유통될 수 있으므로 연식(생산기간)으로 구분 필요: 2023년 이전 등록차=50kWh, 이후=51kWh일 가능성 높음. GT/GT Line/알뤼르는 배터리가 아닌 사양(트림) 차이로, 같은 시기 차량이면 동일 배터리. 국내 초기 보도/나무위키에 NEDC 450km 표기도 있으나 이는 공인 WLTP가 아님(WLTP 340km가 페이스리프트 이전 공식치). 환경부 국내 공인 1회충전거리(상온/저온)는 별도 확인 필요하나 본 교차검증 범위 밖."
+  },
+  {
+    "manufacturer": "닛산",
+    "model": "리프",
+    "sub_model": "리프 (ZE1)",
+    "period": "19~현재",
+    "batteries": [
+      {
+        "label": "스탠다드 (40kWh, 한국 시판 EV S / EV SL)",
+        "kwh": 40,
+        "usable_kwh": 39,
+        "range_km": 231,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "EV S",
+          "EV SL"
+        ]
+      },
+      {
+        "label": "롱레인지 e+ (62kWh, 글로벌 사양 / 한국 EV SL 트림에는 미적용)",
+        "kwh": 62,
+        "usable_kwh": 59,
+        "range_km": 385,
+        "drivetrain": "2WD (전륜)",
+        "applies_to_trims": [
+          "e+",
+          "Leaf Plus"
+        ]
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nissan_Leaf",
+      "https://namu.wiki/w/%EB%8B%9B%EC%82%B0%20%EB%A6%AC%ED%94%84",
+      "https://www.auto-data.net/en/nissan-leaf-ii-ze1-40-kwh-150hp-32049",
+      "https://www.hankookilbo.com/News/Read/201903041393718797"
+    ],
+    "confidence": "high",
+    "notes": "엔카 변형 \"EV SL\"은 한국 시판 ZE1 2세대로, 한국에는 40kWh 단일 배터리 사양만 출시됨 (트림: EV S, EV SL). 환경부 공인 1회충전 주행거리 231km, 복합효율 5.1km/kWh (한국일보 2019.3.4 기사 + 닛산코리아 발표). 따라서 한국 EV SL = 40kWh가 정답.\n\n배터리 옵션 구분:\n- 40kWh (스탠다드): 한국 정식 출시 사양. 사용가능 약 39kWh, 한국 공인 231km / WLTP는 출처별 270~274km로 상충(auto-data.net 270km, Wikipedia WLTP 274km). 한국 인증 231km가 EV SL 해당값.\n- 62kWh \"e+\"(롱레인지): 2019년 1월 글로벌 추가된 대용량팩. 사용가능 약 59kWh, EPA 226mi(364km)→2023 페이스리프트 후 212mi(341km), WLTP 약 385km. 단 한국에는 e+ 미수입으로 추정되며 엔카 \"EV SL\" 트림과는 무관.\n\n페이스리프트 주의: ZE1은 페이스리프트 시 배터리 용량 자체는 증설되지 않음(40/62kWh 유지). 2023년식에서 EPA 주행거리 수치만 소폭 하향 조정됨(40kWh 240km, 62kWh 341km). 아이오닉5식 셀 증설(58→63)은 없음.\n\nusable 용량은 출처별 36~39kWh로 약간 상충(auto-data.net 36kWh vs myevreview/EPA 추정 39kWh) — 통상 39kWh로 인용됨. EV SL 트림은 40kWh 사양이 확정적이므로 confidence=high."
+  }
+]

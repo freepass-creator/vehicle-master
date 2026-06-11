@@ -1,0 +1,108 @@
+{
+  "name": "북기은상",
+  "count": 8,
+  "code": "086",
+  "eng": "Baic Yinxiang",
+  "order": 385.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.북기은상.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CK 미니밴",
+      "count": 0,
+      "code": "001",
+      "eng": "CK Mini Van",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.ModelGroup.CK 미니밴.)))",
+      "sub_models": [
+        {
+          "name": "CK 미니밴",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.(C.ModelGroup.CK 미니밴._.Model.CK 미니밴.))))",
+          "start": "201511",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/086_001_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CK 미니트럭",
+      "count": 4,
+      "code": "002",
+      "eng": "CK MINI Truck",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.ModelGroup.CK 미니트럭.)))",
+      "sub_models": [
+        {
+          "name": "CK 미니트럭",
+          "count": 4,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.(C.ModelGroup.CK 미니트럭._.Model.CK 미니트럭.))))",
+          "start": "201511",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/086_002_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1342,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "켄보 600",
+      "count": 4,
+      "code": "003",
+      "eng": "Kenbo 600",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.ModelGroup.켄보 600.)))",
+      "sub_models": [
+        {
+          "name": "켄보 600",
+          "count": 4,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.북기은상._.(C.ModelGroup.켄보 600._.Model.켄보 600.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/086_003_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

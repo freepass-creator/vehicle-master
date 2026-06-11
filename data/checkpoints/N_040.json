@@ -1,0 +1,275 @@
+{
+  "name": "알파 로메오",
+  "count": 4,
+  "code": "040",
+  "eng": "Alfa Romeo",
+  "order": 510.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.알파 로메오.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "147",
+      "count": 0,
+      "code": "002",
+      "eng": "147",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.147.)))",
+      "sub_models": [
+        {
+          "name": "147",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.147._.Model.147.))))",
+          "start": "200001",
+          "end": "201012",
+          "period": "00~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "156",
+      "count": 0,
+      "code": "005",
+      "eng": "156",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.156.)))",
+      "sub_models": [
+        {
+          "name": "156",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.156._.Model.156.))))",
+          "start": "199601",
+          "end": "200712",
+          "period": "96~07",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "159",
+      "count": 0,
+      "code": "006",
+      "eng": "159",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.159.)))",
+      "sub_models": [
+        {
+          "name": "159",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.159._.Model.159.))))",
+          "start": "200401",
+          "end": "201112",
+          "period": "04~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "166",
+      "count": 0,
+      "code": "003",
+      "eng": "166",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.166.)))",
+      "sub_models": [
+        {
+          "name": "166",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.166._.Model.166.))))",
+          "start": "199901",
+          "end": "200712",
+          "period": "99~07",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "4C",
+      "count": 0,
+      "code": "008",
+      "eng": "4C",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.4C.)))",
+      "sub_models": [
+        {
+          "name": "4C",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.4C._.Model.4C.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/040_008_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "미토",
+      "count": 0,
+      "code": "009",
+      "eng": "Mito",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.미토.)))",
+      "sub_models": [
+        {
+          "name": "미토",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.미토._.Model.미토.))))",
+          "start": "200801",
+          "end": "201812",
+          "period": "08~18",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "브레라",
+      "count": 1,
+      "code": "004",
+      "eng": "Brera",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.브레라.)))",
+      "sub_models": [
+        {
+          "name": "브레라",
+          "count": 1,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.브레라._.Model.브레라.))))",
+          "start": "200501",
+          "end": "201012",
+          "period": "05~10",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3200,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스파이더",
+      "count": 0,
+      "code": "001",
+      "eng": "Spyder",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.스파이더.)))",
+      "sub_models": [
+        {
+          "name": "스파이더",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.스파이더._.Model.스파이더.))))",
+          "start": "196601",
+          "end": "199412",
+          "period": "66~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "줄리아",
+      "count": 1,
+      "code": "010",
+      "eng": "Giulia",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.줄리아.)))",
+      "sub_models": [
+        {
+          "name": "줄리아",
+          "count": 1,
+          "code": "010",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.줄리아._.Model.줄리아.))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "줄리에타",
+      "count": 2,
+      "code": "007",
+      "eng": "Giulietta",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.ModelGroup.줄리에타.)))",
+      "sub_models": [
+        {
+          "name": "줄리에타",
+          "count": 2,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.알파 로메오._.(C.ModelGroup.줄리에타._.Model.줄리에타.))))",
+          "start": "201001",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/040_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1742,
+              "displacement_l": 1.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2319 @@
+{
+  "name": "르노코리아(삼성)",
+  "count": 7918,
+  "code": "005",
+  "eng": "Renault-KoreaSamsung",
+  "order": 40.0,
+  "_action": "(And.Hidden.N._.(C.CarType.Y._.Manufacturer.르노코리아(삼성_).))",
+  "car_type": "국산",
+  "models": [
+    {
+      "name": "QM3",
+      "count": 511,
+      "code": "009",
+      "eng": "QM3",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.QM3.)))",
+      "sub_models": [
+        {
+          "name": "뉴QM3",
+          "count": 108,
+          "code": "067",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM3._.Model.뉴QM3.))))",
+          "start": "201708",
+          "end": "201912",
+          "period": "17~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_067_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "시그니쳐"
+                },
+                {
+                  "name": "파노라믹 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QM3",
+          "count": 403,
+          "code": "059",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM3._.Model.QM3.))))",
+          "start": "201312",
+          "end": "201709",
+          "period": "13~17",
+          "image": "/carsdata/cars/cm_cardb/file/003_059_2017.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "RE 시그니처"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QM5",
+      "count": 176,
+      "code": "004",
+      "eng": "QM5 ",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.QM5.)))",
+      "sub_models": [
+        {
+          "name": "QM5 네오",
+          "count": 82,
+          "code": "061",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM5._.Model.QM5 네오.))))",
+          "start": "201401",
+          "end": "201611",
+          "period": "14~16",
+          "image": "/carsdata/cars/cm_cardb/file/005_061_2016.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 4WD LE"
+                },
+                {
+                  "name": "디젤 4WD RE"
+                },
+                {
+                  "name": "디젤 4WD SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "가솔린 2WD LE"
+                },
+                {
+                  "name": "가솔린 2WD R4U 에디션"
+                },
+                {
+                  "name": "가솔린 2WD RE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 2WD LE"
+                },
+                {
+                  "name": "디젤 2WD RE"
+                },
+                {
+                  "name": "디젤 2WD SE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴QM5",
+          "count": 67,
+          "code": "056",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM5._.Model.뉴QM5.))))",
+          "start": "201106",
+          "end": "201403",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/005_056_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 2WD LE"
+                },
+                {
+                  "name": "디젤 2WD LE 플러스"
+                },
+                {
+                  "name": "디젤 2WD RE"
+                },
+                {
+                  "name": "디젤 2WD SE"
+                },
+                {
+                  "name": "디젤 2WD 살로몬 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "가솔린 2WD 2.0 LE"
+                },
+                {
+                  "name": "가솔린 2WD 2.0 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "가솔린 2WD 씨티 LE25"
+                },
+                {
+                  "name": "가솔린 2WD 씨티 LE25 플러스"
+                },
+                {
+                  "name": "가솔린 2WD 씨티 RE25"
+                },
+                {
+                  "name": "가솔린 2WD 씨티 SE25"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 4WD LE"
+                },
+                {
+                  "name": "디젤 4WD RE"
+                },
+                {
+                  "name": "디젤 4WD RE Art"
+                },
+                {
+                  "name": "디젤 4WD SE"
+                },
+                {
+                  "name": "디젤 4WD 살로몬 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QM5",
+          "count": 27,
+          "code": "053",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM5._.Model.QM5.))))",
+          "start": "200712",
+          "end": "201108",
+          "period": "07~11",
+          "image": "/carsdata/cars/cm_cardb/file/005_053_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "기본형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2488,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "가솔린 2WD 씨티 RE25"
+                },
+                {
+                  "name": "가솔린 2WD 씨티 페어웨이"
+                },
+                {
+                  "name": "기본형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "디젤 2WD 보스"
+                },
+                {
+                  "name": "디젤 2WD 어드벤쳐"
+                },
+                {
+                  "name": "프리미엄"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QM6",
+      "count": 2277,
+      "code": "011",
+      "eng": "QM6",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.QM6.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 QM6",
+          "count": 1463,
+          "code": "071",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM6._.Model.더 뉴 QM6.))))",
+          "start": "201906",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0730dd98-d8e6-4d60-a12c-61ed58c7c69c.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 GDe LE 2WD"
+                },
+                {
+                  "name": "2.0 GDe LE 시그니처 2WD"
+                },
+                {
+                  "name": "2.0 GDe RE 2WD"
+                },
+                {
+                  "name": "2.0 GDe RE 시그니처 2WD"
+                },
+                {
+                  "name": "2.0 GDe 프리미에르 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 LPe LE 2WD"
+                },
+                {
+                  "name": "2.0 LPe LE 시그니처 2WD"
+                },
+                {
+                  "name": "2.0 LPe RE 2WD"
+                },
+                {
+                  "name": "2.0 LPe RE 시그니처 2WD"
+                },
+                {
+                  "name": "2.0 LPe 프리미에르 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1749,
+              "displacement_l": 1.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.7 dCi RE 2WD"
+                },
+                {
+                  "name": "1.7 dCi RE 시그니처 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "퀘스트 2.0 LPe LE 2WD"
+                },
+                {
+                  "name": "퀘스트 2.0 LPe 비즈니스 2WD"
+                },
+                {
+                  "name": "퀘스트 2.0 LPe 어드벤처 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 dCi RE 시그니처 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QM6",
+          "count": 814,
+          "code": "066",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.QM6._.Model.QM6.))))",
+          "start": "201609",
+          "end": "201908",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_066_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 4WD LE"
+                },
+                {
+                  "name": "디젤 4WD RE"
+                },
+                {
+                  "name": "디젤 4WD RE 시그니처"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "가솔린 2WD LE"
+                },
+                {
+                  "name": "가솔린 2WD RE"
+                },
+                {
+                  "name": "가솔린 2WD RE 시그니처"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 2WD LE"
+                },
+                {
+                  "name": "디젤 2WD RE"
+                },
+                {
+                  "name": "디젤 2WD RE 시그니처"
+                },
+                {
+                  "name": "디젤 2WD RE 플러스"
+                },
+                {
+                  "name": "디젤 2WD SE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SM3",
+      "count": 656,
+      "code": "001",
+      "eng": "SM3",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.SM3.)))",
+      "sub_models": [
+        {
+          "name": "SM3 네오",
+          "count": 310,
+          "code": "062",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM3._.Model.SM3 네오.))))",
+          "start": "201404",
+          "end": "201912",
+          "period": "14~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_062_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "PE"
+                },
+                {
+                  "name": "R4U 에디션"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디젤 LE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM3 Z.E.",
+          "count": 27,
+          "code": "060",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM3._.Model.SM3 Z_.E_..))))",
+          "start": "201310",
+          "end": "202012",
+          "period": "13~20",
+          "image": "/carsdata/cars/cm_cardb/file/005_060_2018.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 104,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 74,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SE 플러스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴SM3",
+          "count": 312,
+          "code": "054",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM3._.Model.뉴SM3.))))",
+          "start": "200907",
+          "end": "201406",
+          "period": "09~14",
+          "image": "/carsdata/cars/cm_cardb/file/005_054_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "LE 익스클루시브"
+                },
+                {
+                  "name": "LE 익스클루시브 BOSE에디션"
+                },
+                {
+                  "name": "LE 플러스"
+                },
+                {
+                  "name": "PE"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 블랙"
+                },
+                {
+                  "name": "SE 플러스"
+                },
+                {
+                  "name": "XE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE20"
+                },
+                {
+                  "name": "LE20 익스클루시브"
+                },
+                {
+                  "name": "SE20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM3 뉴 제너레이션",
+          "count": 7,
+          "code": "005",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM3._.Model.SM3 뉴 제너레이션.))))",
+          "start": "200508",
+          "end": "201105",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/005_005_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1596,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CE16 플러스"
+                },
+                {
+                  "name": "LE16"
+                },
+                {
+                  "name": "SE16"
+                },
+                {
+                  "name": "XE16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM3",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM3._.Model.SM3.))))",
+          "start": "200209",
+          "end": "200510",
+          "period": "02~05",
+          "image": "/carsdata/cars/cm_cardb/file/005_002_2005.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "SM5",
+      "count": 700,
+      "code": "002",
+      "eng": "SM5 ",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.SM5.)))",
+      "sub_models": [
+        {
+          "name": "SM5 노바",
+          "count": 239,
+          "code": "064",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.SM5 노바.))))",
+          "start": "201501",
+          "end": "201912",
+          "period": "15~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_064_2018.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLi LE"
+                },
+                {
+                  "name": "LPLi RE"
+                },
+                {
+                  "name": "LPLi 택시렌터카 고급형"
+                },
+                {
+                  "name": "LPLi 택시렌터카 최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "PE"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "클래식"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디젤 D"
+                },
+                {
+                  "name": "디젤 D 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1618,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 TCE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴SM5 플래티넘",
+          "count": 241,
+          "code": "058",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.뉴SM5 플래티넘.))))",
+          "start": "201211",
+          "end": "201503",
+          "period": "12~15",
+          "image": "/carsdata/cars/cm_cardb/file/005_058_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1618,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S/S 컬렉션"
+                },
+                {
+                  "name": "기본형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "PE"
+                },
+                {
+                  "name": "S/S 컬렉션"
+                },
+                {
+                  "name": "SE 플러스"
+                },
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "아트"
+                },
+                {
+                  "name": "파노라마"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLI 택시렌터카 고급형"
+                },
+                {
+                  "name": "LPLi SE 플러스"
+                },
+                {
+                  "name": "LPLi 택시렌터카 최고급형"
+                },
+                {
+                  "name": "기본형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디젤 D"
+                },
+                {
+                  "name": "디젤 D 스페셜"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴SM5(신형)",
+          "count": 134,
+          "code": "055",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.뉴SM5(신형_).))))",
+          "start": "201001",
+          "end": "201212",
+          "period": "10~12",
+          "image": "/carsdata/cars/cm_cardb/file/005_055_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "LE 익스클루시브"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 블랙"
+                },
+                {
+                  "name": "SE 플러스"
+                },
+                {
+                  "name": "XE"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLI LE"
+                },
+                {
+                  "name": "LPLI SE"
+                },
+                {
+                  "name": "LPLI SE 플러스"
+                },
+                {
+                  "name": "LPLI 택시렌터카 고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM5 뉴 임프레션",
+          "count": 47,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.SM5 뉴 임프레션.))))",
+          "start": "200707",
+          "end": "201010",
+          "period": "07~10",
+          "image": "/carsdata/cars/cm_cardb/file/005_006_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "LE 익스클루시브"
+                },
+                {
+                  "name": "LE 플러스"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 블랙"
+                },
+                {
+                  "name": "SE 플러스"
+                },
+                {
+                  "name": "XE"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLI LE 익스클루시브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴SM5",
+          "count": 14,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.뉴SM5.))))",
+          "start": "200501",
+          "end": "200709",
+          "period": "05~07",
+          "image": "/carsdata/cars/cm_cardb/file/005_004_2007.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLI SE"
+                },
+                {
+                  "name": "LPLI 기본형"
+                },
+                {
+                  "name": "LPLI 택시형 고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 플러스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM5",
+          "count": 25,
+          "code": "001",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM5._.Model.SM5.))))",
+          "start": "199803",
+          "end": "200503",
+          "period": "98~05",
+          "image": "/carsdata/cars/cm_cardb/file/005_001_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SM525V"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SM520LE"
+                },
+                {
+                  "name": "SM520SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SM520V"
+                },
+                {
+                  "name": "SM520V 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1838,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SM518"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SM6",
+      "count": 1551,
+      "code": "010",
+      "eng": "SM6",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.SM6.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 SM6",
+          "count": 148,
+          "code": "074",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM6._.Model.더 뉴 SM6.))))",
+          "start": "202007",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/aabda550-3e87-43b3-80c7-02c7dddb1ffe.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 TCe LE"
+                },
+                {
+                  "name": "1.8 TCe 인스파이어"
+                },
+                {
+                  "name": "1.8 TCe 프리미에르"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LPe LE"
+                },
+                {
+                  "name": "2.0 LPe RE"
+                },
+                {
+                  "name": "2.0 LPe SE"
+                },
+                {
+                  "name": "2.0 LPe 필"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1332,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3 TCe LE"
+                },
+                {
+                  "name": "1.3 TCe RE"
+                },
+                {
+                  "name": "1.3 TCe SE"
+                },
+                {
+                  "name": "1.3 TCe SE Plus"
+                },
+                {
+                  "name": "1.3 TCe 프리미에르"
+                },
+                {
+                  "name": "1.3 TCe 필"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1988,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LPe SE Plus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM6",
+          "count": 1403,
+          "code": "065",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM6._.Model.SM6.))))",
+          "start": "201602",
+          "end": "202009",
+          "period": "16~20",
+          "image": "/carsdata/cars/cm_cardb/file/005_065_2018.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LPe LE (장애인용)"
+                },
+                {
+                  "name": "2.0 LPe PE (렌터카)"
+                },
+                {
+                  "name": "2.0 LPe RE"
+                },
+                {
+                  "name": "2.0 LPe RE (장애인용)"
+                },
+                {
+                  "name": "2.0 LPe SE"
+                },
+                {
+                  "name": "2.0 LPe SE (렌터카)"
+                },
+                {
+                  "name": "2.0 LPe SE (장애인용)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GDe LE"
+                },
+                {
+                  "name": "2.0 GDe PE"
+                },
+                {
+                  "name": "2.0 GDe RE"
+                },
+                {
+                  "name": "2.0 GDe SE"
+                },
+                {
+                  "name": "2.0 GDe 프리미에르"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 dCi LE"
+                },
+                {
+                  "name": "1.5 dCi SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1618,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 TCe LE"
+                },
+                {
+                  "name": "1.6 TCe RE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SM7",
+      "count": 389,
+      "code": "003",
+      "eng": "SM7",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.SM7.)))",
+      "sub_models": [
+        {
+          "name": "SM7 노바",
+          "count": 229,
+          "code": "063",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM7._.Model.SM7 노바.))))",
+          "start": "201408",
+          "end": "201912",
+          "period": "14~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_063_2018.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPLI 2.0 LPe"
+                },
+                {
+                  "name": "LPLI 2.0 LPe 장애인용"
+                },
+                {
+                  "name": "LPLI 2.0 LPe 택시렌터카"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5 V6"
+                },
+                {
+                  "name": "LE35"
+                },
+                {
+                  "name": "RE35"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 V6"
+                },
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "All New SM7",
+          "count": 96,
+          "code": "057",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM7._.Model.All New SM7.))))",
+          "start": "201107",
+          "end": "201410",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/005_057_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S/S 컬렉션"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "파노라마"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE35"
+                },
+                {
+                  "name": "RE35"
+                },
+                {
+                  "name": "SE35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM7 New Art",
+          "count": 54,
+          "code": "007",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM7._.Model.SM7 New Art.))))",
+          "start": "200801",
+          "end": "201110",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/005_007_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "RE35"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2349,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "RE"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SE 플러스"
+                },
+                {
+                  "name": "SE 플레져"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3500,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SM7",
+          "count": 10,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.SM7._.Model.SM7.))))",
+          "start": "200412",
+          "end": "200803",
+          "period": "04~08",
+          "image": "/carsdata/cars/cm_cardb/file/005_003_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2349,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LE"
+                },
+                {
+                  "name": "SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "RE35"
+                },
+                {
+                  "name": "RE35 블랙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XM3",
+      "count": 848,
+      "code": "015",
+      "eng": "XM3",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.XM3.)))",
+      "sub_models": [
+        {
+          "name": "XM3",
+          "count": 848,
+          "code": "072",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.XM3._.Model.XM3.))))",
+          "start": "202003",
+          "end": "202404",
+          "period": "20~24",
+          "image": "/carsdata/cars/cm_cardb/file/005_072_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1332,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3 TCe LE"
+                },
+                {
+                  "name": "1.3 TCe RE"
+                },
+                {
+                  "name": "1.3 TCe RE 시그니처"
+                },
+                {
+                  "name": "1.3 TCe RE 인스파이어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 GTe LE"
+                },
+                {
+                  "name": "1.6 GTe LE Plus"
+                },
+                {
+                  "name": "1.6 GTe RE"
+                },
+                {
+                  "name": "1.6 GTe SE"
+                },
+                {
+                  "name": "1.6 GTe 인스파이어"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 E-TECH RE"
+                },
+                {
+                  "name": "1.6 E-TECH 인스파이어 e-시프터"
+                },
+                {
+                  "name": "1.6 E-TECH 인스파이어 디자인 패키지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "그랑 콜레오스",
+      "count": 333,
+      "code": "019",
+      "eng": "Grand Koleos",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.그랑 콜레오스.)))",
+      "sub_models": [
+        {
+          "name": "그랑 콜레오스",
+          "count": 333,
+          "code": "077",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.그랑 콜레오스._.Model.그랑 콜레오스.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bdc3f5cd-1ecd-433b-aec9-44659b9352e1.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.5 E-TECH 아이코닉 2WD"
+                },
+                {
+                  "name": "1.5 E-TECH 에스카파드 2WD"
+                },
+                {
+                  "name": "1.5 E-TECH 에스프리 알핀 2WD"
+                },
+                {
+                  "name": "1.5 E-TECH 에스프리 알핀 누아르 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1969,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 에스프리 알핀 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1969,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 아이코닉 2WD"
+                },
+                {
+                  "name": "2.0 에스프리 알핀 2WD"
+                },
+                {
+                  "name": "2.0 테크노 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "마스터",
+      "count": 112,
+      "code": "014",
+      "eng": "Master",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.마스터.)))",
+      "sub_models": [
+        {
+          "name": "마스터",
+          "count": 112,
+          "code": "070",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.마스터._.Model.마스터.))))",
+          "start": "201810",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6c25c776-98d3-470f-8d85-986b8fbb2c01.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2299,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 3,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.3 밴 L"
+                },
+                {
+                  "name": "2.3 밴 S"
+                },
+                {
+                  "name": "캠핑카/이동사무차"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2299,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 15,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.3 15인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2299,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 13,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "13인승"
+                },
+                {
+                  "name": "15인승"
+                },
+                {
+                  "name": "2.3 13인승"
+                },
+                {
+                  "name": "20인승"
+                },
+                {
+                  "name": "21인승"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "세닉",
+      "count": 13,
+      "code": "020",
+      "eng": "Scenic",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.세닉.)))",
+      "sub_models": [
+        {
+          "name": "세닉",
+          "count": 13,
+          "code": "078",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.세닉._.Model.세닉.))))",
+          "start": "202508",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 254,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "아이코닉"
+                },
+                {
+                  "name": "테크노 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 352,
+              "displacement_l": 0.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "테크노"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아르카나",
+      "count": 147,
+      "code": "018",
+      "eng": "Arkana",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.아르카나.)))",
+      "sub_models": [
+        {
+          "name": "아르카나",
+          "count": 147,
+          "code": "076",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.아르카나._.Model.아르카나.))))",
+          "start": "202404",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/4e2501de-d905-4c97-926d-ad68b25e0d38.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 GTe 아이코닉"
+                },
+                {
+                  "name": "1.6 GTe 에볼루션"
+                },
+                {
+                  "name": "1.6 GTe 테크노"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 E-TECH 아이코닉"
+                },
+                {
+                  "name": "1.6 E-TECH 아이코닉 디자인 패키지"
+                },
+                {
+                  "name": "1.6 E-TECH 테크노"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1332,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3 TCe 아이코닉"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "조에",
+      "count": 19,
+      "code": "017",
+      "eng": "Zoe",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.조에.)))",
+      "sub_models": [
+        {
+          "name": "조에",
+          "count": 19,
+          "code": "075",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.조에._.Model.조에.))))",
+          "start": "202008",
+          "end": "202207",
+          "period": "20~22",
+          "image": "/carsdata/cars/cm_cardb/file/2ef1f7e4-02d7-4237-afa9-05ce17d9ada8.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 156,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "인텐스"
+                },
+                {
+                  "name": "인텐스 에코"
+                },
+                {
+                  "name": "젠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "캡처",
+      "count": 48,
+      "code": "016",
+      "eng": "Captur",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.캡처.)))",
+      "sub_models": [
+        {
+          "name": "캡처",
+          "count": 48,
+          "code": "073",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.캡처._.Model.캡처.))))",
+          "start": "202005",
+          "end": "202103",
+          "period": "20~21",
+          "image": "/carsdata/cars/cm_cardb/file/d0b435c9-45ba-4b61-a686-3fadaadaf0db.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1332,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3 TCe 에디션 파리"
+                },
+                {
+                  "name": "1.3 TCe 인텐스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 dCi 젠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "클리오",
+      "count": 95,
+      "code": "013",
+      "eng": "Cilo",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.클리오.)))",
+      "sub_models": [
+        {
+          "name": "클리오",
+          "count": 95,
+          "code": "069",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.클리오._.Model.클리오.))))",
+          "start": "201805",
+          "end": "201912",
+          "period": "18~19",
+          "image": "/carsdata/cars/cm_cardb/file/005_069_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스틸"
+                },
+                {
+                  "name": "아이코닉"
+                },
+                {
+                  "name": "인텐스"
+                },
+                {
+                  "name": "인텐스 파노라믹"
+                },
+                {
+                  "name": "젠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트위지",
+      "count": 22,
+      "code": "012",
+      "eng": "Twizy",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.트위지.)))",
+      "sub_models": [
+        {
+          "name": "트위지",
+          "count": 22,
+          "code": "068",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.트위지._.Model.트위지.))))",
+          "start": "201706",
+          "end": "202212",
+          "period": "17~22",
+          "image": "/carsdata/cars/cm_cardb/file/005_068_2018.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 1,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "카고(1인승+트렁크)"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "라이프(2인승)"
+                },
+                {
+                  "name": "인텐스(2인승)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "필랑트",
+      "count": 22,
+      "code": "021",
+      "eng": "Filante",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.ModelGroup.필랑트.)))",
+      "sub_models": [
+        {
+          "name": "필랑트",
+          "count": 22,
+          "code": "079",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.르노코리아(삼성_)._.(C.ModelGroup.필랑트._.Model.필랑트.))))",
+          "start": "202601",
+          "end": null,
+          "period": "26~현재",
+          "image": "/carsdata/cars/cm_cardb/file/14189e85-7d4e-4641-95da-34c8d9dd5c29.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.5 E-TECH 아이코닉 2WD"
+                },
+                {
+                  "name": "1.5 E-TECH 에스프리 알핀 1955 2WD"
+                },
+                {
+                  "name": "1.5 E-TECH 에스프리 알핀 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "name": "험머",
+  "count": 37,
+  "code": "048",
+  "eng": "Hummer",
+  "order": 720.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.험머.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "H1",
+      "count": 1,
+      "code": "001",
+      "eng": "H1",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.ModelGroup.H1.)))",
+      "sub_models": [
+        {
+          "name": "H1",
+          "count": 1,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.(C.ModelGroup.H1._.Model.H1.))))",
+          "start": "199201",
+          "end": "200612",
+          "period": "92~06",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 6600,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6 디젤"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H2",
+      "count": 17,
+      "code": "002",
+      "eng": "H2",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.ModelGroup.H2.)))",
+      "sub_models": [
+        {
+          "name": "H2",
+          "count": 17,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.(C.ModelGroup.H2._.Model.H2.))))",
+          "start": "200201",
+          "end": "200912",
+          "period": "02~09",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6199,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5967,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                },
+                {
+                  "name": "6.0 SUT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H3",
+      "count": 19,
+      "code": "003",
+      "eng": "H3",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.ModelGroup.H3.)))",
+      "sub_models": [
+        {
+          "name": "H3",
+          "count": 15,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.(C.ModelGroup.H3._.Model.H3.))))",
+          "start": "200501",
+          "end": "201012",
+          "period": "05~10",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3500,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3654,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5300,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H3T",
+          "count": 4,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.험머._.(C.ModelGroup.H3._.Model.H3T.))))",
+          "start": "200901",
+          "end": "201012",
+          "period": "09~10",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3700,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5300,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

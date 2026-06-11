@@ -1,0 +1,454 @@
+{
+  "name": "스즈키",
+  "count": 42,
+  "code": "037",
+  "eng": "Suzuki",
+  "order": 460.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.스즈키.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "X-90",
+      "count": 0,
+      "code": "004",
+      "eng": "X-90",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.X-90.)))",
+      "sub_models": [
+        {
+          "name": "X-90",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.X-90._.Model.X-90.))))",
+          "start": "199601",
+          "end": "199812",
+          "period": "96~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "그랜드 비타라",
+      "count": 0,
+      "code": "010",
+      "eng": "Grand Vitara",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.그랜드 비타라.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 비타라",
+          "count": 0,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.그랜드 비타라._.Model.그랜드 비타라.))))",
+          "start": "199801",
+          "end": null,
+          "period": "98~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_102_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "사이드킥",
+      "count": 0,
+      "code": "001",
+      "eng": "Sidekick",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.사이드킥.)))",
+      "sub_models": [
+        {
+          "name": "사이드킥",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.사이드킥._.Model.사이드킥.))))",
+          "start": "198901",
+          "end": "199912",
+          "period": "89~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스위프트",
+      "count": 0,
+      "code": "005",
+      "eng": "Swift",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.스위프트.)))",
+      "sub_models": [
+        {
+          "name": "스위프트",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.스위프트._.Model.스위프트.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_005_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스페이시아",
+      "count": 0,
+      "code": "014",
+      "eng": "Spacia",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.스페이시아.)))",
+      "sub_models": [
+        {
+          "name": "스페이시아",
+          "count": 0,
+          "code": "108",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.스페이시아._.Model.스페이시아.))))",
+          "start": "201302",
+          "end": null,
+          "period": "13~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "알토",
+      "count": 3,
+      "code": "011",
+      "eng": "ALTO",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.알토.)))",
+      "sub_models": [
+        {
+          "name": "알토",
+          "count": 2,
+          "code": "103",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.알토._.Model.알토.))))",
+          "start": "197901",
+          "end": null,
+          "period": "79~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_103_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "알토웍스",
+          "count": 1,
+          "code": "106",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.알토._.Model.알토웍스.))))",
+          "start": "198809",
+          "end": null,
+          "period": "88~현재",
+          "image": "/carsdata/cars/cm_cardb/file/436d1ce4-53b0-4ce2-83d9-1f37e4cb653d.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "알토라팡",
+      "count": 5,
+      "code": "008",
+      "eng": "Alto Lapin",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.알토라팡.)))",
+      "sub_models": [
+        {
+          "name": "알토라팡",
+          "count": 5,
+          "code": "100",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.알토라팡._.Model.알토라팡.))))",
+          "start": "200201",
+          "end": null,
+          "period": "02~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_100_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G"
+                },
+                {
+                  "name": "X"
+                },
+                {
+                  "name": "X 셀렉션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "웨건 R",
+      "count": 0,
+      "code": "006",
+      "eng": "Wagon R",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.웨건 R.)))",
+      "sub_models": [
+        {
+          "name": "웨건 R",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.웨건 R._.Model.웨건 R.))))",
+          "start": "199301",
+          "end": null,
+          "period": "93~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_006_2018.png",
+          "powertrains": []
+        },
+        {
+          "name": "웨건 R 소리오",
+          "count": 0,
+          "code": "105",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.웨건 R._.Model.웨건 R 소리오.))))",
+          "start": "200001",
+          "end": "200412",
+          "period": "00~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "이그니스",
+      "count": 2,
+      "code": "013",
+      "eng": "Ignis",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.이그니스.)))",
+      "sub_models": [
+        {
+          "name": "이그니스",
+          "count": 2,
+          "code": "107",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.이그니스._.Model.이그니스.))))",
+          "start": "200001",
+          "end": null,
+          "period": "00~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1242,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SHVS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "짐니",
+      "count": 12,
+      "code": "012",
+      "eng": "Jimny",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.짐니.)))",
+      "sub_models": [
+        {
+          "name": "짐니",
+          "count": 12,
+          "code": "104",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.짐니._.Model.짐니.))))",
+          "start": "199801",
+          "end": null,
+          "period": "98~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_104_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1462,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "카푸치노",
+      "count": 0,
+      "code": "003",
+      "eng": "Cappucino",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.카푸치노.)))",
+      "sub_models": [
+        {
+          "name": "카푸치노",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.카푸치노._.Model.카푸치노.))))",
+          "start": "199101",
+          "end": "199712",
+          "period": "91~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "트윈",
+      "count": 0,
+      "code": "002",
+      "eng": "Twin",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.트윈.)))",
+      "sub_models": [
+        {
+          "name": "트윈",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.트윈._.Model.트윈.))))",
+          "start": "200301",
+          "end": "200512",
+          "period": "03~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "허슬러",
+      "count": 20,
+      "code": "009",
+      "eng": "HUSTLER",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.허슬러.)))",
+      "sub_models": [
+        {
+          "name": "허슬러",
+          "count": 20,
+          "code": "101",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.허슬러._.Model.허슬러.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/037_101_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "007",
+      "eng": "Others",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "099",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스즈키._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "name": "다이하쯔",
+  "count": 21,
+  "code": "051",
+  "eng": "Daihatsu",
+  "order": 150.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.다이하쯔.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "마테리아",
+      "count": 0,
+      "code": "004",
+      "eng": "MATERIA",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.마테리아.)))",
+      "sub_models": [
+        {
+          "name": "마테리아",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.마테리아._.Model.마테리아.))))",
+          "start": "200601",
+          "end": "201212",
+          "period": "06~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "무브",
+      "count": 0,
+      "code": "005",
+      "eng": "Move",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.무브.)))",
+      "sub_models": [
+        {
+          "name": "무브",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.무브._.Model.무브.))))",
+          "start": "199508",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_005_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "미라",
+      "count": 2,
+      "code": "001",
+      "eng": "Mira",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.미라.)))",
+      "sub_models": [
+        {
+          "name": "미라 코코아",
+          "count": 2,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.미라._.Model.미라 코코아.))))",
+          "start": "200908",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "미라",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.미라._.Model.미라.))))",
+          "start": "198901",
+          "end": null,
+          "period": "89~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_001_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "미라지노",
+      "count": 1,
+      "code": "006",
+      "eng": "Mira Gino",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.미라지노.)))",
+      "sub_models": [
+        {
+          "name": "미라지노",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.미라지노._.Model.미라지노.))))",
+          "start": "199903",
+          "end": "200912",
+          "period": "99~09",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 660,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "분",
+      "count": 0,
+      "code": "003",
+      "eng": "Boon",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.분.)))",
+      "sub_models": [
+        {
+          "name": "분",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.분._.Model.분.))))",
+          "start": "200407",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_003_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "에쎄",
+      "count": 0,
+      "code": "010",
+      "eng": "Esse",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.에쎄.)))",
+      "sub_models": [
+        {
+          "name": "에쎄",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.에쎄._.Model.에쎄.))))",
+          "start": "200512",
+          "end": "201109",
+          "period": "05~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "웨이크",
+      "count": 1,
+      "code": "009",
+      "eng": "WAKE",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.웨이크.)))",
+      "sub_models": [
+        {
+          "name": "웨이크",
+          "count": 1,
+          "code": "010",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.웨이크._.Model.웨이크.))))",
+          "start": "201411",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "0.6 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "캐스트",
+      "count": 0,
+      "code": "011",
+      "eng": "CAST",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.캐스트.)))",
+      "sub_models": [
+        {
+          "name": "캐스트",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.캐스트._.Model.캐스트.))))",
+          "start": "201509",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_012_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "코펜",
+      "count": 17,
+      "code": "002",
+      "eng": "Copen",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.코펜.)))",
+      "sub_models": [
+        {
+          "name": "코펜",
+          "count": 17,
+          "code": "002",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.코펜._.Model.코펜.))))",
+          "start": "200206",
+          "end": null,
+          "period": "02~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_002_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 659,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "탄토",
+      "count": 0,
+      "code": "007",
+      "eng": "Tanto",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.탄토.)))",
+      "sub_models": [
+        {
+          "name": "탄토",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.탄토._.Model.탄토.))))",
+          "start": "200311",
+          "end": null,
+          "period": "03~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_008_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "테리오스",
+      "count": 0,
+      "code": "008",
+      "eng": "Terios",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.ModelGroup.테리오스.)))",
+      "sub_models": [
+        {
+          "name": "테리오스",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.다이하쯔._.(C.ModelGroup.테리오스._.Model.테리오스.))))",
+          "start": "199701",
+          "end": null,
+          "period": "97~현재",
+          "image": "/carsdata/cars/cm_cardb/file/051_009_2018.png",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

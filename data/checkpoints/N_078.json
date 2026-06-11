@@ -1,0 +1,161 @@
+{
+  "name": "르노",
+  "count": 1,
+  "code": "078",
+  "eng": "Renault",
+  "order": 240.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.르노.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "라구나",
+      "count": 0,
+      "code": "002",
+      "eng": "Laguna",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.라구나.)))",
+      "sub_models": [
+        {
+          "name": "라구나",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.라구나._.Model.라구나.))))",
+          "start": "199301",
+          "end": "201512",
+          "period": "93~15",
+          "image": "/carsdata/cars/cm_cardb/file/078_001_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "메간",
+      "count": 0,
+      "code": "001",
+      "eng": "Megane",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.메간.)))",
+      "sub_models": [
+        {
+          "name": "메간",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.메간._.Model.메간.))))",
+          "start": "199507",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/078_002_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "알핀",
+      "count": 0,
+      "code": "005",
+      "eng": "Alpine",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.알핀.)))",
+      "sub_models": [
+        {
+          "name": "알핀",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.알핀._.Model.알핀.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/136f9bba-11e3-4fd7-bf65-e2a92699425a.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "클리오",
+      "count": 0,
+      "code": "003",
+      "eng": "Clio",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.클리오.)))",
+      "sub_models": [
+        {
+          "name": "클리오",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.클리오._.Model.클리오.))))",
+          "start": "199001",
+          "end": null,
+          "period": "90~현재",
+          "image": "/carsdata/cars/cm_cardb/file/078_003_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "탈리스만",
+      "count": 1,
+      "code": "006",
+      "eng": "Talisman",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.탈리스만.)))",
+      "sub_models": [
+        {
+          "name": "탈리스만",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.탈리스만._.Model.탈리스만.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1618,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "004",
+      "eng": "Others",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.르노._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

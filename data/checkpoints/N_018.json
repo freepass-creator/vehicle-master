@@ -1,0 +1,472 @@
+{
+  "name": "피아트",
+  "count": 79,
+  "code": "018",
+  "eng": "Fiat",
+  "order": 710.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.피아트.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "124",
+      "count": 4,
+      "code": "011",
+      "eng": "124",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.124.)))",
+      "sub_models": [
+        {
+          "name": "124 스파이더",
+          "count": 4,
+          "code": "011",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.124._.Model.124 스파이더.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1368,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4"
+                },
+                {
+                  "name": "1.4 아바스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "500L",
+      "count": 0,
+      "code": "013",
+      "eng": "500L",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.500L.)))",
+      "sub_models": [
+        {
+          "name": "500L",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.500L._.Model.500L.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "500X",
+      "count": 12,
+      "code": "010",
+      "eng": "500X",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.500X.)))",
+      "sub_models": [
+        {
+          "name": "500X",
+          "count": 12,
+          "code": "010",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.500X._.Model.500X.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1956,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 디젤 크로스 AWD"
+                },
+                {
+                  "name": "2.0 디젤 크로스 플러스 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2360,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4 팝스타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "500",
+      "count": 57,
+      "code": "006",
+      "eng": "500",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.500.)))",
+      "sub_models": [
+        {
+          "name": "500",
+          "count": 36,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.500._.Model.500.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1242,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1368,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "아바스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "500C",
+          "count": 18,
+          "code": "007",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.500._.Model.500C.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1368,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "아바스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "500e",
+          "count": 3,
+          "code": "013",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.500._.Model.500e.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 93,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": " 두카토",
+      "count": 0,
+      "code": "014",
+      "eng": "Ducato",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup. 두카토.)))",
+      "sub_models": [
+        {
+          "name": "두카토",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup. 두카토._.Model.두카토.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "란치아",
+      "count": 0,
+      "code": "002",
+      "eng": "Lancia",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.란치아.)))",
+      "sub_models": [
+        {
+          "name": "란치아",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.란치아._.Model.란치아.))))",
+          "start": "199601",
+          "end": "199912",
+          "period": "96~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "멀티피아",
+      "count": 0,
+      "code": "009",
+      "eng": "Multipla",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.멀티피아.)))",
+      "sub_models": [
+        {
+          "name": "멀티피아",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.멀티피아._.Model.멀티피아.))))",
+          "start": "199801",
+          "end": "201012",
+          "period": "98~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "바르게타",
+      "count": 0,
+      "code": "004",
+      "eng": "Barchetta",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.바르게타.)))",
+      "sub_models": [
+        {
+          "name": "바르게타",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.바르게타._.Model.바르게타.))))",
+          "start": "100501",
+          "end": "200512",
+          "period": "05~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "쿠페",
+      "count": 0,
+      "code": "005",
+      "eng": "Coupe",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.쿠페.)))",
+      "sub_models": [
+        {
+          "name": "쿠페",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.쿠페._.Model.쿠페.))))",
+          "start": "199301",
+          "end": "200012",
+          "period": "93~00",
+          "image": "/carsdata/cars/cm_cardb/file/018_005_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "크로마",
+      "count": 0,
+      "code": "001",
+      "eng": "Croma",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.크로마.)))",
+      "sub_models": [
+        {
+          "name": "크로마",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.크로마._.Model.크로마.))))",
+          "start": "198501",
+          "end": "201012",
+          "period": "85~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "판다",
+      "count": 0,
+      "code": "012",
+      "eng": "Panda",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.판다.)))",
+      "sub_models": [
+        {
+          "name": "판다",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.판다._.Model.판다.))))",
+          "start": "198001",
+          "end": "200312",
+          "period": "80~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "푼토",
+      "count": 0,
+      "code": "003",
+      "eng": "Punto",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.푼토.)))",
+      "sub_models": [
+        {
+          "name": "푼토",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.푼토._.Model.푼토.))))",
+          "start": "199301",
+          "end": null,
+          "period": "93~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_003_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프리몬트",
+      "count": 6,
+      "code": "008",
+      "eng": "Feelmont",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.프리몬트.)))",
+      "sub_models": [
+        {
+          "name": "프리몬트",
+          "count": 6,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.프리몬트._.Model.프리몬트.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/018_008_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1956,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "007",
+      "eng": "Others",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.피아트._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

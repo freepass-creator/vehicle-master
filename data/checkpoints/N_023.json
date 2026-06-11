@@ -1,0 +1,860 @@
+{
+  "name": "크라이슬러",
+  "count": 66,
+  "code": "023",
+  "eng": "Chrysler",
+  "order": 630.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.크라이슬러.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "200",
+      "count": 20,
+      "code": "030",
+      "eng": "200",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.200.)))",
+      "sub_models": [
+        {
+          "name": "200 2세대",
+          "count": 20,
+          "code": "034",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.200._.Model.200 2세대.))))",
+          "start": "201501",
+          "end": "201712",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/023_034_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2360,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4 C"
+                },
+                {
+                  "name": "2.4 리미티드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3600,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "200 1세대",
+          "count": 0,
+          "code": "033",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.200._.Model.200 1세대.))))",
+          "start": "201101",
+          "end": "201412",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/023_033_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "300C",
+      "count": 28,
+      "code": "001",
+      "eng": "300C",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.300C.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 300C",
+          "count": 25,
+          "code": "032",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.300C._.Model.더 뉴 300C.))))",
+          "start": "201201",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_032_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.6 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                },
+                {
+                  "name": "3.6 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6417,
+              "displacement_l": 6.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "올 뉴 300C",
+          "count": 1,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.300C._.Model.올 뉴 300C.))))",
+          "start": "201107",
+          "end": "201212",
+          "period": "11~12",
+          "image": "/carsdata/cars/cm_cardb/file/023_031_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "300C",
+          "count": 2,
+          "code": "019",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.300C._.Model.300C.))))",
+          "start": "200410",
+          "end": "201012",
+          "period": "04~10",
+          "image": "/carsdata/cars/cm_cardb/file/023_019_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3518,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6063,
+              "displacement_l": 6.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "300M",
+      "count": 0,
+      "code": "011",
+      "eng": "300M",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.300M.)))",
+      "sub_models": [
+        {
+          "name": "300M",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.300M._.Model.300M.))))",
+          "start": "199901",
+          "end": "200412",
+          "period": "99~04",
+          "image": "/carsdata/cars/cm_cardb/file/023_008_2004.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "LHS",
+      "count": 0,
+      "code": "017",
+      "eng": "LHS",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.LHS.)))",
+      "sub_models": [
+        {
+          "name": "LHS",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.LHS._.Model.LHS.))))",
+          "start": "199401",
+          "end": "200112",
+          "period": "94~01",
+          "image": "/carsdata/cars/cm_cardb/file/023_015_2001.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "PT 크루저",
+      "count": 1,
+      "code": "012",
+      "eng": "PT Crusier",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.PT 크루저.)))",
+      "sub_models": [
+        {
+          "name": "PT 크루저",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.PT 크루저._.Model.PT 크루저.))))",
+          "start": "200001",
+          "end": "201012",
+          "period": "00~10",
+          "image": "/carsdata/cars/cm_cardb/file/023_009_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2429,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "그랜드 보이저",
+      "count": 7,
+      "code": "019",
+      "eng": "Grand Voyager",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.그랜드 보이저.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 보이저",
+          "count": 7,
+          "code": "018",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.그랜드 보이저._.Model.그랜드 보이저.))))",
+          "start": "198801",
+          "end": null,
+          "period": "88~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_018_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3778,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6 LIMITED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "네온",
+      "count": 0,
+      "code": "007",
+      "eng": "Neon",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.네온.)))",
+      "sub_models": [
+        {
+          "name": "네온",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.네온._.Model.네온.))))",
+          "start": "199501",
+          "end": "200612",
+          "period": "95~06",
+          "image": "/carsdata/cars/cm_cardb/file/023_004_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "뉴요커",
+      "count": 0,
+      "code": "010",
+      "eng": "New Yorker",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.뉴요커.)))",
+      "sub_models": [
+        {
+          "name": "뉴요커",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.뉴요커._.Model.뉴요커.))))",
+          "start": "193901",
+          "end": "199612",
+          "period": "39~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레바론",
+      "count": 0,
+      "code": "018",
+      "eng": "Lebaron",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.레바론.)))",
+      "sub_models": [
+        {
+          "name": "레바론",
+          "count": 0,
+          "code": "017",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.레바론._.Model.레바론.))))",
+          "start": "197701",
+          "end": "199412",
+          "period": "77~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "보이저",
+      "count": 0,
+      "code": "013",
+      "eng": "Voyager",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.보이저.)))",
+      "sub_models": [
+        {
+          "name": "보이저",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.보이저._.Model.보이저.))))",
+          "start": "200001",
+          "end": null,
+          "period": "00~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_011_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "비전",
+      "count": 0,
+      "code": "009",
+      "eng": "Vision",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.비전.)))",
+      "sub_models": [
+        {
+          "name": "비전",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.비전._.Model.비전.))))",
+          "start": "199301",
+          "end": "199712",
+          "period": "93~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "세브링",
+      "count": 3,
+      "code": "003",
+      "eng": "Sebring",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.세브링.)))",
+      "sub_models": [
+        {
+          "name": "뉴 세브링",
+          "count": 3,
+          "code": "028",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.세브링._.Model.뉴 세브링.))))",
+          "start": "200701",
+          "end": "201012",
+          "period": "07~10",
+          "image": "/carsdata/cars/cm_cardb/file/023_028_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2736,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2360,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2360,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4 컨버터블"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "세브링",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.세브링._.Model.세브링.))))",
+          "start": "199501",
+          "end": "200612",
+          "period": "95~06",
+          "image": "/carsdata/cars/cm_cardb/file/023_010_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스트라투스",
+      "count": 0,
+      "code": "008",
+      "eng": "Stratus",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.스트라투스.)))",
+      "sub_models": [
+        {
+          "name": "스트라투스",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.스트라투스._.Model.스트라투스.))))",
+          "start": "199501",
+          "end": "200012",
+          "period": "95~00",
+          "image": "/carsdata/cars/cm_cardb/file/023_005_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "시러스",
+      "count": 0,
+      "code": "026",
+      "eng": "Cirrus",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.시러스.)))",
+      "sub_models": [
+        {
+          "name": "시러스",
+          "count": 0,
+          "code": "026",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.시러스._.Model.시러스.))))",
+          "start": "199501",
+          "end": "200012",
+          "period": "95~00",
+          "image": "/carsdata/cars/cm_cardb/file/023_026_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "이글 탈론",
+      "count": 0,
+      "code": "015",
+      "eng": "Eagle Talon",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.이글 탈론.)))",
+      "sub_models": [
+        {
+          "name": "이글 탈론",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.이글 탈론._.Model.이글 탈론.))))",
+          "start": "199001",
+          "end": "199812",
+          "period": "90~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "인트리피드",
+      "count": 0,
+      "code": "020",
+      "eng": "Intrepid",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.인트리피드.)))",
+      "sub_models": [
+        {
+          "name": "인트리피드",
+          "count": 0,
+          "code": "020",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.인트리피드._.Model.인트리피드.))))",
+          "start": "199301",
+          "end": "200312",
+          "period": "93~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "캐러밴",
+      "count": 0,
+      "code": "006",
+      "eng": "Caravan",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.캐러밴.)))",
+      "sub_models": [
+        {
+          "name": "캐러밴",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.캐러밴._.Model.캐러밴.))))",
+          "start": "198401",
+          "end": null,
+          "period": "84~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_003_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "콩코드",
+      "count": 0,
+      "code": "016",
+      "eng": "Concorde",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.콩코드.)))",
+      "sub_models": [
+        {
+          "name": "콩코드",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.콩코드._.Model.콩코드.))))",
+          "start": "199301",
+          "end": "200412",
+          "period": "93~04",
+          "image": "/carsdata/cars/cm_cardb/file/023_014_2004.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "크로스파이어",
+      "count": 4,
+      "code": "022",
+      "eng": "Crossfire",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.크로스파이어.)))",
+      "sub_models": [
+        {
+          "name": "크로스파이어",
+          "count": 4,
+          "code": "022",
+          "eng": null,
+          "order": 28.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.크로스파이어._.Model.크로스파이어.))))",
+          "start": "200401",
+          "end": "200712",
+          "period": "04~07",
+          "image": "/carsdata/cars/cm_cardb/file/023_022_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "로드스터 3.2"
+                },
+                {
+                  "name": "쿠페 3.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "타운 앤 컨트리",
+      "count": 0,
+      "code": "024",
+      "eng": "Town&Contry",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.타운 앤 컨트리.)))",
+      "sub_models": [
+        {
+          "name": "타운 앤 컨트리",
+          "count": 0,
+          "code": "024",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.타운 앤 컨트리._.Model.타운 앤 컨트리.))))",
+          "start": "199001",
+          "end": null,
+          "period": "90~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_024_2016.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "퍼시피카",
+      "count": 2,
+      "code": "021",
+      "eng": "Pacifica",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.퍼시피카.)))",
+      "sub_models": [
+        {
+          "name": "퍼시피카",
+          "count": 2,
+          "code": "021",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.퍼시피카._.Model.퍼시피카.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/023_021_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3605,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6L V6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "프라울러",
+      "count": 1,
+      "code": "031",
+      "eng": "Prowler",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.프라울러.)))",
+      "sub_models": [
+        {
+          "name": "프라울러",
+          "count": 1,
+          "code": "035",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.프라울러._.Model.프라울러.))))",
+          "start": "199701",
+          "end": "200212",
+          "period": "97~02",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3500,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "플리머스 레이저",
+      "count": 0,
+      "code": "014",
+      "eng": "Plymouth Laser",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.플리머스 레이저.)))",
+      "sub_models": [
+        {
+          "name": "플리머스 레이저",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.플리머스 레이저._.Model.플리머스 레이저.))))",
+          "start": "199001",
+          "end": "199412",
+          "period": "90~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "029",
+      "eng": "Others",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.크라이슬러._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

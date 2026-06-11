@@ -1,0 +1,317 @@
+{
+  "name": "스바루",
+  "count": 23,
+  "code": "052",
+  "eng": "Subaru",
+  "order": 450.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.스바루.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "BRZ",
+      "count": 0,
+      "code": "007",
+      "eng": "BRZ",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.BRZ.)))",
+      "sub_models": [
+        {
+          "name": "BRZ",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.BRZ._.Model.BRZ.))))",
+          "start": "201203",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/052_007_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "R1",
+      "count": 0,
+      "code": "006",
+      "eng": "R1",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.R1.)))",
+      "sub_models": [
+        {
+          "name": "R1",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.R1._.Model.R1.))))",
+          "start": "200501",
+          "end": "201012",
+          "period": "05~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "SVX",
+      "count": 0,
+      "code": "001",
+      "eng": "SVX",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.SVX.)))",
+      "sub_models": [
+        {
+          "name": "SVX",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.SVX._.Model.SVX.))))",
+          "start": "199101",
+          "end": "199612",
+          "period": "91~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레거시",
+      "count": 7,
+      "code": "005",
+      "eng": "Legacy",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.레거시.)))",
+      "sub_models": [
+        {
+          "name": "레거시",
+          "count": 7,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.레거시._.Model.레거시.))))",
+          "start": "198901",
+          "end": null,
+          "period": "89~현재",
+          "image": "/carsdata/cars/cm_cardb/file/052_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 웨건"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2457,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5i Special Edition"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3629,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레보그",
+      "count": 1,
+      "code": "008",
+      "eng": "Levorg",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.레보그.)))",
+      "sub_models": [
+        {
+          "name": "레보그",
+          "count": 1,
+          "code": "008",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.레보그._.Model.레보그.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아웃백",
+      "count": 6,
+      "code": "004",
+      "eng": "Outback",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.아웃백.)))",
+      "sub_models": [
+        {
+          "name": "아웃백",
+          "count": 6,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.아웃백._.Model.아웃백.))))",
+          "start": "199501",
+          "end": "201212",
+          "period": "95~12",
+          "image": "/carsdata/cars/cm_cardb/file/052_004_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2498,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3629,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "임프레자",
+      "count": 7,
+      "code": "002",
+      "eng": "Impreza",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.임프레자.)))",
+      "sub_models": [
+        {
+          "name": "임프레자",
+          "count": 7,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.임프레자._.Model.임프레자.))))",
+          "start": "199301",
+          "end": null,
+          "period": "93~현재",
+          "image": "/carsdata/cars/cm_cardb/file/052_002_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "WRX 웨건"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "WRX STI"
+                },
+                {
+                  "name": "WRX 세단"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "포레스터",
+      "count": 2,
+      "code": "003",
+      "eng": "Forester",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.ModelGroup.포레스터.)))",
+      "sub_models": [
+        {
+          "name": "포레스터",
+          "count": 2,
+          "code": "003",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.스바루._.(C.ModelGroup.포레스터._.Model.포레스터.))))",
+          "start": "199701",
+          "end": "201212",
+          "period": "97~12",
+          "image": "/carsdata/cars/cm_cardb/file/052_003_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2457,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

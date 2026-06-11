@@ -1,0 +1,1604 @@
+{
+  "name": "랜드로버",
+  "count": 2436,
+  "code": "020",
+  "eng": "Land Rover",
+  "order": 190.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.랜드로버.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "디스커버리 스포츠",
+      "count": 370,
+      "code": "010",
+      "eng": "Discovery Sport",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.디스커버리 스포츠.)))",
+      "sub_models": [
+        {
+          "name": "디스커버리 스포츠 2세대",
+          "count": 155,
+          "code": "017",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리 스포츠._.Model.디스커버리 스포츠 2세대.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/020_017_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P250 S"
+                },
+                {
+                  "name": "P250 SE"
+                },
+                {
+                  "name": "P250 다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D150 S"
+                },
+                {
+                  "name": "D180 S"
+                },
+                {
+                  "name": "D180 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D200 S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디스커버리 스포츠",
+          "count": 215,
+          "code": "011",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리 스포츠._.Model.디스커버리 스포츠.))))",
+          "start": "201501",
+          "end": "201912",
+          "period": "15~19",
+          "image": "/carsdata/cars/cm_cardb/file/020_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TD4 HSE 럭셔리"
+                },
+                {
+                  "name": "2.0 TD4 SE"
+                },
+                {
+                  "name": "2.0 TD4 SE (150마력)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2179,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.2 SD4 HSE 럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "디스커버리",
+      "count": 446,
+      "code": "001",
+      "eng": "Discovery",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.디스커버리.)))",
+      "sub_models": [
+        {
+          "name": "디스커버리 5",
+          "count": 273,
+          "code": "014",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리._.Model.디스커버리 5.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/020_014_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 SD6 HSE"
+                },
+                {
+                  "name": "3.0 SD6 HSE 럭셔리"
+                },
+                {
+                  "name": "3.0 SD6 SE"
+                },
+                {
+                  "name": "3.0 SD6 랜드마크 에디션"
+                },
+                {
+                  "name": "3.0 TD6 HSE"
+                },
+                {
+                  "name": "3.0 TD6 HSE 럭셔리"
+                },
+                {
+                  "name": "3.0 TD6 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D250 S"
+                },
+                {
+                  "name": "D300 다이나믹 HSE"
+                },
+                {
+                  "name": "D350 다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D250 SE"
+                },
+                {
+                  "name": "D300 HSE"
+                },
+                {
+                  "name": "D300 R-다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P360 R-다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 SD4 HSE"
+                },
+                {
+                  "name": "2.0 SD4 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P360 다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 P300 S"
+                },
+                {
+                  "name": "2.0 P300 SE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디스커버리 4",
+          "count": 163,
+          "code": "010",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리._.Model.디스커버리 4.))))",
+          "start": "200901",
+          "end": "201612",
+          "period": "09~16",
+          "image": "/carsdata/cars/cm_cardb/file/020_010_2016.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 SDV6 HSE"
+                },
+                {
+                  "name": "3.0 SDV6 SE"
+                },
+                {
+                  "name": "3.0 SDV6 랜드마크 에디션"
+                },
+                {
+                  "name": "3.0 TDV6 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2720,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7 TDV6 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 TDV6 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 V8 HSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디스커버리 3",
+          "count": 9,
+          "code": "006",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리._.Model.디스커버리 3.))))",
+          "start": "200407",
+          "end": "200912",
+          "period": "04~09",
+          "image": "/carsdata/cars/cm_cardb/file/020_006_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4009,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 V6 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2720,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7 TDV6 HSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디스커버리 2",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리._.Model.디스커버리 2.))))",
+          "start": "199901",
+          "end": "200512",
+          "period": "99~05",
+          "image": "/carsdata/cars/cm_cardb/file/020_009_2005.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 TD5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디스커버리",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디스커버리._.Model.디스커버리.))))",
+          "start": "198901",
+          "end": "199812",
+          "period": "89~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "디펜더",
+      "count": 242,
+      "code": "005",
+      "eng": "Defender",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.디펜더.)))",
+      "sub_models": [
+        {
+          "name": "디펜더 (L663)",
+          "count": 235,
+          "code": "018",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디펜더._.Model.디펜더 (L663_).))))",
+          "start": "202009",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0050ae21-bae5-4e5b-b489-a6be257be3bb.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "130 D300 X-다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 P300 X-다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 D250 S"
+                },
+                {
+                  "name": "110 D250 SE"
+                },
+                {
+                  "name": "110 D250 X-다이나믹 SE"
+                },
+                {
+                  "name": "110 D300 X-다이나믹 HSE"
+                },
+                {
+                  "name": "90 D250 SE"
+                },
+                {
+                  "name": "90 D250 X-다이나믹 SE"
+                },
+                {
+                  "name": "90 D250 XS 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 D240 S"
+                },
+                {
+                  "name": "110 D240 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 D300 75th 에디션"
+                },
+                {
+                  "name": "110 D300 HSE"
+                },
+                {
+                  "name": "90 D250 S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 P635 옥타"
+                },
+                {
+                  "name": "110 P635 옥타 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110 P400 X"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "130 P400 X-다이나믹 HSE"
+                },
+                {
+                  "name": "130 P400 아웃바운드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "디펜더",
+          "count": 7,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.디펜더._.Model.디펜더.))))",
+          "start": "198301",
+          "end": "201612",
+          "period": "83~16",
+          "image": "/carsdata/cars/cm_cardb/file/020_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2402,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "90"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2402,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "110"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레인지로버 벨라",
+      "count": 193,
+      "code": "011",
+      "eng": "Range Rover Velar",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.레인지로버 벨라.)))",
+      "sub_models": [
+        {
+          "name": "레인지로버 벨라",
+          "count": 193,
+          "code": "015",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 벨라._.Model.레인지로버 벨라.))))",
+          "start": "201709",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/020_015_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 D300 R-다이나믹 HSE"
+                },
+                {
+                  "name": "3.0 D300 R-다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 P400 R-다이나믹 HSE"
+                },
+                {
+                  "name": "3.0 P400 다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 D240 R-다이나믹 SE"
+                },
+                {
+                  "name": "2.0 D240 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 P250 R-다이나믹 SE"
+                },
+                {
+                  "name": "2.0 P250 다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 P380 R-다이나믹 SE"
+                },
+                {
+                  "name": "3.0 P400 R-다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 P400E 다이나믹 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4999,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 SV AB 다이나믹"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레인지로버 스포츠",
+      "count": 331,
+      "code": "006",
+      "eng": "Range Rover Sport",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.레인지로버 스포츠.)))",
+      "sub_models": [
+        {
+          "name": "레인지로버 스포츠 3세대",
+          "count": 89,
+          "code": "020",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 스포츠._.Model.레인지로버 스포츠 3세대.))))",
+          "start": "202210",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bf695125-b2ac-41a7-bf56-9e68f5bf5eeb.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P360 AB"
+                },
+                {
+                  "name": "P360 HSE 다이나믹"
+                },
+                {
+                  "name": "P400 AB"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P635 SV 에디션 투"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P550E 다이나믹 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D300 HSE 다이나믹"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레인지로버 스포츠 2세대",
+          "count": 218,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 스포츠._.Model.레인지로버 스포츠 2세대.))))",
+          "start": "201311",
+          "end": "202209",
+          "period": "13~22",
+          "image": "/carsdata/cars/cm_cardb/file/020_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 SDV6 AB 다이나믹"
+                },
+                {
+                  "name": "3.0 SDV6 HSE"
+                },
+                {
+                  "name": "3.0 SDV6 HSE 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 SVR"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 SC HSE 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D300 HSE 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P360 HSE 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4367,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4 SDV8 AB 다이나믹"
+                },
+                {
+                  "name": "4.4 SDV8 HSE 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D300 AB 다이나믹"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레인지로버 스포츠",
+          "count": 24,
+          "code": "008",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 스포츠._.Model.레인지로버 스포츠.))))",
+          "start": "200401",
+          "end": "201310",
+          "period": "04~13",
+          "image": "/carsdata/cars/cm_cardb/file/020_008_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "V8 5.0 HSE"
+                },
+                {
+                  "name": "V8 5.0 SC HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 SDV6"
+                },
+                {
+                  "name": "3.0 TDV6"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2720,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7 TDV6 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4394,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "V8 4.4 HSE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레인지로버 이보크",
+      "count": 386,
+      "code": "008",
+      "eng": "Range Rover Evoque",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.레인지로버 이보크.)))",
+      "sub_models": [
+        {
+          "name": "레인지로버 이보크 2세대",
+          "count": 189,
+          "code": "016",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 이보크._.Model.레인지로버 이보크 2세대.))))",
+          "start": "201907",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d4bfe948-6431-4aee-b3f1-1b05748a5a8d.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P250 R-다이나믹 SE"
+                },
+                {
+                  "name": "P250 S"
+                },
+                {
+                  "name": "P250 SE"
+                },
+                {
+                  "name": "P250 다이나믹 SE"
+                },
+                {
+                  "name": "P250 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D150 S"
+                },
+                {
+                  "name": "D180 R-다이나믹 SE"
+                },
+                {
+                  "name": "D180 SE"
+                },
+                {
+                  "name": "D180 런치 에디션"
+                },
+                {
+                  "name": "D180 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레인지로버 이보크",
+          "count": 197,
+          "code": "012",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버 이보크._.Model.레인지로버 이보크.))))",
+          "start": "201107",
+          "end": "201912",
+          "period": "11~19",
+          "image": "/carsdata/cars/cm_cardb/file/020_012_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TD4 AB"
+                },
+                {
+                  "name": "2.0 TD4 HSE"
+                },
+                {
+                  "name": "2.0 TD4 HSE 다이나믹"
+                },
+                {
+                  "name": "2.0 TD4 SE"
+                },
+                {
+                  "name": "2.0 TD4 엠버 리미티드 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2179,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.2 SD4 다이나믹"
+                },
+                {
+                  "name": "2.2 SD4 퓨어"
+                },
+                {
+                  "name": "2.2 SD4 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TD4 HSE 다이나믹 컨버터블"
+                },
+                {
+                  "name": "2.0 TD4 SE 다이나믹 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 Si4 HSE"
+                },
+                {
+                  "name": "2.0 Si4 다이나믹 쿠페"
+                },
+                {
+                  "name": "2.0 Si4 프레스티지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레인지로버",
+      "count": 454,
+      "code": "003",
+      "eng": "Range Rover",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.레인지로버.)))",
+      "sub_models": [
+        {
+          "name": "레인지로버 5세대",
+          "count": 126,
+          "code": "019",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버._.Model.레인지로버 5세대.))))",
+          "start": "202208",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/abe0e54b-4ac8-4b92-8246-0376a6fcaafc.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P530 AB"
+                },
+                {
+                  "name": "P530 AB LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P550E AB"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P615 SV LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D350 AB"
+                },
+                {
+                  "name": "D350 AB LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P530 SV LWB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레인지로버 4세대",
+          "count": 297,
+          "code": "013",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버._.Model.레인지로버 4세대.))))",
+          "start": "201301",
+          "end": "202208",
+          "period": "13~22",
+          "image": "/carsdata/cars/cm_cardb/file/020_013_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 SC AB"
+                },
+                {
+                  "name": "5.0 SC AB LWB"
+                },
+                {
+                  "name": "5.0 SC AB 블랙 LWB"
+                },
+                {
+                  "name": "5.0 SC SV AB 다이나믹"
+                },
+                {
+                  "name": "5.0 SC Vogue SE"
+                },
+                {
+                  "name": "5.0 SC Vogue SE LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4367,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4 SDV8 AB LWB 디젤"
+                },
+                {
+                  "name": "4.4 SDV8 AB 디젤"
+                },
+                {
+                  "name": "4.4 SDV8 Vogue SE LWB 디젤"
+                },
+                {
+                  "name": "4.4 SDV8 Vogue SE 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 TDV6 Vogue SE 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D350 AB 디젤"
+                },
+                {
+                  "name": "D350 Vogue SE 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4999,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 SC 레인지로버 50"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 SC SV AB LWB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레인지로버",
+          "count": 31,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.레인지로버._.Model.레인지로버.))))",
+          "start": "197001",
+          "end": "201212",
+          "period": "70~12",
+          "image": "/carsdata/cars/cm_cardb/file/020_001_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "V8 5.0 Supercharged"
+                },
+                {
+                  "name": "V8 5.0 Vogue"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3950,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 3630,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7 TDV8 Vogue"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4367,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4 TDV8 Vogue"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3947,
+              "displacement_l": 3.9,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "STANDARD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "프리랜더",
+      "count": 14,
+      "code": "002",
+      "eng": "Freelander",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.프리랜더.)))",
+      "sub_models": [
+        {
+          "name": "프리랜더2",
+          "count": 13,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.프리랜더._.Model.프리랜더2.))))",
+          "start": "200611",
+          "end": "201412",
+          "period": "06~14",
+          "image": "/carsdata/cars/cm_cardb/file/020_007_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2179,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.2 SD4 HSE"
+                },
+                {
+                  "name": "2.2 SD4 XS"
+                },
+                {
+                  "name": "2.2 TD4 HSE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3192,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "I6 HSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "프리랜더",
+          "count": 1,
+          "code": "003",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.프리랜더._.Model.프리랜더.))))",
+          "start": "199710",
+          "end": "200612",
+          "period": "97~06",
+          "image": "/carsdata/cars/cm_cardb/file/020_003_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 V6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "009",
+      "eng": "Others",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.랜드로버._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

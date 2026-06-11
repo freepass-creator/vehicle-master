@@ -1,0 +1,790 @@
+{
+  "name": "시트로엥/DS",
+  "count": 149,
+  "code": "022",
+  "eng": "Citroen-DS",
+  "order": 490.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.시트로엥/DS.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "C2",
+      "count": 0,
+      "code": "003",
+      "eng": "C2",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C2.)))",
+      "sub_models": [
+        {
+          "name": "C2",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C2._.Model.C2.))))",
+          "start": "200301",
+          "end": "200912",
+          "period": "03~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "count": 0,
+      "code": "005",
+      "eng": "C3",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C3.)))",
+      "sub_models": [
+        {
+          "name": "C3",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C3._.Model.C3.))))",
+          "start": "200201",
+          "end": null,
+          "period": "02~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_005_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "C3 에어크로스",
+      "count": 13,
+      "code": "015",
+      "eng": "C3 Aircross",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C3 에어크로스.)))",
+      "sub_models": [
+        {
+          "name": "C3 에어크로스",
+          "count": 13,
+          "code": "017",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C3 에어크로스._.Model.C3 에어크로스.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_017_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 샤인"
+                },
+                {
+                  "name": "1.5 BlueHDi 샤인팩"
+                },
+                {
+                  "name": "1.5 BlueHDi 필"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C4 스페이스투어러",
+      "count": 18,
+      "code": "012",
+      "eng": "C4 SpaceTourer",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C4 스페이스투어러.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 C4 스페이스투어러",
+          "count": 18,
+          "code": "014",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C4 스페이스투어러._.Model.그랜드 C4 스페이스투어러.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/8e89cec4-a4d1-4f16-99e2-ad81cf0cbe98.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 BlueHDi 샤인"
+                },
+                {
+                  "name": "2.0 BlueHDi 샤인+"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 샤인"
+                },
+                {
+                  "name": "1.5 BlueHDi 샤인팩"
+                },
+                {
+                  "name": "1.5 BlueHDi 필"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C4 칵투스",
+      "count": 30,
+      "code": "011",
+      "eng": "C4 CACTUS",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C4 칵투스.)))",
+      "sub_models": [
+        {
+          "name": "C4 칵투스",
+          "count": 30,
+          "code": "013",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C4 칵투스._.Model.C4 칵투스.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_013_2019.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 BlueHDi 샤인"
+                },
+                {
+                  "name": "1.6 BlueHDi 원톤 에디션"
+                },
+                {
+                  "name": "1.6 BlueHDi 필"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 샤인"
+                },
+                {
+                  "name": "1.5 BlueHDi 필"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C4 피카소",
+      "count": 37,
+      "code": "010",
+      "eng": "C4 Picasso",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C4 피카소.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 C4 피카소",
+          "count": 29,
+          "code": "010",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C4 피카소._.Model.그랜드 C4 피카소.))))",
+          "start": "201301",
+          "end": "201812",
+          "period": "13~18",
+          "image": "/carsdata/cars/cm_cardb/file/022_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 B-HDI 인텐시브"
+                },
+                {
+                  "name": "1.6 B-HDI 필"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 B-HDI 샤인"
+                },
+                {
+                  "name": "2.0 B-HDI 인텐시브"
+                },
+                {
+                  "name": "2.0 B-HDI 인텐시브 플러스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C4 피카소",
+          "count": 8,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C4 피카소._.Model.C4 피카소.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 B-HDI 인텐시브"
+                },
+                {
+                  "name": "1.6 B-HDI 필"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 B-HDI 인텐시브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C5 에어크로스",
+      "count": 2,
+      "code": "014",
+      "eng": "C5 Aircross",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C5 에어크로스.)))",
+      "sub_models": [
+        {
+          "name": "C5 에어크로스",
+          "count": 2,
+          "code": "016",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C5 에어크로스._.Model.C5 에어크로스.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_016_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 샤인"
+                },
+                {
+                  "name": "1.5 BlueHDi 필"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C5",
+      "count": 0,
+      "code": "004",
+      "eng": "C5",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C5.)))",
+      "sub_models": [
+        {
+          "name": "C5",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C5._.Model.C5.))))",
+          "start": "200001",
+          "end": null,
+          "period": "00~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_004_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "C6",
+      "count": 0,
+      "code": "016",
+      "eng": "C6",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.C6.)))",
+      "sub_models": [
+        {
+          "name": "C6",
+          "count": 0,
+          "code": "019",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.C6._.Model.C6.))))",
+          "start": "200501",
+          "end": "201212",
+          "period": "05~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "DS3",
+      "count": 34,
+      "code": "006",
+      "eng": "DS3",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.DS3.)))",
+      "sub_models": [
+        {
+          "name": "DS3",
+          "count": 12,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS3._.Model.DS3.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 BlueHDi 소 시크"
+                },
+                {
+                  "name": "1.6 e-HDi 비 시크"
+                },
+                {
+                  "name": "1.6 e-HDi 소 시크"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 VTI 소 시크"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DS3 카브리오",
+          "count": 9,
+          "code": "009",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS3._.Model.DS3 카브리오.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_009_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 BlueHDi 비 시크"
+                },
+                {
+                  "name": "1.6 BlueHDi 소 시크"
+                },
+                {
+                  "name": "1.6 e-HDi 소 시크"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DS3 크로스백",
+          "count": 13,
+          "code": "018",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS3._.Model.DS3 크로스백.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_018_2020.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 120,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E-텐스 그랜드 시크"
+                },
+                {
+                  "name": "E-텐스 소 시크"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 소 시크 테크팩"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1590,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 소 시크"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DS4",
+      "count": 7,
+      "code": "008",
+      "eng": "DS4",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.DS4.)))",
+      "sub_models": [
+        {
+          "name": "DS4 2세대",
+          "count": 4,
+          "code": "020",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS4._.Model.DS4 2세대.))))",
+          "start": "202207",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/040b4677-6df2-4582-9427-97662a03fadc.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 BlueHDi 리볼리"
+                },
+                {
+                  "name": "1.5 BlueHDi 트로카데로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DS4",
+          "count": 3,
+          "code": "007",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS4._.Model.DS4.))))",
+          "start": "201001",
+          "end": "201601",
+          "period": "10~16",
+          "image": "/carsdata/cars/cm_cardb/file/022_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1560,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DS4 크로스백",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS4._.Model.DS4 크로스백.))))",
+          "start": "201606",
+          "end": "201801",
+          "period": "16~18",
+          "image": "/carsdata/cars/cm_cardb/file/022_012_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "DS5",
+      "count": 3,
+      "code": "009",
+      "eng": "DS5",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.DS5.)))",
+      "sub_models": [
+        {
+          "name": "DS5",
+          "count": 3,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS5._.Model.DS5.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_008_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DS7",
+      "count": 5,
+      "code": "013",
+      "eng": "DS7",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.DS7.)))",
+      "sub_models": [
+        {
+          "name": "DS7 크로스백",
+          "count": 5,
+          "code": "015",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.DS7._.Model.DS7 크로스백.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/022_015_2019.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 BlueHDi 그랜드 시크"
+                },
+                {
+                  "name": "2.0 BlueHDi 루브르 에디션"
+                },
+                {
+                  "name": "2.0 BlueHDi 소 시크"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XM",
+      "count": 0,
+      "code": "001",
+      "eng": "XM",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.XM.)))",
+      "sub_models": [
+        {
+          "name": "XM",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.XM._.Model.XM.))))",
+          "start": "198901",
+          "end": "200012",
+          "period": "89~00",
+          "image": "/carsdata/cars/cm_cardb/file/022_001_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "잔티아",
+      "count": 0,
+      "code": "002",
+      "eng": "Xantia",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.잔티아.)))",
+      "sub_models": [
+        {
+          "name": "잔티아",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.잔티아._.Model.잔티아.))))",
+          "start": "199301",
+          "end": "200112",
+          "period": "93~01",
+          "image": "/carsdata/cars/cm_cardb/file/022_002_2001.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "007",
+      "eng": "Others",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.시트로엥/DS._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

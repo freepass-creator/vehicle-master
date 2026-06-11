@@ -1,0 +1,427 @@
+{
+  "name": "람보르기니",
+  "count": 166,
+  "code": "049",
+  "eng": "Lamborghini",
+  "order": 180.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.람보르기니.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "가야르도",
+      "count": 0,
+      "code": "003",
+      "eng": "Gallardo",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.가야르도.)))",
+      "sub_models": [
+        {
+          "name": "가야르도",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.가야르도._.Model.가야르도.))))",
+          "start": "200301",
+          "end": "201312",
+          "period": "03~13",
+          "image": "/carsdata/cars/cm_cardb/file/049_003_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "디아블로",
+      "count": 0,
+      "code": "002",
+      "eng": "Diablo",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.디아블로.)))",
+      "sub_models": [
+        {
+          "name": "디아블로",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.디아블로._.Model.디아블로.))))",
+          "start": "199001",
+          "end": "200212",
+          "period": "90~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레부엘토",
+      "count": 4,
+      "code": "010",
+      "eng": "Revuelto",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.레부엘토.)))",
+      "sub_models": [
+        {
+          "name": "레부엘토",
+          "count": 4,
+          "code": "104",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.레부엘토._.Model.레부엘토.))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/c2363850-0ccd-45ac-b54c-462849ea53ef.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 6498,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.5 V12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레벤톤",
+      "count": 0,
+      "code": "006",
+      "eng": "Reventon",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.레벤톤.)))",
+      "sub_models": [
+        {
+          "name": "레벤톤",
+          "count": 0,
+          "code": "100",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.레벤톤._.Model.레벤톤.))))",
+          "start": "200801",
+          "end": "200912",
+          "period": "08~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "무르시엘라고",
+      "count": 3,
+      "code": "001",
+      "eng": "Murcielago",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.무르시엘라고.)))",
+      "sub_models": [
+        {
+          "name": "무르시엘라고",
+          "count": 3,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.무르시엘라고._.Model.무르시엘라고.))))",
+          "start": "200101",
+          "end": "201012",
+          "period": "01~10",
+          "image": "/carsdata/cars/cm_cardb/file/049_001_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6192,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2 V12 쿠페"
+                },
+                {
+                  "name": "LP640 로드스터"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6496,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LP640"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아벤타도르",
+      "count": 15,
+      "code": "007",
+      "eng": "Aventador",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.아벤타도르.)))",
+      "sub_models": [
+        {
+          "name": "아벤타도르",
+          "count": 15,
+          "code": "101",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.아벤타도르._.Model.아벤타도르.))))",
+          "start": "201101",
+          "end": "202212",
+          "period": "11~22",
+          "image": "/carsdata/cars/cm_cardb/file/049_101_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6498,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LP700-4"
+                },
+                {
+                  "name": "LP700-4 로드스터"
+                },
+                {
+                  "name": "LP770-4 SVJ 로드스터"
+                },
+                {
+                  "name": "S LP740-4"
+                },
+                {
+                  "name": "S LP740-4 로드스터"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6498,
+              "displacement_l": 6.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LP780-4 얼티메"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "우라칸",
+      "count": 39,
+      "code": "008",
+      "eng": "Huracan",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.우라칸.)))",
+      "sub_models": [
+        {
+          "name": "우라칸",
+          "count": 39,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.우라칸._.Model.우라칸.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/049_102_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LP580-2"
+                },
+                {
+                  "name": "LP610-2 에보"
+                },
+                {
+                  "name": "LP610-2 에보 스파이더"
+                },
+                {
+                  "name": "LP610-4"
+                },
+                {
+                  "name": "LP610-4 스파이더"
+                },
+                {
+                  "name": "LP640-2 STO"
+                },
+                {
+                  "name": "LP640-2 테크니카"
+                },
+                {
+                  "name": "LP640-4 에보"
+                },
+                {
+                  "name": "LP640-4 에보 스파이더"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5200,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LP580-2 스파이더"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "우루스",
+      "count": 105,
+      "code": "009",
+      "eng": "Urus",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.우루스.)))",
+      "sub_models": [
+        {
+          "name": "우루스",
+          "count": 105,
+          "code": "103",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.우루스._.Model.우루스.))))",
+          "start": "201803",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/049_103_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 V8"
+                },
+                {
+                  "name": "4.0 V8 S"
+                },
+                {
+                  "name": "4.0 V8 퍼포만테"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 V8 SE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "잘파",
+      "count": 0,
+      "code": "004",
+      "eng": "Jalpa",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.잘파.)))",
+      "sub_models": [
+        {
+          "name": "잘파",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.잘파._.Model.잘파.))))",
+          "start": "198101",
+          "end": "198812",
+          "period": "81~88",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "테메라리오",
+      "count": 0,
+      "code": "011",
+      "eng": "Temerario",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.테메라리오.)))",
+      "sub_models": [
+        {
+          "name": "테메라리오",
+          "count": 0,
+          "code": "105",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.테메라리오._.Model.테메라리오.))))",
+          "start": "202503",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ad6509a8-b718-41db-bb03-6ded99318d40.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "005",
+      "eng": "Others",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "099",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.람보르기니._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

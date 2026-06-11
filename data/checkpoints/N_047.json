@@ -1,0 +1,407 @@
+{
+  "name": "롤스로이스",
+  "count": 165,
+  "code": "047",
+  "eng": "Rolls-Royce",
+  "order": 230.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.롤스로이스.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "고스트",
+      "count": 72,
+      "code": "004",
+      "eng": "Ghost",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.고스트.)))",
+      "sub_models": [
+        {
+          "name": "고스트 2세대",
+          "count": 36,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.고스트._.Model.고스트 2세대.))))",
+          "start": "202009",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/cc90d200-4e70-4421-91d2-555ddcdcf7e3.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12 블랙 배지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 EWB V12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "고스트",
+          "count": 36,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.고스트._.Model.고스트.))))",
+          "start": "201001",
+          "end": "202012",
+          "period": "10~20",
+          "image": "/carsdata/cars/cm_cardb/file/047_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6 EWB V12"
+                },
+                {
+                  "name": "6.6 V12"
+                },
+                {
+                  "name": "6.6 V12 블랙 배지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "던",
+      "count": 7,
+      "code": "006",
+      "eng": "Dawn",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.던.)))",
+      "sub_models": [
+        {
+          "name": "던",
+          "count": 7,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.던._.Model.던.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/047_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6 V12 블랙 배지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6 V12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "레이스",
+      "count": 21,
+      "code": "005",
+      "eng": "Wraith",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.레이스.)))",
+      "sub_models": [
+        {
+          "name": "레이스",
+          "count": 21,
+          "code": "005",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.레이스._.Model.레이스.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/047_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6"
+                },
+                {
+                  "name": "6.6 이글 VIII"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.6 블랙 배지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "실버스퍼",
+      "count": 0,
+      "code": "003",
+      "eng": "Silver Spur",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.실버스퍼.)))",
+      "sub_models": [
+        {
+          "name": "실버스퍼",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.실버스퍼._.Model.실버스퍼.))))",
+          "start": "198001",
+          "end": "199812",
+          "period": "80~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스펙터",
+      "count": 10,
+      "code": "008",
+      "eng": "Spectre",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.스펙터.)))",
+      "sub_models": [
+        {
+          "name": "스펙터",
+          "count": 10,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.스펙터._.Model.스펙터.))))",
+          "start": "202312",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d368c635-62cc-4c52-bf23-5e87172ad826.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 281,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "쿠페"
+                },
+                {
+                  "name": "쿠페 블랙배지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컬리넌",
+      "count": 39,
+      "code": "007",
+      "eng": "Cullinan",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.컬리넌.)))",
+      "sub_models": [
+        {
+          "name": "컬리넌",
+          "count": 39,
+          "code": "007",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.컬리넌._.Model.컬리넌.))))",
+          "start": "201806",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/047_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12 블랙 배지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "코니쉬",
+      "count": 0,
+      "code": "002",
+      "eng": "Corniche",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.코니쉬.)))",
+      "sub_models": [
+        {
+          "name": "코니쉬",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.코니쉬._.Model.코니쉬.))))",
+          "start": "197101",
+          "end": "200212",
+          "period": "71~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "팬텀",
+      "count": 16,
+      "code": "001",
+      "eng": "Phantom",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.ModelGroup.팬텀.)))",
+      "sub_models": [
+        {
+          "name": "팬텀",
+          "count": 16,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.롤스로이스._.(C.ModelGroup.팬텀._.Model.팬텀.))))",
+          "start": "200301",
+          "end": null,
+          "period": "03~현재",
+          "image": "/carsdata/cars/cm_cardb/file/047_001_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 EWB V12"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6749,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.7 V12 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

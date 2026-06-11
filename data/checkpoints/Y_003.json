@@ -1,0 +1,3728 @@
+{
+  "name": "쉐보레(GM대우)",
+  "count": 10217,
+  "code": "003",
+  "eng": "ChevroletGMDaewoo",
+  "order": 30.0,
+  "_action": "(And.Hidden.N._.(C.CarType.Y._.Manufacturer.쉐보레(GM대우_).))",
+  "car_type": "국산",
+  "models": [
+    {
+      "name": "G2X",
+      "count": 8,
+      "code": "035",
+      "eng": "G2X",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.G2X.)))",
+      "sub_models": [
+        {
+          "name": "G2X",
+          "count": 8,
+          "code": "058",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.G2X._.Model.G2X.))))",
+          "start": "200709",
+          "end": "200812",
+          "period": "07~08",
+          "image": "/carsdata/cars/cm_cardb/file/003_058_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 터보"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "넥시아",
+      "count": 0,
+      "code": "001",
+      "eng": "Nexia",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.넥시아.)))",
+      "sub_models": [
+        {
+          "name": "넥시아",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.넥시아._.Model.넥시아.))))",
+          "start": "199503",
+          "end": "199612",
+          "period": "95~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "누비라",
+      "count": 0,
+      "code": "003",
+      "eng": "Nubira",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.누비라.)))",
+      "sub_models": [
+        {
+          "name": "누비라 2",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.누비라._.Model.누비라 2.))))",
+          "start": "199903",
+          "end": "200212",
+          "period": "99~02",
+          "image": "/carsdata/cars/cm_cardb/file/003_008_2002.png",
+          "powertrains": []
+        },
+        {
+          "name": "누비라",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.누비라._.Model.누비라.))))",
+          "start": "199702",
+          "end": "199905",
+          "period": "97~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "다마스",
+      "count": 49,
+      "code": "004",
+      "eng": "damas",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.다마스.)))",
+      "sub_models": [
+        {
+          "name": "뉴 다마스",
+          "count": 49,
+          "code": "070",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.다마스._.Model.뉴 다마스.))))",
+          "start": "200804",
+          "end": "202106",
+          "period": "08~21",
+          "image": "/carsdata/cars/cm_cardb/file/003_070_2018.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "DLX"
+                },
+                {
+                  "name": "슈퍼"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "리빅"
+                },
+                {
+                  "name": "슈퍼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "다마스",
+          "count": 0,
+          "code": "017",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.다마스._.Model.다마스.))))",
+          "start": "199108",
+          "end": "200309",
+          "period": "91~03",
+          "image": "/carsdata/cars/cm_cardb/file/003_017_2003.png",
+          "powertrains": []
+        },
+        {
+          "name": "다마스 II",
+          "count": 0,
+          "code": "029",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.다마스._.Model.다마스 II.))))",
+          "start": "200307",
+          "end": "200712",
+          "period": "03~07",
+          "image": "/carsdata/cars/cm_cardb/file/003_029_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "라노스",
+      "count": 1,
+      "code": "006",
+      "eng": "Lanos",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.라노스.)))",
+      "sub_models": [
+        {
+          "name": "라노스 II",
+          "count": 0,
+          "code": "023",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라노스._.Model.라노스 II.))))",
+          "start": "200004",
+          "end": "200206",
+          "period": "00~02",
+          "image": "/carsdata/cars/cm_cardb/file/003_023_2003.png",
+          "powertrains": []
+        },
+        {
+          "name": "라노스",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라노스._.Model.라노스.))))",
+          "start": "199611",
+          "end": "200006",
+          "period": "96~00",
+          "image": "/carsdata/cars/cm_cardb/file/003_006_2000.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기본형"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "라보",
+      "count": 105,
+      "code": "007",
+      "eng": "labo",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.라보.)))",
+      "sub_models": [
+        {
+          "name": "뉴 라보",
+          "count": 105,
+          "code": "071",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라보._.Model.뉴 라보.))))",
+          "start": "200804",
+          "end": "202105",
+          "period": "08~21",
+          "image": "/carsdata/cars/cm_cardb/file/003_071_2014.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "DLX"
+                },
+                {
+                  "name": "STD"
+                },
+                {
+                  "name": "내장탑차 롱카고"
+                },
+                {
+                  "name": "냉동탑차"
+                },
+                {
+                  "name": "롱카고 DLX"
+                },
+                {
+                  "name": "롱카고 SUPER"
+                },
+                {
+                  "name": "보냉탑차 롱카고"
+                },
+                {
+                  "name": "보냉탑차 일반형"
+                },
+                {
+                  "name": "이동주유차"
+                },
+                {
+                  "name": "이동판매차"
+                },
+                {
+                  "name": "접이식탑차 롱카고"
+                },
+                {
+                  "name": "접이식탑차 일반형"
+                },
+                {
+                  "name": "캠핑카"
+                },
+                {
+                  "name": "파워게이트"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "라보",
+          "count": 0,
+          "code": "025",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라보._.Model.라보.))))",
+          "start": "199111",
+          "end": "200612",
+          "period": "91~06",
+          "image": "/carsdata/cars/cm_cardb/file/003_025_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "라세티",
+      "count": 28,
+      "code": "008",
+      "eng": "Lacetti",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.라세티.)))",
+      "sub_models": [
+        {
+          "name": "라세티 프리미어",
+          "count": 28,
+          "code": "065",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라세티._.Model.라세티 프리미어.))))",
+          "start": "200811",
+          "end": "201105",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_065_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 CDX 블루&블랙 에디션"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "일반형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "일반형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디젤 CDX 블루&블랙 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "라세티",
+          "count": 0,
+          "code": "028",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.라세티._.Model.라세티.))))",
+          "start": "200211",
+          "end": "200909",
+          "period": "02~09",
+          "image": "/carsdata/cars/cm_cardb/file/003_028_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레간자",
+      "count": 0,
+      "code": "009",
+      "eng": "Leganza",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.레간자.)))",
+      "sub_models": [
+        {
+          "name": "레간자",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.레간자._.Model.레간자.))))",
+          "start": "199704",
+          "end": "200209",
+          "period": "97~02",
+          "image": "/carsdata/cars/cm_cardb/file/003_013_2002.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레조",
+      "count": 1,
+      "code": "010",
+      "eng": "Rezzo",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.레조.)))",
+      "sub_models": [
+        {
+          "name": "레조",
+          "count": 1,
+          "code": "021",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.레조._.Model.레조.))))",
+          "start": "200001",
+          "end": "200709",
+          "period": "00~07",
+          "image": "/carsdata/cars/cm_cardb/file/003_021_2007.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPG 2.0 SL"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "로얄살롱",
+      "count": 0,
+      "code": "011",
+      "eng": "Royal Salon",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.로얄살롱.)))",
+      "sub_models": [
+        {
+          "name": "로얄살롱",
+          "count": 0,
+          "code": "018",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.로얄살롱._.Model.로얄살롱.))))",
+          "start": "198009",
+          "end": "199111",
+          "period": "80~91",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "르망",
+      "count": 0,
+      "code": "012",
+      "eng": "Lemans",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.르망.)))",
+      "sub_models": [
+        {
+          "name": "르망",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.르망._.Model.르망.))))",
+          "start": "198607",
+          "end": "199704",
+          "period": "86~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마티즈",
+      "count": 106,
+      "code": "013",
+      "eng": "Matiz",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.마티즈.)))",
+      "sub_models": [
+        {
+          "name": "마티즈 크리에이티브",
+          "count": 96,
+          "code": "066",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.마티즈._.Model.마티즈 크리에이티브.))))",
+          "start": "200908",
+          "end": "201105",
+          "period": "09~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_066_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "스타"
+                },
+                {
+                  "name": "일반형"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스타"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "All New 마티즈",
+          "count": 8,
+          "code": "054",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.마티즈._.Model.All New 마티즈.))))",
+          "start": "200503",
+          "end": "200910",
+          "period": "05~09",
+          "image": "/carsdata/cars/cm_cardb/file/003_054_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "SX"
+                },
+                {
+                  "name": "고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "마티즈 클래식",
+          "count": 2,
+          "code": "067",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.마티즈._.Model.마티즈 클래식.))))",
+          "start": "200908",
+          "end": "201103",
+          "period": "09~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_067_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "일반형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "마티즈 II",
+          "count": 0,
+          "code": "022",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.마티즈._.Model.마티즈 II.))))",
+          "start": "200008",
+          "end": "200505",
+          "period": "00~05",
+          "image": "/carsdata/cars/cm_cardb/file/003_022_2005.png",
+          "powertrains": []
+        },
+        {
+          "name": "마티즈",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.마티즈._.Model.마티즈.))))",
+          "start": "199804",
+          "end": "200009",
+          "period": "98~00",
+          "image": "/carsdata/cars/cm_cardb/file/003_002_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "말리부",
+      "count": 1643,
+      "code": "046",
+      "eng": "Malibu",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.말리부.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 말리부",
+          "count": 423,
+          "code": "098",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.말리부._.Model.더 뉴 말리부.))))",
+          "start": "201811",
+          "end": "202304",
+          "period": "18~23",
+          "image": "/carsdata/cars/cm_cardb/file/003_098_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1341,
+              "displacement_l": 1.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "프라임 세이프티"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "2.0 터보 퍼펙트 블랙"
+                },
+                {
+                  "name": "스페셜"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "올 뉴 말리부",
+          "count": 840,
+          "code": "088",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.말리부._.Model.올 뉴 말리부.))))",
+          "start": "201605",
+          "end": "201812",
+          "period": "16~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_088_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 터보 퍼펙트 블랙"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1490,
+              "displacement_l": 1.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "LTZ"
+                },
+                {
+                  "name": "LTZ 프리미엄 세이프티"
+                },
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "프리미엄 세이프티"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "말리부",
+          "count": 380,
+          "code": "079",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.말리부._.Model.말리부.))))",
+          "start": "201111",
+          "end": "201607",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/003_079_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LS"
+                },
+                {
+                  "name": "2.0 LS 디럭스팩"
+                },
+                {
+                  "name": "2.0 LT"
+                },
+                {
+                  "name": "2.0 LT 디럭스팩"
+                },
+                {
+                  "name": "2.0 LTZ"
+                },
+                {
+                  "name": "2.0 LTZ 디럭스팩(블랙휠)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1956,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 디젤 LT 디럭스팩"
+                },
+                {
+                  "name": "2.0 디젤 LT 프리미엄팩"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2384,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4 LTZ"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "디럭스(블랙휠)"
+                },
+                {
+                  "name": "일반형"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "매그너스",
+      "count": 2,
+      "code": "014",
+      "eng": "Magnus",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.매그너스.)))",
+      "sub_models": [
+        {
+          "name": "매그너스",
+          "count": 2,
+          "code": "014",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.매그너스._.Model.매그너스.))))",
+          "start": "199912",
+          "end": "200603",
+          "period": "99~06",
+          "image": "/carsdata/cars/cm_cardb/file/003_014_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 SOHC"
+                },
+                {
+                  "name": "이글 L6 2.0 익스클루시브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "맵시",
+      "count": 0,
+      "code": "015",
+      "eng": "Maepsy",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.맵시.)))",
+      "sub_models": [
+        {
+          "name": "맵시",
+          "count": 0,
+          "code": "020",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.맵시._.Model.맵시.))))",
+          "start": "198202",
+          "end": "198704",
+          "period": "82~87",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "베리타스",
+      "count": 2,
+      "code": "016",
+      "eng": "VERITAS",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.베리타스.)))",
+      "sub_models": [
+        {
+          "name": "베리타스",
+          "count": 2,
+          "code": "064",
+          "eng": null,
+          "order": 35.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.베리타스._.Model.베리타스.))))",
+          "start": "200809",
+          "end": "201011",
+          "period": "08~10",
+          "image": "/carsdata/cars/cm_cardb/file/003_064_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "볼트 EV",
+      "count": 68,
+      "code": "051",
+      "eng": "Bolt EV",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.볼트 EV.)))",
+      "sub_models": [
+        {
+          "name": "뉴 볼트 EV",
+          "count": 6,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.볼트 EV._.Model.뉴 볼트 EV.))))",
+          "start": "202108",
+          "end": "202312",
+          "period": "21~23",
+          "image": "/carsdata/cars/cm_cardb/file/332d197d-1eb1-4f91-8871-24984e3baf7f.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 188,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV 프리미어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "볼트 EV",
+          "count": 62,
+          "code": "095",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.볼트 EV._.Model.볼트 EV.))))",
+          "start": "201704",
+          "end": "202107",
+          "period": "17~21",
+          "image": "/carsdata/cars/cm_cardb/file/003_095_2018.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 188,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV LT 디럭스"
+                },
+                {
+                  "name": "EV 프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 174,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "볼트 EUV",
+      "count": 65,
+      "code": "056",
+      "eng": "볼트 EUV",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.볼트 EUV.)))",
+      "sub_models": [
+        {
+          "name": "볼트 EUV",
+          "count": 65,
+          "code": "105",
+          "eng": null,
+          "order": 60.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.볼트 EUV._.Model.볼트 EUV.))))",
+          "start": "202108",
+          "end": "202312",
+          "period": "21~23",
+          "image": "/carsdata/cars/cm_cardb/file/9ad2965b-cb13-4078-9acb-7ba60c4a0e65.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 188,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "레드라인"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "볼트(Volt)",
+      "count": 10,
+      "code": "050",
+      "eng": "VOLT",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.볼트(Volt_).)))",
+      "sub_models": [
+        {
+          "name": "볼트(Volt)",
+          "count": 10,
+          "code": "094",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.볼트(Volt_)._.Model.볼트(Volt_).))))",
+          "start": "201601",
+          "end": "201903",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/003_094_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1490,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "브로엄",
+      "count": 0,
+      "code": "017",
+      "eng": "Brougham",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.브로엄.)))",
+      "sub_models": [
+        {
+          "name": "브로엄",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.브로엄._.Model.브로엄.))))",
+          "start": "199106",
+          "end": "200003",
+          "period": "91~00",
+          "image": "/carsdata/cars/cm_cardb/file/003_012_2000.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "슈퍼살롱",
+      "count": 0,
+      "code": "018",
+      "eng": "Super Salon",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.슈퍼살롱.)))",
+      "sub_models": [
+        {
+          "name": "슈퍼살롱",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.슈퍼살롱._.Model.슈퍼살롱.))))",
+          "start": "199106",
+          "end": "199912",
+          "period": "91~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스테이츠맨",
+      "count": 2,
+      "code": "019",
+      "eng": "Statesman",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.스테이츠맨.)))",
+      "sub_models": [
+        {
+          "name": "스테이츠맨",
+          "count": 2,
+          "code": "055",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.스테이츠맨._.Model.스테이츠맨.))))",
+          "start": "200504",
+          "end": "200705",
+          "period": "05~07",
+          "image": "/carsdata/cars/cm_cardb/file/003_055_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2792,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "V6 2.8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "V6 3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스파크",
+      "count": 2733,
+      "code": "043",
+      "eng": "Spark",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.스파크.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 스파크",
+          "count": 741,
+          "code": "096",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.스파크._.Model.더 뉴 스파크.))))",
+          "start": "201805",
+          "end": "202305",
+          "period": "18~23",
+          "image": "/carsdata/cars/cm_cardb/file/003_096_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 999,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "LT"
+                },
+                {
+                  "name": "베이직"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 999,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 넥스트 스파크",
+          "count": 1083,
+          "code": "086",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.스파크._.Model.더 넥스트 스파크.))))",
+          "start": "201507",
+          "end": "201807",
+          "period": "15~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_086_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 999,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "LTZ"
+                },
+                {
+                  "name": "에코 LTZ"
+                },
+                {
+                  "name": "패션"
+                },
+                {
+                  "name": "퍼팩트 블랙"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 999,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "스파크",
+          "count": 909,
+          "code": "075",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.스파크._.Model.스파크.))))",
+          "start": "201103",
+          "end": "201508",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/003_075_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L"
+                },
+                {
+                  "name": "LS+"
+                },
+                {
+                  "name": "LT"
+                },
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "스타"
+                },
+                {
+                  "name": "스트라이프 에디션"
+                },
+                {
+                  "name": "시티팝 에디션"
+                },
+                {
+                  "name": "씨티런"
+                },
+                {
+                  "name": "타투 에디션"
+                },
+                {
+                  "name": "트랜스포머 에디션"
+                },
+                {
+                  "name": "팝 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPG L"
+                },
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "스타"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 995,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "밴"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "스파크 EV",
+          "count": 0,
+          "code": "083",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.스파크._.Model.스파크 EV.))))",
+          "start": "201308",
+          "end": "201610",
+          "period": "13~16",
+          "image": "/carsdata/cars/cm_cardb/file/003_083_2016.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "씨에로",
+      "count": 0,
+      "code": "020",
+      "eng": "Ciero",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.씨에로.)))",
+      "sub_models": [
+        {
+          "name": "씨에로",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 39.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.씨에로._.Model.씨에로.))))",
+          "start": "199405",
+          "end": "199612",
+          "period": "94~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아베오",
+      "count": 158,
+      "code": "042",
+      "eng": "Aveo",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.아베오.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 아베오 세단",
+          "count": 34,
+          "code": "090",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.아베오._.Model.더 뉴 아베오 세단.))))",
+          "start": "201610",
+          "end": "201903",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/003_090_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 L"
+                },
+                {
+                  "name": "1.4 터보 LS"
+                },
+                {
+                  "name": "1.4 터보 LT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 아베오 해치백",
+          "count": 9,
+          "code": "091",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.아베오._.Model.더 뉴 아베오 해치백.))))",
+          "start": "201610",
+          "end": "201903",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/003_091_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 LS"
+                },
+                {
+                  "name": "1.4 터보 LT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "아베오 세단",
+          "count": 63,
+          "code": "080",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.아베오._.Model.아베오 세단.))))",
+          "start": "201107",
+          "end": "201611",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/003_080_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 스타일"
+                },
+                {
+                  "name": "1.4 터보 퍼펙트 블랙"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "스타"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L 스타"
+                },
+                {
+                  "name": "LS 고급형"
+                },
+                {
+                  "name": "LT 최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L 일반형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "아베오 해치백",
+          "count": 52,
+          "code": "074",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.아베오._.Model.아베오 해치백.))))",
+          "start": "201102",
+          "end": "201611",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/003_074_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "일반형"
+                },
+                {
+                  "name": "최고급형"
+                },
+                {
+                  "name": "펀 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 RS"
+                },
+                {
+                  "name": "스탠다드"
+                },
+                {
+                  "name": "스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아카디아",
+      "count": 8,
+      "code": "021",
+      "eng": "Acadia",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.아카디아.)))",
+      "sub_models": [
+        {
+          "name": "아카디아",
+          "count": 8,
+          "code": "016",
+          "eng": null,
+          "order": 40.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.아카디아._.Model.아카디아.))))",
+          "start": "199402",
+          "end": "199903",
+          "period": "94~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3206,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LX"
+                },
+                {
+                  "name": "로얄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3200,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈퍼 로얄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "알페온",
+      "count": 152,
+      "code": "038",
+      "eng": "Alpheon",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.알페온.)))",
+      "sub_models": [
+        {
+          "name": "알페온",
+          "count": 152,
+          "code": "068",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.알페온._.Model.알페온.))))",
+          "start": "201009",
+          "end": "201510",
+          "period": "10~15",
+          "image": "/carsdata/cars/cm_cardb/file/003_068_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "슈프림"
+                },
+                {
+                  "name": "슈프림 블랙"
+                },
+                {
+                  "name": "스페셜"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2384,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2384,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에스페로",
+      "count": 3,
+      "code": "022",
+      "eng": "Espero",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.에스페로.)))",
+      "sub_models": [
+        {
+          "name": "에스페로",
+          "count": 3,
+          "code": "009",
+          "eng": null,
+          "order": 41.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.에스페로._.Model.에스페로.))))",
+          "start": "199009",
+          "end": "199704",
+          "period": "90~97",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 DOHC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "올란도",
+      "count": 731,
+      "code": "040",
+      "eng": "Orlando",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.올란도.)))",
+      "sub_models": [
+        {
+          "name": "올란도",
+          "count": 731,
+          "code": "072",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.올란도._.Model.올란도.))))",
+          "start": "201102",
+          "end": "201809",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_072_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 디젤 스페셜 컬러 에디션"
+                },
+                {
+                  "name": "2.0 디젤 캠퍼 패키지"
+                },
+                {
+                  "name": "2.0 디젤 플래티넘 패키지"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "세이프티"
+                },
+                {
+                  "name": "세이프티팩"
+                },
+                {
+                  "name": "컨비니언스팩"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPG 다이나믹"
+                },
+                {
+                  "name": "LPG 퍼펙트 블랙"
+                },
+                {
+                  "name": "LPG 플래티넘 패키지"
+                },
+                {
+                  "name": "세이프티"
+                },
+                {
+                  "name": "세이프티팩"
+                },
+                {
+                  "name": "컨비니언스팩"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 디젤 다이나믹"
+                },
+                {
+                  "name": "1.6 디젤 퍼펙트 블랙"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "세이프티"
+                },
+                {
+                  "name": "컨비니언스"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "윈스톰",
+      "count": 6,
+      "code": "023",
+      "eng": "Winstorm",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.윈스톰.)))",
+      "sub_models": [
+        {
+          "name": "윈스톰",
+          "count": 6,
+          "code": "057",
+          "eng": null,
+          "order": 42.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.윈스톰._.Model.윈스톰.))))",
+          "start": "200607",
+          "end": "201012",
+          "period": "06~10",
+          "image": "/carsdata/cars/cm_cardb/file/003_057_2010.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "윈스톰 맥스",
+          "count": 0,
+          "code": "063",
+          "eng": null,
+          "order": 43.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.윈스톰._.Model.윈스톰 맥스.))))",
+          "start": "200807",
+          "end": "201012",
+          "period": "08~10",
+          "image": "/carsdata/cars/cm_cardb/file/003_063_2010.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "이쿼녹스",
+      "count": 110,
+      "code": "052",
+      "eng": "Equinox",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.이쿼녹스.)))",
+      "sub_models": [
+        {
+          "name": "더 넥스트 이쿼녹스",
+          "count": 59,
+          "code": "107",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.이쿼녹스._.Model.더 넥스트 이쿼녹스.))))",
+          "start": "202206",
+          "end": "202403",
+          "period": "22~24",
+          "image": "/carsdata/cars/cm_cardb/file/4872533a-d3ac-4ccf-8b20-e6bc05042ccb.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1490,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD LT"
+                },
+                {
+                  "name": "4WD RS"
+                },
+                {
+                  "name": "4WD 프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1490,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD LT"
+                },
+                {
+                  "name": "2WD RS"
+                },
+                {
+                  "name": "2WD 프리미어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "이쿼녹스",
+          "count": 51,
+          "code": "097",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.이쿼녹스._.Model.이쿼녹스.))))",
+          "start": "201806",
+          "end": "202012",
+          "period": "18~20",
+          "image": "/carsdata/cars/cm_cardb/file/003_097_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "2WD LS"
+                },
+                {
+                  "name": "익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "익스클루시브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "임팔라",
+      "count": 204,
+      "code": "049",
+      "eng": "Impala",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.임팔라.)))",
+      "sub_models": [
+        {
+          "name": "임팔라",
+          "count": 204,
+          "code": "087",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.임팔라._.Model.임팔라.))))",
+          "start": "201509",
+          "end": "202001",
+          "period": "15~20",
+          "image": "/carsdata/cars/cm_cardb/file/003_087_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2457,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 LT"
+                },
+                {
+                  "name": "2.5 LTZ"
+                },
+                {
+                  "name": "2.5 미드나이트 블랙"
+                },
+                {
+                  "name": "2.5 프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6 LTZ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "임페리얼",
+      "count": 0,
+      "code": "024",
+      "eng": "Imperial",
+      "order": 32.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.임페리얼.)))",
+      "sub_models": [
+        {
+          "name": "임페리얼",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 44.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.임페리얼._.Model.임페리얼.))))",
+          "start": "198902",
+          "end": "199312",
+          "period": "89~93",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "젠트라",
+      "count": 4,
+      "code": "025",
+      "eng": "Gentra",
+      "order": 33.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.젠트라.)))",
+      "sub_models": [
+        {
+          "name": "젠트라",
+          "count": 1,
+          "code": "030",
+          "eng": null,
+          "order": 45.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.젠트라._.Model.젠트라.))))",
+          "start": "200509",
+          "end": "201105",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_030_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1206,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.2 SX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "젠트라 X",
+          "count": 3,
+          "code": "059",
+          "eng": null,
+          "order": 46.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.젠트라._.Model.젠트라 X.))))",
+          "start": "200710",
+          "end": "201105",
+          "period": "07~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_059_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1206,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.2 SX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "카마로",
+      "count": 40,
+      "code": "044",
+      "eng": "Camaro",
+      "order": 34.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.카마로.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 카마로",
+          "count": 15,
+          "code": "099",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.카마로._.Model.더 뉴 카마로.))))",
+          "start": "201812",
+          "end": "202205",
+          "period": "18~22",
+          "image": "/carsdata/cars/cm_cardb/file/003_099_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SS 6.2 V8"
+                },
+                {
+                  "name": "SS 6.2 V8 볼케이노 레드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "올 뉴 카마로",
+          "count": 22,
+          "code": "089",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.카마로._.Model.올 뉴 카마로.))))",
+          "start": "201607",
+          "end": "201812",
+          "period": "16~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_089_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SS 6.2 V8"
+                },
+                {
+                  "name": "SS 6.2 V8 볼케이노 레드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "카마로",
+          "count": 3,
+          "code": "076",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.카마로._.Model.카마로.))))",
+          "start": "201103",
+          "end": "201512",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/003_076_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "칼로스",
+      "count": 0,
+      "code": "027",
+      "eng": "Kalos",
+      "order": 35.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.칼로스.)))",
+      "sub_models": [
+        {
+          "name": "칼로스",
+          "count": 0,
+          "code": "027",
+          "eng": null,
+          "order": 47.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.칼로스._.Model.칼로스.))))",
+          "start": "200204",
+          "end": "200707",
+          "period": "02~07",
+          "image": "/carsdata/cars/cm_cardb/file/003_027_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "캡티바",
+      "count": 254,
+      "code": "045",
+      "eng": "Captiva",
+      "order": 36.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.캡티바.)))",
+      "sub_models": [
+        {
+          "name": "캡티바",
+          "count": 254,
+          "code": "077",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.캡티바._.Model.캡티바.))))",
+          "start": "201104",
+          "end": "201811",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_077_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1956,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD LT 디럭스팩"
+                },
+                {
+                  "name": "2WD LTZ"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD LS"
+                },
+                {
+                  "name": "2WD LS 프리미엄"
+                },
+                {
+                  "name": "2WD LT"
+                },
+                {
+                  "name": "2WD LT 프리미엄"
+                },
+                {
+                  "name": "2WD 다이나믹 레드"
+                },
+                {
+                  "name": "2WD 어드벤처 패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2231,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD LT"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2231,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD LT 프리미엄"
+                },
+                {
+                  "name": "4WD LTZ"
+                },
+                {
+                  "name": "4WD 다이나믹 레드"
+                },
+                {
+                  "name": "4WD 어드벤처 패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1956,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD 퍼펙트 블랙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "콜로라도",
+      "count": 384,
+      "code": "053",
+      "eng": "Colorado",
+      "order": 37.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.콜로라도.)))",
+      "sub_models": [
+        {
+          "name": "올 뉴 콜로라도",
+          "count": 15,
+          "code": "110",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.콜로라도._.Model.올 뉴 콜로라도.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ab78ea72-885a-4049-b59d-ced4668ab1ec.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2726,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.7 ZL1 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "리얼 뉴 콜로라도",
+          "count": 245,
+          "code": "103",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.콜로라도._.Model.리얼 뉴 콜로라도.))))",
+          "start": "202009",
+          "end": "202407",
+          "period": "20~24",
+          "image": "/carsdata/cars/cm_cardb/file/f1700df4-9300-495e-9f85-8ed5c01f1135.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "3.6 Z71-X 4WD"
+                },
+                {
+                  "name": "3.6 Z71-X 미드나잇 4WD"
+                },
+                {
+                  "name": "3.6 익스트림 4WD"
+                },
+                {
+                  "name": "3.6 익스트림-X 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "콜로라도",
+          "count": 124,
+          "code": "100",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.콜로라도._.Model.콜로라도.))))",
+          "start": "201908",
+          "end": "202011",
+          "period": "19~20",
+          "image": "/carsdata/cars/cm_cardb/file/cdaa246a-a89a-441d-b25f-623b406fd3ab.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "3.6 익스트림 4WD"
+                },
+                {
+                  "name": "사이드 레일"
+                },
+                {
+                  "name": "스포츠 바"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "3.6 익스트림 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "콜벳",
+      "count": 1,
+      "code": "047",
+      "eng": "Corvette",
+      "order": 38.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.콜벳.)))",
+      "sub_models": [
+        {
+          "name": "콜벳",
+          "count": 1,
+          "code": "081",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.콜벳._.Model.콜벳.))))",
+          "start": "201205",
+          "end": "201312",
+          "period": "12~13",
+          "image": "/carsdata/cars/cm_cardb/file/003_081_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5500,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "크루즈",
+      "count": 708,
+      "code": "041",
+      "eng": "Cruze",
+      "order": 39.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.크루즈.)))",
+      "sub_models": [
+        {
+          "name": "올 뉴 크루즈",
+          "count": 145,
+          "code": "093",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.크루즈._.Model.올 뉴 크루즈.))))",
+          "start": "201702",
+          "end": "201809",
+          "period": "17~18",
+          "image": "/carsdata/cars/cm_cardb/file/003_093_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1399,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "1.4 터보 LS"
+                },
+                {
+                  "name": "디럭스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 디젤 LTZ"
+                },
+                {
+                  "name": "디럭스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "어메이징 뉴 크루즈",
+          "count": 301,
+          "code": "084",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.크루즈._.Model.어메이징 뉴 크루즈.))))",
+          "start": "201501",
+          "end": "201703",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/003_084_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 LT 디럭스팩"
+                },
+                {
+                  "name": "1.4 터보 LTZ"
+                },
+                {
+                  "name": "1.4 터보 퍼펙트 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 LS"
+                },
+                {
+                  "name": "1.8 LT"
+                },
+                {
+                  "name": "1.8 LT 디럭스팩"
+                },
+                {
+                  "name": "1.8 LTZ"
+                },
+                {
+                  "name": "1.8 퍼펙트 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 디젤 LT 디럭스팩"
+                },
+                {
+                  "name": "2.0 디젤 LTZ"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 디젤 LTZ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "어메이징 뉴 크루즈5",
+          "count": 7,
+          "code": "085",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.크루즈._.Model.어메이징 뉴 크루즈5.))))",
+          "start": "201501",
+          "end": "201703",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/003_085_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 LTZ"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 LTZ"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 디젤 LTZ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "크루즈",
+          "count": 235,
+          "code": "073",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.크루즈._.Model.크루즈.))))",
+          "start": "201103",
+          "end": "201412",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/003_073_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 LS+"
+                },
+                {
+                  "name": "1.8 LT"
+                },
+                {
+                  "name": "1.8 LT+"
+                },
+                {
+                  "name": "1.8 LT+ 레더 패키지"
+                },
+                {
+                  "name": "1.8 LTZ"
+                },
+                {
+                  "name": "1.8 LTZ+"
+                },
+                {
+                  "name": "1.8 LTZ+ 더 퍼펙트 블랙"
+                },
+                {
+                  "name": "1.8 LTZ+ 스타일패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LT+ 래더 패키지"
+                },
+                {
+                  "name": "2.0 LTZ"
+                },
+                {
+                  "name": "2.0 LTZ+"
+                },
+                {
+                  "name": "2.0 LTZ+ 더 퍼펙트 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 LT+ 래더패키지"
+                },
+                {
+                  "name": "1.4 터보 LTZ+"
+                },
+                {
+                  "name": "1.4 터보 LTZ+ 스타일패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 LT+"
+                },
+                {
+                  "name": "1.6 LTZ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "크루즈5",
+          "count": 20,
+          "code": "078",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.크루즈._.Model.크루즈5.))))",
+          "start": "201106",
+          "end": "201412",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/003_078_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 LT"
+                },
+                {
+                  "name": "1.8 LT+"
+                },
+                {
+                  "name": "1.8 LTZ+"
+                },
+                {
+                  "name": "1.8 LTZ+ 더 퍼펙트 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 LTZ+"
+                },
+                {
+                  "name": "2.0 LTZ+ 더 퍼펙트 블랙"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 터보 LTZ+"
+                },
+                {
+                  "name": "1.4 터보 LTZ+ 스타일패키지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "토스카",
+      "count": 3,
+      "code": "028",
+      "eng": "Tosca",
+      "order": 40.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.토스카.)))",
+      "sub_models": [
+        {
+          "name": "토스카 프리미엄6",
+          "count": 1,
+          "code": "062",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.토스카._.Model.토스카 프리미엄6.))))",
+          "start": "200801",
+          "end": "201104",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/003_062_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "L6 2.0 CDX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "토스카",
+          "count": 2,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.토스카._.Model.토스카.))))",
+          "start": "200601",
+          "end": "200803",
+          "period": "06~08",
+          "image": "/carsdata/cars/cm_cardb/file/003_031_2008.png",
+          "powertrains": [
+            {
+              "fuel": "LPG",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "LPG L6 2.0 디럭스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "딥브라운 고급형"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트래버스",
+      "count": 339,
+      "code": "054",
+      "eng": "Traverse",
+      "order": 41.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.트래버스.)))",
+      "sub_models": [
+        {
+          "name": "트래버스",
+          "count": 339,
+          "code": "101",
+          "eng": null,
+          "order": 57.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트래버스._.Model.트래버스.))))",
+          "start": "201909",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f88da9df-b2a6-4e70-a0fc-f7b6a7572ca7.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.6 AWD LT 레더"
+                },
+                {
+                  "name": "3.6 AWD LT 레더 프리미엄"
+                },
+                {
+                  "name": "3.6 AWD RS"
+                },
+                {
+                  "name": "3.6 AWD 레드라인"
+                },
+                {
+                  "name": "3.6 AWD 프리미어"
+                },
+                {
+                  "name": "3.6 AWD 하이컨트리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트랙스",
+      "count": 1627,
+      "code": "048",
+      "eng": "Trax",
+      "order": 42.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.트랙스.)))",
+      "sub_models": [
+        {
+          "name": "트랙스 크로스오버",
+          "count": 458,
+          "code": "108",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트랙스._.Model.트랙스 크로스오버.))))",
+          "start": "202303",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/8f0aa287-abcf-440c-85f4-3c312d6e37bf.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1199,
+              "displacement_l": 1.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 트랙스",
+          "count": 840,
+          "code": "092",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트랙스._.Model.더 뉴 트랙스.))))",
+          "start": "201610",
+          "end": "202211",
+          "period": "16~22",
+          "image": "/carsdata/cars/cm_cardb/file/003_092_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "1.4 LTZ"
+                },
+                {
+                  "name": "1.4 퍼펙트 블랙"
+                },
+                {
+                  "name": "1.4 프리미어"
+                },
+                {
+                  "name": "LT 코어"
+                },
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "코어"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "1.6 디젤 LTZ"
+                },
+                {
+                  "name": "1.6 디젤 퍼펙트 블랙"
+                },
+                {
+                  "name": "1.6 디젤 프리미어"
+                },
+                {
+                  "name": "LT 코어"
+                },
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "코어"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "트랙스",
+          "count": 329,
+          "code": "082",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트랙스._.Model.트랙스.))))",
+          "start": "201302",
+          "end": "201612",
+          "period": "13~16",
+          "image": "/carsdata/cars/cm_cardb/file/003_082_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1362,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 LS"
+                },
+                {
+                  "name": "1.4 LS 디럭스"
+                },
+                {
+                  "name": "1.4 LT"
+                },
+                {
+                  "name": "1.4 LT 디럭스"
+                },
+                {
+                  "name": "1.4 LT 래더패키지"
+                },
+                {
+                  "name": "1.4 LTZ"
+                },
+                {
+                  "name": "1.4 퍼펙트 블랙"
+                },
+                {
+                  "name": "1.4 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 디젤 LT"
+                },
+                {
+                  "name": "1.6 디젤 LT 래더패키지"
+                },
+                {
+                  "name": "1.6 디젤 LTZ"
+                },
+                {
+                  "name": "1.6 디젤 퍼펙트 블랙"
+                },
+                {
+                  "name": "1.6 디젤 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트레일블레이저",
+      "count": 648,
+      "code": "055",
+      "eng": "Trailblazer",
+      "order": 43.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.트레일블레이저.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 트레일블레이저",
+          "count": 85,
+          "code": "109",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트레일블레이저._.Model.더 뉴 트레일블레이저.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e6f2fad1-01d7-487e-8568-194ada828e45.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1341,
+              "displacement_l": 1.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "LT"
+                },
+                {
+                  "name": "RS"
+                },
+                {
+                  "name": "액티브"
+                },
+                {
+                  "name": "액티브 리미티드 에디션"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1341,
+              "displacement_l": 1.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "RS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "트레일블레이저",
+          "count": 563,
+          "code": "102",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.트레일블레이저._.Model.트레일블레이저.))))",
+          "start": "202001",
+          "end": "202306",
+          "period": "20~23",
+          "image": "/carsdata/cars/cm_cardb/file/003_102_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1341,
+              "displacement_l": 1.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "LS"
+                },
+                {
+                  "name": "LT"
+                },
+                {
+                  "name": "RS"
+                },
+                {
+                  "name": "액티브"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1341,
+              "displacement_l": 1.3,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "RS"
+                },
+                {
+                  "name": "프리미어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1198,
+              "displacement_l": 1.2,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "LS"
+                },
+                {
+                  "name": "LT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "티코",
+      "count": 6,
+      "code": "029",
+      "eng": "Tico",
+      "order": 44.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.티코.)))",
+      "sub_models": [
+        {
+          "name": "티코",
+          "count": 6,
+          "code": "001",
+          "eng": null,
+          "order": 50.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.티코._.Model.티코.))))",
+          "start": "199105",
+          "end": "200105",
+          "period": "91~01",
+          "image": "/carsdata/cars/cm_cardb/file/003_001_2001.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 796,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SX"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 799,
+              "displacement_l": 0.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "슈퍼"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "프린스",
+      "count": 2,
+      "code": "030",
+      "eng": "Prince",
+      "order": 45.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.프린스.)))",
+      "sub_models": [
+        {
+          "name": "프린스",
+          "count": 2,
+          "code": "010",
+          "eng": null,
+          "order": 51.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.프린스._.Model.프린스.))))",
+          "start": "199106",
+          "end": "199603",
+          "period": "91~96",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 MPFi"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 SOHC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "로얄 프린스",
+          "count": 0,
+          "code": "019",
+          "eng": null,
+          "order": 52.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.프린스._.Model.로얄 프린스.))))",
+          "start": "198307",
+          "end": "199107",
+          "period": "83~91",
+          "powertrains": []
+        },
+        {
+          "name": "뉴프린스",
+          "count": 0,
+          "code": "026",
+          "eng": null,
+          "order": 53.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.프린스._.Model.뉴프린스.))))",
+          "start": "199601",
+          "end": "199705",
+          "period": "96~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "타호",
+      "count": 6,
+      "code": "057",
+      "eng": "Tahoe",
+      "order": 46.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.ModelGroup.타호.)))",
+      "sub_models": [
+        {
+          "name": "타호",
+          "count": 6,
+          "code": "106",
+          "eng": null,
+          "order": 61.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.쉐보레(GM대우_)._.(C.ModelGroup.타호._.Model.타호.))))",
+          "start": "202203",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ef5886b5-920b-4a42-8685-b0037f491b9f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "6.2 하이컨트리 4WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

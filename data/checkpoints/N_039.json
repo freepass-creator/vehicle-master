@@ -1,0 +1,145 @@
+{
+  "name": "오펠",
+  "count": 0,
+  "code": "039",
+  "eng": "Opel",
+  "order": 540.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.오펠.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "벡트라",
+      "count": 0,
+      "code": "006",
+      "eng": "Vectra",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.벡트라.)))",
+      "sub_models": [
+        {
+          "name": "벡트라",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.벡트라._.Model.벡트라.))))",
+          "start": "198801",
+          "end": "200812",
+          "period": "88~08",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "비타",
+      "count": 0,
+      "code": "005",
+      "eng": "Vita",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.비타.)))",
+      "sub_models": [
+        {
+          "name": "비타",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.비타._.Model.비타.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스피드스터",
+      "count": 0,
+      "code": "001",
+      "eng": "SpeedSter",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.스피드스터.)))",
+      "sub_models": [
+        {
+          "name": "스피드스터",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.스피드스터._.Model.스피드스터.))))",
+          "start": "200101",
+          "end": "200512",
+          "period": "01~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아스트라",
+      "count": 0,
+      "code": "004",
+      "eng": "Astra",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.아스트라.)))",
+      "sub_models": [
+        {
+          "name": "아스트라",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.아스트라._.Model.아스트라.))))",
+          "start": "200601",
+          "end": "201512",
+          "period": "06~15",
+          "image": "/carsdata/cars/cm_cardb/file/039_004_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "코르사",
+      "count": 0,
+      "code": "003",
+      "eng": "Corsa",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.코르사.)))",
+      "sub_models": [
+        {
+          "name": "코르사",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.코르사._.Model.코르사.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "image": "/carsdata/cars/cm_cardb/file/039_003_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "티그라",
+      "count": 0,
+      "code": "002",
+      "eng": "Tigra",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.ModelGroup.티그라.)))",
+      "sub_models": [
+        {
+          "name": "티그라",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.오펠._.(C.ModelGroup.티그라._.Model.티그라.))))",
+          "start": "199401",
+          "end": "200012",
+          "period": "94~00",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

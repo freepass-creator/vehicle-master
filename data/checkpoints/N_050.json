@@ -1,0 +1,591 @@
+{
+  "name": "벤틀리",
+  "count": 287,
+  "code": "050",
+  "eng": "Bentley",
+  "order": 360.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.벤틀리.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "뮬산",
+      "count": 9,
+      "code": "007",
+      "eng": "Mulsanne",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.뮬산.)))",
+      "sub_models": [
+        {
+          "name": "뮬산",
+          "count": 9,
+          "code": "103",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.뮬산._.Model.뮬산.))))",
+          "start": "201001",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/050_103_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6752,
+              "displacement_l": 6.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.8"
+                },
+                {
+                  "name": "6.8 스피드"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "벤테이가",
+      "count": 66,
+      "code": "008",
+      "eng": "Bentayga",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.벤테이가.)))",
+      "sub_models": [
+        {
+          "name": "벤테이가",
+          "count": 66,
+          "code": "104",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.벤테이가._.Model.벤테이가.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1661e250-029c-4f39-babe-844ccced7640.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 V8"
+                },
+                {
+                  "name": "4.0 V8 EWB 뮬리너"
+                },
+                {
+                  "name": "4.0 V8 EWB 아주르"
+                },
+                {
+                  "name": "4.0 V8 EWB 퍼스트 에디션"
+                },
+                {
+                  "name": "4.0 V8 베이스"
+                },
+                {
+                  "name": "4.0 V8 아주르"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5950,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0 W12"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 플러그인 HEV"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 V8 S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "브룩랜즈",
+      "count": 1,
+      "code": "006",
+      "eng": "Brooklands",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.브룩랜즈.)))",
+      "sub_models": [
+        {
+          "name": "브룩랜즈",
+          "count": 1,
+          "code": "101",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.브룩랜즈._.Model.브룩랜즈.))))",
+          "start": "199201",
+          "end": "201112",
+          "period": "92~11",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6747,
+              "displacement_l": 6.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아르나지",
+      "count": 0,
+      "code": "002",
+      "eng": "Arnage",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.아르나지.)))",
+      "sub_models": [
+        {
+          "name": "아르나지",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.아르나지._.Model.아르나지.))))",
+          "start": "199801",
+          "end": "200912",
+          "period": "98~09",
+          "image": "/carsdata/cars/cm_cardb/file/050_001_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아주르",
+      "count": 0,
+      "code": "005",
+      "eng": "Azure",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.아주르.)))",
+      "sub_models": [
+        {
+          "name": "아주르",
+          "count": 0,
+          "code": "100",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.아주르._.Model.아주르.))))",
+          "start": "199501",
+          "end": "201112",
+          "period": "95~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "에이트",
+      "count": 0,
+      "code": "003",
+      "eng": "Eight",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.에이트.)))",
+      "sub_models": [
+        {
+          "name": "에이트",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.에이트._.Model.에이트.))))",
+          "start": "198401",
+          "end": "199212",
+          "period": "84~92",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "컨티넨탈",
+      "count": 118,
+      "code": "001",
+      "eng": "Continental",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.컨티넨탈.)))",
+      "sub_models": [
+        {
+          "name": "컨티넨탈 GT 4세대",
+          "count": 11,
+          "code": "110",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈 GT 4세대.))))",
+          "start": "202411",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/97210262-03ca-4990-84cc-11d270359aaa.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GT 스피드"
+                },
+                {
+                  "name": "4.0 GT 아주르"
+                },
+                {
+                  "name": "4.0 GTC 스피드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "컨티넨탈 GT 3세대",
+          "count": 61,
+          "code": "105",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈 GT 3세대.))))",
+          "start": "201801",
+          "end": "202411",
+          "period": "18~24",
+          "image": "/carsdata/cars/cm_cardb/file/2d2272b6-940c-4389-8b6e-6b7d3eddfb44.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GT"
+                },
+                {
+                  "name": "4.0 GT 아주르"
+                },
+                {
+                  "name": "4.0 GTS"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5950,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0 GT"
+                },
+                {
+                  "name": "6.0 GTC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "컨티넨탈 GT 2세대",
+          "count": 37,
+          "code": "102",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈 GT 2세대.))))",
+          "start": "201101",
+          "end": "201812",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/050_102_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GT"
+                },
+                {
+                  "name": "4.0 GT S"
+                },
+                {
+                  "name": "4.0 GTC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0 GT"
+                },
+                {
+                  "name": "6.0 GT 스피드"
+                },
+                {
+                  "name": "6.0 GTC"
+                },
+                {
+                  "name": "6.0 GTC 스피드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "컨티넨탈 GT 1세대",
+          "count": 9,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈 GT 1세대.))))",
+          "start": "200301",
+          "end": "201112",
+          "period": "03~11",
+          "image": "/carsdata/cars/cm_cardb/file/050_003_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT"
+                },
+                {
+                  "name": "GT 스피드"
+                },
+                {
+                  "name": "GTC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "플라잉스퍼",
+      "count": 93,
+      "code": "009",
+      "eng": "Flying Spur",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.ModelGroup.플라잉스퍼.)))",
+      "sub_models": [
+        {
+          "name": "플라잉스퍼 4세대",
+          "count": 3,
+          "code": "109",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.플라잉스퍼._.Model.플라잉스퍼 4세대.))))",
+          "start": "202409",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/4ab0a326-d5c0-4043-a5a0-1904d0b8f76e.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 4000,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 뮬리너"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "플라잉스퍼 3세대",
+          "count": 57,
+          "code": "108",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.플라잉스퍼._.Model.플라잉스퍼 3세대.))))",
+          "start": "202001",
+          "end": "202409",
+          "period": "20~24",
+          "image": "/carsdata/cars/cm_cardb/file/a3f07645-b645-4ca7-bdf6-7f7d07eac053.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                },
+                {
+                  "name": "4.0 아주르"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6000,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "플라잉스퍼 2세대",
+          "count": 23,
+          "code": "107",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.플라잉스퍼._.Model.플라잉스퍼 2세대.))))",
+          "start": "201301",
+          "end": "201912",
+          "period": "13~19",
+          "image": "/carsdata/cars/cm_cardb/file/034b7b37-1e3b-4bc1-b34b-7e29b6295d23.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                },
+                {
+                  "name": "4.0 S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "플라잉스퍼 1세대",
+          "count": 10,
+          "code": "106",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤틀리._.(C.ModelGroup.플라잉스퍼._.Model.플라잉스퍼 1세대.))))",
+          "start": "200501",
+          "end": "201312",
+          "period": "05~13",
+          "image": "/carsdata/cars/cm_cardb/file/2a700336-4382-4d71-9f1a-a21f3a2c4056.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                },
+                {
+                  "name": "6.0 스피드"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

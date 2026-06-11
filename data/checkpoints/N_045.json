@@ -1,0 +1,145 @@
+{
+  "name": "뷰익",
+  "count": 0,
+  "code": "045",
+  "eng": "Buick",
+  "order": 390.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.뷰익.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "르사블",
+      "count": 0,
+      "code": "001",
+      "eng": "LeSable",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.르사블.)))",
+      "sub_models": [
+        {
+          "name": "르사블",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.르사블._.Model.르사블.))))",
+          "start": "195901",
+          "end": "200512",
+          "period": "59~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "리갈",
+      "count": 0,
+      "code": "002",
+      "eng": "Regal",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.리갈.)))",
+      "sub_models": [
+        {
+          "name": "리갈",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.리갈._.Model.리갈.))))",
+          "start": "197301",
+          "end": null,
+          "period": "73~현재",
+          "image": "/carsdata/cars/cm_cardb/file/045_002_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "센츄리",
+      "count": 0,
+      "code": "007",
+      "eng": "Century",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.센츄리.)))",
+      "sub_models": [
+        {
+          "name": "센츄리",
+          "count": 0,
+          "code": "101",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.센츄리._.Model.센츄리.))))",
+          "start": "1936",
+          "end": "2005",
+          "period": null,
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "리비에라",
+      "count": 0,
+      "code": "003",
+      "eng": "Riviera",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.리비에라.)))",
+      "sub_models": [
+        {
+          "name": "리비에라",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.리비에라._.Model.리비에라.))))",
+          "start": "196301",
+          "end": "199912",
+          "period": "63~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "테라자",
+      "count": 0,
+      "code": "006",
+      "eng": "Terraza",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.테라자.)))",
+      "sub_models": [
+        {
+          "name": "테라자",
+          "count": 0,
+          "code": "100",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.테라자._.Model.테라자.))))",
+          "start": "200501",
+          "end": "200712",
+          "period": "05~07",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "파크애비뉴",
+      "count": 0,
+      "code": "004",
+      "eng": "Park Avenue",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.ModelGroup.파크애비뉴.)))",
+      "sub_models": [
+        {
+          "name": "파크애비뉴",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.뷰익._.(C.ModelGroup.파크애비뉴._.Model.파크애비뉴.))))",
+          "start": "199101",
+          "end": "201212",
+          "period": "91~12",
+          "image": "/carsdata/cars/cm_cardb/file/045_004_2012.png",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

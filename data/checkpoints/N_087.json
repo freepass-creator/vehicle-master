@@ -1,0 +1,442 @@
+{
+  "name": "테슬라",
+  "count": 1068,
+  "code": "087",
+  "eng": "Tesla",
+  "order": 635.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.테슬라.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "모델 3",
+      "count": 401,
+      "code": "003",
+      "eng": "Model 3",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.ModelGroup.모델 3.)))",
+      "sub_models": [
+        {
+          "name": "모델 3",
+          "count": 401,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.(C.ModelGroup.모델 3._.Model.모델 3.))))",
+          "start": "201707",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7365450a-7521-41d2-a2df-71faf3b51ae4.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 225,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "롱 레인지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 180,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "RWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스탠다드 레인지 플러스 RWD"
+                },
+                {
+                  "name": "프리미엄 롱레인지 RWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 230,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "퍼포먼스 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "모델 S",
+      "count": 43,
+      "code": "001",
+      "eng": "Model S",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.ModelGroup.모델 S.)))",
+      "sub_models": [
+        {
+          "name": "모델 S",
+          "count": 43,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.(C.ModelGroup.모델 S._.Model.모델 S.))))",
+          "start": "201207",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/4bf30fa2-d064-471d-baf3-6e9555950ff4.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 250,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "90D"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 290,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "100D"
+                },
+                {
+                  "name": "P100D"
+                },
+                {
+                  "name": "롱 레인지"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 100,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 256,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "플래드"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "75D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "모델 X",
+      "count": 68,
+      "code": "002",
+      "eng": "Model X",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.ModelGroup.모델 X.)))",
+      "sub_models": [
+        {
+          "name": "모델 X",
+          "count": 68,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.(C.ModelGroup.모델 X._.Model.모델 X.))))",
+          "start": "201808",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/cd1d687c-ca7d-4ce7-ae74-91dbb1d8688d.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 256,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "플래드"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 256,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 290,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "롱 레인지"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 250,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "75D"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 290,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "100D"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "퍼포먼스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "모델 Y",
+      "count": 546,
+      "code": "004",
+      "eng": "Model Y",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.ModelGroup.모델 Y.)))",
+      "sub_models": [
+        {
+          "name": "모델 Y",
+          "count": 546,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.(C.ModelGroup.모델 Y._.Model.모델 Y.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/9fa55e68-dd5f-443d-bf14-ff40d0679caa.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 230,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "롱 레인지 AWD"
+                },
+                {
+                  "name": "롱 레인지 런치에디션 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 173,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "RWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 158,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스탠다드 레인지 RWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 239,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "L 롱 레인지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 180,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "프리미엄 RWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "프리미엄 롱 레인지 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사이버트럭",
+      "count": 10,
+      "code": "005",
+      "eng": "Cybertruck",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.ModelGroup.사이버트럭.)))",
+      "sub_models": [
+        {
+          "name": "사이버트럭",
+          "count": 10,
+          "code": "005",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.테슬라._.(C.ModelGroup.사이버트럭._.Model.사이버트럭.))))",
+          "start": "202311",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6f9eafb8-44d0-4742-a318-017673990eb1.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 1,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Cyberbeast"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

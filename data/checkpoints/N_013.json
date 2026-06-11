@@ -1,0 +1,5824 @@
+{
+  "name": "벤츠",
+  "count": 16192,
+  "code": "013",
+  "eng": "Mercedes-Benz",
+  "order": 350.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.벤츠.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "A-클래스",
+      "count": 671,
+      "code": "029",
+      "eng": "A-Class",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.A-클래스.)))",
+      "sub_models": [
+        {
+          "name": "A-클래스 W177",
+          "count": 599,
+          "code": "086",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.A-클래스._.Model.A-클래스 W177.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/013_086_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "A250 4MATIC 세단"
+                },
+                {
+                  "name": "AMG A35 4MATIC 세단"
+                },
+                {
+                  "name": "AMG A35 S AMG 4MATIC 세단"
+                },
+                {
+                  "name": "AMG A45 4MATIC+ 해치백"
+                },
+                {
+                  "name": "AMG A45 S 4MATIC+ 해치백"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A220 세단"
+                },
+                {
+                  "name": "A220 해치백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A200d 세단"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A-클래스 W176",
+          "count": 72,
+          "code": "064",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.A-클래스._.Model.A-클래스 W176.))))",
+          "start": "201301",
+          "end": "201812",
+          "period": "13~18",
+          "image": "/carsdata/cars/cm_cardb/file/013_064_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "A45 AMG 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1461,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A180 CDI 나이트"
+                },
+                {
+                  "name": "A180 CDI 스타일"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A200 CDI"
+                },
+                {
+                  "name": "A200 CDI 나이트"
+                },
+                {
+                  "name": "A200 CDI 스타일"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1595,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A200"
+                },
+                {
+                  "name": "A200 AMG Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A-클래스 W169",
+          "count": 0,
+          "code": "058",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.A-클래스._.Model.A-클래스 W169.))))",
+          "start": "200401",
+          "end": "201212",
+          "period": "04~12",
+          "image": "/carsdata/cars/cm_cardb/file/013_058_2013.png",
+          "powertrains": []
+        },
+        {
+          "name": "A-클래스 W168",
+          "count": 0,
+          "code": "023",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.A-클래스._.Model.A-클래스 W168.))))",
+          "start": "199701",
+          "end": "200412",
+          "period": "97~04",
+          "image": "/carsdata/cars/cm_cardb/file/013_023_2004.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "B-클래스",
+      "count": 72,
+      "code": "009",
+      "eng": "B-Class",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.B-클래스.)))",
+      "sub_models": [
+        {
+          "name": "B-클래스 W246",
+          "count": 58,
+          "code": "075",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.B-클래스._.Model.B-클래스 W246.))))",
+          "start": "201201",
+          "end": "201812",
+          "period": "12~18",
+          "image": "/carsdata/cars/cm_cardb/file/013_075_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B200 CDI 블루이피션시"
+                },
+                {
+                  "name": "B200 CDI 블루이피션시 스포츠팩"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B200 CDI"
+                },
+                {
+                  "name": "B200 d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B220"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B-클래스 W245",
+          "count": 14,
+          "code": "054",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.B-클래스._.Model.B-클래스 W245.))))",
+          "start": "200501",
+          "end": "201112",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/013_054_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2035,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B200"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C-클래스",
+      "count": 1292,
+      "code": "001",
+      "eng": "C-Class",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.C-클래스.)))",
+      "sub_models": [
+        {
+          "name": "C-클래스 W206",
+          "count": 293,
+          "code": "095",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.C-클래스._.Model.C-클래스 W206.))))",
+          "start": "202203",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7cc3612b-de0e-459d-aac3-5e02990d7ac2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C200 4MATIC 아방가르드"
+                },
+                {
+                  "name": "C300 4MATIC AMG Line"
+                },
+                {
+                  "name": "C300 4MATIC 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C200 AMG Line"
+                },
+                {
+                  "name": "C200 아방가르드"
+                },
+                {
+                  "name": "C300 AMG Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C-클래스 W205",
+          "count": 893,
+          "code": "067",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.C-클래스._.Model.C-클래스 W205.))))",
+          "start": "201405",
+          "end": "202407",
+          "period": "14~24",
+          "image": "/carsdata/cars/cm_cardb/file/013_067_2019.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C200"
+                },
+                {
+                  "name": "C200 AMG Line"
+                },
+                {
+                  "name": "C200 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C220 d 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C200 카브리올레"
+                },
+                {
+                  "name": "C200 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C220 d 4MATIC"
+                },
+                {
+                  "name": "C220 d 4MATIC AMG Line"
+                },
+                {
+                  "name": "C220 d 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C63 S AMG 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C43 AMG 4MATIC"
+                },
+                {
+                  "name": "C450 AMG 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C200 4MATIC AMG Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C250 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C43 AMG 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C220 d 익스클루시브"
+                },
+                {
+                  "name": "C220 블루텍 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C220 d 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C200 d"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C350e"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C300e 4MATIC AMG Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C-클래스 W204",
+          "count": 89,
+          "code": "012",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.C-클래스._.Model.C-클래스 W204.))))",
+          "start": "200701",
+          "end": "201412",
+          "period": "07~14",
+          "image": "/carsdata/cars/cm_cardb/file/013_012_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C200 CGI"
+                },
+                {
+                  "name": "C200 CGI 아방가르드"
+                },
+                {
+                  "name": "C200 CGI 아방가르드 스타일패키지"
+                },
+                {
+                  "name": "C200K"
+                },
+                {
+                  "name": "C200K 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "C220 CDI 4MATIC 에디션 C"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C220 CDI"
+                },
+                {
+                  "name": "C220 CDI 블루이피션시"
+                },
+                {
+                  "name": "C220 CDI 아방가르드"
+                },
+                {
+                  "name": "C220 CDI 아방가르드 에디션 C"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C230 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C220 CDI 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6208,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C63 AMG 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2496,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C250 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C300"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C-클래스",
+          "count": 17,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.C-클래스._.Model.C-클래스.))))",
+          "start": "199301",
+          "end": "200712",
+          "period": "93~07",
+          "image": "/carsdata/cars/cm_cardb/file/013_003_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2295,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W202"
+                },
+                {
+                  "name": "W203"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W203"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W202"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2597,
+              "displacement_l": 2.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "W203"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W203"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2800,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W202"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CL-클래스",
+      "count": 11,
+      "code": "002",
+      "eng": "CL-Class",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.CL-클래스.)))",
+      "sub_models": [
+        {
+          "name": "CL-클래스 C216",
+          "count": 8,
+          "code": "061",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CL-클래스._.Model.CL-클래스 C216.))))",
+          "start": "200701",
+          "end": "201312",
+          "period": "07~13",
+          "image": "/carsdata/cars/cm_cardb/file/013_061_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6209,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CL63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CL500"
+                },
+                {
+                  "name": "CL550"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5500,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CL600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CL-클래스 C215",
+          "count": 2,
+          "code": "013",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CL-클래스._.Model.CL-클래스 C215.))))",
+          "start": "199901",
+          "end": "200612",
+          "period": "99~06",
+          "image": "/carsdata/cars/cm_cardb/file/013_013_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5786,
+              "displacement_l": 5.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CL600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CL-클래스 C140",
+          "count": 1,
+          "code": "076",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CL-클래스._.Model.CL-클래스 C140.))))",
+          "start": "199201",
+          "end": "199912",
+          "period": "92~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5987,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CL600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CLA-클래스",
+      "count": 371,
+      "code": "031",
+      "eng": "CLA-Class",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.CLA-클래스.)))",
+      "sub_models": [
+        {
+          "name": "CLA-클래스 C118",
+          "count": 219,
+          "code": "088",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLA-클래스._.Model.CLA-클래스 C118.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/056e3158-ef45-4ff1-9026-c99da908ee4e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG CLA 45 S 4MATIC+"
+                },
+                {
+                  "name": "CLA250 4MATIC"
+                },
+                {
+                  "name": "CLA250 4MATIC 프로그레시브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CLA-클래스 C117",
+          "count": 152,
+          "code": "066",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLA-클래스._.Model.CLA-클래스 C117.))))",
+          "start": "201401",
+          "end": "201912",
+          "period": "14~19",
+          "image": "/carsdata/cars/cm_cardb/file/013_066_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLA45 AMG 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLA200 CDI 4MATIC"
+                },
+                {
+                  "name": "CLA200 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLA200 CDI"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLA250 4MATIC"
+                },
+                {
+                  "name": "CLA250 4MATIC AMG Line"
+                },
+                {
+                  "name": "CLA45 AMG 4MATIC 50주년 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLA220 AMG Line"
+                },
+                {
+                  "name": "CLA250"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLA200 d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CLE-클래스",
+      "count": 150,
+      "code": "044",
+      "eng": "CLE-Class",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.CLE-클래스.)))",
+      "sub_models": [
+        {
+          "name": "CLE-클래스 C236",
+          "count": 150,
+          "code": "103",
+          "eng": null,
+          "order": 44.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLE-클래스._.Model.CLE-클래스 C236.))))",
+          "start": "202402",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0b7515d5-e4b4-4c78-9efa-36c373ca0302.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG CLE53 4MATIC+ 쿠페"
+                },
+                {
+                  "name": "CLE450 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLE200 온라인 익스클루시브 카브리올레"
+                },
+                {
+                  "name": "CLE200 카브리올레"
+                },
+                {
+                  "name": "CLE200 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG CLE53 4MATIC+ 카브리올레"
+                },
+                {
+                  "name": "CLE450 4MATIC 카브리올레"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CLK-클래스",
+      "count": 5,
+      "code": "012",
+      "eng": "CLK-Class",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.CLK-클래스.)))",
+      "sub_models": [
+        {
+          "name": "CLK-클래스 C209",
+          "count": 5,
+          "code": "009",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLK-클래스._.Model.CLK-클래스 C209.))))",
+          "start": "200201",
+          "end": "200912",
+          "period": "02~09",
+          "image": "/carsdata/cars/cm_cardb/file/013_009_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLK350 카브리올레"
+                },
+                {
+                  "name": "CLK350 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLK500 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLK320 카브리올레"
+                },
+                {
+                  "name": "CLK320 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CLK-클래스 C208",
+          "count": 0,
+          "code": "077",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLK-클래스._.Model.CLK-클래스 C208.))))",
+          "start": "199701",
+          "end": "200312",
+          "period": "97~03",
+          "image": "/carsdata/cars/cm_cardb/file/013_077_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CLS-클래스",
+      "count": 912,
+      "code": "003",
+      "eng": "CLS-Class",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.CLS-클래스.)))",
+      "sub_models": [
+        {
+          "name": "CLS-클래스 C257",
+          "count": 755,
+          "code": "083",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLS-클래스._.Model.CLS-클래스 C257.))))",
+          "start": "201801",
+          "end": "202405",
+          "period": "18~24",
+          "image": "/carsdata/cars/cm_cardb/file/013_083_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG CLS53 4MATIC+"
+                },
+                {
+                  "name": "CLS450 4MATIC"
+                },
+                {
+                  "name": "CLS450 4MATIC AMG Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS300d AMG Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLS300d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLS400d 4MATIC"
+                },
+                {
+                  "name": "CLS400d 4MATIC AMG Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CLS-클래스 W218",
+          "count": 125,
+          "code": "062",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLS-클래스._.Model.CLS-클래스 W218.))))",
+          "start": "201101",
+          "end": "201712",
+          "period": "11~17",
+          "image": "/carsdata/cars/cm_cardb/file/013_062_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS350"
+                },
+                {
+                  "name": "CLS350 AMG 스포츠패키지"
+                },
+                {
+                  "name": "CLS350 블루이피션시"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLS250 d 4MATIC"
+                },
+                {
+                  "name": "CLS250 d 4MATIC AMG Line"
+                },
+                {
+                  "name": "CLS250 블루텍 4MATIC"
+                },
+                {
+                  "name": "CLS250 블루텍 4MATIC 슈팅브레이크"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS250 CDI 슈팅브레이크"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLS63 AMG 4MATIC"
+                },
+                {
+                  "name": "CLS63 AMG S 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "CLS350 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS400"
+                },
+                {
+                  "name": "CLS400 AMG Line"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS250 CDI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CLS-클래스 W219",
+          "count": 32,
+          "code": "021",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.CLS-클래스._.Model.CLS-클래스 W219.))))",
+          "start": "200401",
+          "end": "201112",
+          "period": "04~11",
+          "image": "/carsdata/cars/cm_cardb/file/013_021_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS350"
+                },
+                {
+                  "name": "CLS350 AMG 패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6209,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS500"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5439,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CLS55 AMG"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E-클래스",
+      "count": 4665,
+      "code": "004",
+      "eng": "E-Class",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.E-클래스.)))",
+      "sub_models": [
+        {
+          "name": "E-클래스 W214",
+          "count": 516,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W214.))))",
+          "start": "202401",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5a37ccb4-338b-4c3b-bf53-5fb63756564e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200 AMG Line"
+                },
+                {
+                  "name": "E200 아방가르드"
+                },
+                {
+                  "name": "E200 아방가르드 리미티드"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG E53e 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E450 4MATIC"
+                },
+                {
+                  "name": "E450 4MATIC AMG Line"
+                },
+                {
+                  "name": "E450 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E300 4MATIC AMG Line"
+                },
+                {
+                  "name": "E300 4MATIC AMG Line 프리미어 스페셜"
+                },
+                {
+                  "name": "E300 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E220d 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E350e 4MATIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W213",
+          "count": 3577,
+          "code": "072",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W213.))))",
+          "start": "201601",
+          "end": "202401",
+          "period": "16~24",
+          "image": "/carsdata/cars/cm_cardb/file/11e2ffb8-cb09-48ed-8c90-fa020cbe5e7f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200 아방가르드"
+                },
+                {
+                  "name": "E250 AMG Line"
+                },
+                {
+                  "name": "E250 아방가르드"
+                },
+                {
+                  "name": "E250 익스클루시브"
+                },
+                {
+                  "name": "E300 AMG Line"
+                },
+                {
+                  "name": "E300 아방가르드"
+                },
+                {
+                  "name": "E300 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E220d 카브리올레"
+                },
+                {
+                  "name": "E220d 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E300 4MATIC AMG Line"
+                },
+                {
+                  "name": "E300 4MATIC 아방가르드"
+                },
+                {
+                  "name": "E300 4MATIC 익스클루시브"
+                },
+                {
+                  "name": "E300 4MATIC 익스클루시브 스탠다드"
+                },
+                {
+                  "name": "E350 4MATIC AMG Line"
+                },
+                {
+                  "name": "E350 4MATIC AMG Line 에디션"
+                },
+                {
+                  "name": "E350 4MATIC 아방가르드"
+                },
+                {
+                  "name": "E350 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E450 4MATIC 카브리올레"
+                },
+                {
+                  "name": "E53 AMG 4MATIC+ 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E220d 4MATIC AMG Line"
+                },
+                {
+                  "name": "E220d 4MATIC 아방가르드"
+                },
+                {
+                  "name": "E220d 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E220d 아방가르드"
+                },
+                {
+                  "name": "E220d 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E350d"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E300e 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E400 4MATIC 익스클루시브"
+                },
+                {
+                  "name": "E450 4MATIC 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E53 AMG 4MATIC+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W212",
+          "count": 516,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W212.))))",
+          "start": "200901",
+          "end": "201712",
+          "period": "09~17",
+          "image": "/carsdata/cars/cm_cardb/file/013_001_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E300 아방가르드"
+                },
+                {
+                  "name": "E300 엘레강스"
+                },
+                {
+                  "name": "E350"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E350 블루텍 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E250 CDI 4MATIC"
+                },
+                {
+                  "name": "E250 블루텍 4MATIC 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E350 카브리올레"
+                },
+                {
+                  "name": "E350 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6208,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E220 CDI 아방가르드"
+                },
+                {
+                  "name": "E220 블루텍 아방가르드"
+                },
+                {
+                  "name": "E220 블루텍 아방가르드 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E300 4MATIC 아방가르드"
+                },
+                {
+                  "name": "E350 4MATIC 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200 아방가르드"
+                },
+                {
+                  "name": "E200 엘레강스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200 카브리올레"
+                },
+                {
+                  "name": "E200 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E400 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200 CGI"
+                },
+                {
+                  "name": "E200 CGI 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E400 카브리올레"
+                },
+                {
+                  "name": "E400 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W211",
+          "count": 41,
+          "code": "019",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W211.))))",
+          "start": "200201",
+          "end": "200912",
+          "period": "02~09",
+          "image": "/carsdata/cars/cm_cardb/file/013_019_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200K 아방가르드"
+                },
+                {
+                  "name": "E200K 이그제큐티브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E280 아방가르드"
+                },
+                {
+                  "name": "E280 엘레강스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3497,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E320"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "E350 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2597,
+              "displacement_l": 2.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E240 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5439,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E55 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E500"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E63 AMG"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W210",
+          "count": 10,
+          "code": "078",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W210.))))",
+          "start": "199501",
+          "end": "200212",
+          "period": "95~02",
+          "image": "/carsdata/cars/cm_cardb/file/013_078_2002.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200"
+                },
+                {
+                  "name": "E200K"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2398,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E240"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2799,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E280"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5500,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E55 AMG"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W124",
+          "count": 5,
+          "code": "079",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W124.))))",
+          "start": "198411",
+          "end": "199512",
+          "period": "84~95",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2199,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E300"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E200"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E-클래스 W123",
+          "count": 0,
+          "code": "080",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.E-클래스._.Model.E-클래스 W123.))))",
+          "start": "197601",
+          "end": "198512",
+          "period": "76~85",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "EQA",
+      "count": 85,
+      "code": "040",
+      "eng": "EQA",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.EQA.)))",
+      "sub_models": [
+        {
+          "name": "EQA H243",
+          "count": 85,
+          "code": "093",
+          "eng": null,
+          "order": 39.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQA._.Model.EQA H243.))))",
+          "start": "202107",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5dec8dfd-29fe-40c6-bac0-530ae1e29f89.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 190,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQA250"
+                },
+                {
+                  "name": "EQA250 AMG 패키지"
+                },
+                {
+                  "name": "EQA250 AMG 패키지 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 187,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQA250 AMG 라인"
+                },
+                {
+                  "name": "EQA250 프로그레시브"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQA250 일렉트릭 아트"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EQB",
+      "count": 81,
+      "code": "042",
+      "eng": "EQB",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.EQB.)))",
+      "sub_models": [
+        {
+          "name": "EQB X243",
+          "count": 81,
+          "code": "096",
+          "eng": null,
+          "order": 41.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQB._.Model.EQB X243.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2af263df-b74f-4b1f-aae4-3879645c3b43.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 188,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQB300 4MATIC AMG 라인"
+                },
+                {
+                  "name": "EQB300 4MATIC 일렉트릭 아트"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQB300 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 100,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQB300 4MATIC 프로그레시브"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EQC",
+      "count": 25,
+      "code": "038",
+      "eng": "EQC",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.EQC.)))",
+      "sub_models": [
+        {
+          "name": "EQC N293",
+          "count": 25,
+          "code": "087",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQC._.Model.EQC N293.))))",
+          "start": "201905",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/013_087_2020.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 230,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQC400 4MATIC"
+                },
+                {
+                  "name": "EQC400 4MATIC 에디션 1886"
+                },
+                {
+                  "name": "EQC400 4MATIC 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EQE",
+      "count": 109,
+      "code": "043",
+      "eng": "EQE",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.EQE.)))",
+      "sub_models": [
+        {
+          "name": "EQE V295",
+          "count": 68,
+          "code": "097",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQE._.Model.EQE V295.))))",
+          "start": "202209",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f0af6adf-e58c-41e9-bc2c-3ec3918ffaed.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 271,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQE350+"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 271,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQE350 4MATIC"
+                },
+                {
+                  "name": "EQE53 AMG 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 272,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQE300"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EQE SUV X294",
+          "count": 41,
+          "code": "100",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQE._.Model.EQE SUV X294.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/354131ad-ce3a-4251-8248-23946c45d573.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 271,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQE350 4MATIC"
+                },
+                {
+                  "name": "EQE500 4MATIC"
+                },
+                {
+                  "name": "EQE500 4MATIC 런치에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EQS",
+      "count": 92,
+      "code": "041",
+      "eng": "EQS",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.EQS.)))",
+      "sub_models": [
+        {
+          "name": "EQS V297",
+          "count": 51,
+          "code": "094",
+          "eng": null,
+          "order": 40.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQS._.Model.EQS V297.))))",
+          "start": "202111",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/155764cf-1c27-41e0-b306-b7fe15a0e9d3.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 271,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQS350"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 272,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EQS450+"
+                },
+                {
+                  "name": "EQS450+ AMG 라인"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 237,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQS450 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 272,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQS53 AMG 4MATIC+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EQS SUV X296",
+          "count": 41,
+          "code": "098",
+          "eng": null,
+          "order": 43.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.EQS._.Model.EQS SUV X296.))))",
+          "start": "202301",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5951bc6b-4f76-43f3-b21f-7ee63eb3aef5.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 272,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQS580 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 272,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQS450 4MATIC"
+                },
+                {
+                  "name": "EQS580 4MATIC 런치에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 306,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "마이바흐 EQS680 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "EQS450 4MATIC 런치에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "G-클래스",
+      "count": 322,
+      "code": "013",
+      "eng": "G-Class",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.G-클래스.)))",
+      "sub_models": [
+        {
+          "name": "G-클래스 W465",
+          "count": 102,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.G-클래스._.Model.G-클래스 W465.))))",
+          "start": "202410",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6329985e-756a-428c-bd75-95c8a378c92f.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2989,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G450d"
+                },
+                {
+                  "name": "G450d 매뉴팩처"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AMG G63"
+                },
+                {
+                  "name": "AMG G63 매뉴팩처"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 3800,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G580 EQ 테크놀로지"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 308,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G580 EQ 에디션 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G-클래스 W463b",
+          "count": 172,
+          "code": "084",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.G-클래스._.Model.G-클래스 W463b.))))",
+          "start": "201901",
+          "end": "202411",
+          "period": "19~24",
+          "image": "/carsdata/cars/cm_cardb/file/013_084_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AMG G63"
+                },
+                {
+                  "name": "AMG G63 마그노 히어로 에디션"
+                },
+                {
+                  "name": "AMG G63 매뉴팩처"
+                },
+                {
+                  "name": "AMG G63 에디션"
+                },
+                {
+                  "name": "AMG G63 에디션 55"
+                },
+                {
+                  "name": "AMG G63 헤리티지 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G400d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AMG G63 그랜드 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G-클래스 W463",
+          "count": 46,
+          "code": "010",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.G-클래스._.Model.G-클래스 W463.))))",
+          "start": "199001",
+          "end": "201812",
+          "period": "90~18",
+          "image": "/carsdata/cars/cm_cardb/file/013_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4965,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G500 카브리올레"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G500"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G350 d 스포츠 패키지"
+                },
+                {
+                  "name": "G350 블루텍"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2298,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5439,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G55 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G63 AMG 에디션 463"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "G300"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5500,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "브라부스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G-클래스 W460",
+          "count": 2,
+          "code": "106",
+          "eng": null,
+          "order": 45.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.G-클래스._.Model.G-클래스 W460.))))",
+          "start": "197901",
+          "end": "199112",
+          "period": "79~91",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "300GD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GL-클래스",
+      "count": 3,
+      "code": "022",
+      "eng": "GL-Class",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GL-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GL-클래스 X166",
+          "count": 2,
+          "code": "053",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GL-클래스._.Model.GL-클래스 X166.))))",
+          "start": "201201",
+          "end": "201612",
+          "period": "12~16",
+          "image": "/carsdata/cars/cm_cardb/file/013_053_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GL63 AMG 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GL450 4MATIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GL-클래스 X164",
+          "count": 1,
+          "code": "081",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GL-클래스._.Model.GL-클래스 X164.))))",
+          "start": "200601",
+          "end": "201212",
+          "period": "06~12",
+          "image": "/carsdata/cars/cm_cardb/file/013_081_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GL450 4MATIC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLA-클래스",
+      "count": 435,
+      "code": "032",
+      "eng": "GLA-Class",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLA-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLA-클래스 H247",
+          "count": 185,
+          "code": "091",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLA-클래스._.Model.GLA-클래스 H247.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/345b2460-bbf3-457f-89c5-fb6ed5fa075e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLA250 4MATIC"
+                },
+                {
+                  "name": "GLA45 AMG 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLA220"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GLA-클래스 X156",
+          "count": 250,
+          "code": "068",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLA-클래스._.Model.GLA-클래스 X156.))))",
+          "start": "201401",
+          "end": "202012",
+          "period": "14~20",
+          "image": "/carsdata/cars/cm_cardb/file/013_068_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLA200 CDI"
+                },
+                {
+                  "name": "GLA200 d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLA220"
+                },
+                {
+                  "name": "GLA220 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLA200 CDI 4MATIC"
+                },
+                {
+                  "name": "GLA200 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLA250 4MATIC"
+                },
+                {
+                  "name": "GLA45 AMG 4MATIC"
+                },
+                {
+                  "name": "GLA45 AMG 4MATIC 50주년 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLB-클래스",
+      "count": 474,
+      "code": "039",
+      "eng": "GLB-Class",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLB-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLB-클래스 X247",
+          "count": 474,
+          "code": "090",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLB-클래스._.Model.GLB-클래스 X247.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/caed97d4-c17d-4ccd-82cf-5a90ac542f68.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLB35 4MATIC"
+                },
+                {
+                  "name": "GLB250 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLB220"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLB200 d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLC-클래스",
+      "count": 1451,
+      "code": "034",
+      "eng": "GLC-Class",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLC-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLC-클래스 X254",
+          "count": 253,
+          "code": "101",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLC-클래스._.Model.GLC-클래스 X254.))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6406f069-017b-4743-88c5-491214201780.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLC43 4MATIC"
+                },
+                {
+                  "name": "AMG GLC43 4MATIC 쿠페"
+                },
+                {
+                  "name": "GLC300 4MATIC 아방가르드 쿠페"
+                },
+                {
+                  "name": "GLC300 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC300 4MATIC AMG Line"
+                },
+                {
+                  "name": "GLC300 4MATIC 아방가르드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC220 d 4MATIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GLC-클래스 X253",
+          "count": 1198,
+          "code": "071",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLC-클래스._.Model.GLC-클래스 X253.))))",
+          "start": "201601",
+          "end": "202307",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/013_071_2020.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC300e 4MATIC"
+                },
+                {
+                  "name": "GLC300e 4MATIC 쿠페"
+                },
+                {
+                  "name": "GLC350e 4MATIC"
+                },
+                {
+                  "name": "GLC350e 4MATIC AMG Line"
+                },
+                {
+                  "name": "GLC350e 4MATIC 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC220 d 4MATIC 프리미엄"
+                },
+                {
+                  "name": "GLC220 d 4MATIC 프리미엄 쿠페"
+                },
+                {
+                  "name": "GLC250 d 4MATIC"
+                },
+                {
+                  "name": "GLC250 d 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC300 4MATIC 프리미엄 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC220 d 4MATIC"
+                },
+                {
+                  "name": "GLC220 d 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLC300 4MATIC"
+                },
+                {
+                  "name": "GLC300 4MATIC AMG Line"
+                },
+                {
+                  "name": "GLC300 4MATIC AMG Line 쿠페"
+                },
+                {
+                  "name": "GLC300 4MATIC 쿠페"
+                },
+                {
+                  "name": "GLC300 4MATIC 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLC43 4MATIC"
+                },
+                {
+                  "name": "AMG GLC43 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLC63 4MATIC+"
+                },
+                {
+                  "name": "AMG GLC63 S 4MATIC+ 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLC300"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLE-클래스",
+      "count": 1353,
+      "code": "035",
+      "eng": "GLE-Class",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLE-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLE-클래스 W167",
+          "count": 1184,
+          "code": "085",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLE-클래스._.Model.GLE-클래스 W167.))))",
+          "start": "201909",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ef224ec1-1824-4526-bda0-bb0ce23634c7.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE400d 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE300d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLE53 4MATIC+"
+                },
+                {
+                  "name": "AMG GLE53 4MATIC+ 쿠페"
+                },
+                {
+                  "name": "GLE450 4MATIC"
+                },
+                {
+                  "name": "GLE450 4MATIC AMG Line"
+                },
+                {
+                  "name": "GLE450 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE350e 4MATIC"
+                },
+                {
+                  "name": "GLE350e 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2989,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE450d 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE350 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLE63 S 4MATIC+ 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GLE-클래스 W166",
+          "count": 169,
+          "code": "070",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLE-클래스._.Model.GLE-클래스 W166.))))",
+          "start": "201601",
+          "end": "201912",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/013_070_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE250 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GLE63 4MATIC"
+                },
+                {
+                  "name": "AMG GLE63 S 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLE350 d 4MATIC"
+                },
+                {
+                  "name": "GLE350 d 4MATIC 쿠페"
+                },
+                {
+                  "name": "GLE350 d 4MATIC 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLE350"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLK-클래스",
+      "count": 62,
+      "code": "024",
+      "eng": "GLK-Class",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLK-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLK-클래스 X204",
+          "count": 62,
+          "code": "057",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLK-클래스._.Model.GLK-클래스 X204.))))",
+          "start": "200901",
+          "end": "201512",
+          "period": "09~15",
+          "image": "/carsdata/cars/cm_cardb/file/013_057_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLK220 CDI"
+                },
+                {
+                  "name": "GLK220 CDI 블루이피션시"
+                },
+                {
+                  "name": "GLK220 CDI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GLK350"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GLS-클래스",
+      "count": 393,
+      "code": "037",
+      "eng": "GLS-Class",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.GLS-클래스.)))",
+      "sub_models": [
+        {
+          "name": "GLS-클래스 X167",
+          "count": 364,
+          "code": "089",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLS-클래스._.Model.GLS-클래스 X167.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e97d0801-2438-4222-ab79-3dda83f80c3d.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS400d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS580 4MATIC"
+                },
+                {
+                  "name": "GLS580 4MATIC AMG Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2989,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS450d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS450 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "마이바흐 GLS600 4MATIC"
+                },
+                {
+                  "name": "마이바흐 GLS600 4MATIC 마누팍투어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GLS-클래스 X166",
+          "count": 29,
+          "code": "074",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.GLS-클래스._.Model.GLS-클래스 X166.))))",
+          "start": "201601",
+          "end": "201912",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/013_074_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS500 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "GLS350 d 4MATIC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M-클래스",
+      "count": 47,
+      "code": "008",
+      "eng": "M-class",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.M-클래스.)))",
+      "sub_models": [
+        {
+          "name": "M-클래스 W166",
+          "count": 33,
+          "code": "063",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.M-클래스._.Model.M-클래스 W166.))))",
+          "start": "201201",
+          "end": "201512",
+          "period": "12~15",
+          "image": "/carsdata/cars/cm_cardb/file/013_063_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2143,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "ML250 블루텍 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "ML350 블루텍 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML63 AMG"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M-클래스 W164",
+          "count": 10,
+          "code": "082",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.M-클래스._.Model.M-클래스 W164.))))",
+          "start": "200501",
+          "end": "201112",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/013_082_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6209,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML63 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML350"
+                },
+                {
+                  "name": "ML350 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "ML300 CDI 4MATIC 그랜드 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML280 CDI"
+                },
+                {
+                  "name": "ML300 CDI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M-클래스 W163",
+          "count": 4,
+          "code": "011",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.M-클래스._.Model.M-클래스 W163.))))",
+          "start": "199701",
+          "end": "200512",
+          "period": "97~05",
+          "image": "/carsdata/cars/cm_cardb/file/013_011_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5439,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML55 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML400 CDI"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3724,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ML320"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R-클래스",
+      "count": 2,
+      "code": "021",
+      "eng": "R-Class",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.R-클래스.)))",
+      "sub_models": [
+        {
+          "name": "R-클래스",
+          "count": 2,
+          "code": "052",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.R-클래스._.Model.R-클래스.))))",
+          "start": "200501",
+          "end": "201312",
+          "period": "05~13",
+          "image": "/carsdata/cars/cm_cardb/file/013_052_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "V251"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S-클래스",
+      "count": 2604,
+      "code": "005",
+      "eng": "S-Class",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.S-클래스.)))",
+      "sub_models": [
+        {
+          "name": "S-클래스 W223",
+          "count": 1266,
+          "code": "092",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.S-클래스._.Model.S-클래스 W223.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e1373664-8b81-40f5-9364-713071838663.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350 d"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S400 d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S450L 4MATIC"
+                },
+                {
+                  "name": "S500L 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S580L 4MATIC"
+                },
+                {
+                  "name": "마이바흐 S580 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "마이바흐 S680 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S580e 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2989,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S350 d 4MATIC"
+                },
+                {
+                  "name": "S450 d 4MATIC"
+                },
+                {
+                  "name": "S450 d 4MATIC AMG Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S-클래스 W222",
+          "count": 1168,
+          "code": "065",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.S-클래스._.Model.S-클래스 W222.))))",
+          "start": "201311",
+          "end": "202101",
+          "period": "13~21",
+          "image": "/carsdata/cars/cm_cardb/file/013_065_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S400 4MATIC 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S65 AMG"
+                },
+                {
+                  "name": "마이바흐 S600"
+                },
+                {
+                  "name": "마이바흐 S650"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S350 d 4MATIC"
+                },
+                {
+                  "name": "S350 블루텍 4MATIC"
+                },
+                {
+                  "name": "S350L d 4MATIC"
+                },
+                {
+                  "name": "S350L 블루텍 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S500L 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S500L"
+                },
+                {
+                  "name": "마이바흐 S500"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S560L 4MATIC"
+                },
+                {
+                  "name": "S63 AMG 4MATIC+"
+                },
+                {
+                  "name": "S63 AMG 4MATIC+ 퍼포먼스 에디션"
+                },
+                {
+                  "name": "마이바흐 S560 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S63 AMG 4MATIC+ 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S400L 4MATIC"
+                },
+                {
+                  "name": "S450L 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S550L 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S560eL"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S350 d 4MATIC AMG Line"
+                },
+                {
+                  "name": "S400L d 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350L"
+                },
+                {
+                  "name": "S400L"
+                },
+                {
+                  "name": "S450L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S63 AMG 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350 블루텍"
+                },
+                {
+                  "name": "S350L 블루텍"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "마이바흐 S500 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2925,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350 d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "마이바흐 S650 풀만"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S63 AMG 4MATIC 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S-클래스 W221",
+          "count": 152,
+          "code": "002",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.S-클래스._.Model.S-클래스 W221.))))",
+          "start": "200510",
+          "end": "201312",
+          "period": "05~13",
+          "image": "/carsdata/cars/cm_cardb/file/013_002_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5462,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S500L 4MATIC"
+                },
+                {
+                  "name": "S550 4MATIC"
+                },
+                {
+                  "name": "S550L 4MATIC"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S320 CDI"
+                },
+                {
+                  "name": "S350 CDI"
+                },
+                {
+                  "name": "S350 블루텍"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5462,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S550L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6208,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S63L AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350L"
+                },
+                {
+                  "name": "S350L 블루이피션시"
+                },
+                {
+                  "name": "S350L 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S400L 하이브리드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5514,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S600L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S65 AMG"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5462,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S500L"
+                },
+                {
+                  "name": "S500L AMG SP"
+                },
+                {
+                  "name": "S550"
+                },
+                {
+                  "name": "S550V"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S500L 데지뇨 에디션"
+                },
+                {
+                  "name": "S500L 블루이피션시"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 0,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4663,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "S500L 4MATIC 데지뇨 에디션"
+                },
+                {
+                  "name": "S500L 블루이피션시 4MATIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S-클래스",
+          "count": 18,
+          "code": "005",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.S-클래스._.Model.S-클래스.))))",
+          "start": "199301",
+          "end": "200612",
+          "period": "93~06",
+          "image": "/carsdata/cars/cm_cardb/file/013_005_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4973,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W140"
+                },
+                {
+                  "name": "W220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W140"
+                },
+                {
+                  "name": "W220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "W220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5786,
+              "displacement_l": 5.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3724,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W220"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W140"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5439,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W220"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SL-클래스",
+      "count": 53,
+      "code": "006",
+      "eng": "SL-Class",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SL-클래스.)))",
+      "sub_models": [
+        {
+          "name": "SL-클래스 R232",
+          "count": 27,
+          "code": "099",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SL-클래스._.Model.SL-클래스 R232.))))",
+          "start": "202305",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/c746dd47-12dd-4793-8a20-019ab27bb106.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG SL63 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AMG SL43"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG SL63 4MATIC+ 마누팍투어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 SL-클래스",
+          "count": 10,
+          "code": "060",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SL-클래스._.Model.뉴 SL-클래스.))))",
+          "start": "200801",
+          "end": "202001",
+          "period": "08~20",
+          "image": "/carsdata/cars/cm_cardb/file/013_060_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R231"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5462,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                },
+                {
+                  "name": "R231"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SL-클래스",
+          "count": 16,
+          "code": "007",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SL-클래스._.Model.SL-클래스.))))",
+          "start": "195401",
+          "end": "200812",
+          "period": "54~08",
+          "image": "/carsdata/cars/cm_cardb/file/013_007_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R129"
+                },
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4520,
+              "displacement_l": 4.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R107"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5462,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5987,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R129"
+                },
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5499,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6000,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R230"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SLC-클래스",
+      "count": 19,
+      "code": "036",
+      "eng": "SLC-Class",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SLC-클래스.)))",
+      "sub_models": [
+        {
+          "name": "SLC-클래스 R172",
+          "count": 19,
+          "code": "073",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SLC-클래스._.Model.SLC-클래스 R172.))))",
+          "start": "201601",
+          "end": "202101",
+          "period": "16~21",
+          "image": "/carsdata/cars/cm_cardb/file/013_073_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SLC200"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "AMG SLC43"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SLK-클래스",
+      "count": 35,
+      "code": "007",
+      "eng": "SLK-Class",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SLK-클래스.)))",
+      "sub_models": [
+        {
+          "name": "뉴 SLK-클래스",
+          "count": 33,
+          "code": "022",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SLK-클래스._.Model.뉴 SLK-클래스.))))",
+          "start": "200401",
+          "end": "201612",
+          "period": "04~16",
+          "image": "/carsdata/cars/cm_cardb/file/013_022_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R171"
+                },
+                {
+                  "name": "R172"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R171"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5461,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R171"
+                },
+                {
+                  "name": "R172"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3497,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R171"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SLK-클래스",
+          "count": 2,
+          "code": "008",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SLK-클래스._.Model.SLK-클래스.))))",
+          "start": "199601",
+          "end": "200412",
+          "period": "96~04",
+          "image": "/carsdata/cars/cm_cardb/file/013_008_2004.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R170"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2294,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R170"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SLR",
+      "count": 0,
+      "code": "018",
+      "eng": "SLR",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SLR.)))",
+      "sub_models": [
+        {
+          "name": "SLR",
+          "count": 0,
+          "code": "018",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SLR._.Model.SLR.))))",
+          "start": "200301",
+          "end": "201012",
+          "period": "03~10",
+          "image": "/carsdata/cars/cm_cardb/file/013_018_2010.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "SLS AMG",
+      "count": 2,
+      "code": "026",
+      "eng": "SLS AMG",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SLS AMG.)))",
+      "sub_models": [
+        {
+          "name": "SLS AMG",
+          "count": 2,
+          "code": "059",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SLS AMG._.Model.SLS AMG.))))",
+          "start": "201001",
+          "end": "201412",
+          "period": "10~14",
+          "image": "/carsdata/cars/cm_cardb/file/013_059_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6208,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C197"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMG GT",
+      "count": 284,
+      "code": "033",
+      "eng": "AMG GT",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.AMG GT.)))",
+      "sub_models": [
+        {
+          "name": "AMG GT C192",
+          "count": 18,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.AMG GT._.Model.AMG GT C192.))))",
+          "start": "202504",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f6ad66f8-f2c2-44f2-89c6-4226e2cc5463.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GT55 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GT63 S E 퍼포먼스 4MATIC+"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4000,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "AMG GT55 4MATIC+ 런치 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMG GT",
+          "count": 266,
+          "code": "069",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.AMG GT._.Model.AMG GT.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/85c26383-b106-4bca-9f15-9f1a30b6b6a8.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "4도어 43 4MATIC+"
+                },
+                {
+                  "name": "4도어 43 4MATIC+ 다이나믹"
+                },
+                {
+                  "name": "4도어 43 4MATIC+ 다이나믹 레드 블로썸"
+                },
+                {
+                  "name": "4도어 43 4MATIC+ 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                },
+                {
+                  "name": "4.0 C 로드스터"
+                },
+                {
+                  "name": "S 4.0"
+                },
+                {
+                  "name": "S 4.0 에디션1"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3982,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4MATIC",
+              "trims": [
+                {
+                  "name": "4도어 63 S 4MATIC+"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEL/SEC",
+      "count": 4,
+      "code": "023",
+      "eng": "SEL/SEC",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.SEL/SEC.)))",
+      "sub_models": [
+        {
+          "name": "SEL/SEC",
+          "count": 4,
+          "code": "056",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.SEL/SEC._.Model.SEL/SEC.))))",
+          "start": "197201",
+          "end": "199412",
+          "period": "72~94",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2962,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W126"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5546,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W126"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5600,
+              "displacement_l": 5.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W126"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "V-클래스",
+      "count": 15,
+      "code": "016",
+      "eng": "V-Class",
+      "order": 32.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.V-클래스.)))",
+      "sub_models": [
+        {
+          "name": "V-클래스",
+          "count": 15,
+          "code": "016",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.V-클래스._.Model.V-클래스.))))",
+          "start": "199601",
+          "end": null,
+          "period": "96~현재",
+          "image": "/carsdata/cars/cm_cardb/file/013_016_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W447"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W447"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W447"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W639"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스프린터",
+      "count": 78,
+      "code": "030",
+      "eng": "Sprinter",
+      "order": 33.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.스프린터.)))",
+      "sub_models": [
+        {
+          "name": "스프린터",
+          "count": 78,
+          "code": "015",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.스프린터._.Model.스프린터.))))",
+          "start": "199501",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/013_015_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "W906"
+                },
+                {
+                  "name": "W907"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1950,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 13,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "906"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "190-클래스",
+      "count": 0,
+      "code": "010",
+      "eng": "190-Class",
+      "order": 34.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.190-클래스.)))",
+      "sub_models": [
+        {
+          "name": "190-클래스",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.190-클래스._.Model.190-클래스.))))",
+          "start": "198211",
+          "end": "199412",
+          "period": "82~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 2,
+      "code": "028",
+      "eng": "Others",
+      "order": 35.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 2,
+          "code": "999",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.벤츠._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 4300,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

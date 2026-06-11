@@ -1,0 +1,226 @@
+{
+  "name": "마이바흐",
+  "count": 10,
+  "code": "080",
+  "eng": "Maybach",
+  "order": 270.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.마이바흐.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "57",
+      "count": 2,
+      "code": "001",
+      "eng": "57",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.57.)))",
+      "sub_models": [
+        {
+          "name": "57",
+          "count": 2,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.57._.Model.57.))))",
+          "start": "200201",
+          "end": "201212",
+          "period": "02~12",
+          "image": "/carsdata/cars/cm_cardb/file/080_001_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5513,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "57s",
+      "count": 3,
+      "code": "002",
+      "eng": "57s",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.57s.)))",
+      "sub_models": [
+        {
+          "name": "57s",
+          "count": 3,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.57s._.Model.57s.))))",
+          "start": "200501",
+          "end": "201212",
+          "period": "05~12",
+          "image": "/carsdata/cars/cm_cardb/file/080_002_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "62",
+      "count": 4,
+      "code": "003",
+      "eng": "62",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.62.)))",
+      "sub_models": [
+        {
+          "name": "62",
+          "count": 4,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.62._.Model.62.))))",
+          "start": "200201",
+          "end": "201212",
+          "period": "02~12",
+          "image": "/carsdata/cars/cm_cardb/file/080_003_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5513,
+              "displacement_l": 5.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "62s",
+      "count": 1,
+      "code": "004",
+      "eng": "62s",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.62s.)))",
+      "sub_models": [
+        {
+          "name": "62s",
+          "count": 1,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.62s._.Model.62s.))))",
+          "start": "200611",
+          "end": "201212",
+          "period": "06~12",
+          "image": "/carsdata/cars/cm_cardb/file/080_004_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5980,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "57 제플린",
+      "count": 0,
+      "code": "006",
+      "eng": "57 Zeppelin",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.57 제플린.)))",
+      "sub_models": [
+        {
+          "name": "57 제플린",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.57 제플린._.Model.57 제플린.))))",
+          "start": "201001",
+          "end": "201212",
+          "period": "10~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "62 제플린",
+      "count": 0,
+      "code": "007",
+      "eng": "62 Zeppelin",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.62 제플린.)))",
+      "sub_models": [
+        {
+          "name": "62 제플린",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.62 제플린._.Model.62 제플린.))))",
+          "start": "201001",
+          "end": "201212",
+          "period": "10~12",
+          "image": "/carsdata/cars/cm_cardb/file/080_007_2012.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "62s 렌들렛",
+      "count": 0,
+      "code": "005",
+      "eng": "62s Landaulet",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.ModelGroup.62s 렌들렛.)))",
+      "sub_models": [
+        {
+          "name": "62s 렌들렛",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마이바흐._.(C.ModelGroup.62s 렌들렛._.Model.62s 렌들렛.))))",
+          "start": "200801",
+          "end": "201012",
+          "period": "08~10",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

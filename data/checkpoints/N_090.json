@@ -1,0 +1,181 @@
+{
+  "name": "BYD",
+  "count": 56,
+  "code": "090",
+  "eng": "BYD",
+  "order": 120.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.BYD.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "E6",
+      "count": 0,
+      "code": "001",
+      "eng": "E6",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.ModelGroup.E6.)))",
+      "sub_models": [
+        {
+          "name": "E6",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.(C.ModelGroup.E6._.Model.E6.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "돌핀",
+      "count": 0,
+      "code": "005",
+      "eng": "Dolphin",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.ModelGroup.돌핀.)))",
+      "sub_models": [
+        {
+          "name": "돌핀",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.(C.ModelGroup.돌핀._.Model.돌핀.))))",
+          "start": "202602",
+          "end": null,
+          "period": "26~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아토 3",
+      "count": 32,
+      "code": "002",
+      "eng": "Atto 3",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.ModelGroup.아토 3.)))",
+      "sub_models": [
+        {
+          "name": "아토 3",
+          "count": 32,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.(C.ModelGroup.아토 3._.Model.아토 3.))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/db702f63-517d-488e-9785-b4242fea6e98.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 150,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "베이직"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "씨라이언 7 ",
+      "count": 11,
+      "code": "004",
+      "eng": "Sealion 7 ",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.ModelGroup.씨라이언 7 .)))",
+      "sub_models": [
+        {
+          "name": "씨라이언 7",
+          "count": 11,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.(C.ModelGroup.씨라이언 7 ._.Model.씨라이언 7.))))",
+          "start": "202509",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ac1b00c0-b52c-4051-a2bf-6cbf56e452d6.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 150,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "베이스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "씰",
+      "count": 13,
+      "code": "003",
+      "eng": "Seal",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.ModelGroup.씰.)))",
+      "sub_models": [
+        {
+          "name": "씰",
+          "count": 13,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BYD._.(C.ModelGroup.씰._.Model.씰.))))",
+          "start": "202508",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 150,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "다이나믹 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 150,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "플러스 RWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

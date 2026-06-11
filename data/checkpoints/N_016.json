@@ -1,0 +1,253 @@
+{
+  "name": "사브",
+  "count": 20,
+  "code": "016",
+  "eng": "Saab",
+  "order": 400.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.사브.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "9-3",
+      "count": 14,
+      "code": "001",
+      "eng": "9-3",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.ModelGroup.9-3.)))",
+      "sub_models": [
+        {
+          "name": "9-3 2세대",
+          "count": 13,
+          "code": "005",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.9-3._.Model.9-3 2세대.))))",
+          "start": "200305",
+          "end": "200909",
+          "period": "03~09",
+          "image": "/carsdata/cars/cm_cardb/file/016_005_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0T 컨버터블 리니어"
+                },
+                {
+                  "name": "2.0T 컨버터블 벡터"
+                },
+                {
+                  "name": "2.0T 컨버터블 에어로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0T 리니어"
+                },
+                {
+                  "name": "2.0T 벡터"
+                },
+                {
+                  "name": "2.0T 에어로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2800,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.8T 에어로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "9-3 1세대",
+          "count": 1,
+          "code": "003",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.9-3._.Model.9-3 1세대.))))",
+          "start": "199903",
+          "end": "200403",
+          "period": "99~04",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1985,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0T"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "9-5",
+      "count": 0,
+      "code": "002",
+      "eng": "9-5",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.ModelGroup.9-5.)))",
+      "sub_models": [
+        {
+          "name": "9-5 2세대",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.9-5._.Model.9-5 2세대.))))",
+          "start": "201001",
+          "end": "201212",
+          "period": "10~12",
+          "powertrains": []
+        },
+        {
+          "name": "9-5 1세대",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.9-5._.Model.9-5 1세대.))))",
+          "start": "199701",
+          "end": "200912",
+          "period": "97~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "900",
+      "count": 1,
+      "code": "003",
+      "eng": "900",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.ModelGroup.900.)))",
+      "sub_models": [
+        {
+          "name": "900",
+          "count": 1,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.900._.Model.900.))))",
+          "start": "197801",
+          "end": "199812",
+          "period": "78~98",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1985,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "9000",
+      "count": 5,
+      "code": "004",
+      "eng": "9000",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.ModelGroup.9000.)))",
+      "sub_models": [
+        {
+          "name": "9000",
+          "count": 5,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.9000._.Model.9000.))))",
+          "start": "198401",
+          "end": "199712",
+          "period": "84~97",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1985,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2290,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "005",
+      "eng": "Others",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사브._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

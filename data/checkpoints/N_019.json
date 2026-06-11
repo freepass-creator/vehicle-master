@@ -1,0 +1,1382 @@
+{
+  "name": "재규어",
+  "count": 498,
+  "code": "019",
+  "eng": "Jaguar",
+  "order": 590.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.재규어.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "E-PACE",
+      "count": 38,
+      "code": "018",
+      "eng": "E-PACE",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.E-PACE.)))",
+      "sub_models": [
+        {
+          "name": "E-PACE",
+          "count": 38,
+          "code": "021",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.E-PACE._.Model.E-PACE.))))",
+          "start": "201804",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_021_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P250 R-다이나믹 SE"
+                },
+                {
+                  "name": "P250 S"
+                },
+                {
+                  "name": "P250 SE"
+                },
+                {
+                  "name": "P250 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D180 S"
+                },
+                {
+                  "name": "D180 SE"
+                },
+                {
+                  "name": "D180 체커 플래그 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E-TYPE",
+      "count": 0,
+      "code": "021",
+      "eng": "E-TYPE",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.E-TYPE.)))",
+      "sub_models": [
+        {
+          "name": "E-TYPE",
+          "count": 0,
+          "code": "024",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.E-TYPE._.Model.E-TYPE.))))",
+          "start": "196101",
+          "end": "197412",
+          "period": "61~74",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "F-PACE",
+      "count": 80,
+      "code": "017",
+      "eng": "F-PACE",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.F-PACE.)))",
+      "sub_models": [
+        {
+          "name": "F-PACE",
+          "count": 80,
+          "code": "020",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.F-PACE._.Model.F-PACE.))))",
+          "start": "201608",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_020_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "D200 S"
+                },
+                {
+                  "name": "D200 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "20d R-Sport"
+                },
+                {
+                  "name": "20d 체커 플래그 에디션"
+                },
+                {
+                  "name": "20d 포트폴리오"
+                },
+                {
+                  "name": "20d 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30d S"
+                },
+                {
+                  "name": "30d 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "P 250 SE"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "35t R-Sport"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F-TYPE",
+      "count": 41,
+      "code": "015",
+      "eng": "F-TYPE",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.F-TYPE.)))",
+      "sub_models": [
+        {
+          "name": "F-TYPE",
+          "count": 41,
+          "code": "017",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.F-TYPE._.Model.F-TYPE.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/72824ebc-5aa0-45f4-8225-a75c7aad5290.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X152"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X152"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "X152"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "X152"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X152"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I-PACE",
+      "count": 10,
+      "code": "019",
+      "eng": "I-PACE",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.I-PACE.)))",
+      "sub_models": [
+        {
+          "name": "I-PACE",
+          "count": 10,
+          "code": "022",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.I-PACE._.Model.I-PACE.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_022_2019.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 232,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV400 HSE"
+                },
+                {
+                  "name": "EV400 SE"
+                },
+                {
+                  "name": "EV400 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S-TYPE",
+      "count": 3,
+      "code": "007",
+      "eng": "S-TYPE",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.S-TYPE.)))",
+      "sub_models": [
+        {
+          "name": "S-TYPE",
+          "count": 3,
+          "code": "005",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.S-TYPE._.Model.S-TYPE.))))",
+          "start": "199901",
+          "end": "200812",
+          "period": "99~08",
+          "image": "/carsdata/cars/cm_cardb/file/019_005_2008.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2720,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7D"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X-TYPE",
+      "count": 3,
+      "code": "006",
+      "eng": "X-TYPE",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.X-TYPE.)))",
+      "sub_models": [
+        {
+          "name": "X-TYPE",
+          "count": 3,
+          "code": "004",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.X-TYPE._.Model.X-TYPE.))))",
+          "start": "200101",
+          "end": "200912",
+          "period": "01~09",
+          "image": "/carsdata/cars/cm_cardb/file/019_004_2009.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2198,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.2D"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2099,
+              "displacement_l": 2.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.1"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XE",
+      "count": 81,
+      "code": "016",
+      "eng": "XE",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XE.)))",
+      "sub_models": [
+        {
+          "name": "XE",
+          "count": 81,
+          "code": "018",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XE._.Model.XE.))))",
+          "start": "201509",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_018_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "20d 포트폴리오 AWD"
+                },
+                {
+                  "name": "20d 프레스티지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "20t 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "20d R스포츠"
+                },
+                {
+                  "name": "20d 포트폴리오"
+                },
+                {
+                  "name": "20d 프레스티지"
+                },
+                {
+                  "name": "D180 R-다이나믹 S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "P300 R-다이나믹 HSE AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XF",
+      "count": 136,
+      "code": "001",
+      "eng": "XF",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XF.)))",
+      "sub_models": [
+        {
+          "name": "XF (X260)",
+          "count": 95,
+          "code": "019",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XF._.Model.XF (X260_).))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_019_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "20d 포트폴리오 AWD"
+                },
+                {
+                  "name": "20d 프레스티지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "20d 체커드 플래그 에디션"
+                },
+                {
+                  "name": "20d 포트폴리오"
+                },
+                {
+                  "name": "20d 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 S AWD"
+                },
+                {
+                  "name": "35t AWD R-Sport"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "25t 포트폴리오"
+                },
+                {
+                  "name": "25t 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30d 포트폴리오"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "25t 프레스티지 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New XF",
+          "count": 39,
+          "code": "015",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XF._.Model.New XF.))))",
+          "start": "201110",
+          "end": "201512",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/019_015_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2179,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "XF",
+          "count": 2,
+          "code": "009",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XF._.Model.XF.))))",
+          "start": "200801",
+          "end": "201112",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/019_009_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4200,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X250"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XJ-6",
+      "count": 8,
+      "code": "003",
+      "eng": "XJ-6",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJ-6.)))",
+      "sub_models": [
+        {
+          "name": "XJ-6",
+          "count": 8,
+          "code": "001",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJ-6._.Model.XJ-6.))))",
+          "start": "196801",
+          "end": "200712",
+          "period": "68~07",
+          "image": "/carsdata/cars/cm_cardb/file/019_001_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3239,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X300"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3980,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X300"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XJ-8",
+      "count": 8,
+      "code": "009",
+      "eng": "XJ-8",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJ-8.)))",
+      "sub_models": [
+        {
+          "name": "XJ-8",
+          "count": 8,
+          "code": "008",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJ-8._.Model.XJ-8.))))",
+          "start": "199701",
+          "end": "200912",
+          "period": "97~09",
+          "image": "/carsdata/cars/cm_cardb/file/019_008_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3555,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X350"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X308"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XJ-C",
+      "count": 0,
+      "code": "020",
+      "eng": "XJ-C",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJ-C.)))",
+      "sub_models": [
+        {
+          "name": "XJ-C",
+          "count": 0,
+          "code": "023",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJ-C._.Model.XJ-C.))))",
+          "start": "197501",
+          "end": "197801",
+          "period": "75~78",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "XJR",
+      "count": 1,
+      "code": "010",
+      "eng": "XJR",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJR.)))",
+      "sub_models": [
+        {
+          "name": "XJR",
+          "count": 1,
+          "code": "010",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJR._.Model.XJR.))))",
+          "start": "198901",
+          "end": null,
+          "period": "89~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X358"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XJS",
+      "count": 0,
+      "code": "013",
+      "eng": "XJS",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJS.)))",
+      "sub_models": [
+        {
+          "name": "XJS",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJS._.Model.XJS.))))",
+          "start": "197501",
+          "end": "199612",
+          "period": "75~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "XJ",
+      "count": 79,
+      "code": "002",
+      "eng": "XJ",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XJ.)))",
+      "sub_models": [
+        {
+          "name": "All New XJ",
+          "count": 67,
+          "code": "013",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJ._.Model.All New XJ.))))",
+          "start": "201001",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/019_013_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X351"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X351"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X351"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X351"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "X351"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New XJ",
+          "count": 12,
+          "code": "007",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XJ._.Model.New XJ.))))",
+          "start": "196801",
+          "end": "200912",
+          "period": "68~09",
+          "image": "/carsdata/cars/cm_cardb/file/019_007_2009.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2720,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X350"
+                },
+                {
+                  "name": "X358"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X358"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X358"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4200,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X358"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XK",
+      "count": 1,
+      "code": "012",
+      "eng": "XK",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XK.)))",
+      "sub_models": [
+        {
+          "name": "XK",
+          "count": 1,
+          "code": "012",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XK._.Model.XK.))))",
+          "start": "199601",
+          "end": "201512",
+          "period": "96~15",
+          "image": "/carsdata/cars/cm_cardb/file/019_012_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X150"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XK8",
+      "count": 1,
+      "code": "008",
+      "eng": "XK8",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XK8.)))",
+      "sub_models": [
+        {
+          "name": "XK8",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XK8._.Model.XK8.))))",
+          "start": "199601",
+          "end": "200612",
+          "period": "96~06",
+          "image": "/carsdata/cars/cm_cardb/file/019_006_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 40000,
+              "displacement_l": 40.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X100"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XKR",
+      "count": 2,
+      "code": "011",
+      "eng": "XKR",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.XKR.)))",
+      "sub_models": [
+        {
+          "name": "XKR",
+          "count": 2,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XKR._.Model.XKR.))))",
+          "start": "199601",
+          "end": "201512",
+          "period": "96~15",
+          "image": "/carsdata/cars/cm_cardb/file/019_011_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X150"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5000,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "X150"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "XKR-S",
+          "count": 0,
+          "code": "016",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.XKR._.Model.XKR-S.))))",
+          "start": "201111",
+          "end": "201512",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/019_016_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "다임러",
+      "count": 4,
+      "code": "004",
+      "eng": "Daimler",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.다임러.)))",
+      "sub_models": [
+        {
+          "name": "다임러",
+          "count": 4,
+          "code": "002",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.다임러._.Model.다임러.))))",
+          "start": "196801",
+          "end": "200912",
+          "period": "68~09",
+          "image": "/carsdata/cars/cm_cardb/file/019_002_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4196,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "소버린",
+      "count": 0,
+      "code": "005",
+      "eng": "Sovereign",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.소버린.)))",
+      "sub_models": [
+        {
+          "name": "소버린",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.소버린._.Model.소버린.))))",
+          "start": "196801",
+          "end": "200912",
+          "period": "68~09",
+          "image": "/carsdata/cars/cm_cardb/file/019_003_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 1,
+      "code": "014",
+      "eng": "Others",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 1,
+          "code": "999",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.재규어._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4235,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

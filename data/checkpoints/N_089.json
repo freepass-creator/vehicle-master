@@ -1,0 +1,104 @@
+{
+  "name": "폴스타",
+  "count": 108,
+  "code": "089",
+  "eng": "Polestar",
+  "order": 695.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.폴스타.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "폴스타 2",
+      "count": 87,
+      "code": "001",
+      "eng": "Polestar 2",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폴스타._.ModelGroup.폴스타 2.)))",
+      "sub_models": [
+        {
+          "name": "폴스타 2",
+          "count": 87,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폴스타._.(C.ModelGroup.폴스타 2._.Model.폴스타 2.))))",
+          "start": "202201",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a0a62bfc-2dee-4e51-b759-03499af340e2.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 196,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "롱레인지 듀얼모터"
+                },
+                {
+                  "name": "롱레인지 싱글모터"
+                },
+                {
+                  "name": "스탠다드 싱글모터"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "폴스타 4",
+      "count": 21,
+      "code": "002",
+      "eng": "Polestar 4",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폴스타._.ModelGroup.폴스타 4.)))",
+      "sub_models": [
+        {
+          "name": "폴스타 4",
+          "count": 21,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폴스타._.(C.ModelGroup.폴스타 4._.Model.폴스타 4.))))",
+          "start": "202408",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/65e0329e-9cce-402f-ba23-164d8255d896.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 246,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "롱레인지 듀얼모터"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 300,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "롱레인지 싱글모터"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

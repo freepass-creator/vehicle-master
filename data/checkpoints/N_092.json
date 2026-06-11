@@ -1,0 +1,76 @@
+{
+  "name": "신위안",
+  "count": 12,
+  "code": "092",
+  "eng": "Xin yuan",
+  "order": 420.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.신위안.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "이티밴",
+      "count": 12,
+      "code": "001",
+      "eng": "ET Van",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.신위안._.ModelGroup.이티밴.)))",
+      "sub_models": [
+        {
+          "name": "이티밴",
+          "count": 12,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.신위안._.(C.ModelGroup.이티밴._.Model.이티밴.))))",
+          "start": "202206",
+          "end": null,
+          "period": "22~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 125,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2인승"
+                },
+                {
+                  "name": "프로 2인승"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 125,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4인승"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 160,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "프로 4인승"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

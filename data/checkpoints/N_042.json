@@ -1,0 +1,255 @@
+{
+  "name": "폰티악",
+  "count": 0,
+  "code": "042",
+  "eng": "Pontiac",
+  "order": 690.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.폰티악.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "그랑프리",
+      "count": 0,
+      "code": "002",
+      "eng": "Grand Prix",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.그랑프리.)))",
+      "sub_models": [
+        {
+          "name": "그랑프리",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.그랑프리._.Model.그랑프리.))))",
+          "start": "199701",
+          "end": "200812",
+          "period": "97~08",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "그랜드 앰",
+      "count": 0,
+      "code": "003",
+      "eng": "Grand AM",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.그랜드 앰.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 앰",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.그랜드 앰._.Model.그랜드 앰.))))",
+          "start": "197301",
+          "end": "200512",
+          "period": "73~05",
+          "image": "/carsdata/cars/cm_cardb/file/042_003_2005.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "트랜스 앰",
+      "count": 0,
+      "code": "004",
+      "eng": "Trans AM",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.트랜스 앰.)))",
+      "sub_models": [
+        {
+          "name": "트랜스 앰",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.트랜스 앰._.Model.트랜스 앰.))))",
+          "start": "196901",
+          "end": "200212",
+          "period": "69~02",
+          "image": "/carsdata/cars/cm_cardb/file/042_004_2002.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "트랜스포트",
+      "count": 0,
+      "code": "001",
+      "eng": "Trans Sport",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.트랜스포트.)))",
+      "sub_models": [
+        {
+          "name": "트랜스포트",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.트랜스포트._.Model.트랜스포트.))))",
+          "start": "198901",
+          "end": "199812",
+          "period": "89~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "토렌트",
+      "count": 0,
+      "code": "009",
+      "eng": "Torrent",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.토렌트.)))",
+      "sub_models": [
+        {
+          "name": "토렌트",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.토렌트._.Model.토렌트.))))",
+          "start": "200601",
+          "end": "200912",
+          "period": "06~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "보네빌",
+      "count": 0,
+      "code": "005",
+      "eng": "Bonneville",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.보네빌.)))",
+      "sub_models": [
+        {
+          "name": "보네빌",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.보네빌._.Model.보네빌.))))",
+          "start": "195701",
+          "end": "200512",
+          "period": "57~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "선파이어",
+      "count": 0,
+      "code": "006",
+      "eng": "Sunfire",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.선파이어.)))",
+      "sub_models": [
+        {
+          "name": "선파이어",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.선파이어._.Model.선파이어.))))",
+          "start": "199501",
+          "end": "200512",
+          "period": "95~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "솔스티스",
+      "count": 0,
+      "code": "010",
+      "eng": "Solstice",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.솔스티스.)))",
+      "sub_models": [
+        {
+          "name": "솔스티스",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.솔스티스._.Model.솔스티스.))))",
+          "start": "200601",
+          "end": "200912",
+          "period": "06~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "파이어버드",
+      "count": 0,
+      "code": "007",
+      "eng": "Firebird",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.파이어버드.)))",
+      "sub_models": [
+        {
+          "name": "파이어버드",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.파이어버드._.Model.파이어버드.))))",
+          "start": "196701",
+          "end": "200212",
+          "period": "67~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "피에로",
+      "count": 0,
+      "code": "008",
+      "eng": "Fiero",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.피에로.)))",
+      "sub_models": [
+        {
+          "name": "피에로",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.피에로._.Model.피에로.))))",
+          "start": "198401",
+          "end": "198812",
+          "period": "84~88",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "G8",
+      "count": 0,
+      "code": "012",
+      "eng": "G8",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.ModelGroup.G8.)))",
+      "sub_models": [
+        {
+          "name": "G8",
+          "count": 0,
+          "code": "100",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폰티악._.(C.ModelGroup.G8._.Model.G8.))))",
+          "start": "200712",
+          "end": "200906",
+          "period": "07~09",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

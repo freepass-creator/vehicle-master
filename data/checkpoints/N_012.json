@@ -1,0 +1,6631 @@
+{
+  "name": "BMW",
+  "count": 17270,
+  "code": "012",
+  "eng": "BMW",
+  "order": 110.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.BMW.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "1시리즈",
+      "count": 689,
+      "code": "001",
+      "eng": "1-Series",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.1시리즈.)))",
+      "sub_models": [
+        {
+          "name": "1시리즈 (F70)",
+          "count": 52,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.1시리즈._.Model.1시리즈 (F70_).))))",
+          "start": "202507",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "120"
+                },
+                {
+                  "name": "120 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M135 xDrive"
+                },
+                {
+                  "name": "M135 xDrive 프로 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1시리즈 (F40)",
+          "count": 395,
+          "code": "076",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.1시리즈._.Model.1시리즈 (F40_).))))",
+          "start": "202001",
+          "end": "202507",
+          "period": "20~25",
+          "image": "/carsdata/cars/cm_cardb/file/012_076_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M135i xDrive"
+                },
+                {
+                  "name": "M135i xDrive 프리즘"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "118d M 스포츠"
+                },
+                {
+                  "name": "118d 스포츠"
+                },
+                {
+                  "name": "118d 조이"
+                },
+                {
+                  "name": "118d 조이 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "120i M 스포츠"
+                },
+                {
+                  "name": "120i 스포츠"
+                },
+                {
+                  "name": "120i 어드밴티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1시리즈 (F20)",
+          "count": 225,
+          "code": "020",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.1시리즈._.Model.1시리즈 (F20_).))))",
+          "start": "201201",
+          "end": "201912",
+          "period": "12~19",
+          "image": "/carsdata/cars/cm_cardb/file/012_020_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "118d M 스포츠 섀도우 5도어"
+                },
+                {
+                  "name": "118d 스포츠 5도어"
+                },
+                {
+                  "name": "118d 스포츠 스페셜 에디션 5도어"
+                },
+                {
+                  "name": "118d 어반 5도어"
+                },
+                {
+                  "name": "118d 어반 팩1 5도어"
+                },
+                {
+                  "name": "118d 조이 5도어"
+                },
+                {
+                  "name": "120d M 스포츠 5도어"
+                },
+                {
+                  "name": "120d 스포츠 팩1 5도어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1시리즈 (E82)",
+          "count": 17,
+          "code": "059",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.1시리즈._.Model.1시리즈 (E82_).))))",
+          "start": "200401",
+          "end": "201312",
+          "period": "04~13",
+          "image": "/carsdata/cars/cm_cardb/file/012_059_2013.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "120d 쿠페"
+                },
+                {
+                  "name": "120d 쿠페 M 스포츠"
+                },
+                {
+                  "name": "120d 쿠페 스포츠"
+                },
+                {
+                  "name": "120d 쿠페 하이"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2시리즈",
+      "count": 437,
+      "code": "018",
+      "eng": "2-Series",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.2시리즈.)))",
+      "sub_models": [
+        {
+          "name": "2시리즈 (G42)",
+          "count": 20,
+          "code": "087",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 (G42_).))))",
+          "start": "202204",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/01855b1a-2f99-4782-ba97-53e86b717b79.jpg",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M240i xDrive 온라인 익스클루시브 쿠페"
+                },
+                {
+                  "name": "M240i xDrive 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2시리즈 (F22)",
+          "count": 6,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 (F22_).))))",
+          "start": "201311",
+          "end": "201512",
+          "period": "13~15",
+          "image": "/carsdata/cars/cm_cardb/file/012_031_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M235i 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "220d M 스포츠 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2시리즈 그란쿠페 (F74)",
+          "count": 34,
+          "code": "101",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 그란쿠페 (F74_).))))",
+          "start": "202507",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M235 xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "228 xDrive M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "220 M 스포츠"
+                },
+                {
+                  "name": "220 M 스포츠 디자인"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2시리즈 그란쿠페 (F44)",
+          "count": 202,
+          "code": "077",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 그란쿠페 (F44_).))))",
+          "start": "202003",
+          "end": "202506",
+          "period": "20~25",
+          "image": "/carsdata/cars/cm_cardb/file/9b6418ce-9c8c-435f-b930-bce25f1aace4.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "220i M 스포츠"
+                },
+                {
+                  "name": "220i 스포츠"
+                },
+                {
+                  "name": "220i 어드밴티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "218d M 스포츠"
+                },
+                {
+                  "name": "218d 어드밴티지"
+                },
+                {
+                  "name": "220d 럭셔리"
+                },
+                {
+                  "name": "220d 어드밴티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M235i xDrive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2시리즈 액티브 투어러 (U06)",
+          "count": 86,
+          "code": "088",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 액티브 투어러 (U06_).))))",
+          "start": "202208",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/208df1ac-623c-43d6-ba8a-9fc01e4c9d8d.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "220i M 스포츠"
+                },
+                {
+                  "name": "220i M 스포츠 디자인"
+                },
+                {
+                  "name": "220i 럭셔리"
+                },
+                {
+                  "name": "220i 어드밴티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "218d M 스포츠 퍼스트 에디션"
+                },
+                {
+                  "name": "218d 럭셔리"
+                },
+                {
+                  "name": "218d 어드밴티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2시리즈 액티브 투어러 (F45)",
+          "count": 89,
+          "code": "034",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.2시리즈._.Model.2시리즈 액티브 투어러 (F45_).))))",
+          "start": "201501",
+          "end": "202207",
+          "period": "15~22",
+          "image": "/carsdata/cars/cm_cardb/file/012_034_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "스포츠 파이널 에디션"
+                },
+                {
+                  "name": "어드밴티지"
+                },
+                {
+                  "name": "조이"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3시리즈",
+      "count": 2078,
+      "code": "002",
+      "eng": "3-Series",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.3시리즈.)))",
+      "sub_models": [
+        {
+          "name": "3시리즈 (G20)",
+          "count": 1423,
+          "code": "068",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.3시리즈._.Model.3시리즈 (G20_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0dd7bce0-0ba8-4da2-8623-a256f248626f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320i"
+                },
+                {
+                  "name": "320i M 스포츠"
+                },
+                {
+                  "name": "320i 럭셔리"
+                },
+                {
+                  "name": "320i 투어링"
+                },
+                {
+                  "name": "320i 투어링 M 스포츠"
+                },
+                {
+                  "name": "320i 투어링 럭셔리"
+                },
+                {
+                  "name": "330i M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320d"
+                },
+                {
+                  "name": "320d M 스포츠"
+                },
+                {
+                  "name": "320d 럭셔리"
+                },
+                {
+                  "name": "320d 투어링 M 스포츠"
+                },
+                {
+                  "name": "320d 투어링 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M340i"
+                },
+                {
+                  "name": "M340i 퍼스트 에디션"
+                },
+                {
+                  "name": "M340i 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "330e"
+                },
+                {
+                  "name": "330e M 스포츠"
+                },
+                {
+                  "name": "330e M 스포츠 프로 퍼스트 에디션"
+                },
+                {
+                  "name": "330e 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M340i xDrive 투어링"
+                },
+                {
+                  "name": "M340i xDrive 투어링 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "320d xDrive M 스포츠"
+                },
+                {
+                  "name": "320d xDrive 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "330i xDrive M 스포츠"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3시리즈 (F30)",
+          "count": 567,
+          "code": "038",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.3시리즈._.Model.3시리즈 (F30_).))))",
+          "start": "201201",
+          "end": "201812",
+          "period": "12~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_038_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320i"
+                },
+                {
+                  "name": "320i M 스포츠"
+                },
+                {
+                  "name": "320i M 스포츠 쉐도우"
+                },
+                {
+                  "name": "320i 럭셔리"
+                },
+                {
+                  "name": "320i 스포츠"
+                },
+                {
+                  "name": "328i"
+                },
+                {
+                  "name": "328i M 스포츠"
+                },
+                {
+                  "name": "328i 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320d"
+                },
+                {
+                  "name": "320d ED에디션"
+                },
+                {
+                  "name": "320d M 스포츠"
+                },
+                {
+                  "name": "320d M 스포츠 쉐도우"
+                },
+                {
+                  "name": "320d M 퍼포먼스 에디션"
+                },
+                {
+                  "name": "320d 럭셔리"
+                },
+                {
+                  "name": "320d 스포츠"
+                },
+                {
+                  "name": "320d 투어링"
+                },
+                {
+                  "name": "320d 투어링 M 퍼포먼스 에디션"
+                },
+                {
+                  "name": "325d 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "320d xDrive"
+                },
+                {
+                  "name": "320d xDrive 투어링"
+                },
+                {
+                  "name": "320d xDrive 투어링 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "330i M 스포츠"
+                },
+                {
+                  "name": "330i M 스포츠 쉐도우"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3시리즈 (E90)",
+          "count": 72,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.3시리즈._.Model.3시리즈 (E90_).))))",
+          "start": "200501",
+          "end": "201312",
+          "period": "05~13",
+          "image": "/carsdata/cars/cm_cardb/file/012_001_2013.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320d 세단"
+                },
+                {
+                  "name": "320d 세단 M 스포츠"
+                },
+                {
+                  "name": "320d 세단 블랙 앤 화이트"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "320i 세단"
+                },
+                {
+                  "name": "320i 세단 CP"
+                },
+                {
+                  "name": "320i 세단 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "335i 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "328Xi 쿠페"
+                },
+                {
+                  "name": "328i 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "328i 세단"
+                },
+                {
+                  "name": "328i 세단 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "335i 세단"
+                },
+                {
+                  "name": "335i 세단 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "330Xi 세단"
+                },
+                {
+                  "name": "335i 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "328i 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3시리즈",
+          "count": 16,
+          "code": "005",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.3시리즈._.Model.3시리즈.))))",
+          "start": "197501",
+          "end": "200612",
+          "period": "75~06",
+          "image": "/carsdata/cars/cm_cardb/file/012_005_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2171,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36"
+                },
+                {
+                  "name": "E46"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2494,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36"
+                },
+                {
+                  "name": "E46"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E30/C"
+                },
+                {
+                  "name": "E46/C"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2494,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E46"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E46"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4시리즈",
+      "count": 531,
+      "code": "017",
+      "eng": "4-Series",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.4시리즈.)))",
+      "sub_models": [
+        {
+          "name": "4시리즈 (G22)",
+          "count": 235,
+          "code": "081",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.4시리즈._.Model.4시리즈 (G22_).))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6c9b0613-ed08-4765-84e9-72c845e545c2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420i M 스포츠 그란쿠페"
+                },
+                {
+                  "name": "420i M 스포츠 퍼포먼스 그란쿠페"
+                },
+                {
+                  "name": "420i M 스포츠 프로 그란쿠페"
+                },
+                {
+                  "name": "420i 퍼스트 에디션 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M440i xDrive 온라인 익스클루시브 컨버터블"
+                },
+                {
+                  "name": "M440i xDrive 온라인 익스클루시브 쿠페"
+                },
+                {
+                  "name": "M440i xDrive 컨버터블"
+                },
+                {
+                  "name": "M440i xDrive 쿠페"
+                },
+                {
+                  "name": "M440i xDrive 프로 온라인 익스클루시브 컨버터블"
+                },
+                {
+                  "name": "M440i xDrive 프로 온라인 익스클루시브 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420i M 스포츠 컨버터블"
+                },
+                {
+                  "name": "420i M 스포츠 쿠페"
+                },
+                {
+                  "name": "420i M 스포츠 퍼포먼스 쿠페"
+                },
+                {
+                  "name": "420i M 스포츠 프로 컨버터블"
+                },
+                {
+                  "name": "420i M 스포츠 프로 쿠페"
+                },
+                {
+                  "name": "420i 온라인 익스클루시브 컨버터블"
+                },
+                {
+                  "name": "430i 퍼스트 에디션 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420d M 스포츠 그란쿠페"
+                },
+                {
+                  "name": "420d 퍼스트 에디션 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420d M 스포츠 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4시리즈 (F32)",
+          "count": 296,
+          "code": "012",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.4시리즈._.Model.4시리즈 (F32_).))))",
+          "start": "201307",
+          "end": "202012",
+          "period": "13~20",
+          "image": "/carsdata/cars/cm_cardb/file/012_012_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420i M 스포츠 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420d M 스포츠 쿠페"
+                },
+                {
+                  "name": "420d 럭셔리 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420i M 스포츠 쿠페"
+                },
+                {
+                  "name": "430i M 스포츠 컨버터블"
+                },
+                {
+                  "name": "430i M 스포츠 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420i 그란쿠페 스페셜 에디션"
+                },
+                {
+                  "name": "420i 럭셔리 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "420d xDrive 럭셔리 그란쿠페"
+                },
+                {
+                  "name": "420d xDrive 스포츠 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "435d xDrive M 스포츠 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "428i M 스포츠 컨버터블"
+                },
+                {
+                  "name": "428i M 스포츠 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "420d xDrive M 스포츠 쿠페"
+                },
+                {
+                  "name": "420d xDrive 스포츠 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "420d 럭셔리 그란쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5시리즈",
+      "count": 4262,
+      "code": "003",
+      "eng": "5-Series",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.5시리즈.)))",
+      "sub_models": [
+        {
+          "name": "5시리즈 (G60)",
+          "count": 813,
+          "code": "095",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.5시리즈._.Model.5시리즈 (G60_).))))",
+          "start": "202310",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a1814584-a899-4b81-84ae-ec55168e4352.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "530i xDrive"
+                },
+                {
+                  "name": "530i xDrive M 스포츠"
+                },
+                {
+                  "name": "530i xDrive M 스포츠 프로 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520i"
+                },
+                {
+                  "name": "520i M 스포츠"
+                },
+                {
+                  "name": "520i 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "530e xDrive M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "530e M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "523d"
+                },
+                {
+                  "name": "523d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "523d xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "550e xDrive M 스포츠 프로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5시리즈 (G30)",
+          "count": 2871,
+          "code": "060",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.5시리즈._.Model.5시리즈 (G30_).))))",
+          "start": "201701",
+          "end": "202309",
+          "period": "17~23",
+          "image": "/carsdata/cars/cm_cardb/file/9517949d-ae47-43d4-bdb6-7222803fa2ba.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520i M 스포츠"
+                },
+                {
+                  "name": "520i 럭셔리"
+                },
+                {
+                  "name": "530i M 스포츠"
+                },
+                {
+                  "name": "530i M 스포츠 플러스"
+                },
+                {
+                  "name": "530i 럭셔리"
+                },
+                {
+                  "name": "530i 럭셔리 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520d M 스포츠"
+                },
+                {
+                  "name": "520d M 스포츠 스페셜 에디션"
+                },
+                {
+                  "name": "520d M 스포츠 플러스"
+                },
+                {
+                  "name": "520d 럭셔리 스페셜 에디션"
+                },
+                {
+                  "name": "520d 럭셔리 플러스"
+                },
+                {
+                  "name": "523d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "530i xDrive M 스포츠"
+                },
+                {
+                  "name": "530i xDrive M 스포츠 플러스"
+                },
+                {
+                  "name": "530i xDrive 럭셔리 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "530d 럭셔리 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "530e M 스포츠"
+                },
+                {
+                  "name": "530e 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "520d xDrive M 스포츠 플러스"
+                },
+                {
+                  "name": "520d xDrive 럭셔리 플러스"
+                },
+                {
+                  "name": "523d xDrive M 스포츠"
+                },
+                {
+                  "name": "523d xDrive 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "540i xDrive M 스포츠 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M550d xDrive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5시리즈 (F10)",
+          "count": 539,
+          "code": "039",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.5시리즈._.Model.5시리즈 (F10_).))))",
+          "start": "201001",
+          "end": "201612",
+          "period": "10~16",
+          "image": "/carsdata/cars/cm_cardb/file/012_039_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "528i"
+                },
+                {
+                  "name": "528i M 스포츠"
+                },
+                {
+                  "name": "528i M 에어로 다이나믹"
+                },
+                {
+                  "name": "528i 럭셔리"
+                },
+                {
+                  "name": "528i 럭셔리 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520d"
+                },
+                {
+                  "name": "520d M 스포츠"
+                },
+                {
+                  "name": "520d M 에어로 다이나믹"
+                },
+                {
+                  "name": "520d 럭셔리"
+                },
+                {
+                  "name": "520d 럭셔리 플러스"
+                },
+                {
+                  "name": "525d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "528i xDrive"
+                },
+                {
+                  "name": "528i xDrive M 에어로 다이나믹"
+                },
+                {
+                  "name": "528i xDrive M 에어로다이나믹 스페셜 에디션"
+                },
+                {
+                  "name": "528i xDrive 럭셔리"
+                },
+                {
+                  "name": "528i xDrive 럭셔리 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "520d xDrive"
+                },
+                {
+                  "name": "520d xDrive M 에어로 다이나믹"
+                },
+                {
+                  "name": "520d xDrive 럭셔리"
+                },
+                {
+                  "name": "520d xDrive 럭셔리 플러스"
+                },
+                {
+                  "name": "525d xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "530d xDrive M 에어로 다이나믹"
+                },
+                {
+                  "name": "M550d xDrive"
+                },
+                {
+                  "name": "M550d xDrive 에어로 다이나믹"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "535i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "550i xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "535d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "523i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5시리즈 (E60)",
+          "count": 28,
+          "code": "002",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.5시리즈._.Model.5시리즈 (E60_).))))",
+          "start": "200301",
+          "end": "201012",
+          "period": "03~10",
+          "image": "/carsdata/cars/cm_cardb/file/012_002_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "528i 세단"
+                },
+                {
+                  "name": "528i 세단 SE"
+                },
+                {
+                  "name": "528i 세단 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "523i 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520d 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "530i 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "520i 세단"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4799,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "550i 세단"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5시리즈",
+          "count": 11,
+          "code": "006",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.5시리즈._.Model.5시리즈.))))",
+          "start": "197201",
+          "end": "200312",
+          "period": "72~03",
+          "image": "/carsdata/cars/cm_cardb/file/012_006_2003.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E34"
+                },
+                {
+                  "name": "E39"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E34"
+                },
+                {
+                  "name": "E39"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4398,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E39"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2494,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E39"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2793,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E39"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E39"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "6시리즈",
+      "count": 94,
+      "code": "004",
+      "eng": "6-Series",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.6시리즈.)))",
+      "sub_models": [
+        {
+          "name": "6시리즈 (F12)",
+          "count": 85,
+          "code": "018",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.6시리즈._.Model.6시리즈 (F12_).))))",
+          "start": "201101",
+          "end": "201812",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_018_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "640d xDrive M 스포츠 그란쿠페"
+                },
+                {
+                  "name": "640d xDrive M 스포츠 리미티드 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "640d xDrive 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "650i 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "640i 그란쿠페"
+                },
+                {
+                  "name": "640i 컨버터블"
+                },
+                {
+                  "name": "640i 컨버터블 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "640i 그란쿠페 익스클루시브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6시리즈 (E63)",
+          "count": 9,
+          "code": "015",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.6시리즈._.Model.6시리즈 (E63_).))))",
+          "start": "200301",
+          "end": "201012",
+          "period": "03~10",
+          "image": "/carsdata/cars/cm_cardb/file/012_015_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4799,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "650i 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4398,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "645Ci 컨버터블"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4798,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "650i 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7시리즈",
+      "count": 1297,
+      "code": "005",
+      "eng": "7-Series",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.7시리즈.)))",
+      "sub_models": [
+        {
+          "name": "7시리즈 (G70)",
+          "count": 397,
+          "code": "089",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.7시리즈._.Model.7시리즈 (G70_).))))",
+          "start": "202212",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f50b133e-8552-4949-bed4-0b808ef3f83f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "740i xDrive M 스포츠"
+                },
+                {
+                  "name": "740i xDrive M 스포츠 리미티드"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "740d xDrive M 스포츠"
+                },
+                {
+                  "name": "740d xDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740i sDrive M 스포츠"
+                },
+                {
+                  "name": "740i sDrive M 스포츠 인디비주얼"
+                },
+                {
+                  "name": "740i sDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "750e xDrive M 스포츠"
+                },
+                {
+                  "name": "750e xDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7시리즈 (G11)",
+          "count": 738,
+          "code": "036",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.7시리즈._.Model.7시리즈 (G11_).))))",
+          "start": "201510",
+          "end": "202212",
+          "period": "15~22",
+          "image": "/carsdata/cars/cm_cardb/file/012_036_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740i M 스포츠"
+                },
+                {
+                  "name": "740i 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "730Ld xDrive"
+                },
+                {
+                  "name": "730Ld xDrive M 스포츠"
+                },
+                {
+                  "name": "730Ld xDrive 디자인 퓨어 엑셀런스"
+                },
+                {
+                  "name": "730Ld xDrive 프리미엄"
+                },
+                {
+                  "name": "730d xDrive"
+                },
+                {
+                  "name": "730d xDrive M 스포츠"
+                },
+                {
+                  "name": "740Ld xDrive"
+                },
+                {
+                  "name": "740Ld xDrive 디자인 퓨어 엑셀런스"
+                },
+                {
+                  "name": "740d xDrive M 스포츠"
+                },
+                {
+                  "name": "740d xDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "740Li xDrive"
+                },
+                {
+                  "name": "740Li xDrive M 스포츠"
+                },
+                {
+                  "name": "740Li xDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "730d xDrive 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "750Li xDrive"
+                },
+                {
+                  "name": "750Li xDrive 비전 100 에디션"
+                },
+                {
+                  "name": "750Li xDrive 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "745Le i퍼포먼스 디자인 퓨어 엑셀런스"
+                },
+                {
+                  "name": "745e i퍼포먼스 M 스포츠"
+                },
+                {
+                  "name": "745e i퍼포먼스 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "750Li xDrive 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6592,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M760Li xDrive"
+                },
+                {
+                  "name": "M760Li xDrive V12 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740e i퍼포먼스 M 스포츠"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7시리즈 (F01)",
+          "count": 134,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.7시리즈._.Model.7시리즈 (F01_).))))",
+          "start": "200812",
+          "end": "201512",
+          "period": "08~15",
+          "image": "/carsdata/cars/cm_cardb/file/012_003_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "730d xDrive"
+                },
+                {
+                  "name": "740d xDrive"
+                },
+                {
+                  "name": "740d xDrive 인디비주얼"
+                },
+                {
+                  "name": "750Ld xDrive 인디비주얼"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "730Ld"
+                },
+                {
+                  "name": "730Ld 인디비주얼"
+                },
+                {
+                  "name": "730d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "750Li"
+                },
+                {
+                  "name": "750Li M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740Li M 스포츠"
+                },
+                {
+                  "name": "740Li 인디비주얼"
+                },
+                {
+                  "name": "740i"
+                },
+                {
+                  "name": "740i M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740Li"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "750Li xDrive"
+                },
+                {
+                  "name": "750Li xDrive 인디비주얼"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5972,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "760Li 인디비주얼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7시리즈 (E65)",
+          "count": 15,
+          "code": "040",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.7시리즈._.Model.7시리즈 (E65_).))))",
+          "start": "200201",
+          "end": "200812",
+          "period": "02~08",
+          "image": "/carsdata/cars/cm_cardb/file/012_040_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5972,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "760Li"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3600,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "735i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4398,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "745Li"
+                },
+                {
+                  "name": "알피나 B7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3600,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "735Li"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4000,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "740Li"
+                },
+                {
+                  "name": "740i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4799,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "750Li"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "730Li"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7시리즈",
+          "count": 13,
+          "code": "007",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.7시리즈._.Model.7시리즈.))))",
+          "start": "197701",
+          "end": "200112",
+          "period": "77~01",
+          "image": "/carsdata/cars/cm_cardb/file/012_007_2001.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2793,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E38"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4398,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E32"
+                },
+                {
+                  "name": "E38"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3498,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E38"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5379,
+              "displacement_l": 5.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E38"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "8시리즈",
+      "count": 155,
+      "code": "006",
+      "eng": "8-Series",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.8시리즈.)))",
+      "sub_models": [
+        {
+          "name": "8시리즈 (G15)",
+          "count": 154,
+          "code": "073",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.8시리즈._.Model.8시리즈 (G15_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/012_073_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "840d xDrive M 스포츠 그란쿠페"
+                },
+                {
+                  "name": "840d xDrive M 스포츠 퍼스트 에디션 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "840i xDrive M 스포츠 그란쿠페"
+                },
+                {
+                  "name": "840i xDrive M 스포츠 퍼스트 에디션 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M850i xDrive 컨버터블"
+                },
+                {
+                  "name": "M850i xDrive 쿠페"
+                },
+                {
+                  "name": "M850i xDrive 퍼스트 에디션 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M850i xDrive 그란쿠페"
+                },
+                {
+                  "name": "M850i xDrive 퍼스트 에디션 그란쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "840i xDrive M 스포츠 쿠페"
+                },
+                {
+                  "name": "840i xDrive M 스포츠 퍼스트 에디션 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8시리즈",
+          "count": 1,
+          "code": "008",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.8시리즈._.Model.8시리즈.))))",
+          "start": "198901",
+          "end": "199912",
+          "period": "89~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4987,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "그란투리스모 (GT)",
+      "count": 1213,
+      "code": "015",
+      "eng": "Gran Turismo",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.그란투리스모 (GT_).)))",
+      "sub_models": [
+        {
+          "name": "6시리즈 GT (G32)",
+          "count": 816,
+          "code": "061",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.그란투리스모 (GT_)._.Model.6시리즈 GT (G32_).))))",
+          "start": "201710",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/825a3d66-a577-4568-b733-d14632de94be.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "620d M 스포츠"
+                },
+                {
+                  "name": "620d 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "630i xDrive M 스포츠"
+                },
+                {
+                  "name": "630i xDrive 럭셔리"
+                },
+                {
+                  "name": "630i xDrive 월드 프리미어 에디션"
+                },
+                {
+                  "name": "640i xDrive M 스포츠"
+                },
+                {
+                  "name": "640i xDrive 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "620d xDrive M 스포츠"
+                },
+                {
+                  "name": "620d xDrive 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "630d xDrive M 스포츠"
+                },
+                {
+                  "name": "630d xDrive 럭셔리"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5시리즈 GT (F07)",
+          "count": 176,
+          "code": "026",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.그란투리스모 (GT_)._.Model.5시리즈 GT (F07_).))))",
+          "start": "201001",
+          "end": "201712",
+          "period": "10~17",
+          "image": "/carsdata/cars/cm_cardb/file/012_026_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT ED Edition"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "GT 30d xDrive"
+                },
+                {
+                  "name": "GT 30d xDrive 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT 30d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT"
+                },
+                {
+                  "name": "GT 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "GT 50i xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "GT xDrive"
+                },
+                {
+                  "name": "GT xDrive 익스클루시브"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3시리즈 GT (F34)",
+          "count": 222,
+          "code": "029",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.그란투리스모 (GT_)._.Model.3시리즈 GT (F34_).))))",
+          "start": "201306",
+          "end": "202102",
+          "period": "13~21",
+          "image": "/carsdata/cars/cm_cardb/file/012_029_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "GT 320d xDrive"
+                },
+                {
+                  "name": "GT 320d xDrive M 스포츠 프리미엄"
+                },
+                {
+                  "name": "GT 320d xDrive 스포츠"
+                },
+                {
+                  "name": "GT 320d xDrive 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT 320d"
+                },
+                {
+                  "name": "GT 320d M 스포츠 프리미엄"
+                },
+                {
+                  "name": "GT 320d 럭셔리"
+                },
+                {
+                  "name": "GT 320d 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "GT 320i xDrive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1M",
+      "count": 4,
+      "code": "022",
+      "eng": "1M",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.1M.)))",
+      "sub_models": [
+        {
+          "name": "1M (E82)",
+          "count": 4,
+          "code": "041",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.1M._.Model.1M (E82_).))))",
+          "start": "201101",
+          "end": "201212",
+          "period": "11~12",
+          "image": "/carsdata/cars/cm_cardb/file/012_041_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1M 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "count": 90,
+      "code": "023",
+      "eng": "M2",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M2.)))",
+      "sub_models": [
+        {
+          "name": "M2 (G87)",
+          "count": 37,
+          "code": "094",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M2._.Model.M2 (G87_).))))",
+          "start": "202307",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bfa6a0ec-6f57-4a23-8072-5f181f2ef40b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M2 쿠페"
+                },
+                {
+                  "name": "M2 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M2 (F87)",
+          "count": 53,
+          "code": "042",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M2._.Model.M2 (F87_).))))",
+          "start": "201601",
+          "end": "202307",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/012_042_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M2 블랙 쉐도우"
+                },
+                {
+                  "name": "M2 컴페티션"
+                },
+                {
+                  "name": "M2 컴페티션 파이널 에디션"
+                },
+                {
+                  "name": "M2 쿠페"
+                },
+                {
+                  "name": "M2 쿠페 M 퍼포먼스 스티어링 휠 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "count": 79,
+      "code": "024",
+      "eng": "M3",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M3.)))",
+      "sub_models": [
+        {
+          "name": "M3 (G80)",
+          "count": 32,
+          "code": "082",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M3._.Model.M3 (G80_).))))",
+          "start": "202104",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5a8bea6e-97f6-42ec-9bdf-6e8ab464015c.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M3 세단 컴페티션 M xDrive"
+                },
+                {
+                  "name": "M3 투어링 컴페티션 M xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 세단 컴페티션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M3 투어링 컴페티션 M xDrive 스페셜 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M3 (F80)",
+          "count": 26,
+          "code": "043",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M3._.Model.M3 (F80_).))))",
+          "start": "201401",
+          "end": "202103",
+          "period": "14~21",
+          "image": "/carsdata/cars/cm_cardb/file/012_043_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 세단"
+                },
+                {
+                  "name": "M3 세단 CS"
+                },
+                {
+                  "name": "M3 세단 컴페티션"
+                },
+                {
+                  "name": "M3 세단 퍼포먼스 사일렌서 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M3 (E90)",
+          "count": 13,
+          "code": "044",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M3._.Model.M3 (E90_).))))",
+          "start": "200701",
+          "end": "201312",
+          "period": "07~13",
+          "image": "/carsdata/cars/cm_cardb/file/012_044_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3999,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 컨버터블"
+                },
+                {
+                  "name": "M3 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M3 (E46)",
+          "count": 5,
+          "code": "045",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M3._.Model.M3 (E46_).))))",
+          "start": "200001",
+          "end": "200612",
+          "period": "00~06",
+          "image": "/carsdata/cars/cm_cardb/file/012_045_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3246,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3200,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 컨버터블"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M3 (E36)",
+          "count": 3,
+          "code": "046",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M3._.Model.M3 (E36_).))))",
+          "start": "199201",
+          "end": "199912",
+          "period": "92~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2990,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M3 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "count": 83,
+      "code": "025",
+      "eng": "M4",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M4.)))",
+      "sub_models": [
+        {
+          "name": "M4 (G82)",
+          "count": 35,
+          "code": "083",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M4._.Model.M4 (G82_).))))",
+          "start": "202104",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f6dce1c2-b238-4f06-bea8-7641d98c67a0.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M4 CS xDrive"
+                },
+                {
+                  "name": "M4 컨버터블 컴페티션 M xDrive"
+                },
+                {
+                  "name": "M4 컴페티션 M xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M4 CSL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M4 (F82)",
+          "count": 48,
+          "code": "047",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M4._.Model.M4 (F82_).))))",
+          "start": "201401",
+          "end": "202103",
+          "period": "14~21",
+          "image": "/carsdata/cars/cm_cardb/file/012_047_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M4 컨버터블"
+                },
+                {
+                  "name": "M4 컨버터블 컴페티션"
+                },
+                {
+                  "name": "M4 컨버터블 퍼포먼스 사일렌서 에디션"
+                },
+                {
+                  "name": "M4 컨버터블 페인트워크 에디션"
+                },
+                {
+                  "name": "M4 쿠페"
+                },
+                {
+                  "name": "M4 쿠페 컴페티션"
+                },
+                {
+                  "name": "M4 쿠페 퍼포먼스 사일렌서 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M4 쿠페 GTS"
+                },
+                {
+                  "name": "M4 쿠페 컴페티션 헤리티지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M5",
+      "count": 62,
+      "code": "026",
+      "eng": "M5",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M5.)))",
+      "sub_models": [
+        {
+          "name": "M5 (G90)",
+          "count": 29,
+          "code": "099",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (G90_).))))",
+          "start": "202412",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1c080650-49d5-4016-8a32-34c348c0f013.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                },
+                {
+                  "name": "M5 투어링"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 4359,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (F90)",
+          "count": 19,
+          "code": "063",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (F90_).))))",
+          "start": "201801",
+          "end": "202406",
+          "period": "18~24",
+          "image": "/carsdata/cars/cm_cardb/file/012_063_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                },
+                {
+                  "name": "M5 세단 컴페티션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (F10)",
+          "count": 11,
+          "code": "048",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (F10_).))))",
+          "start": "201201",
+          "end": "201712",
+          "period": "12~17",
+          "image": "/carsdata/cars/cm_cardb/file/012_048_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                },
+                {
+                  "name": "M5 세단 컴페티션 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (E60)",
+          "count": 1,
+          "code": "049",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (E60_).))))",
+          "start": "200501",
+          "end": "201012",
+          "period": "05~10",
+          "image": "/carsdata/cars/cm_cardb/file/012_049_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4999,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (E39)",
+          "count": 1,
+          "code": "050",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (E39_).))))",
+          "start": "199801",
+          "end": "200312",
+          "period": "98~03",
+          "image": "/carsdata/cars/cm_cardb/file/012_050_2003.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4941,
+              "displacement_l": 4.9,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (E34)",
+          "count": 1,
+          "code": "070",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (E34_).))))",
+          "start": "198801",
+          "end": "199512",
+          "period": "88~95",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3535,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M5 세단"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M5 (E28)",
+          "count": 0,
+          "code": "080",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M5._.Model.M5 (E28_).))))",
+          "start": "198401",
+          "end": "198812",
+          "period": "84~88",
+          "image": "/carsdata/cars/cm_cardb/file/822d165a-eed9-463b-b966-cef20cad7593.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "M6",
+      "count": 8,
+      "code": "027",
+      "eng": "M6",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M6.)))",
+      "sub_models": [
+        {
+          "name": "M6 (F12)",
+          "count": 7,
+          "code": "051",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M6._.Model.M6 (F12_).))))",
+          "start": "201201",
+          "end": "201812",
+          "period": "12~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_051_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M6 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M6 그란쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M6 (E63)",
+          "count": 1,
+          "code": "052",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M6._.Model.M6 (E63_).))))",
+          "start": "200501",
+          "end": "201012",
+          "period": "05~10",
+          "image": "/carsdata/cars/cm_cardb/file/012_052_2010.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4999,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M6 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M8",
+      "count": 10,
+      "code": "035",
+      "eng": "M8",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M8.)))",
+      "sub_models": [
+        {
+          "name": "M8 (G15)",
+          "count": 10,
+          "code": "074",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M8._.Model.M8 (G15_).))))",
+          "start": "201906",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e680147d-948d-41e7-9193-e813f4bdb47e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M8 쿠페 컴페티션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M8 그란쿠페 컴페티션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X1",
+      "count": 466,
+      "code": "014",
+      "eng": "X1",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X1.)))",
+      "sub_models": [
+        {
+          "name": "X1 (U11)",
+          "count": 127,
+          "code": "091",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X1._.Model.X1 (U11_).))))",
+          "start": "202303",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/626e2779-5b83-425d-b8dc-48909a6ac025.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M35i xDrive"
+                },
+                {
+                  "name": "M35i xDrive 스페셜 에디션"
+                },
+                {
+                  "name": "xDrive 20i M 스포츠"
+                },
+                {
+                  "name": "xDrive 20i xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 20i M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 18d M 스포츠"
+                },
+                {
+                  "name": "sDrive 18d xLine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X1 (F48)",
+          "count": 300,
+          "code": "037",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X1._.Model.X1 (F48_).))))",
+          "start": "201601",
+          "end": "202302",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/012_037_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20i M 스포츠"
+                },
+                {
+                  "name": "xDrive 20i xLine"
+                },
+                {
+                  "name": "xDrive 20i 어드밴티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 18d"
+                },
+                {
+                  "name": "xDrive 18d M 스포츠"
+                },
+                {
+                  "name": "xDrive 18d xLine"
+                },
+                {
+                  "name": "xDrive 18d 어드밴티지"
+                },
+                {
+                  "name": "xDrive 18d 조이"
+                },
+                {
+                  "name": "xDrive 18d 프리미엄"
+                },
+                {
+                  "name": "xDrive 20d"
+                },
+                {
+                  "name": "xDrive 20d M 스포츠"
+                },
+                {
+                  "name": "xDrive 20d xLine"
+                },
+                {
+                  "name": "xDrive 20d 조이"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X1 (E84)",
+          "count": 39,
+          "code": "021",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X1._.Model.X1 (E84_).))))",
+          "start": "201001",
+          "end": "201512",
+          "period": "10~15",
+          "image": "/carsdata/cars/cm_cardb/file/012_021_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 18d"
+                },
+                {
+                  "name": "xDrive 20d"
+                },
+                {
+                  "name": "xDrive 23d"
+                },
+                {
+                  "name": "xDrive 25d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X2",
+      "count": 121,
+      "code": "031",
+      "eng": "X2 (F39)",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X2.)))",
+      "sub_models": [
+        {
+          "name": "X2 (U10)",
+          "count": 37,
+          "code": "097",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X2._.Model.X2 (U10_).))))",
+          "start": "202404",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/282977ab-1208-4a9e-aa9b-4ceeecf0607b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20i M 스포츠"
+                },
+                {
+                  "name": "xDrive M35i"
+                },
+                {
+                  "name": "xDrive M35i 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X2 (F39)",
+          "count": 84,
+          "code": "065",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X2._.Model.X2 (F39_).))))",
+          "start": "201811",
+          "end": "202404",
+          "period": "18~24",
+          "image": "/carsdata/cars/cm_cardb/file/012_065_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive M35i"
+                },
+                {
+                  "name": "xDrive M35i 퍼스트 에디션"
+                },
+                {
+                  "name": "xDrive20i M 스포츠"
+                },
+                {
+                  "name": "xDrive20i 어드밴티지"
+                },
+                {
+                  "name": "xDrive25i M 스포츠"
+                },
+                {
+                  "name": "xDrive25i 어드밴티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive18d 어드밴티지"
+                },
+                {
+                  "name": "xDrive20d M 스포츠"
+                },
+                {
+                  "name": "xDrive20d 어드밴티지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X3",
+      "count": 906,
+      "code": "007",
+      "eng": "X3",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X3.)))",
+      "sub_models": [
+        {
+          "name": "X3 (G45)",
+          "count": 143,
+          "code": "098",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X3._.Model.X3 (G45_).))))",
+          "start": "202411",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/9120f1bd-7e00-4f11-bc15-76472ba43513.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20"
+                },
+                {
+                  "name": "xDrive 20 M 스포츠"
+                },
+                {
+                  "name": "xDrive 20 M 스포츠 프로"
+                },
+                {
+                  "name": "xDrive 30 M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20d"
+                },
+                {
+                  "name": "xDrive 20d M 스포츠"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X3 (G01)",
+          "count": 654,
+          "code": "062",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X3._.Model.X3 (G01_).))))",
+          "start": "201711",
+          "end": "202411",
+          "period": "17~24",
+          "image": "/carsdata/cars/cm_cardb/file/012_062_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20d"
+                },
+                {
+                  "name": "xDrive 20d M 스포츠"
+                },
+                {
+                  "name": "xDrive 20d M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20i"
+                },
+                {
+                  "name": "xDrive 20i M 스포츠"
+                },
+                {
+                  "name": "xDrive 20i M 스포츠 온라인 익스클루시브 에디션"
+                },
+                {
+                  "name": "xDrive 20i M 스포츠 프로"
+                },
+                {
+                  "name": "xDrive 20i 럭셔리"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d"
+                },
+                {
+                  "name": "xDrive 30d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30e"
+                },
+                {
+                  "name": "xDrive 30e M 스포츠"
+                },
+                {
+                  "name": "xDrive 30e M 스포츠 온라인 익스클루시브 에디션"
+                },
+                {
+                  "name": "xDrive 30e M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive M40i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X3 (F25)",
+          "count": 105,
+          "code": "028",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X3._.Model.X3 (F25_).))))",
+          "start": "201101",
+          "end": "201712",
+          "period": "11~17",
+          "image": "/carsdata/cars/cm_cardb/file/012_028_2017.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 20d"
+                },
+                {
+                  "name": "xDrive 20d M 스포츠"
+                },
+                {
+                  "name": "xDrive 20d M 에어로다이나믹"
+                },
+                {
+                  "name": "xDrive 20d 라이트 패키지"
+                },
+                {
+                  "name": "xDrive 20d 하이"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d 하이"
+                },
+                {
+                  "name": "xDrive 35d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 28i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 35i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 28i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X3 (E83)",
+          "count": 4,
+          "code": "014",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X3._.Model.X3 (E83_).))))",
+          "start": "200401",
+          "end": "201012",
+          "period": "04~10",
+          "image": "/carsdata/cars/cm_cardb/file/012_014_2010.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X4",
+      "count": 710,
+      "code": "020",
+      "eng": "X4",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X4.)))",
+      "sub_models": [
+        {
+          "name": "X4 (G02)",
+          "count": 631,
+          "code": "064",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X4._.Model.X4 (G02_).))))",
+          "start": "201811",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/012_064_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive20i M 스포츠"
+                },
+                {
+                  "name": "xDrive20i M 스포츠 X"
+                },
+                {
+                  "name": "xDrive20i M 스포츠 X 온라인 익스클루시브 에디션"
+                },
+                {
+                  "name": "xDrive20i M 스포츠 프로"
+                },
+                {
+                  "name": "xDrive20i M 스포츠 프로 스페셜 에디션"
+                },
+                {
+                  "name": "xDrive20i xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive20d M 스포츠"
+                },
+                {
+                  "name": "xDrive20d M 스포츠 X"
+                },
+                {
+                  "name": "xDrive20d M 스포츠 온라인 익스클루시브 에디션"
+                },
+                {
+                  "name": "xDrive20d xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive M40i"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive M40d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X4 (F26)",
+          "count": 79,
+          "code": "033",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X4._.Model.X4 (F26_).))))",
+          "start": "201408",
+          "end": "201812",
+          "period": "14~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_033_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive20d"
+                },
+                {
+                  "name": "xDrive20d M 스포츠"
+                },
+                {
+                  "name": "xDrive20d SAC 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive30d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M40i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X5",
+      "count": 1271,
+      "code": "008",
+      "eng": "X5",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X5.)))",
+      "sub_models": [
+        {
+          "name": "X5 (G05)",
+          "count": 1041,
+          "code": "066",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5._.Model.X5 (G05_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/cc3c2ba9-a6a8-4f0a-8549-7d229cac90bf.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40i M 스포츠"
+                },
+                {
+                  "name": "xDrive 40i M 스포츠 프로 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 45e M 스포츠"
+                },
+                {
+                  "name": "xDrive 45e xLine"
+                },
+                {
+                  "name": "xDrive 50e M 스포츠"
+                },
+                {
+                  "name": "xDrive 50e xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40i xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50i"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40d M 스포츠 온라인 익스클루시브 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50d 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X5 (F15)",
+          "count": 189,
+          "code": "030",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5._.Model.X5 (F15_).))))",
+          "start": "201308",
+          "end": "201812",
+          "period": "13~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_030_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d"
+                },
+                {
+                  "name": "xDrive 30d M 스포츠"
+                },
+                {
+                  "name": "xDrive 30d 비전 100 에디션"
+                },
+                {
+                  "name": "xDrive 40d"
+                },
+                {
+                  "name": "xDrive 40d 블랙&화이트"
+                },
+                {
+                  "name": "xDrive M50d"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40e i퍼포먼스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 35i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 50i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X5 (E70)",
+          "count": 30,
+          "code": "022",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5._.Model.X5 (E70_).))))",
+          "start": "200701",
+          "end": "201312",
+          "period": "07~13",
+          "image": "/carsdata/cars/cm_cardb/file/012_022_2013.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d"
+                },
+                {
+                  "name": "xDrive 40d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30si"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4799,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 48i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 35i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 50i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X5 (E53)",
+          "count": 11,
+          "code": "009",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5._.Model.X5 (E53_).))))",
+          "start": "200001",
+          "end": "200612",
+          "period": "00~06",
+          "image": "/carsdata/cars/cm_cardb/file/012_009_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4398,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X6",
+      "count": 1042,
+      "code": "011",
+      "eng": "X6",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X6.)))",
+      "sub_models": [
+        {
+          "name": "X6 (G06)",
+          "count": 825,
+          "code": "075",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6._.Model.X6 (G06_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/012_075_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive30d M 스포츠"
+                },
+                {
+                  "name": "xDrive30d xLine"
+                },
+                {
+                  "name": "xDrive40d M 스포츠 온라인 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive40i M 스포츠"
+                },
+                {
+                  "name": "xDrive40i M 스포츠 온라인 익스클루시브"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50i"
+                },
+                {
+                  "name": "M50i 25주년 에디션"
+                },
+                {
+                  "name": "M60i"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X6 (F16)",
+          "count": 173,
+          "code": "023",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6._.Model.X6 (F16_).))))",
+          "start": "201411",
+          "end": "201912",
+          "period": "14~19",
+          "image": "/carsdata/cars/cm_cardb/file/012_023_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d"
+                },
+                {
+                  "name": "xDrive 40d"
+                },
+                {
+                  "name": "xDrive 40d M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X6 (E71)",
+          "count": 44,
+          "code": "019",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6._.Model.X6 (E71_).))))",
+          "start": "200801",
+          "end": "201412",
+          "period": "08~14",
+          "image": "/carsdata/cars/cm_cardb/file/012_019_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40d"
+                },
+                {
+                  "name": "M50d"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30d"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "50i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "35i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X7",
+      "count": 810,
+      "code": "032",
+      "eng": "X7",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X7.)))",
+      "sub_models": [
+        {
+          "name": "X7 (G07)",
+          "count": 810,
+          "code": "067",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X7._.Model.X7 (G07_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b2815b92-c16f-43d0-b7d1-3f947cded298.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40i M 스포츠 6인승"
+                },
+                {
+                  "name": "xDrive 40i M 스포츠 온라인 익스클루시브 에디션 6인승"
+                },
+                {
+                  "name": "xDrive 40i 디자인 퓨어 엑셀런스 6인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d M 스포츠 퍼스트 에디션"
+                },
+                {
+                  "name": "xDrive 30d 디자인 퓨어 엑셀런스 7인승"
+                },
+                {
+                  "name": "xDrive 40d M 스포츠 7인승"
+                },
+                {
+                  "name": "xDrive 40d 디자인 퓨어 엑셀런스 7인승"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40i M 스포츠 7인승"
+                },
+                {
+                  "name": "xDrive 40i 디자인 퓨어 엑셀런스 7인승"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M60i xDrive M 스포츠 6인승"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50i 6인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30d M 스포츠 6인승"
+                },
+                {
+                  "name": "xDrive 30d 디자인 퓨어 엑셀런스 6인승"
+                },
+                {
+                  "name": "xDrive 30d 디자인 퓨어 엑셀런스 퍼스트 에디션 6인승"
+                },
+                {
+                  "name": "xDrive 40d M 스포츠 6인승"
+                },
+                {
+                  "name": "xDrive 40d 디자인 퓨어 엑셀런스 6인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X3M",
+      "count": 25,
+      "code": "033",
+      "eng": "X3M",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X3M.)))",
+      "sub_models": [
+        {
+          "name": "X3M (G01)",
+          "count": 25,
+          "code": "071",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X3M._.Model.X3M (G01_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/012_071_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0"
+                },
+                {
+                  "name": "3.0 컴페티션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X4M",
+      "count": 46,
+      "code": "034",
+      "eng": "X4M",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X4M.)))",
+      "sub_models": [
+        {
+          "name": "X4M (G02)",
+          "count": 46,
+          "code": "072",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X4M._.Model.X4M (G02_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/012_072_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2993,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0"
+                },
+                {
+                  "name": "3.0 컴패티션"
+                },
+                {
+                  "name": "3.0 컴패티션 카본패키지"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X5M",
+      "count": 49,
+      "code": "029",
+      "eng": "X5M",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X5M.)))",
+      "sub_models": [
+        {
+          "name": "X5M (G05)",
+          "count": 27,
+          "code": "078",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5M._.Model.X5M (G05_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0b8fa54d-9114-4681-89bd-e4709043622a.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                },
+                {
+                  "name": "4.4 컴페티션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X5M (F15)",
+          "count": 22,
+          "code": "055",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5M._.Model.X5M (F15_).))))",
+          "start": "201501",
+          "end": "201812",
+          "period": "15~18",
+          "image": "/carsdata/cars/cm_cardb/file/012_055_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X5M (E70)",
+          "count": 0,
+          "code": "056",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X5M._.Model.X5M (E70_).))))",
+          "start": "201001",
+          "end": "201312",
+          "period": "10~13",
+          "image": "/carsdata/cars/cm_cardb/file/012_056_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "X6M",
+      "count": 61,
+      "code": "030",
+      "eng": "X6M",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.X6M.)))",
+      "sub_models": [
+        {
+          "name": "X6M (G06)",
+          "count": 35,
+          "code": "079",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6M._.Model.X6M (G06_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d6a3cc40-6bbf-4a27-9ee5-785bca2aadae.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                },
+                {
+                  "name": "4.4 컴페티션"
+                },
+                {
+                  "name": "4.4 컴페티션 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X6M (F16)",
+          "count": 23,
+          "code": "057",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6M._.Model.X6M (F16_).))))",
+          "start": "201501",
+          "end": "201912",
+          "period": "15~19",
+          "image": "/carsdata/cars/cm_cardb/file/012_057_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X6M (E71)",
+          "count": 3,
+          "code": "058",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.X6M._.Model.X6M (E71_).))))",
+          "start": "200901",
+          "end": "201412",
+          "period": "09~14",
+          "image": "/carsdata/cars/cm_cardb/file/012_058_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XM",
+      "count": 46,
+      "code": "041",
+      "eng": "XM",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.XM.)))",
+      "sub_models": [
+        {
+          "name": "XM (G09)",
+          "count": 46,
+          "code": "093",
+          "eng": null,
+          "order": 44.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.XM._.Model.XM (G09_).))))",
+          "start": "202303",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/25355223-4e92-48c1-83e0-a0668765dd64.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 4395,
+              "displacement_l": 4.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4 퍼스트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.4 레이블"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Z3",
+      "count": 5,
+      "code": "012",
+      "eng": "Z3",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.Z3.)))",
+      "sub_models": [
+        {
+          "name": "Z3",
+          "count": 5,
+          "code": "004",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.Z3._.Model.Z3.))))",
+          "start": "199601",
+          "end": "200212",
+          "period": "96~02",
+          "image": "/carsdata/cars/cm_cardb/file/012_004_2003.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36/7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2171,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36/7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1895,
+              "displacement_l": 1.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E36/7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Z4",
+      "count": 150,
+      "code": "009",
+      "eng": "Z4",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.Z4.)))",
+      "sub_models": [
+        {
+          "name": "Z4 (G29)",
+          "count": 123,
+          "code": "069",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.Z4._.Model.Z4 (G29_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b0b7731b-11d2-4639-b615-25595da87c2b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive20i M 스포츠"
+                },
+                {
+                  "name": "sDrive20i M 스포츠 퍼스트 에디션"
+                },
+                {
+                  "name": "sDrive20i 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M40i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Z4 (E89)",
+          "count": 19,
+          "code": "025",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.Z4._.Model.Z4 (E89_).))))",
+          "start": "200901",
+          "end": "201612",
+          "period": "09~16",
+          "image": "/carsdata/cars/cm_cardb/file/012_025_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 35i"
+                },
+                {
+                  "name": "sDrive 35iS"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1997,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 28i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "sDrive 30i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Z4 (E85)",
+          "count": 8,
+          "code": "011",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.Z4._.Model.Z4 (E85_).))))",
+          "start": "200209",
+          "end": "200812",
+          "period": "02~08",
+          "image": "/carsdata/cars/cm_cardb/file/012_011_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0i"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2996,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0Si 로드스터"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2495,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Z8",
+      "count": 0,
+      "code": "013",
+      "eng": "Z8",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.Z8.)))",
+      "sub_models": [
+        {
+          "name": "Z8",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.Z8._.Model.Z8.))))",
+          "start": "199901",
+          "end": "200312",
+          "period": "99~03",
+          "image": "/carsdata/cars/cm_cardb/file/012_010_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "M 쿠페/로드스터",
+      "count": 2,
+      "code": "028",
+      "eng": "M Coupe/Roadster",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.M 쿠페/로드스터.)))",
+      "sub_models": [
+        {
+          "name": "M 쿠페/로드스터 (E85)",
+          "count": 2,
+          "code": "053",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M 쿠페/로드스터._.Model.M 쿠페/로드스터 (E85_).))))",
+          "start": "200601",
+          "end": "200812",
+          "period": "06~08",
+          "image": "/carsdata/cars/cm_cardb/file/012_053_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3246,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M 쿠페"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M 쿠페/로드스터 (E36)",
+          "count": 0,
+          "code": "054",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.M 쿠페/로드스터._.Model.M 쿠페/로드스터 (E36_).))))",
+          "start": "199801",
+          "end": "200212",
+          "period": "98~02",
+          "image": "/carsdata/cars/cm_cardb/file/012_054_2002.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "i3",
+      "count": 31,
+      "code": "019",
+      "eng": "i3",
+      "order": 32.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.i3.)))",
+      "sub_models": [
+        {
+          "name": "i3",
+          "count": 31,
+          "code": "032",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.i3._.Model.i3.))))",
+          "start": "201401",
+          "end": "202209",
+          "period": "14~22",
+          "image": "/carsdata/cars/cm_cardb/file/012_032_2018.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 120,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "솔+"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "룩스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 60,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "솔"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i4",
+      "count": 138,
+      "code": "036",
+      "eng": "i4",
+      "order": 33.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.i4.)))",
+      "sub_models": [
+        {
+          "name": "i4",
+          "count": 138,
+          "code": "084",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.i4._.Model.i4.))))",
+          "start": "202111",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ec0abfeb-113f-464e-a73d-fefe840f139b.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 250,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 211,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive40 M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive40 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M50"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 211,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive40 M 스포츠 프로 퍼스트 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i5",
+      "count": 96,
+      "code": "042",
+      "eng": "i5",
+      "order": 34.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.i5.)))",
+      "sub_models": [
+        {
+          "name": "i5 (G60)",
+          "count": 96,
+          "code": "096",
+          "eng": null,
+          "order": 45.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.i5._.Model.i5 (G60_).))))",
+          "start": "202310",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/d804390f-976d-4ad4-87f3-62ddbfe29577.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 211,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive 40"
+                },
+                {
+                  "name": "eDrive 40 M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive 40 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 298,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40 M 스포츠 프로"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 211,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M60 xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 210,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 40 M 스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i7",
+      "count": 75,
+      "code": "039",
+      "eng": "i7",
+      "order": 35.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.i7.)))",
+      "sub_models": [
+        {
+          "name": "i7 (G70)",
+          "count": 75,
+          "code": "090",
+          "eng": null,
+          "order": 41.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.i7._.Model.i7 (G70_).))))",
+          "start": "202212",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/047371b8-2f18-43cf-a5af-1e3812f0a9c3.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 281,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive 50 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 281,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M70 xDrive M 퍼포먼스"
+                },
+                {
+                  "name": "xDrive 60 M 스포츠"
+                },
+                {
+                  "name": "xDrive 60 디자인 퓨어 엑셀런스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "M70 xDrive"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 123,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 60 M 스포츠 인디비주얼"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 1,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive 50 M 스포츠 리미티드"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i8",
+      "count": 23,
+      "code": "021",
+      "eng": "i8",
+      "order": 36.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.i8.)))",
+      "sub_models": [
+        {
+          "name": "i8",
+          "count": 23,
+          "code": "035",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.i8._.Model.i8.))))",
+          "start": "201401",
+          "end": "202005",
+          "period": "14~20",
+          "image": "/carsdata/cars/cm_cardb/file/012_035_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "로드스터"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iX1",
+      "count": 16,
+      "code": "040",
+      "eng": "iX1",
+      "order": 37.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.iX1.)))",
+      "sub_models": [
+        {
+          "name": "iX1 (U11)",
+          "count": 16,
+          "code": "092",
+          "eng": null,
+          "order": 43.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.iX1._.Model.iX1 (U11_).))))",
+          "start": "202303",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/844a0f8b-ca6d-4694-b37b-caeec6b19466.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 232,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30 M 스포츠"
+                },
+                {
+                  "name": "xDrive 30 xLine"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive 30 M 스포츠 프로 스페셜 에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iX2",
+      "count": 4,
+      "code": "043",
+      "eng": "iX2",
+      "order": 38.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.iX2.)))",
+      "sub_models": [
+        {
+          "name": "iX2 (U10)",
+          "count": 4,
+          "code": "100",
+          "eng": null,
+          "order": 46.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.iX2._.Model.iX2 (U10_).))))",
+          "start": "202503",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f8a32c9f-d7f4-467e-84a3-5eec6f2438bc.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "eDrive 20 M 스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iX3",
+      "count": 46,
+      "code": "038",
+      "eng": "iX3",
+      "order": 39.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.iX3.)))",
+      "sub_models": [
+        {
+          "name": "iX3",
+          "count": 46,
+          "code": "085",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.iX3._.Model.iX3.))))",
+          "start": "202111",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/68cc9f3c-4e02-45f3-bbe2-90184d3e5482.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 232,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "M 스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iX",
+      "count": 39,
+      "code": "037",
+      "eng": "iX",
+      "order": 40.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.iX.)))",
+      "sub_models": [
+        {
+          "name": "iX",
+          "count": 39,
+          "code": "086",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.iX._.Model.iX.))))",
+          "start": "202111",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/420d631f-f7a6-4ff0-8337-3c713cf7f365.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 303,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive50 스포츠 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive M70"
+                },
+                {
+                  "name": "xDrive45 M 스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 303,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive50 스포츠 스페셜 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 200,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "xDrive",
+              "trims": [
+                {
+                  "name": "xDrive40 퍼스트에디션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "016",
+      "eng": "Others",
+      "order": 41.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.BMW._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

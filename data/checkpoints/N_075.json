@@ -1,0 +1,56 @@
+{
+  "name": "파가니",
+  "count": 0,
+  "code": "075",
+  "eng": "Pagani",
+  "order": 640.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.파가니.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "존다",
+      "count": 0,
+      "code": "001",
+      "eng": "Zonda",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.파가니._.ModelGroup.존다.)))",
+      "sub_models": [
+        {
+          "name": "존다",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.파가니._.(C.ModelGroup.존다._.Model.존다.))))",
+          "start": "199901",
+          "end": "201112",
+          "period": "99~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "후에이라",
+      "count": 0,
+      "code": "002",
+      "eng": "Huayra",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.파가니._.ModelGroup.후에이라.)))",
+      "sub_models": [
+        {
+          "name": "후에이라",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.파가니._.(C.ModelGroup.후에이라._.Model.후에이라.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/075_002_2018.png",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

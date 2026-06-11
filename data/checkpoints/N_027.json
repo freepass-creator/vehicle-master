@@ -1,0 +1,1455 @@
+{
+  "name": "혼다",
+  "count": 872,
+  "code": "027",
+  "eng": "Honda",
+  "order": 730.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.혼다.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CR-V",
+      "count": 235,
+      "code": "001",
+      "eng": "CR-V",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.CR-V.)))",
+      "sub_models": [
+        {
+          "name": "CR-V 6세대",
+          "count": 22,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.CR-V._.Model.CR-V 6세대.))))",
+          "start": "202304",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/7adf27d5-742b-4d6d-9896-2a6886136496.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 하이브리드 투어링 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 하이브리드 투어링 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.5 EX-L 2WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CR-V 5세대",
+          "count": 167,
+          "code": "100",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.CR-V._.Model.CR-V 5세대.))))",
+          "start": "201701",
+          "end": "202303",
+          "period": "17~23",
+          "image": "/carsdata/cars/cm_cardb/file/eb6fc560-4931-4147-8d7c-0bb07e8493fb.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.5 EX-L 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "1.5 EX-L 4WD"
+                },
+                {
+                  "name": "1.5 투어링 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 하이브리드 EX-L 4WD"
+                },
+                {
+                  "name": "2.0 하이브리드 투어링 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New CR-V",
+          "count": 31,
+          "code": "023",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.CR-V._.Model.New CR-V.))))",
+          "start": "201111",
+          "end": "201612",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/027_023_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2354,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2354,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2356,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CR-V",
+          "count": 15,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.CR-V._.Model.CR-V.))))",
+          "start": "199601",
+          "end": "201112",
+          "period": "96~11",
+          "image": "/carsdata/cars/cm_cardb/file/027_003_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2354,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CR-Z",
+      "count": 3,
+      "code": "020",
+      "eng": "CR-Z",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.CR-Z.)))",
+      "sub_models": [
+        {
+          "name": "CR-Z",
+          "count": 3,
+          "code": "022",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.CR-Z._.Model.CR-Z.))))",
+          "start": "201001",
+          "end": "201612",
+          "period": "10~16",
+          "image": "/carsdata/cars/cm_cardb/file/027_022_2016.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EX 1.5"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fit Aria",
+      "count": 0,
+      "code": "016",
+      "eng": "Fit Aria",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.Fit Aria.)))",
+      "sub_models": [
+        {
+          "name": "Fit Aria",
+          "count": 0,
+          "code": "017",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.Fit Aria._.Model.Fit Aria.))))",
+          "start": "200201",
+          "end": "200812",
+          "period": "02~08",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "Fit",
+      "count": 0,
+      "code": "013",
+      "eng": "Fit",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.Fit.)))",
+      "sub_models": [
+        {
+          "name": "Fit",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.Fit._.Model.Fit.))))",
+          "start": "200101",
+          "end": null,
+          "period": "01~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_013_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "HR-V",
+      "count": 6,
+      "code": "028",
+      "eng": "HR-V",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.HR-V.)))",
+      "sub_models": [
+        {
+          "name": "HR-V",
+          "count": 6,
+          "code": "032",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.HR-V._.Model.HR-V.))))",
+          "start": "199901",
+          "end": null,
+          "period": "99~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_032_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1799,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "N-BOX",
+      "count": 8,
+      "code": "026",
+      "eng": "N-BOX",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.N-BOX.)))",
+      "sub_models": [
+        {
+          "name": "N-BOX",
+          "count": 8,
+          "code": "029",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.N-BOX._.Model.N-BOX.))))",
+          "start": "201201",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_029_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "0.6 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": true,
+              "seat": null,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "0.6 터보 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "N-ONE",
+      "count": 3,
+      "code": "024",
+      "eng": "N-ONE",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.N-ONE.)))",
+      "sub_models": [
+        {
+          "name": "N-ONE",
+          "count": 3,
+          "code": "026",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.N-ONE._.Model.N-ONE.))))",
+          "start": "201201",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_026_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 658,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "0.6 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S2000",
+      "count": 0,
+      "code": "010",
+      "eng": "S2000",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.S2000.)))",
+      "sub_models": [
+        {
+          "name": "S2000",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.S2000._.Model.S2000.))))",
+          "start": "199901",
+          "end": "200912",
+          "period": "99~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "S660",
+      "count": 2,
+      "code": "027",
+      "eng": "S660",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.S660.)))",
+      "sub_models": [
+        {
+          "name": "S660",
+          "count": 2,
+          "code": "030",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.S660._.Model.S660.))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_030_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 660,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "댓츠",
+      "count": 1,
+      "code": "023",
+      "eng": "That's",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.댓츠.)))",
+      "sub_models": [
+        {
+          "name": "댓츠",
+          "count": 1,
+          "code": "025",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.댓츠._.Model.댓츠.))))",
+          "start": "200201",
+          "end": "200712",
+          "period": "02~07",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 656,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "델솔",
+      "count": 0,
+      "code": "005",
+      "eng": "Del sol",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.델솔.)))",
+      "sub_models": [
+        {
+          "name": "델솔",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.델솔._.Model.델솔.))))",
+          "start": "199201",
+          "end": "199812",
+          "period": "92~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "라이프",
+      "count": 0,
+      "code": "030",
+      "eng": "Life",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.라이프.)))",
+      "sub_models": [
+        {
+          "name": "라이프",
+          "count": 0,
+          "code": "103",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.라이프._.Model.라이프.))))",
+          "start": "197101",
+          "end": "201412",
+          "period": "71~14",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "레전드",
+      "count": 6,
+      "code": "002",
+      "eng": "Legend",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.레전드.)))",
+      "sub_models": [
+        {
+          "name": "레전드 5세대",
+          "count": 4,
+          "code": "027",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.레전드._.Model.레전드 5세대.))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_027_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레전드 4세대",
+          "count": 2,
+          "code": "020",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.레전드._.Model.레전드 4세대.))))",
+          "start": "200401",
+          "end": "201212",
+          "period": "04~12",
+          "image": "/carsdata/cars/cm_cardb/file/027_020_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3664,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "레전드",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.레전드._.Model.레전드.))))",
+          "start": "199001",
+          "end": "200412",
+          "period": "90~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "리지라인",
+      "count": 0,
+      "code": "017",
+      "eng": "Ridgeline",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.리지라인.)))",
+      "sub_models": [
+        {
+          "name": "리지라인",
+          "count": 0,
+          "code": "018",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.리지라인._.Model.리지라인.))))",
+          "start": "200601",
+          "end": null,
+          "period": "06~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_018_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "비트",
+      "count": 1,
+      "code": "025",
+      "eng": "Beat",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.비트.)))",
+      "sub_models": [
+        {
+          "name": "비트",
+          "count": 1,
+          "code": "028",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.비트._.Model.비트.))))",
+          "start": "199101",
+          "end": "199512",
+          "period": "91~95",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 660,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "0.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스텝웨건",
+      "count": 0,
+      "code": "029",
+      "eng": "Stepwgn",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.스텝웨건.)))",
+      "sub_models": [
+        {
+          "name": "스텝웨건",
+          "count": 0,
+          "code": "101",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.스텝웨건._.Model.스텝웨건.))))",
+          "start": "199605",
+          "end": null,
+          "period": "96~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_101_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스트림",
+      "count": 0,
+      "code": "018",
+      "eng": "Stream",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.스트림.)))",
+      "sub_models": [
+        {
+          "name": "스트림",
+          "count": 0,
+          "code": "019",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.스트림._.Model.스트림.))))",
+          "start": "200001",
+          "end": "201412",
+          "period": "00~14",
+          "image": "/carsdata/cars/cm_cardb/file/027_019_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "시빅",
+      "count": 34,
+      "code": "004",
+      "eng": "Civic",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.시빅.)))",
+      "sub_models": [
+        {
+          "name": "시빅",
+          "count": 34,
+          "code": "002",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.시빅._.Model.시빅.))))",
+          "start": "197301",
+          "end": null,
+          "period": "73~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_002_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1799,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9세대"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8세대"
+                },
+                {
+                  "name": "9세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "10세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1996,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "10세대"
+                },
+                {
+                  "name": "7세대"
+                },
+                {
+                  "name": "8세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "FD2/FN2"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "어코드",
+      "count": 309,
+      "code": "003",
+      "eng": "Accord",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.어코드.)))",
+      "sub_models": [
+        {
+          "name": "어코드 11세대",
+          "count": 42,
+          "code": "106",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.어코드._.Model.어코드 11세대.))))",
+          "start": "202310",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2a961752-b04d-4db9-9fd0-c467314f1d3e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 터보"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 하이브리드 투어링"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "어코드 10세대",
+          "count": 172,
+          "code": "102",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.어코드._.Model.어코드 10세대.))))",
+          "start": "201805",
+          "end": "202309",
+          "period": "18~23",
+          "image": "/carsdata/cars/cm_cardb/file/98447f01-6c51-4bf6-b479-1f5b99a1ae8c.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 하이브리드 EX-L"
+                },
+                {
+                  "name": "2.0 하이브리드 투어링"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 터보"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1996,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 터보 스포츠"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "올뉴어코드",
+          "count": 92,
+          "code": "014",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.어코드._.Model.올뉴어코드.))))",
+          "start": "200801",
+          "end": "201712",
+          "period": "08~17",
+          "image": "/carsdata/cars/cm_cardb/file/027_014_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2356,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8세대"
+                },
+                {
+                  "name": "9세대"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1993,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8세대"
+                },
+                {
+                  "name": "9세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "어코드",
+          "count": 3,
+          "code": "001",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.어코드._.Model.어코드.))))",
+          "start": "197601",
+          "end": "200712",
+          "period": "76~07",
+          "image": "/carsdata/cars/cm_cardb/file/027_001_2007.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2354,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "7세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "7세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘리멘트",
+      "count": 0,
+      "code": "012",
+      "eng": "Element",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.엘리멘트.)))",
+      "sub_models": [
+        {
+          "name": "엘리멘트",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.엘리멘트._.Model.엘리멘트.))))",
+          "start": "200301",
+          "end": "201112",
+          "period": "03~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "오딧세이",
+      "count": 143,
+      "code": "007",
+      "eng": "Odyssey",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.오딧세이.)))",
+      "sub_models": [
+        {
+          "name": "오딧세이",
+          "count": 143,
+          "code": "006",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.오딧세이._.Model.오딧세이.))))",
+          "start": "199501",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/027_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4세대"
+                },
+                {
+                  "name": "5세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "인사이트",
+      "count": 0,
+      "code": "006",
+      "eng": "Insight",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.인사이트.)))",
+      "sub_models": [
+        {
+          "name": "인사이트",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.인사이트._.Model.인사이트.))))",
+          "start": "199901",
+          "end": "201412",
+          "period": "99~14",
+          "image": "/carsdata/cars/cm_cardb/file/027_005_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "인스파이어",
+      "count": 0,
+      "code": "011",
+      "eng": "Inspire",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.인스파이어.)))",
+      "sub_models": [
+        {
+          "name": "인스파이어",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.인스파이어._.Model.인스파이어.))))",
+          "start": "198901",
+          "end": "201312",
+          "period": "89~13",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "인테그라",
+      "count": 0,
+      "code": "015",
+      "eng": "Integra",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.인테그라.)))",
+      "sub_models": [
+        {
+          "name": "인테그라",
+          "count": 0,
+          "code": "016",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.인테그라._.Model.인테그라.))))",
+          "start": "198501",
+          "end": "200612",
+          "period": "85~06",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "크로스로드",
+      "count": 0,
+      "code": "014",
+      "eng": "CROSSROAD",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.크로스로드.)))",
+      "sub_models": [
+        {
+          "name": "크로스로드",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.크로스로드._.Model.크로스로드.))))",
+          "start": "199301",
+          "end": "201012",
+          "period": "93~10",
+          "image": "/carsdata/cars/cm_cardb/file/027_015_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "크로스투어",
+      "count": 7,
+      "code": "022",
+      "eng": "Crosstour",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.크로스투어.)))",
+      "sub_models": [
+        {
+          "name": "크로스투어",
+          "count": 7,
+          "code": "024",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.크로스투어._.Model.크로스투어.))))",
+          "start": "201001",
+          "end": "201512",
+          "period": "10~15",
+          "image": "/carsdata/cars/cm_cardb/file/027_024_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파일럿",
+      "count": 115,
+      "code": "019",
+      "eng": "Pilot",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.파일럿.)))",
+      "sub_models": [
+        {
+          "name": "파일럿 4세대",
+          "count": 7,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.파일럿._.Model.파일럿 4세대.))))",
+          "start": "202309",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/675cb599-57e9-4cae-a573-592f8572d297.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5 블랙에디션"
+                },
+                {
+                  "name": "3.5 엘리트"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "파일럿 3세대",
+          "count": 106,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.파일럿._.Model.파일럿 3세대.))))",
+          "start": "201505",
+          "end": "202308",
+          "period": "15~23",
+          "image": "/carsdata/cars/cm_cardb/file/027_031_2019.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5 엘리트"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "파일럿",
+          "count": 2,
+          "code": "021",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.파일럿._.Model.파일럿.))))",
+          "start": "200301",
+          "end": "201512",
+          "period": "03~15",
+          "image": "/carsdata/cars/cm_cardb/file/027_021_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3471,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "패스포트",
+      "count": 0,
+      "code": "008",
+      "eng": "Passport",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.패스포트.)))",
+      "sub_models": [
+        {
+          "name": "패스포트",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.패스포트._.Model.패스포트.))))",
+          "start": "199401",
+          "end": "200212",
+          "period": "94~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프렐류드",
+      "count": 0,
+      "code": "009",
+      "eng": "Prelude",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.프렐류드.)))",
+      "sub_models": [
+        {
+          "name": "프렐류드",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.프렐류드._.Model.프렐류드.))))",
+          "start": "197801",
+          "end": "200112",
+          "period": "78~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "프리드",
+      "count": 0,
+      "code": "031",
+      "eng": "FREED",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.프리드.)))",
+      "sub_models": [
+        {
+          "name": "프리드",
+          "count": 0,
+          "code": "107",
+          "eng": null,
+          "order": 26.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.프리드._.Model.프리드.))))",
+          "start": "200801",
+          "end": null,
+          "period": "08~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "021",
+      "eng": "Others",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.혼다._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

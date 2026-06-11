@@ -1,0 +1,1633 @@
+{
+  "name": "포르쉐",
+  "count": 3052,
+  "code": "015",
+  "eng": "Porsche",
+  "order": 670.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.포르쉐.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "718",
+      "count": 295,
+      "code": "014",
+      "eng": "718",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.718.)))",
+      "sub_models": [
+        {
+          "name": "718 카이맨",
+          "count": 66,
+          "code": "016",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.718._.Model.718 카이맨.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/015_016_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1988,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 GTS"
+                },
+                {
+                  "name": "S 2.5"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3995,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GTS"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4000,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GT4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "718 박스터",
+          "count": 229,
+          "code": "014",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.718._.Model.718 박스터.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/015_014_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1988,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3995,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 25th 에디션"
+                },
+                {
+                  "name": "4.0 GTS"
+                },
+                {
+                  "name": "4.0 스파이더"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2497,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.5 GTS"
+                },
+                {
+                  "name": "S 2.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "911",
+      "count": 384,
+      "code": "001",
+      "eng": "911",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.911.)))",
+      "sub_models": [
+        {
+          "name": "911 (992)",
+          "count": 284,
+          "code": "019",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.911._.Model.911 (992_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/015_019_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2981,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "카레라"
+                },
+                {
+                  "name": "카레라 4"
+                },
+                {
+                  "name": "카레라 4 GTS"
+                },
+                {
+                  "name": "카레라 4 GTS 카브리올레"
+                },
+                {
+                  "name": "카레라 4 카브리올레"
+                },
+                {
+                  "name": "카레라 4S"
+                },
+                {
+                  "name": "카레라 4S 카브리올레"
+                },
+                {
+                  "name": "카레라 GTS"
+                },
+                {
+                  "name": "카레라 GTS 카브리올레"
+                },
+                {
+                  "name": "카레라 S"
+                },
+                {
+                  "name": "카레라 S 카브리올레"
+                },
+                {
+                  "name": "카레라 카브리올레"
+                },
+                {
+                  "name": "타르가 4"
+                },
+                {
+                  "name": "타르가 4S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3745,
+              "displacement_l": 3.7,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보 S"
+                },
+                {
+                  "name": "터보 S 카브리올레"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3591,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "타르가 4 GTS"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT3 투어링"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "911",
+          "count": 100,
+          "code": "001",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.911._.Model.911.))))",
+          "start": "198901",
+          "end": "201912",
+          "period": "89~19",
+          "image": "/carsdata/cars/cm_cardb/file/015_001_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2981,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "996"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2981,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "996"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3600,
+              "displacement_l": 3.6,
+              "turbo": true,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3800,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4000,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3387,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "996"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3800,
+              "displacement_l": 3.8,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "991"
+                },
+                {
+                  "name": "996"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3824,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3596,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "996"
+                },
+                {
+                  "name": "997"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3824,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "997"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "928",
+      "count": 0,
+      "code": "011",
+      "eng": "928",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.928.)))",
+      "sub_models": [
+        {
+          "name": "928",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.928._.Model.928.))))",
+          "start": "197701",
+          "end": "199512",
+          "period": "77~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "944",
+      "count": 0,
+      "code": "006",
+      "eng": "944",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.944.)))",
+      "sub_models": [
+        {
+          "name": "944",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.944._.Model.944.))))",
+          "start": "198201",
+          "end": "199112",
+          "period": "82~91",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "968",
+      "count": 0,
+      "code": "007",
+      "eng": "968",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.968.)))",
+      "sub_models": [
+        {
+          "name": "968",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.968._.Model.968.))))",
+          "start": "199201",
+          "end": "199512",
+          "period": "92~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마칸",
+      "count": 325,
+      "code": "013",
+      "eng": "Macan",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.마칸.)))",
+      "sub_models": [
+        {
+          "name": "마칸 EV",
+          "count": 49,
+          "code": "022",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.마칸._.Model.마칸 EV.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f63333e3-7674-4577-8429-a3ae24ba828d.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 151,
+              "displacement_l": 0.2,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 151,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4S"
+                },
+                {
+                  "name": "베이스"
+                },
+                {
+                  "name": "베이스 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "마칸",
+          "count": 276,
+          "code": "013",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.마칸._.Model.마칸.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/015_013_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "95B"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "95B"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.9 S"
+                },
+                {
+                  "name": "95B"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "95B"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "95B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "박스터",
+      "count": 48,
+      "code": "005",
+      "eng": "Boxster",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.박스터.)))",
+      "sub_models": [
+        {
+          "name": "박스터",
+          "count": 48,
+          "code": "002",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.박스터._.Model.박스터.))))",
+          "start": "199601",
+          "end": "201612",
+          "period": "96~16",
+          "image": "/carsdata/cars/cm_cardb/file/015_002_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3436,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "981"
+                },
+                {
+                  "name": "987"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2893,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "987"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2706,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "981"
+                },
+                {
+                  "name": "987"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3179,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "987"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "카레라 GT",
+      "count": 0,
+      "code": "010",
+      "eng": "Carrera GT",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.카레라 GT.)))",
+      "sub_models": [
+        {
+          "name": "카레라 GT",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.카레라 GT._.Model.카레라 GT.))))",
+          "start": "200401",
+          "end": "200612",
+          "period": "04~06",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "카이맨",
+      "count": 5,
+      "code": "003",
+      "eng": "Cayman",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.카이맨.)))",
+      "sub_models": [
+        {
+          "name": "카이맨",
+          "count": 5,
+          "code": "008",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.카이맨._.Model.카이맨.))))",
+          "start": "200501",
+          "end": "201612",
+          "period": "05~16",
+          "image": "/carsdata/cars/cm_cardb/file/015_008_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2893,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "987C"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3436,
+              "displacement_l": 3.4,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "981C"
+                },
+                {
+                  "name": "987C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "카이엔",
+      "count": 1065,
+      "code": "002",
+      "eng": "Cayenne",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.카이엔.)))",
+      "sub_models": [
+        {
+          "name": "카이엔 (PO536)",
+          "count": 873,
+          "code": "018",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.카이엔._.Model.카이엔 (PO536_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/015_018_2018.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 E-하이브리드 쿠페 플래티넘 에디션"
+                },
+                {
+                  "name": "3.0 S E-하이브리드 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0"
+                },
+                {
+                  "name": "3.0 플래티넘 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 쿠페"
+                },
+                {
+                  "name": "3.0 쿠페 플래티넘 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보 GT 쿠페"
+                },
+                {
+                  "name": "4.0 터보 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GTS 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 E-하이브리드"
+                },
+                {
+                  "name": "3.0 E-하이브리드 쿠페"
+                },
+                {
+                  "name": "3.0 E-하이브리드 플래티넘 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보 E-하이브리드 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 카이엔",
+          "count": 167,
+          "code": "015",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.카이엔._.Model.뉴 카이엔.))))",
+          "start": "201005",
+          "end": "201812",
+          "period": "10~18",
+          "image": "/carsdata/cars/cm_cardb/file/015_015_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4134,
+              "displacement_l": 4.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3598,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "958"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "카이엔",
+          "count": 25,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.카이엔._.Model.카이엔.))))",
+          "start": "200201",
+          "end": "201012",
+          "period": "02~10",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "955"
+                },
+                {
+                  "name": "957"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4511,
+              "displacement_l": 4.5,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "955"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "957"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3598,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "957"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3189,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "955"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": true,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "955"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "타이칸",
+      "count": 247,
+      "code": "015",
+      "eng": "Taycan",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.타이칸.)))",
+      "sub_models": [
+        {
+          "name": "타이칸",
+          "count": 247,
+          "code": "020",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.타이칸._.Model.타이칸.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2c24d4a5-0029-4067-8cf6-ce468b8c7899.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4S"
+                },
+                {
+                  "name": "베이스"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4 크로스 투리스모"
+                },
+                {
+                  "name": "4S 크로스 투리스모"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 144,
+              "displacement_l": 0.1,
+              "turbo": true,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보 GT 바이작 패키지"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 144,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GTS"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보 S"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "베이스 4"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보 크로스 투리스모"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 144,
+              "displacement_l": 0.1,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "터보 GT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파나메라",
+      "count": 683,
+      "code": "004",
+      "eng": "Panamera",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.파나메라.)))",
+      "sub_models": [
+        {
+          "name": "파나메라 (976)",
+          "count": 87,
+          "code": "021",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.파나메라._.Model.파나메라 (976_).))))",
+          "start": "202404",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e0141f48-220f-4500-b772-63a8d0c579d2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.9 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.9 AWD E-하이브리드"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보 S E- 하이브리드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GTS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "파나메라 (971)",
+          "count": 459,
+          "code": "017",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.파나메라._.Model.파나메라 (971_).))))",
+          "start": "201701",
+          "end": "202404",
+          "period": "17~24",
+          "image": "/carsdata/cars/cm_cardb/file/015_017_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 GTS"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.9 AWD"
+                },
+                {
+                  "name": "2.9 AWD 이그제큐티브"
+                },
+                {
+                  "name": "2.9 AWD 플래티넘 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.9 AWD E-하이브리드"
+                },
+                {
+                  "name": "2.9 AWD E-하이브리드 플래티넘 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보"
+                },
+                {
+                  "name": "4.0 터보 S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.9 4S"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 터보 S E-하이브리드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "파나메라",
+          "count": 137,
+          "code": "011",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.파나메라._.Model.파나메라.))))",
+          "start": "200901",
+          "end": "201612",
+          "period": "09~16",
+          "image": "/carsdata/cars/cm_cardb/file/015_011_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3605,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.6 AWD 플래티넘 에디션"
+                },
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4806,
+              "displacement_l": 4.8,
+              "turbo": true,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3605,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "970"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "012",
+      "eng": "Others",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.포르쉐._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

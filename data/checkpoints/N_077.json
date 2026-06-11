@@ -1,0 +1,56 @@
+{
+  "name": "부가티",
+  "count": 0,
+  "code": "077",
+  "eng": "Bugatti",
+  "order": 380.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.부가티.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "베이론 16.4",
+      "count": 0,
+      "code": "001",
+      "eng": "Veyron 16.4",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.부가티._.ModelGroup.베이론 16_.4.)))",
+      "sub_models": [
+        {
+          "name": "베이론 16.4",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.부가티._.(C.ModelGroup.베이론 16_.4._.Model.베이론 16_.4.))))",
+          "start": "200501",
+          "end": "201512",
+          "period": "05~15",
+          "image": "/carsdata/cars/cm_cardb/file/077_001_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "EB110",
+      "count": 0,
+      "code": "002",
+      "eng": "EB110",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.부가티._.ModelGroup.EB110.)))",
+      "sub_models": [
+        {
+          "name": "EB110",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.부가티._.(C.ModelGroup.EB110._.Model.EB110.))))",
+          "start": "199101",
+          "end": "199512",
+          "period": "91~95",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

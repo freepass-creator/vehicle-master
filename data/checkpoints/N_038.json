@@ -1,0 +1,840 @@
+{
+  "name": "쉐보레",
+  "count": 116,
+  "code": "038",
+  "eng": "Chevrolet",
+  "order": 430.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.쉐보레.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "HHR",
+      "count": 0,
+      "code": "008",
+      "eng": "HHR",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.HHR.)))",
+      "sub_models": [
+        {
+          "name": "HHR",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.HHR._.Model.HHR.))))",
+          "start": "200501",
+          "end": "201112",
+          "period": "05~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "S-10",
+      "count": 0,
+      "code": "019",
+      "eng": "S-10",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.S-10.)))",
+      "sub_models": [
+        {
+          "name": "S-10",
+          "count": 0,
+          "code": "107",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.S-10._.Model.S-10.))))",
+          "start": "198201",
+          "end": "200412",
+          "period": "82~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "SSR",
+      "count": 0,
+      "code": "015",
+      "eng": "SSR",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.SSR.)))",
+      "sub_models": [
+        {
+          "name": "SSR",
+          "count": 0,
+          "code": "101",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.SSR._.Model.SSR.))))",
+          "start": "200301",
+          "end": "200612",
+          "period": "03~06",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "루미나",
+      "count": 0,
+      "code": "011",
+      "eng": "Lumina",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.루미나.)))",
+      "sub_models": [
+        {
+          "name": "루미나",
+          "count": 0,
+          "code": "103",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.루미나._.Model.루미나.))))",
+          "start": "198901",
+          "end": "200112",
+          "period": "89~01",
+          "powertrains": []
+        },
+        {
+          "name": "루미나 미니밴",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.루미나._.Model.루미나 미니밴.))))",
+          "start": "199001",
+          "end": "199612",
+          "period": "90~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "벤처",
+      "count": 0,
+      "code": "017",
+      "eng": "Venture",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.벤처.)))",
+      "sub_models": [
+        {
+          "name": "벤처",
+          "count": 0,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.벤처._.Model.벤처.))))",
+          "start": "199601",
+          "end": "200512",
+          "period": "96~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "볼트(Volt)",
+      "count": 0,
+      "code": "022",
+      "eng": "Volt",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.볼트(Volt_).)))",
+      "sub_models": [
+        {
+          "name": "볼트(Volt)",
+          "count": 0,
+          "code": "110",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.볼트(Volt_)._.Model.볼트(Volt_).))))",
+          "start": "201101",
+          "end": "201512",
+          "period": "11~15",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "블레이저",
+      "count": 0,
+      "code": "006",
+      "eng": "Blazer",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.블레이저.)))",
+      "sub_models": [
+        {
+          "name": "트레일블레이저",
+          "count": 0,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.블레이저._.Model.트레일블레이저.))))",
+          "start": "200201",
+          "end": null,
+          "period": "02~현재",
+          "powertrains": []
+        },
+        {
+          "name": "블레이저",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.블레이저._.Model.블레이저.))))",
+          "start": "198301",
+          "end": "200512",
+          "period": "83~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "서버밴",
+      "count": 15,
+      "code": "004",
+      "eng": "Surburban",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.서버밴.)))",
+      "sub_models": [
+        {
+          "name": "서버밴",
+          "count": 15,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.서버밴._.Model.서버밴.))))",
+          "start": "193501",
+          "end": null,
+          "period": "35~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5328,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "실버라도",
+      "count": 3,
+      "code": "009",
+      "eng": "Silverado",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.실버라도.)))",
+      "sub_models": [
+        {
+          "name": "실버라도",
+          "count": 3,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.실버라도._.Model.실버라도.))))",
+          "start": "199801",
+          "end": null,
+          "period": "98~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_009_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5328,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아발란치",
+      "count": 3,
+      "code": "010",
+      "eng": "Avalanche",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.아발란치.)))",
+      "sub_models": [
+        {
+          "name": "아발란치",
+          "count": 3,
+          "code": "010",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.아발란치._.Model.아발란치.))))",
+          "start": "200201",
+          "end": "201312",
+          "period": "02~13",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5300,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아스트로밴",
+      "count": 3,
+      "code": "005",
+      "eng": "Astro Van",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.아스트로밴.)))",
+      "sub_models": [
+        {
+          "name": "아스트로밴",
+          "count": 3,
+          "code": "005",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.아스트로밴._.Model.아스트로밴.))))",
+          "start": "199501",
+          "end": "200512",
+          "period": "95~05",
+          "powertrains": [
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 4300,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "4.3 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4300,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4.3 4WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에퀴녹스",
+      "count": 0,
+      "code": "020",
+      "eng": "Equinox",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.에퀴녹스.)))",
+      "sub_models": [
+        {
+          "name": "에퀴녹스",
+          "count": 0,
+          "code": "108",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.에퀴녹스._.Model.에퀴녹스.))))",
+          "start": "200501",
+          "end": null,
+          "period": "05~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_108_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "익스프레스밴",
+      "count": 65,
+      "code": "012",
+      "eng": "Express Van",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.익스프레스밴.)))",
+      "sub_models": [
+        {
+          "name": "익스프레스밴",
+          "count": 65,
+          "code": "012",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.익스프레스밴._.Model.익스프레스밴.))))",
+          "start": "199101",
+          "end": null,
+          "period": "91~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_012_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5323,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "5.3 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5967,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5328,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5700,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6564,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "체비밴",
+      "count": 2,
+      "code": "002",
+      "eng": "Chevy Van",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.체비밴.)))",
+      "sub_models": [
+        {
+          "name": "체비밴",
+          "count": 2,
+          "code": "002",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.체비밴._.Model.체비밴.))))",
+          "start": "196401",
+          "end": null,
+          "period": "64~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5733,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "11인승"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 5730,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9인승"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "카마로",
+      "count": 1,
+      "code": "003",
+      "eng": "Camaro",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.카마로.)))",
+      "sub_models": [
+        {
+          "name": "카마로",
+          "count": 1,
+          "code": "003",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.카마로._.Model.카마로.))))",
+          "start": "196701",
+          "end": null,
+          "period": "67~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_003_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "콜로라도",
+      "count": 2,
+      "code": "014",
+      "eng": "Colorado",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.콜로라도.)))",
+      "sub_models": [
+        {
+          "name": "콜로라도",
+          "count": 2,
+          "code": "100",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.콜로라도._.Model.콜로라도.))))",
+          "start": "200401",
+          "end": null,
+          "period": "04~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_100_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "콜벳",
+      "count": 14,
+      "code": "001",
+      "eng": "Corvette",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.콜벳.)))",
+      "sub_models": [
+        {
+          "name": "콜벳",
+          "count": 14,
+          "code": "001",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.콜벳._.Model.콜벳.))))",
+          "start": "195301",
+          "end": null,
+          "period": "53~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_001_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2890,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "컨버터블"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "타호",
+      "count": 4,
+      "code": "007",
+      "eng": "Tahoe",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.타호.)))",
+      "sub_models": [
+        {
+          "name": "타호",
+          "count": 4,
+          "code": "007",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.타호._.Model.타호.))))",
+          "start": "199501",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/038_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5328,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "LT 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 5967,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "하이브리드 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5290,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "LT 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트랙커",
+      "count": 1,
+      "code": "016",
+      "eng": "Tracker",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.트랙커.)))",
+      "sub_models": [
+        {
+          "name": "트랙커",
+          "count": 1,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.트랙커._.Model.트랙커.))))",
+          "start": "198901",
+          "end": "200412",
+          "period": "89~04",
+          "image": "/carsdata/cars/cm_cardb/file/038_102_2004.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1590,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트럭밴",
+      "count": 0,
+      "code": "018",
+      "eng": "Truck Van",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.트럭밴.)))",
+      "sub_models": [
+        {
+          "name": "트럭밴",
+          "count": 0,
+          "code": "106",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.트럭밴._.Model.트럭밴.))))",
+          "start": "196401",
+          "end": "199612",
+          "period": "64~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "픽업트럭",
+      "count": 1,
+      "code": "021",
+      "eng": "Pick Truck",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.픽업트럭.)))",
+      "sub_models": [
+        {
+          "name": "픽업트럭",
+          "count": 1,
+          "code": "109",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.픽업트럭._.Model.픽업트럭.))))",
+          "start": "196001",
+          "end": "200212",
+          "period": "60~02",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 2,
+      "code": "013",
+      "eng": "Others",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 2,
+          "code": "099",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.쉐보레._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4807,
+              "displacement_l": 4.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

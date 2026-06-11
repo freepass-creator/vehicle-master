@@ -1,0 +1,796 @@
+{
+  "name": "마세라티",
+  "count": 571,
+  "code": "053",
+  "eng": "Maserati",
+  "order": 260.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.마세라티.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "그란스포츠",
+      "count": 0,
+      "code": "009",
+      "eng": "Gran Sport",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.그란스포츠.)))",
+      "sub_models": [
+        {
+          "name": "그란스포츠",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그란스포츠._.Model.그란스포츠.))))",
+          "start": "200401",
+          "end": "200712",
+          "period": "04~07",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "그란카브리오",
+      "count": 6,
+      "code": "007",
+      "eng": "Gran Cabrio",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.그란카브리오.)))",
+      "sub_models": [
+        {
+          "name": "그란카브리오 2세대",
+          "count": 5,
+          "code": "015",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그란카브리오._.Model.그란카브리오 2세대.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2d18d657-f8c1-423c-9a51-7564974521fe.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 V6 트로페오"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "그란카브리오",
+          "count": 1,
+          "code": "007",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그란카브리오._.Model.그란카브리오.))))",
+          "start": "201001",
+          "end": "202002",
+          "period": "10~20",
+          "image": "/carsdata/cars/cm_cardb/file/053_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4691,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "그란투리스모",
+      "count": 22,
+      "code": "005",
+      "eng": "GranTurismo",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.그란투리스모.)))",
+      "sub_models": [
+        {
+          "name": "그란투리스모 2세대",
+          "count": 1,
+          "code": "014",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그란투리스모._.Model.그란투리스모 2세대.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/eca3c58f-7851-49a8-baf6-e1d812439fa2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 V6 트로페오"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "그란투리스모",
+          "count": 21,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그란투리스모._.Model.그란투리스모.))))",
+          "start": "200701",
+          "end": "202002",
+          "period": "07~20",
+          "image": "/carsdata/cars/cm_cardb/file/053_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4691,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4700,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S 4.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4691,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기블리",
+      "count": 179,
+      "code": "010",
+      "eng": "Ghibli",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.기블리.)))",
+      "sub_models": [
+        {
+          "name": "기블리",
+          "count": 179,
+          "code": "010",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.기블리._.Model.기블리.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/053_010_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3799,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "그레칼레",
+      "count": 32,
+      "code": "013",
+      "eng": "Grecale",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.그레칼레.)))",
+      "sub_models": [
+        {
+          "name": "그레칼레",
+          "count": 32,
+          "code": "013",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.그레칼레._.Model.그레칼레.))))",
+          "start": "202211",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f4540b2d-69f5-43dc-8dce-ace5e494d48c.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 AWD 트로페오"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 AWD GT"
+                },
+                {
+                  "name": "2.0 AWD 모데나"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 AWD GT 타입 P"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 288,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "AWD 폴고레"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "르반떼",
+      "count": 226,
+      "code": "011",
+      "eng": "Levante",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.르반떼.)))",
+      "sub_models": [
+        {
+          "name": "르반떼",
+          "count": 226,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.르반떼._.Model.르반떼.))))",
+          "start": "201611",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/053_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 AWD"
+                },
+                {
+                  "name": "3.0 AWD 그란루쏘"
+                },
+                {
+                  "name": "3.0 AWD 그란스포츠"
+                },
+                {
+                  "name": "3.0 AWD 럭셔리"
+                },
+                {
+                  "name": "3.0 AWD 모데나"
+                },
+                {
+                  "name": "3.0 AWD 스포츠"
+                },
+                {
+                  "name": "3.0 AWD 프리미엄"
+                },
+                {
+                  "name": "3.0 S AWD"
+                },
+                {
+                  "name": "3.0 S AWD F 트리뷰토"
+                },
+                {
+                  "name": "3.0 S AWD 그란루쏘"
+                },
+                {
+                  "name": "3.0 S AWD 그란스포츠"
+                },
+                {
+                  "name": "3.0 S AWD 모데나"
+                },
+                {
+                  "name": "3.0 S AWD 스포츠"
+                },
+                {
+                  "name": "3.0 S AWD 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3799,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.8 GTS AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 디젤 AWD"
+                },
+                {
+                  "name": "3.0 디젤 AWD 그란루쏘"
+                },
+                {
+                  "name": "3.0 디젤 AWD 럭셔리"
+                },
+                {
+                  "name": "3.0 디젤 AWD 스포츠"
+                },
+                {
+                  "name": "3.0 디젤 AWD 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 디젤 AWD 그란스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 GT AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3799,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.8 트로페오"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스파이더",
+      "count": 0,
+      "code": "002",
+      "eng": "Spyder",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.스파이더.)))",
+      "sub_models": [
+        {
+          "name": "스파이더",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.스파이더._.Model.스파이더.))))",
+          "start": "200201",
+          "end": "200712",
+          "period": "02~07",
+          "image": "/carsdata/cars/cm_cardb/file/053_002_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "콰트로포르테",
+      "count": 102,
+      "code": "001",
+      "eng": "Quattroporte",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.콰트로포르테.)))",
+      "sub_models": [
+        {
+          "name": "콰트로포르테",
+          "count": 102,
+          "code": "001",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.콰트로포르테._.Model.콰트로포르테.))))",
+          "start": "196301",
+          "end": null,
+          "period": "63~현재",
+          "image": "/carsdata/cars/cm_cardb/file/053_001_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2979,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 GT"
+                },
+                {
+                  "name": "3.0 V6"
+                },
+                {
+                  "name": "3.0 V6 그란루쏘"
+                },
+                {
+                  "name": "S 3.0 V6"
+                },
+                {
+                  "name": "S Q4 3.0 V6"
+                },
+                {
+                  "name": "S Q4 3.0 V6 그란루쏘"
+                },
+                {
+                  "name": "S Q4 3.0 V6 그란스포츠"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4691,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S 4.7 V8 스포츠 GT"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2987,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 디젤"
+                },
+                {
+                  "name": "3.0 디젤 그란루쏘"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3799,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GTS 3.8 V8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4244,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.2 V8"
+                },
+                {
+                  "name": "4.2 V8 스포츠 GT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "쿠페",
+      "count": 0,
+      "code": "003",
+      "eng": "Coupe",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.쿠페.)))",
+      "sub_models": [
+        {
+          "name": "쿠페",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.쿠페._.Model.쿠페.))))",
+          "start": "200201",
+          "end": "200712",
+          "period": "02~07",
+          "image": "/carsdata/cars/cm_cardb/file/053_003_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MC푸라",
+      "count": 0,
+      "code": "014",
+      "eng": "MCPura",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.MC푸라.)))",
+      "sub_models": [
+        {
+          "name": "MC푸라",
+          "count": 0,
+          "code": "016",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.MC푸라._.Model.MC푸라.))))",
+          "start": "202512",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MC12",
+      "count": 0,
+      "code": "008",
+      "eng": "MC12",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.MC12.)))",
+      "sub_models": [
+        {
+          "name": "MC12",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.MC12._.Model.MC12.))))",
+          "start": "200401",
+          "end": "200512",
+          "period": "04~05",
+          "image": "/carsdata/cars/cm_cardb/file/053_008_2005.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MC20",
+      "count": 4,
+      "code": "012",
+      "eng": "MC20",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.MC20.)))",
+      "sub_models": [
+        {
+          "name": "MC20",
+          "count": 4,
+          "code": "012",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.MC20._.Model.MC20.))))",
+          "start": "202111",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/738445ab-a9de-4959-aa39-958a429db0d9.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2992,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 V6"
+                },
+                {
+                  "name": "3.0 V6 첼로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3200",
+      "count": 0,
+      "code": "006",
+      "eng": "3200",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.3200.)))",
+      "sub_models": [
+        {
+          "name": "3200",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.3200._.Model.3200.))))",
+          "start": "199801",
+          "end": "200212",
+          "period": "98~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "004",
+      "eng": "Others",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마세라티._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

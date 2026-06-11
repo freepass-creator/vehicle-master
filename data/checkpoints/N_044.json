@@ -1,0 +1,710 @@
+{
+  "name": "링컨",
+  "count": 680,
+  "code": "044",
+  "eng": "Lincoln",
+  "order": 250.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.링컨.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "LS",
+      "count": 0,
+      "code": "003",
+      "eng": "LS",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.LS.)))",
+      "sub_models": [
+        {
+          "name": "LS",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.LS._.Model.LS.))))",
+          "start": "199901",
+          "end": "200612",
+          "period": "99~06",
+          "image": "/carsdata/cars/cm_cardb/file/044_001_2006.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MKC",
+      "count": 39,
+      "code": "011",
+      "eng": "MKC",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.MKC.)))",
+      "sub_models": [
+        {
+          "name": "MKC",
+          "count": 39,
+          "code": "103",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKC._.Model.MKC.))))",
+          "start": "201409",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/044_103_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MKS",
+      "count": 25,
+      "code": "008",
+      "eng": "MKS",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.MKS.)))",
+      "sub_models": [
+        {
+          "name": "뉴 MKS",
+          "count": 21,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKS._.Model.뉴 MKS.))))",
+          "start": "201208",
+          "end": "201612",
+          "period": "12~16",
+          "image": "/carsdata/cars/cm_cardb/file/044_102_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3726,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MKS",
+          "count": 4,
+          "code": "008",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKS._.Model.MKS.))))",
+          "start": "200805",
+          "end": "201207",
+          "period": "08~12",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3726,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MKT",
+      "count": 3,
+      "code": "010",
+      "eng": "MKT",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.MKT.)))",
+      "sub_models": [
+        {
+          "name": "MKT",
+          "count": 3,
+          "code": "100",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKT._.Model.MKT.))))",
+          "start": "200907",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/044_100_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3496,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.5 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MKX",
+      "count": 43,
+      "code": "001",
+      "eng": "MKX",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.MKX.)))",
+      "sub_models": [
+        {
+          "name": "MKX 2세대",
+          "count": 35,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKX._.Model.MKX 2세대.))))",
+          "start": "201511",
+          "end": "201812",
+          "period": "15~18",
+          "image": "/carsdata/cars/cm_cardb/file/044_104_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2694,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.7 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 MKX",
+          "count": 8,
+          "code": "101",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKX._.Model.뉴 MKX.))))",
+          "start": "201011",
+          "end": "201512",
+          "period": "10~15",
+          "image": "/carsdata/cars/cm_cardb/file/044_101_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3726,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.7 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MKX",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKX._.Model.MKX.))))",
+          "start": "200601",
+          "end": "201012",
+          "period": "06~10",
+          "image": "/carsdata/cars/cm_cardb/file/044_007_2010.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MKZ",
+      "count": 64,
+      "code": "002",
+      "eng": "MKZ",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.MKZ.)))",
+      "sub_models": [
+        {
+          "name": "뉴 MKZ",
+          "count": 64,
+          "code": "009",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKZ._.Model.뉴 MKZ.))))",
+          "start": "201001",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/044_009_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MKZ",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.MKZ._.Model.MKZ.))))",
+          "start": "200508",
+          "end": "200912",
+          "period": "05~09",
+          "image": "/carsdata/cars/cm_cardb/file/044_006_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "네비게이터",
+      "count": 43,
+      "code": "007",
+      "eng": "Navigator",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.네비게이터.)))",
+      "sub_models": [
+        {
+          "name": "네비게이터 4세대",
+          "count": 42,
+          "code": "005",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.네비게이터._.Model.네비게이터 4세대.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/044_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3496,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3495,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5L 블랙 레이블"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "네비게이터",
+          "count": 1,
+          "code": "110",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.네비게이터._.Model.네비게이터.))))",
+          "start": "199705",
+          "end": "201707",
+          "period": "97~17",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.4L V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "노틸러스",
+      "count": 71,
+      "code": "012",
+      "eng": "Nautilus",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.노틸러스.)))",
+      "sub_models": [
+        {
+          "name": "노틸러스 2세대",
+          "count": 18,
+          "code": "109",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.노틸러스._.Model.노틸러스 2세대.))))",
+          "start": "202311",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2b936209-2b66-45dc-bf76-074b096b525a.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 리저브 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "노틸러스 1세대",
+          "count": 53,
+          "code": "106",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.노틸러스._.Model.노틸러스 1세대.))))",
+          "start": "201901",
+          "end": "202311",
+          "period": "19~23",
+          "image": "/carsdata/cars/cm_cardb/file/044_106_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2694,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.7 200A AWD"
+                },
+                {
+                  "name": "2.7 201A AWD"
+                },
+                {
+                  "name": "2.7 202A AWD"
+                },
+                {
+                  "name": "2.7 리저브 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에비에이터",
+      "count": 246,
+      "code": "006",
+      "eng": "Aviator",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.에비에이터.)))",
+      "sub_models": [
+        {
+          "name": "에비에이터 2세대",
+          "count": 245,
+          "code": "107",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.에비에이터._.Model.에비에이터 2세대.))))",
+          "start": "201905",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b5dcf402-461e-424d-8062-3ee0e0268fc0.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2956,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 리저브 AWD"
+                },
+                {
+                  "name": "3.0 리저브 제트 패키지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2956,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 블랙라벨 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 2956,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 PHEV GT AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "에비에이터 1세대",
+          "count": 1,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.에비에이터._.Model.에비에이터 1세대.))))",
+          "start": "200201",
+          "end": "200512",
+          "period": "02~05",
+          "image": "/carsdata/cars/cm_cardb/file/044_004_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4601,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.6L V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컨티넨탈",
+      "count": 50,
+      "code": "004",
+      "eng": "Continental",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.컨티넨탈.)))",
+      "sub_models": [
+        {
+          "name": "컨티넨탈 10세대",
+          "count": 49,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈 10세대.))))",
+          "start": "201611",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/044_105_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2956,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.0 AWD"
+                },
+                {
+                  "name": "3.0 블랙라벨 AWD"
+                },
+                {
+                  "name": "3.0 프레지덴셜 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "컨티넨탈",
+          "count": 1,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.컨티넨탈._.Model.컨티넨탈.))))",
+          "start": "198001",
+          "end": "200212",
+          "period": "80~02",
+          "image": "/carsdata/cars/cm_cardb/file/044_002_2002.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3797,
+              "displacement_l": 3.8,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.8L V6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "코세어",
+      "count": 94,
+      "code": "013",
+      "eng": "Corsair",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.코세어.)))",
+      "sub_models": [
+        {
+          "name": "코세어",
+          "count": 94,
+          "code": "108",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.코세어._.Model.코세어.))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/752edaa2-f4eb-4442-b17b-2cc5caab16cb.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 리저브 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "타운카",
+      "count": 2,
+      "code": "005",
+      "eng": "Town Car",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.ModelGroup.타운카.)))",
+      "sub_models": [
+        {
+          "name": "타운카",
+          "count": 2,
+          "code": "003",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.링컨._.(C.ModelGroup.타운카._.Model.타운카.))))",
+          "start": "198101",
+          "end": "201112",
+          "period": "81~11",
+          "image": "/carsdata/cars/cm_cardb/file/044_003_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4601,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.6L V8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

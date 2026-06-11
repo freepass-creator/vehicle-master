@@ -1,0 +1,96 @@
+{
+  "name": "기타 제조사",
+  "count": 59,
+  "code": "006",
+  "eng": "Others",
+  "order": 100.0,
+  "_action": "(And.Hidden.N._.(C.CarType.Y._.Manufacturer.기타 제조사.))",
+  "car_type": "국산",
+  "models": [
+    {
+      "name": "어울림모터스",
+      "count": 1,
+      "code": "010",
+      "eng": "Oullimmotors",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.기타 제조사._.ModelGroup.어울림모터스.)))",
+      "sub_models": [
+        {
+          "name": "어울림모터스-스피라",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.기타 제조사._.(C.ModelGroup.어울림모터스._.Model.어울림모터스-스피라.))))",
+          "start": "201008",
+          "end": null,
+          "period": "10~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2656,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타 승용차",
+      "count": 58,
+      "code": "011",
+      "eng": "Others",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.기타 제조사._.ModelGroup.기타 승용차.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 58,
+          "code": "999",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.기타 제조사._.(C.ModelGroup.기타 승용차._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 43,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타 전기차"
+                }
+              ]
+            },
+            {
+              "fuel": "기타",
+              "displacement": 44,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

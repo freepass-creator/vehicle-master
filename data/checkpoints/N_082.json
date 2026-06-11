@@ -1,0 +1,138 @@
+{
+  "name": "사이언",
+  "count": 1,
+  "code": "082",
+  "eng": "Scion",
+  "order": 410.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.사이언.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "FR-S",
+      "count": 0,
+      "code": "005",
+      "eng": "FR-S",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.ModelGroup.FR-S.)))",
+      "sub_models": [
+        {
+          "name": "FR-S",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.(C.ModelGroup.FR-S._.Model.FR-S.))))",
+          "start": "201201",
+          "end": "201612",
+          "period": "12~16",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "tC",
+      "count": 0,
+      "code": "003",
+      "eng": "tC",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.ModelGroup.tC.)))",
+      "sub_models": [
+        {
+          "name": "tC",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.(C.ModelGroup.tC._.Model.tC.))))",
+          "start": "200401",
+          "end": "201612",
+          "period": "04~16",
+          "image": "/carsdata/cars/cm_cardb/file/082_003_2016.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "xA",
+      "count": 0,
+      "code": "001",
+      "eng": "xA",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.ModelGroup.xA.)))",
+      "sub_models": [
+        {
+          "name": "xA",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.(C.ModelGroup.xA._.Model.xA.))))",
+          "start": "200401",
+          "end": "200612",
+          "period": "04~06",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "xB",
+      "count": 1,
+      "code": "002",
+      "eng": "xB",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.ModelGroup.xB.)))",
+      "sub_models": [
+        {
+          "name": "xB",
+          "count": 1,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.(C.ModelGroup.xB._.Model.xB.))))",
+          "start": "200401",
+          "end": "201512",
+          "period": "04~15",
+          "image": "/carsdata/cars/cm_cardb/file/082_002_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2362,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xD",
+      "count": 0,
+      "code": "004",
+      "eng": "xD",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.ModelGroup.xD.)))",
+      "sub_models": [
+        {
+          "name": "xD",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.사이언._.(C.ModelGroup.xD._.Model.xD.))))",
+          "start": "200701",
+          "end": "201412",
+          "period": "07~14",
+          "image": "/carsdata/cars/cm_cardb/file/082_004_2014.png",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "name": "동풍소콘",
+  "count": 23,
+  "code": "088",
+  "eng": "DFSK",
+  "order": 175.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.동풍소콘.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "C31",
+      "count": 1,
+      "code": "003",
+      "eng": "C31",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.ModelGroup.C31.)))",
+      "sub_models": [
+        {
+          "name": "C31",
+          "count": 1,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.(C.ModelGroup.C31._.Model.C31.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1493,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 싱글캡"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C32",
+      "count": 0,
+      "code": "002",
+      "eng": "C32",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.ModelGroup.C32.)))",
+      "sub_models": [
+        {
+          "name": "C32",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.(C.ModelGroup.C32._.Model.C32.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "C35",
+      "count": 14,
+      "code": "001",
+      "eng": "C35",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.ModelGroup.C35.)))",
+      "sub_models": [
+        {
+          "name": "C35",
+          "count": 14,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.(C.ModelGroup.C35._.Model.C35.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 126,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV 2인승밴"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1493,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2인승밴 스탠다드"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 126,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "EV 4인승밴"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SX6",
+      "count": 0,
+      "code": "005",
+      "eng": "SX6",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.ModelGroup.SX6.)))",
+      "sub_models": [
+        {
+          "name": "SX6",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.(C.ModelGroup.SX6._.Model.SX6.))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "펜콘 ix5",
+      "count": 8,
+      "code": "004",
+      "eng": "Fengon ix5",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.ModelGroup.펜콘 ix5.)))",
+      "sub_models": [
+        {
+          "name": "펜콘 ix5",
+          "count": 8,
+          "code": "004",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.동풍소콘._.(C.ModelGroup.펜콘 ix5._.Model.펜콘 ix5.))))",
+          "start": "201910",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/088_004_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

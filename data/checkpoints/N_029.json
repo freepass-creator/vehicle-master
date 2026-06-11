@@ -1,0 +1,608 @@
+{
+  "name": "마쯔다",
+  "count": 13,
+  "code": "029",
+  "eng": "Mazda",
+  "order": 280.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.마쯔다.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "626",
+      "count": 0,
+      "code": "007",
+      "eng": "626",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.626.)))",
+      "sub_models": [
+        {
+          "name": "626",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.626._.Model.626.))))",
+          "start": "197901",
+          "end": "200212",
+          "period": "79~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "AZ-1",
+      "count": 0,
+      "code": "010",
+      "eng": "AZ-1",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.AZ-1.)))",
+      "sub_models": [
+        {
+          "name": "AZ-1",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.AZ-1._.Model.AZ-1.))))",
+          "start": "199201",
+          "end": "199512",
+          "period": "92~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CX-3",
+      "count": 0,
+      "code": "021",
+      "eng": "CX-3",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.CX-3.)))",
+      "sub_models": [
+        {
+          "name": "CX-3",
+          "count": 0,
+          "code": "101",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.CX-3._.Model.CX-3.))))",
+          "start": "201501",
+          "end": null,
+          "period": "15~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CX-5",
+      "count": 0,
+      "code": "019",
+      "eng": "CX-5",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.CX-5.)))",
+      "sub_models": [
+        {
+          "name": "CX-5",
+          "count": 0,
+          "code": "018",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.CX-5._.Model.CX-5.))))",
+          "start": "201201",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_018_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CX-7",
+      "count": 0,
+      "code": "014",
+      "eng": "CX-7",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.CX-7.)))",
+      "sub_models": [
+        {
+          "name": "CX-7",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.CX-7._.Model.CX-7.))))",
+          "start": "200602",
+          "end": "201201",
+          "period": "06~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CX-9",
+      "count": 0,
+      "code": "015",
+      "eng": "CX-9",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.CX-9.)))",
+      "sub_models": [
+        {
+          "name": "CX-9",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.CX-9._.Model.CX-9.))))",
+          "start": "200601",
+          "end": null,
+          "period": "06~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_015_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MPV",
+      "count": 0,
+      "code": "016",
+      "eng": "MPV",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.MPV.)))",
+      "sub_models": [
+        {
+          "name": "MPV",
+          "count": 0,
+          "code": "016",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.MPV._.Model.MPV.))))",
+          "start": "198801",
+          "end": "201612",
+          "period": "88~16",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MX-3",
+      "count": 0,
+      "code": "002",
+      "eng": "MX-3",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.MX-3.)))",
+      "sub_models": [
+        {
+          "name": "MX-3",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.MX-3._.Model.MX-3.))))",
+          "start": "199101",
+          "end": "199812",
+          "period": "91~98",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MX-5 MIATA",
+      "count": 8,
+      "code": "003",
+      "eng": "MX-5 Miata",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.MX-5 MIATA.)))",
+      "sub_models": [
+        {
+          "name": "MX-5 MIATA",
+          "count": 8,
+          "code": "003",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.MX-5 MIATA._.Model.MX-5 MIATA.))))",
+          "start": "198901",
+          "end": null,
+          "period": "89~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_003_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "MIATA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MX-6",
+      "count": 0,
+      "code": "001",
+      "eng": "MX-6",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.MX-6.)))",
+      "sub_models": [
+        {
+          "name": "MX-6",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.MX-6._.Model.MX-6.))))",
+          "start": "198701",
+          "end": "199712",
+          "period": "87~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RX-7",
+      "count": 0,
+      "code": "004",
+      "eng": "RX-7",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.RX-7.)))",
+      "sub_models": [
+        {
+          "name": "RX-7",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.RX-7._.Model.RX-7.))))",
+          "start": "197801",
+          "end": "200212",
+          "period": "78~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RX-8",
+      "count": 0,
+      "code": "009",
+      "eng": "RX-8",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.RX-8.)))",
+      "sub_models": [
+        {
+          "name": "RX-8",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.RX-8._.Model.RX-8.))))",
+          "start": "200301",
+          "end": "201212",
+          "period": "03~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "데미오",
+      "count": 0,
+      "code": "011",
+      "eng": "Demio",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.데미오.)))",
+      "sub_models": [
+        {
+          "name": "데미오",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.데미오._.Model.데미오.))))",
+          "start": "199601",
+          "end": null,
+          "period": "96~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_011_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마쯔다 3",
+      "count": 2,
+      "code": "018",
+      "eng": "Mazda 3",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.마쯔다 3.)))",
+      "sub_models": [
+        {
+          "name": "마쯔다 3",
+          "count": 2,
+          "code": "017",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.마쯔다 3._.Model.마쯔다 3.))))",
+          "start": "200301",
+          "end": null,
+          "period": "03~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_017_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2400,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "마쯔다 5",
+      "count": 0,
+      "code": "012",
+      "eng": "MAZDA 5",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.마쯔다 5.)))",
+      "sub_models": [
+        {
+          "name": "마쯔다 5",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.마쯔다 5._.Model.마쯔다 5.))))",
+          "start": "199901",
+          "end": "201512",
+          "period": "99~15",
+          "image": "/carsdata/cars/cm_cardb/file/029_012_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마쯔다 6",
+      "count": 0,
+      "code": "013",
+      "eng": "MAZDA 6",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.마쯔다 6.)))",
+      "sub_models": [
+        {
+          "name": "마쯔다 6",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.마쯔다 6._.Model.마쯔다 6.))))",
+          "start": "200201",
+          "end": null,
+          "period": "02~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_013_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "비안테",
+      "count": 1,
+      "code": "022",
+      "eng": "Biante",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.비안테.)))",
+      "sub_models": [
+        {
+          "name": "비안테",
+          "count": 1,
+          "code": "102",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.비안테._.Model.비안테.))))",
+          "start": "200801",
+          "end": "201801",
+          "period": "08~18",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 8,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "베리사",
+      "count": 1,
+      "code": "023",
+      "eng": "Verisa",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.베리사.)))",
+      "sub_models": [
+        {
+          "name": "베리사",
+          "count": 1,
+          "code": "103",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.베리사._.Model.베리사.))))",
+          "start": "200401",
+          "end": "201512",
+          "period": "04~15",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "밀레니아",
+      "count": 0,
+      "code": "005",
+      "eng": "Millenia",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.밀레니아.)))",
+      "sub_models": [
+        {
+          "name": "밀레니아",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.밀레니아._.Model.밀레니아.))))",
+          "start": "199201",
+          "end": "200312",
+          "period": "92~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "유노스",
+      "count": 1,
+      "code": "008",
+      "eng": "Eunons",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.유노스.)))",
+      "sub_models": [
+        {
+          "name": "유노스",
+          "count": 1,
+          "code": "008",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.유노스._.Model.유노스.))))",
+          "start": "198901",
+          "end": "199712",
+          "period": "89~97",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ROADSTER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "프로티지",
+      "count": 0,
+      "code": "006",
+      "eng": "Protege",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.프로티지.)))",
+      "sub_models": [
+        {
+          "name": "프로티지",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.프로티지._.Model.프로티지.))))",
+          "start": "196301",
+          "end": "200312",
+          "period": "63~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "플레어 크로스오버",
+      "count": 0,
+      "code": "020",
+      "eng": "Flair Crossover",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.플레어 크로스오버.)))",
+      "sub_models": [
+        {
+          "name": "플레어 크로스오버",
+          "count": 0,
+          "code": "100",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.플레어 크로스오버._.Model.플레어 크로스오버.))))",
+          "start": "201401",
+          "end": null,
+          "period": "14~현재",
+          "image": "/carsdata/cars/cm_cardb/file/029_100_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "017",
+      "eng": "Others",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.마쯔다._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198010",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

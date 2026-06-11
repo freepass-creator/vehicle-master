@@ -1,0 +1,1967 @@
+{
+  "name": "폭스바겐",
+  "count": 2450,
+  "code": "014",
+  "eng": "Volkswagen",
+  "order": 680.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.폭스바겐.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CC",
+      "count": 101,
+      "code": "001",
+      "eng": "CC",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.CC.)))",
+      "sub_models": [
+        {
+          "name": "뉴 CC",
+          "count": 88,
+          "code": "021",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.CC._.Model.뉴 CC.))))",
+          "start": "201201",
+          "end": "201712",
+          "period": "12~17",
+          "image": "/carsdata/cars/cm_cardb/file/014_021_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 블루모션"
+                },
+                {
+                  "name": "2.0 TDI 블루모션 R라인"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "2.0 TDI 블루모션 4모션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CC",
+          "count": 13,
+          "code": "017",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.CC._.Model.CC.))))",
+          "start": "200801",
+          "end": "201212",
+          "period": "08~12",
+          "image": "/carsdata/cars/cm_cardb/file/014_017_2012.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 블루모션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3597,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "V6 3.6 4MOTION"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EOS",
+      "count": 1,
+      "code": "014",
+      "eng": "EOS",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.EOS.)))",
+      "sub_models": [
+        {
+          "name": "EOS",
+          "count": 1,
+          "code": "014",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.EOS._.Model.EOS.))))",
+          "start": "200601",
+          "end": "201512",
+          "period": "06~15",
+          "image": "/carsdata/cars/cm_cardb/file/014_014_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TFSI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ID.4",
+      "count": 43,
+      "code": "023",
+      "eng": "ID.4",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.ID_.4.)))",
+      "sub_models": [
+        {
+          "name": "ID.4",
+          "count": 43,
+          "code": "043",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.ID_.4._.Model.ID_.4.))))",
+          "start": "202209",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/55737259-1d74-4f82-892e-8c550cdcc770.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 234,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "프로"
+                },
+                {
+                  "name": "프로 라이트"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ID.5",
+      "count": 2,
+      "code": "025",
+      "eng": "ID.5",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.ID_.5.)))",
+      "sub_models": [
+        {
+          "name": "ID.5",
+          "count": 2,
+          "code": "045",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.ID_.5._.Model.ID_.5.))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/51109e40-c551-4d04-b9e6-fe81eae8b3f0.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 234,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "프로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "골프",
+      "count": 428,
+      "code": "007",
+      "eng": "Golf",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.골프.)))",
+      "sub_models": [
+        {
+          "name": "골프 8세대",
+          "count": 142,
+          "code": "042",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 8세대.))))",
+          "start": "202201",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0082484f-cfcd-4b09-80b3-e70f86a33037.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 7세대",
+          "count": 212,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 7세대.))))",
+          "start": "201301",
+          "end": "201912",
+          "period": "13~19",
+          "image": "/carsdata/cars/cm_cardb/file/014_031_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1395,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 TSI"
+                },
+                {
+                  "name": "1.4 TSI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTD"
+                },
+                {
+                  "name": "2.0 GTD 익스트림 에디션"
+                },
+                {
+                  "name": "2.0 TDI"
+                },
+                {
+                  "name": "2.0 TDI 40th 에디션"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTI"
+                },
+                {
+                  "name": "2.0 GTI 익스트림 에디션"
+                },
+                {
+                  "name": "2.0 R"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 TDI"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1799,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 TSI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 6세대",
+          "count": 66,
+          "code": "023",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 6세대.))))",
+          "start": "200801",
+          "end": "201412",
+          "period": "08~14",
+          "image": "/carsdata/cars/cm_cardb/file/014_023_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTD"
+                },
+                {
+                  "name": "2.0 TDI"
+                },
+                {
+                  "name": "2.0 TDI 스타일에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1390,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 TSI"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6 TDI 블루모션"
+                },
+                {
+                  "name": "1.6 TDI 블루모션 스타일에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 카브리올레"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTI 3도어"
+                },
+                {
+                  "name": "2.0 GTI 5도어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 5세대",
+          "count": 4,
+          "code": "024",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 5세대.))))",
+          "start": "200401",
+          "end": "200912",
+          "period": "04~09",
+          "image": "/carsdata/cars/cm_cardb/file/014_024_2009.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 GTI 5도어"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3189,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 4세대",
+          "count": 3,
+          "code": "025",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 4세대.))))",
+          "start": "199701",
+          "end": "200412",
+          "period": "97~04",
+          "image": "/carsdata/cars/cm_cardb/file/014_025_2004.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1781,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 GTI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 3세대",
+          "count": 1,
+          "code": "026",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 3세대.))))",
+          "start": "199101",
+          "end": "199912",
+          "period": "91~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2800,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.8 GTI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "골프 2세대",
+          "count": 0,
+          "code": "027",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 2세대.))))",
+          "start": "198301",
+          "end": "199212",
+          "period": "83~92",
+          "powertrains": []
+        },
+        {
+          "name": "골프 1세대",
+          "count": 0,
+          "code": "028",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.골프._.Model.골프 1세대.))))",
+          "start": "197401",
+          "end": "198312",
+          "period": "74~83",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "리알타",
+      "count": 0,
+      "code": "012",
+      "eng": "Rialta",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.리알타.)))",
+      "sub_models": [
+        {
+          "name": "리알타",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.리알타._.Model.리알타.))))",
+          "start": "199301",
+          "end": "200312",
+          "period": "93~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "마이크로버스",
+      "count": 0,
+      "code": "024",
+      "eng": "Microbus",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.마이크로버스.)))",
+      "sub_models": [
+        {
+          "name": "마이크로버스",
+          "count": 0,
+          "code": "044",
+          "eng": null,
+          "order": 35.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.마이크로버스._.Model.마이크로버스.))))",
+          "start": "1963",
+          "end": null,
+          "period": null,
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "멀티밴",
+      "count": 1,
+      "code": "026",
+      "eng": "Multivan",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.멀티밴.)))",
+      "sub_models": [
+        {
+          "name": "멀티밴",
+          "count": 1,
+          "code": "046",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.멀티밴._.Model.멀티밴.))))",
+          "start": "194901",
+          "end": null,
+          "period": "49~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "벤토",
+      "count": 0,
+      "code": "008",
+      "eng": "Vento",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.벤토.)))",
+      "sub_models": [
+        {
+          "name": "벤토",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.벤토._.Model.벤토.))))",
+          "start": "199201",
+          "end": "199912",
+          "period": "92~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "보라",
+      "count": 1,
+      "code": "010",
+      "eng": "Bora",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.보라.)))",
+      "sub_models": [
+        {
+          "name": "보라",
+          "count": 1,
+          "code": "008",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.보라._.Model.보라.))))",
+          "start": "199901",
+          "end": "200512",
+          "period": "99~05",
+          "image": "/carsdata/cars/cm_cardb/file/014_008_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "A4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "비틀",
+      "count": 75,
+      "code": "003",
+      "eng": "Beatle",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.비틀.)))",
+      "sub_models": [
+        {
+          "name": "더 비틀",
+          "count": 54,
+          "code": "030",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.비틀._.Model.더 비틀.))))",
+          "start": "201210",
+          "end": "201912",
+          "period": "12~19",
+          "image": "/carsdata/cars/cm_cardb/file/014_030_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 익스클루시브"
+                },
+                {
+                  "name": "2.0 TDI 클럽 리미티드 에디션"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 비틀",
+          "count": 21,
+          "code": "005",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.비틀._.Model.뉴 비틀.))))",
+          "start": "199801",
+          "end": "201212",
+          "period": "98~12",
+          "image": "/carsdata/cars/cm_cardb/file/014_005_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1Y"
+                },
+                {
+                  "name": "9C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "비틀",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.비틀._.Model.비틀.))))",
+          "start": "193801",
+          "end": "200312",
+          "period": "38~03",
+          "image": "/carsdata/cars/cm_cardb/file/014_006_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "사란",
+      "count": 0,
+      "code": "009",
+      "eng": "Sharan",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.사란.)))",
+      "sub_models": [
+        {
+          "name": "사란",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.사란._.Model.사란.))))",
+          "start": "199501",
+          "end": null,
+          "period": "95~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_004_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "시로코",
+      "count": 29,
+      "code": "016",
+      "eng": "Scirocco",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.시로코.)))",
+      "sub_models": [
+        {
+          "name": "시로코",
+          "count": 29,
+          "code": "019",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.시로코._.Model.시로코.))))",
+          "start": "200801",
+          "end": "201712",
+          "period": "08~17",
+          "image": "/carsdata/cars/cm_cardb/file/014_019_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI R-Line"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아테온",
+      "count": 332,
+      "code": "020",
+      "eng": "Arteon",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.아테온.)))",
+      "sub_models": [
+        {
+          "name": "아테온",
+          "count": 332,
+          "code": "037",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.아테온._.Model.아테온.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_037_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "2.0 TDI R-LINE 4모션"
+                },
+                {
+                  "name": "2.0 TDI 프레스티지 4모션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아틀라스",
+      "count": 14,
+      "code": "019",
+      "eng": "Atlas",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.아틀라스.)))",
+      "sub_models": [
+        {
+          "name": "아틀라스",
+          "count": 14,
+          "code": "036",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.아틀라스._.Model.아틀라스.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/798b569d-e8dc-427e-b483-da4394413959.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI R-LINE 6인승"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI R-LINE 7인승"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "업",
+      "count": 0,
+      "code": "027",
+      "eng": "Up",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.업.)))",
+      "sub_models": [
+        {
+          "name": "업",
+          "count": 0,
+          "code": "047",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.업._.Model.업.))))",
+          "start": "201101",
+          "end": "202112",
+          "period": "11~21",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "제타",
+      "count": 231,
+      "code": "004",
+      "eng": "Jetta",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.제타.)))",
+      "sub_models": [
+        {
+          "name": "제타 7세대",
+          "count": 170,
+          "code": "039",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.제타._.Model.제타 7세대.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/554a6c01-5419-4b3a-a8a4-16cc9c07bd8f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1495,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 TSI 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1395,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.4 TSI 프레스티지"
+                },
+                {
+                  "name": "1.4 TSI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.5 TSI 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 제타",
+          "count": 61,
+          "code": "018",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.제타._.Model.뉴 제타.))))",
+          "start": "201105",
+          "end": "201812",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/014_018_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2500,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "제타",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.제타._.Model.제타.))))",
+          "start": "197901",
+          "end": "201112",
+          "period": "79~11",
+          "image": "/carsdata/cars/cm_cardb/file/014_012_2011.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "코라도",
+      "count": 0,
+      "code": "018",
+      "eng": "Corado",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.코라도.)))",
+      "sub_models": [
+        {
+          "name": "코라도",
+          "count": 0,
+          "code": "032",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.코라도._.Model.코라도.))))",
+          "start": "198801",
+          "end": "199512",
+          "period": "88~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "투아렉",
+      "count": 139,
+      "code": "005",
+      "eng": "Touareg",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.투아렉.)))",
+      "sub_models": [
+        {
+          "name": "투아렉 3세대",
+          "count": 111,
+          "code": "038",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.투아렉._.Model.투아렉 3세대.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_038_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 3956,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.0 TDI R-Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 TDI R-Line"
+                },
+                {
+                  "name": "3.0 TDI 프레스티지"
+                },
+                {
+                  "name": "3.0 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 투아렉",
+          "count": 24,
+          "code": "020",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.투아렉._.Model.뉴 투아렉.))))",
+          "start": "201007",
+          "end": "201812",
+          "period": "10~18",
+          "image": "/carsdata/cars/cm_cardb/file/014_020_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "7P5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "투아렉",
+          "count": 4,
+          "code": "009",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.투아렉._.Model.투아렉.))))",
+          "start": "200201",
+          "end": "201012",
+          "period": "02~10",
+          "image": "/carsdata/cars/cm_cardb/file/014_009_2010.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 4921,
+              "displacement_l": 4.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "7L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4172,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "7L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "트랜스포터",
+      "count": 0,
+      "code": "022",
+      "eng": "Trasporter",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.트랜스포터.)))",
+      "sub_models": [
+        {
+          "name": "트랜스포터",
+          "count": 0,
+          "code": "041",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.트랜스포터._.Model.트랜스포터.))))",
+          "start": "194901",
+          "end": null,
+          "period": "49~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "티구안",
+      "count": 759,
+      "code": "002",
+      "eng": "Tiguan",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.티구안.)))",
+      "sub_models": [
+        {
+          "name": "티구안 올스페이스",
+          "count": 257,
+          "code": "035",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.티구안._.Model.티구안 올스페이스.))))",
+          "start": "201807",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_035_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TSI 프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "티구안 2세대",
+          "count": 335,
+          "code": "034",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.티구안._.Model.티구안 2세대.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_034_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI"
+                },
+                {
+                  "name": "2.0 TDI 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "2.0 TDI 4모션 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 4모션 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "2.0 TSI 4모션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 티구안",
+          "count": 158,
+          "code": "022",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.티구안._.Model.뉴 티구안.))))",
+          "start": "201109",
+          "end": "201612",
+          "period": "11~16",
+          "image": "/carsdata/cars/cm_cardb/file/014_022_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5N"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1999,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "티구안",
+          "count": 9,
+          "code": "016",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.티구안._.Model.티구안.))))",
+          "start": "200701",
+          "end": "201112",
+          "period": "07~11",
+          "image": "/carsdata/cars/cm_cardb/file/014_016_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5N"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "티록",
+      "count": 42,
+      "code": "021",
+      "eng": "T-Roc",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.티록.)))",
+      "sub_models": [
+        {
+          "name": "티록",
+          "count": 42,
+          "code": "040",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.티록._.Model.티록.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/95a20668-2718-41e6-9561-9b025dececce.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI 스타일"
+                },
+                {
+                  "name": "2.0 TDI 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파사트",
+      "count": 209,
+      "code": "006",
+      "eng": "Passat",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.파사트.)))",
+      "sub_models": [
+        {
+          "name": "파사트 GT(B8)",
+          "count": 128,
+          "code": "033",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.파사트._.Model.파사트 GT(B8_).))))",
+          "start": "201803",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/057a2d00-3c39-4880-b665-211506417df0.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 TDI"
+                },
+                {
+                  "name": "2.0 TDI 프레스티지"
+                },
+                {
+                  "name": "2.0 TDI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4모션",
+              "trims": [
+                {
+                  "name": "2.0 TDI 4모션 프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 파사트",
+          "count": 80,
+          "code": "029",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.파사트._.Model.더 뉴 파사트.))))",
+          "start": "201101",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_029_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1797,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2480,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 파사트",
+          "count": 1,
+          "code": "007",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.파사트._.Model.뉴 파사트.))))",
+          "start": "200501",
+          "end": "201112",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/014_007_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "파사트",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.파사트._.Model.파사트.))))",
+          "start": "197301",
+          "end": "200512",
+          "period": "73~05",
+          "image": "/carsdata/cars/cm_cardb/file/014_003_2005.png",
+          "powertrains": []
+        },
+        {
+          "name": "파사트 바리안트",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.파사트._.Model.파사트 바리안트.))))",
+          "start": "197301",
+          "end": null,
+          "period": "73~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_013_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "페이톤",
+      "count": 20,
+      "code": "011",
+      "eng": "Phaeton",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.페이톤.)))",
+      "sub_models": [
+        {
+          "name": "페이톤",
+          "count": 20,
+          "code": "010",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.페이톤._.Model.페이톤.))))",
+          "start": "200201",
+          "end": "201612",
+          "period": "02~16",
+          "image": "/carsdata/cars/cm_cardb/file/014_010_2016.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VW611"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VW611"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3189,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VW611"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4172,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VW611"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2999,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VW611"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "폴로",
+      "count": 22,
+      "code": "015",
+      "eng": "Polo",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.폴로.)))",
+      "sub_models": [
+        {
+          "name": "폴로",
+          "count": 22,
+          "code": "015",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.폴로._.Model.폴로.))))",
+          "start": "197501",
+          "end": null,
+          "period": "75~현재",
+          "image": "/carsdata/cars/cm_cardb/file/014_015_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1422,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1297,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1422,
+              "displacement_l": 1.4,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 2,
+      "code": "017",
+      "eng": "Others",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 2,
+          "code": "999",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.폭스바겐._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": [
+            {
+              "fuel": "기타",
+              "displacement": 999,
+              "displacement_l": 1.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기타"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

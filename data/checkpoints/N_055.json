@@ -1,0 +1,67 @@
+{
+  "name": "MG로버",
+  "count": 0,
+  "code": "055",
+  "eng": "MG Rover",
+  "order": 210.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.MG로버.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "MG",
+      "count": 0,
+      "code": "002",
+      "eng": "MGF",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.MG로버._.ModelGroup.MG.)))",
+      "sub_models": [
+        {
+          "name": "MGTF",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.MG로버._.(C.ModelGroup.MG._.Model.MGTF.))))",
+          "start": "200201",
+          "end": "200512",
+          "period": "02~05",
+          "powertrains": []
+        },
+        {
+          "name": "MGF",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.MG로버._.(C.ModelGroup.MG._.Model.MGF.))))",
+          "start": "199501",
+          "end": "200512",
+          "period": "95~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "75",
+      "count": 0,
+      "code": "001",
+      "eng": "75",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.MG로버._.ModelGroup.75.)))",
+      "sub_models": [
+        {
+          "name": "75",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.MG로버._.(C.ModelGroup.75._.Model.75.))))",
+          "start": "199901",
+          "end": "200512",
+          "period": "99~05",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

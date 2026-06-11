@@ -1,0 +1,1934 @@
+{
+  "min_listings": 200,
+  "manufacturers_skipped(<=200)": 46,
+  "ev_target_count": 93,
+  "targets": [
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "레이",
+      "sub_model": "더 뉴 기아 레이 EV",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          2
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "라이트",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "레이",
+      "sub_model": "레이",
+      "period": "11~17",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "EV"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "니로",
+      "sub_model": "디 올 뉴 니로 EV",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "니로",
+      "sub_model": "니로 플러스",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "라이트 (택시형)",
+        "어스",
+        "에어",
+        "에어 (택시형)"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "니로",
+      "sub_model": "니로 EV",
+      "period": "18~22",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "노블레스",
+        "택시형",
+        "프레스티지"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV6",
+      "sub_model": "더 뉴 EV6",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ],
+        [
+          "4WD",
+          5
+        ]
+      ],
+      "trims": [
+        "GT",
+        "GT Line",
+        "라이트",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV6",
+      "sub_model": "EV6",
+      "period": "21~24",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "4WD",
+          5
+        ]
+      ],
+      "trims": [
+        "GT Line",
+        "라이트",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "쏘울",
+      "sub_model": "쏘울 부스터 EV",
+      "period": "19~21",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "노블레스",
+        "프레스티지"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "쏘울",
+      "sub_model": "쏘울 EV",
+      "period": "14~19",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV3",
+      "sub_model": "EV3",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ]
+      ],
+      "trims": [
+        "GT Line",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV9",
+      "sub_model": "EV9",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          6
+        ],
+        [
+          "4WD",
+          7
+        ]
+      ],
+      "trims": [
+        "GT Line",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "PV5",
+      "sub_model": "PV5",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          2
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "롱레인지 베이직",
+        "베이직",
+        "스탠다드 베이직",
+        "플러스"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV4",
+      "sub_model": "EV4",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ]
+      ],
+      "trims": [
+        "GT LIne",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "기아",
+      "mf_count": 57114,
+      "model": "EV5",
+      "sub_model": "EV5",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ],
+        [
+          "4WD",
+          5
+        ]
+      ],
+      "trims": [
+        "GT Line",
+        "어스",
+        "에어"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "투싼",
+      "sub_model": "뉴 투싼 ix",
+      "period": "13~15",
+      "fuel": "수소",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ]
+      ],
+      "trims": [
+        "수소(Fuel Cell)"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "코나",
+      "sub_model": "코나 일렉트릭 (SX2)",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "인스퍼레이션",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "코나",
+      "sub_model": "코나 일렉트릭",
+      "period": "18~23",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "모던",
+        "택시형",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "캐스퍼",
+      "sub_model": "캐스퍼 일렉트릭",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "인스퍼레이션",
+        "크로스",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉5",
+      "sub_model": "더 뉴 아이오닉5",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "E-Value+",
+        "N Line",
+        "영업용",
+        "익스클루시브",
+        "프레스티지",
+        "프레스티지 N Line"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉5",
+      "sub_model": "아이오닉5",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "N",
+        "영업용",
+        "영업용 롱레인지 패키지",
+        "익스클루시브",
+        "프레스티지"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉6",
+      "sub_model": "더 뉴 아이오닉6",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "N",
+        "익스클루시브",
+        "프레스티지 N Line"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉6",
+      "sub_model": "아이오닉6",
+      "period": "22~25",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "E-Lite",
+        "E-Value+",
+        "익스클루시브",
+        "익스클루시브 플러스",
+        "프레스티지"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉",
+      "sub_model": "더 뉴 아이오닉 일렉트릭",
+      "period": "19~21",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "N",
+        "Q"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉",
+      "sub_model": "아이오닉 일렉트릭",
+      "period": "16~19",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "I",
+        "N",
+        "Q"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "넥쏘",
+      "sub_model": "넥쏘 (NH2)",
+      "period": "25~현재",
+      "fuel": "수소",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "익스클루시브 스페셜"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "넥쏘",
+      "sub_model": "넥쏘",
+      "period": "18~현재",
+      "fuel": "수소",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "모던",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "아이오닉9",
+      "sub_model": "아이오닉9",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          7
+        ],
+        [
+          "AWD",
+          7
+        ]
+      ],
+      "trims": [
+        "익스클루시브",
+        "캘리그래피",
+        "프레스티지"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "ST1",
+      "sub_model": "ST1",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          2
+        ]
+      ],
+      "trims": [
+        "스마트",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "현대",
+      "mf_count": 54403,
+      "model": "블루온",
+      "sub_model": "블루온",
+      "period": "10~11",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ]
+      ],
+      "trims": [
+        "EV"
+      ]
+    },
+    {
+      "manufacturer": "제네시스",
+      "mf_count": 15042,
+      "model": "G80",
+      "sub_model": "일렉트리파이드 G80 (RG3)",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "e"
+      ]
+    },
+    {
+      "manufacturer": "제네시스",
+      "mf_count": 15042,
+      "model": "GV70",
+      "sub_model": "일렉트리파이드 GV70",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "e"
+      ]
+    },
+    {
+      "manufacturer": "제네시스",
+      "mf_count": 15042,
+      "model": "GV60",
+      "sub_model": "GV60",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "(세부등급 없음)"
+      ]
+    },
+    {
+      "manufacturer": "KG모빌리티(쌍용)",
+      "mf_count": 10947,
+      "model": "코란도",
+      "sub_model": "코란도 EV (이모션)",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "E5"
+      ]
+    },
+    {
+      "manufacturer": "KG모빌리티(쌍용)",
+      "mf_count": 10947,
+      "model": "토레스",
+      "sub_model": "토레스 EVX",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          2
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "E5",
+        "E7",
+        "TV7"
+      ]
+    },
+    {
+      "manufacturer": "KG모빌리티(쌍용)",
+      "mf_count": 10947,
+      "model": "무쏘",
+      "sub_model": "무쏘 EV (O100)",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "MX",
+        "블랙엣지"
+      ]
+    },
+    {
+      "manufacturer": "쉐보레(GM대우)",
+      "mf_count": 10217,
+      "model": "볼트 EV",
+      "sub_model": "뉴 볼트 EV",
+      "period": "21~23",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV 프리미어"
+      ]
+    },
+    {
+      "manufacturer": "쉐보레(GM대우)",
+      "mf_count": 10217,
+      "model": "볼트 EV",
+      "sub_model": "볼트 EV",
+      "period": "17~21",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV",
+        "EV LT 디럭스",
+        "EV 프리미어"
+      ]
+    },
+    {
+      "manufacturer": "쉐보레(GM대우)",
+      "mf_count": 10217,
+      "model": "볼트 EUV",
+      "sub_model": "볼트 EUV",
+      "period": "21~23",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "레드라인",
+        "프리미어"
+      ]
+    },
+    {
+      "manufacturer": "르노코리아(삼성)",
+      "mf_count": 7918,
+      "model": "SM3",
+      "sub_model": "SM3 Z.E.",
+      "period": "13~20",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "RE",
+        "SE",
+        "SE 플러스"
+      ]
+    },
+    {
+      "manufacturer": "르노코리아(삼성)",
+      "mf_count": 7918,
+      "model": "트위지",
+      "sub_model": "트위지",
+      "period": "17~22",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          1
+        ],
+        [
+          "-",
+          2
+        ]
+      ],
+      "trims": [
+        "라이프( )",
+        "인텐스( )",
+        "카고( +트렁크)"
+      ]
+    },
+    {
+      "manufacturer": "르노코리아(삼성)",
+      "mf_count": 7918,
+      "model": "조에",
+      "sub_model": "조에",
+      "period": "20~22",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "인텐스",
+        "인텐스 에코",
+        "젠"
+      ]
+    },
+    {
+      "manufacturer": "르노코리아(삼성)",
+      "mf_count": 7918,
+      "model": "세닉",
+      "sub_model": "세닉",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "아이코닉",
+        "테크노",
+        "테크노 플러스"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "i4",
+      "sub_model": "i4",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "M50",
+        "M50 프로",
+        "eDrive40 M 스포츠",
+        "eDrive40 M 스포츠 프로",
+        "eDrive40 M 스포츠 프로 퍼스트 에디션"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "i5",
+      "sub_model": "i5 (G60)",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "xDrive",
+          null
+        ],
+        [
+          "xDrive",
+          5
+        ]
+      ],
+      "trims": [
+        "40 M 스포츠",
+        "40 M 스포츠 프로",
+        "M60",
+        "eDrive 40",
+        "eDrive 40 M 스포츠",
+        "eDrive 40 M 스포츠 프로"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "i7",
+      "sub_model": "i7 (G70)",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "xDrive",
+          5
+        ]
+      ],
+      "trims": [
+        "60 M 스포츠",
+        "60 M 스포츠 인디비주얼",
+        "60 디자인 퓨어 엑셀런스",
+        "M70",
+        "M70 M 퍼포먼스",
+        "eDrive 50 M 스포츠",
+        "eDrive 50 M 스포츠 리미티드"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "iX3",
+      "sub_model": "iX3",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "M 스포츠"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "iX",
+      "sub_model": "iX",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "xDrive",
+          null
+        ],
+        [
+          "xDrive",
+          5
+        ]
+      ],
+      "trims": [
+        "40 퍼스트에디션",
+        "45 M 스포츠",
+        "50 스포츠 스페셜 에디션",
+        "50 스포츠 플러스",
+        "M70"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "i3",
+      "sub_model": "i3",
+      "period": "14~22",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "룩스",
+        "솔",
+        "솔+"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "iX1",
+      "sub_model": "iX1 (U11)",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "xDrive",
+          5
+        ]
+      ],
+      "trims": [
+        "30 M 스포츠",
+        "30 M 스포츠 프로 스페셜 에디션",
+        "30 xLine"
+      ]
+    },
+    {
+      "manufacturer": "BMW",
+      "mf_count": 17270,
+      "model": "iX2",
+      "sub_model": "iX2 (U10)",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "eDrive 20 M 스포츠"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "G-클래스",
+      "sub_model": "G-클래스 W465",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "G580 EQ 에디션 1",
+        "G580 EQ 테크놀로지"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQE",
+      "sub_model": "EQE SUV X294",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "4MATIC",
+          5
+        ]
+      ],
+      "trims": [
+        "EQE350",
+        "EQE500",
+        "EQE500 런치에디션"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQE",
+      "sub_model": "EQE V295",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "4MATIC",
+          5
+        ]
+      ],
+      "trims": [
+        "EQE300",
+        "EQE350",
+        "EQE350+",
+        "EQE53 AMG +"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQS",
+      "sub_model": "EQS SUV X296",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "4MATIC",
+          5
+        ],
+        [
+          "4MATIC",
+          7
+        ]
+      ],
+      "trims": [
+        "EQS450",
+        "EQS450 런치에디션",
+        "EQS580",
+        "EQS580 런치에디션",
+        "마이바흐 EQS680"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQS",
+      "sub_model": "EQS V297",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "4MATIC",
+          5
+        ]
+      ],
+      "trims": [
+        "EQS350",
+        "EQS450",
+        "EQS450+",
+        "EQS450+ AMG 라인",
+        "EQS53 AMG +"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQA",
+      "sub_model": "EQA H243",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EQA250",
+        "EQA250 AMG 라인",
+        "EQA250 AMG 패키지",
+        "EQA250 AMG 패키지 플러스",
+        "EQA250 일렉트릭 아트",
+        "EQA250 프로그레시브"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQB",
+      "sub_model": "EQB X243",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "4MATIC",
+          5
+        ]
+      ],
+      "trims": [
+        "EQB300",
+        "EQB300 AMG 라인",
+        "EQB300 일렉트릭 아트",
+        "EQB300 프로그레시브"
+      ]
+    },
+    {
+      "manufacturer": "벤츠",
+      "mf_count": 16192,
+      "model": "EQC",
+      "sub_model": "EQC N293",
+      "period": "19~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "4MATIC",
+          5
+        ]
+      ],
+      "trims": [
+        "EQC400",
+        "EQC400 에디션 1886",
+        "EQC400 프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "e-트론",
+      "sub_model": "e-트론",
+      "period": "20~24",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "50",
+        "50 스포트백",
+        "55",
+        "55 스포트백",
+        "S",
+        "S 스포트백"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "Q4 e-트론",
+      "sub_model": "Q4 e-트론 (F4)",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "40",
+        "40 스포트백",
+        "40 프리미엄",
+        "40 프리미엄 스포트백",
+        "45",
+        "45 스포트백",
+        "45 프리미엄",
+        "45 프리미엄 스포트백"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "e-트론 GT",
+      "sub_model": "e-트론 GT",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "GT",
+        "GT 프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "RS e-트론 GT",
+      "sub_model": "RS e-트론 GT",
+      "period": "21~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          4
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "GT RS",
+        "GT RS 퍼포먼스"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "Q6 e-트론",
+      "sub_model": "Q6 e-트론 (GF)",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "퍼포먼스",
+        "퍼포먼스 프리미엄",
+        "프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "A6 e-트론",
+      "sub_model": "A6 e-트론",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "퍼포먼스 S Line",
+        "퍼포먼스 S Line 블랙 에디션",
+        "퍼포먼스 어드밴스드"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "Q8 e-트론",
+      "sub_model": "Q8 e-트론 (GE)",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "50",
+        "55",
+        "55 스포트백",
+        "55 프리미엄"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "SQ6 e-트론",
+      "sub_model": "SQ6 e-트론 (GF)",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "기본"
+      ]
+    },
+    {
+      "manufacturer": "아우디",
+      "mf_count": 5061,
+      "model": "SQ8 e-트론",
+      "sub_model": "SQ8 e-트론 (GE)",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "콰트로",
+          5
+        ]
+      ],
+      "trims": [
+        "스포트백"
+      ]
+    },
+    {
+      "manufacturer": "미니",
+      "mf_count": 3118,
+      "model": "쿠퍼",
+      "sub_model": "쿠퍼 일렉트릭 4세대",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "JCW",
+        "SE 클래식",
+        "SE 페이버드"
+      ]
+    },
+    {
+      "manufacturer": "미니",
+      "mf_count": 3118,
+      "model": "쿠퍼",
+      "sub_model": "쿠퍼 일렉트릭",
+      "period": "22~24",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          4
+        ]
+      ],
+      "trims": [
+        "3세대"
+      ]
+    },
+    {
+      "manufacturer": "미니",
+      "mf_count": 3118,
+      "model": "컨트리맨",
+      "sub_model": "쿠퍼 컨트리맨 일렉트릭 3세대",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "ALL4 SE JCW",
+        "ALL4 SE 페이버드",
+        "E 클래식"
+      ]
+    },
+    {
+      "manufacturer": "미니",
+      "mf_count": 3118,
+      "model": "에이스맨",
+      "sub_model": "에이스맨 1세대",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "E 클래식",
+        "JCW"
+      ]
+    },
+    {
+      "manufacturer": "포르쉐",
+      "mf_count": 3052,
+      "model": "마칸",
+      "sub_model": "마칸 EV",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "4S",
+        "기본",
+        "베이스",
+        "베이스 4"
+      ]
+    },
+    {
+      "manufacturer": "포르쉐",
+      "mf_count": 3052,
+      "model": "타이칸",
+      "sub_model": "타이칸",
+      "period": "20~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          2
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "4 크로스 투리스모",
+        "4S",
+        "4S 크로스 투리스모",
+        "GT",
+        "GT 바이작 패키지",
+        "GTS",
+        "S",
+        "기본",
+        "베이스",
+        "베이스 4",
+        "크로스 투리스모"
+      ]
+    },
+    {
+      "manufacturer": "폭스바겐",
+      "mf_count": 2450,
+      "model": "ID.4",
+      "sub_model": "ID.4",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "프로",
+        "프로 라이트"
+      ]
+    },
+    {
+      "manufacturer": "폭스바겐",
+      "mf_count": 2450,
+      "model": "ID.5",
+      "sub_model": "ID.5",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "프로"
+      ]
+    },
+    {
+      "manufacturer": "볼보",
+      "mf_count": 2352,
+      "model": "XC40",
+      "sub_model": "XC40 리차지",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "트윈",
+        "트윈 얼티메이트"
+      ]
+    },
+    {
+      "manufacturer": "볼보",
+      "mf_count": 2352,
+      "model": "C40",
+      "sub_model": "C40 리차지",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "트윈 얼티메이트"
+      ]
+    },
+    {
+      "manufacturer": "볼보",
+      "mf_count": 2352,
+      "model": "EX30",
+      "sub_model": "EX30 크로스 컨트리",
+      "period": "25~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "퍼포먼스 울트라"
+      ]
+    },
+    {
+      "manufacturer": "볼보",
+      "mf_count": 2352,
+      "model": "EX30",
+      "sub_model": "EX30",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "울트라"
+      ]
+    },
+    {
+      "manufacturer": "지프",
+      "mf_count": 1922,
+      "model": "어벤저",
+      "sub_model": "어벤저",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "알티튜드"
+      ]
+    },
+    {
+      "manufacturer": "테슬라",
+      "mf_count": 1068,
+      "model": "모델 Y",
+      "sub_model": "모델 Y",
+      "period": "20~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ],
+        [
+          "AWD",
+          6
+        ]
+      ],
+      "trims": [
+        "L 롱 레인지",
+        "RWD",
+        "롱 레인지",
+        "롱 레인지 런치에디션",
+        "스탠다드 레인지 RWD",
+        "프리미엄 RWD",
+        "프리미엄 롱 레인지"
+      ]
+    },
+    {
+      "manufacturer": "테슬라",
+      "mf_count": 1068,
+      "model": "모델 3",
+      "sub_model": "모델 3",
+      "period": "17~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "RWD",
+        "롱 레인지",
+        "스탠다드 레인지 플러스 RWD",
+        "퍼포먼스",
+        "프리미엄 롱레인지 RWD"
+      ]
+    },
+    {
+      "manufacturer": "테슬라",
+      "mf_count": 1068,
+      "model": "모델 X",
+      "sub_model": "모델 X",
+      "period": "18~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "100D",
+        "75D",
+        "기본",
+        "롱 레인지",
+        "퍼포먼스",
+        "플래드"
+      ]
+    },
+    {
+      "manufacturer": "테슬라",
+      "mf_count": 1068,
+      "model": "모델 S",
+      "sub_model": "모델 S",
+      "period": "12~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          null
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "100D",
+        "75D",
+        "90D",
+        "P100D",
+        "기본",
+        "롱 레인지",
+        "플래드"
+      ]
+    },
+    {
+      "manufacturer": "테슬라",
+      "mf_count": 1068,
+      "model": "사이버트럭",
+      "sub_model": "사이버트럭",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ],
+        [
+          "AWD",
+          null
+        ]
+      ],
+      "trims": [
+        "Cyberbeast",
+        "기본"
+      ]
+    },
+    {
+      "manufacturer": "렉서스",
+      "mf_count": 863,
+      "model": "UX",
+      "sub_model": "UX300e",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "2WD",
+          5
+        ]
+      ],
+      "trims": [
+        "기본"
+      ]
+    },
+    {
+      "manufacturer": "렉서스",
+      "mf_count": 863,
+      "model": "RZ",
+      "sub_model": "RZ450e",
+      "period": "23~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "럭셔리"
+      ]
+    },
+    {
+      "manufacturer": "마세라티",
+      "mf_count": 571,
+      "model": "그레칼레",
+      "sub_model": "그레칼레",
+      "period": "22~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "AWD",
+          5
+        ]
+      ],
+      "trims": [
+        "폴고레"
+      ]
+    },
+    {
+      "manufacturer": "캐딜락",
+      "mf_count": 539,
+      "model": "리릭",
+      "sub_model": "리릭",
+      "period": "24~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "스포츠"
+      ]
+    },
+    {
+      "manufacturer": "재규어",
+      "mf_count": 498,
+      "model": "I-PACE",
+      "sub_model": "I-PACE",
+      "period": "19~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV400 HSE",
+        "EV400 SE",
+        "EV400 퍼스트 에디션"
+      ]
+    },
+    {
+      "manufacturer": "푸조",
+      "mf_count": 492,
+      "model": "2008",
+      "sub_model": "e-2008 2세대",
+      "period": "20~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV GT",
+        "EV GT Line"
+      ]
+    },
+    {
+      "manufacturer": "푸조",
+      "mf_count": 492,
+      "model": "208",
+      "sub_model": "e-208 2세대",
+      "period": "20~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "GT",
+        "GT Line",
+        "알뤼르"
+      ]
+    },
+    {
+      "manufacturer": "닛산",
+      "mf_count": 341,
+      "model": "리프",
+      "sub_model": "리프 (ZE1)",
+      "period": "19~현재",
+      "fuel": "전기",
+      "variants(drive,seat)": [
+        [
+          "-",
+          5
+        ]
+      ],
+      "trims": [
+        "EV SL"
+      ]
+    }
+  ]
+}

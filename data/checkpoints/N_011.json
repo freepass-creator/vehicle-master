@@ -1,0 +1,3697 @@
+{
+  "name": "아우디",
+  "count": 5061,
+  "code": "011",
+  "eng": "Audi",
+  "order": 500.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.아우디.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "100",
+      "count": 0,
+      "code": "007",
+      "eng": "100",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.100.)))",
+      "sub_models": [
+        {
+          "name": "100",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 30.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.100._.Model.100.))))",
+          "start": "196801",
+          "end": "199412",
+          "period": "68~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "80",
+      "count": 0,
+      "code": "006",
+      "eng": "80",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.80.)))",
+      "sub_models": [
+        {
+          "name": "80",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 28.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.80._.Model.80.))))",
+          "start": "197201",
+          "end": "199612",
+          "period": "72~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "90",
+      "count": 0,
+      "code": "009",
+      "eng": "90",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.90.)))",
+      "sub_models": [
+        {
+          "name": "90",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 29.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.90._.Model.90.))))",
+          "start": "197801",
+          "end": "199512",
+          "period": "78~95",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "A1",
+      "count": 7,
+      "code": "032",
+      "eng": "A1",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A1.)))",
+      "sub_models": [
+        {
+          "name": "A1",
+          "count": 7,
+          "code": "036",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A1._.Model.A1.))))",
+          "start": "201001",
+          "end": "201812",
+          "period": "10~18",
+          "image": "/carsdata/cars/cm_cardb/file/011_036_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30 TDI 디자인 에디션 스포트백"
+                },
+                {
+                  "name": "30 TDI 디자인 프리미엄 스포트백"
+                },
+                {
+                  "name": "30 TDI 스포트"
+                },
+                {
+                  "name": "30 TDI 스포트 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A3",
+      "count": 203,
+      "code": "001",
+      "eng": "A3",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A3.)))",
+      "sub_models": [
+        {
+          "name": "A3 (8Y)",
+          "count": 121,
+          "code": "066",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A3._.Model.A3 (8Y_).))))",
+          "start": "202207",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/af37291a-5781-4d92-b617-e754afebc1ad.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 TFSI"
+                },
+                {
+                  "name": "40 TFSI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TFSI 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 A3",
+          "count": 82,
+          "code": "024",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A3._.Model.뉴 A3.))))",
+          "start": "200301",
+          "end": "202207",
+          "period": "03~22",
+          "image": "/carsdata/cars/cm_cardb/file/011_024_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8V"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8V"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8V"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8P"
+                },
+                {
+                  "name": "8V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A3",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A3._.Model.A3.))))",
+          "start": "199601",
+          "end": "200312",
+          "period": "96~03",
+          "image": "/carsdata/cars/cm_cardb/file/011_005_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "A4",
+      "count": 403,
+      "code": "002",
+      "eng": "A4",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A4.)))",
+      "sub_models": [
+        {
+          "name": "A4 (B9)",
+          "count": 230,
+          "code": "041",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A4._.Model.A4 (B9_).))))",
+          "start": "201605",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1a6fed7f-0799-44ed-9f55-c9104c30e01b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 TFSI"
+                },
+                {
+                  "name": "40 TFSI 프리미엄"
+                },
+                {
+                  "name": "45 TFSI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "35 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "40 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "30 TDI"
+                },
+                {
+                  "name": "30 TDI 프리미엄"
+                },
+                {
+                  "name": "35 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 A4",
+          "count": 172,
+          "code": "011",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A4._.Model.뉴 A4.))))",
+          "start": "200501",
+          "end": "201612",
+          "period": "05~16",
+          "image": "/carsdata/cars/cm_cardb/file/011_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "B8"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "B8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                },
+                {
+                  "name": "B8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A4",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A4._.Model.A4.))))",
+          "start": "199401",
+          "end": "200512",
+          "period": "94~05",
+          "image": "/carsdata/cars/cm_cardb/file/011_006_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A5",
+      "count": 306,
+      "code": "021",
+      "eng": "A5",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A5.)))",
+      "sub_models": [
+        {
+          "name": "A5 (B10)",
+          "count": 30,
+          "code": "075",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A5._.Model.A5 (B10_).))))",
+          "start": "202505",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e82e0ecb-1bde-4145-9d18-648989bff965.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TFSI 콰트로 S Line"
+                },
+                {
+                  "name": "40 TFSI 콰트로 S Line 블랙 에디션"
+                },
+                {
+                  "name": "40 TFSI 콰트로 어드밴스드"
+                },
+                {
+                  "name": "45 TFSI 콰트로 S Line"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로 S Line"
+                },
+                {
+                  "name": "40 TDI 콰트로 어드밴스드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A5 (F5)",
+          "count": 216,
+          "code": "044",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A5._.Model.A5 (F5_).))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/011_044_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로 카브리올레"
+                },
+                {
+                  "name": "45 TFSI 콰트로 쿠페"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄 카브리올레"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TFSI 콰트로 스포트백"
+                },
+                {
+                  "name": "40 TFSI 콰트로 프리미엄 스포트백"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "35 TDI 프리미엄 스포트백"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A5",
+          "count": 60,
+          "code": "026",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A5._.Model.A5.))))",
+          "start": "200701",
+          "end": "201612",
+          "period": "07~16",
+          "image": "/carsdata/cars/cm_cardb/file/011_026_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8TA"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8F7"
+                },
+                {
+                  "name": "8T3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8F7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A6",
+      "count": 1729,
+      "code": "004",
+      "eng": "A6",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A6.)))",
+      "sub_models": [
+        {
+          "name": "A6 (C9)",
+          "count": 11,
+          "code": "081",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A6._.Model.A6 (C9_).))))",
+          "start": "202604",
+          "end": null,
+          "period": "26~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2651be83-0d09-4359-94b0-29992a762b2b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 TFSI 어드밴스드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 TFSI S Line"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로 S Line"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI 콰트로 S Line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A6 (C8)",
+          "count": 1228,
+          "code": "045",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A6._.Model.A6 (C8_).))))",
+          "start": "201901",
+          "end": "202604",
+          "period": "19~26",
+          "image": "/carsdata/cars/cm_cardb/file/011_045_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "45 TFSI"
+                },
+                {
+                  "name": "45 TFSI 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 TDI"
+                },
+                {
+                  "name": "40 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 A6",
+          "count": 490,
+          "code": "004",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A6._.Model.뉴 A6.))))",
+          "start": "200410",
+          "end": "201812",
+          "period": "04~18",
+          "image": "/carsdata/cars/cm_cardb/file/011_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "C6"
+                },
+                {
+                  "name": "C7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A6",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A6._.Model.A6.))))",
+          "start": "199401",
+          "end": "200412",
+          "period": "94~04",
+          "image": "/carsdata/cars/cm_cardb/file/011_007_2004.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "A7",
+      "count": 403,
+      "code": "025",
+      "eng": "A7",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A7.)))",
+      "sub_models": [
+        {
+          "name": "A7 (4K)",
+          "count": 259,
+          "code": "046",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A7._.Model.A7 (4K_).))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/692b43e8-cfcf-4a97-962d-d538b7101272.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI e 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A7",
+          "count": 144,
+          "code": "030",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A7._.Model.A7.))))",
+          "start": "201001",
+          "end": "201712",
+          "period": "10~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_030_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2989,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A8",
+      "count": 273,
+      "code": "003",
+      "eng": "A8",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A8.)))",
+      "sub_models": [
+        {
+          "name": "A8 (D5)",
+          "count": 190,
+          "code": "043",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A8._.Model.A8 (D5_).))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/011_043_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI 콰트로 LWB"
+                },
+                {
+                  "name": "55 TFSI 콰트로 프리미엄 LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "50 TDI 콰트로"
+                },
+                {
+                  "name": "50 TDI 콰트로 LWB"
+                },
+                {
+                  "name": "50 TDI 콰트로 블랙에디션"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄 LWB"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "60 TFSI 콰트로 LWB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 A8",
+          "count": 83,
+          "code": "013",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A8._.Model.뉴 A8.))))",
+          "start": "200210",
+          "end": "201712",
+          "period": "02~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_013_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 4134,
+              "displacement_l": 4.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D3"
+                },
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6299,
+              "displacement_l": 6.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3123,
+              "displacement_l": 3.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5998,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A8",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A8._.Model.A8.))))",
+          "start": "199401",
+          "end": "200212",
+          "period": "94~02",
+          "image": "/carsdata/cars/cm_cardb/file/011_008_2002.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "Q2",
+      "count": 51,
+      "code": "036",
+      "eng": "Q2",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q2.)))",
+      "sub_models": [
+        {
+          "name": "Q2",
+          "count": 51,
+          "code": "055",
+          "eng": null,
+          "order": 35.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q2._.Model.Q2.))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/debedc02-e9ae-4195-8589-fb2b8e463b66.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "35 TDI"
+                },
+                {
+                  "name": "35 TDI 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q3",
+      "count": 140,
+      "code": "026",
+      "eng": "Q3",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q3.)))",
+      "sub_models": [
+        {
+          "name": "Q3 (F3)",
+          "count": 104,
+          "code": "049",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q3._.Model.Q3 (F3_).))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a2479270-0434-4c4a-b471-f939711de4fa.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TFSI 콰트로"
+                },
+                {
+                  "name": "40 TFSI 콰트로 스포트백"
+                },
+                {
+                  "name": "40 TFSI 콰트로 프리미엄"
+                },
+                {
+                  "name": "40 TFSI 콰트로 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "35 TDI"
+                },
+                {
+                  "name": "35 TDI 스포트백"
+                },
+                {
+                  "name": "35 TDI 프리미엄"
+                },
+                {
+                  "name": "35 TDI 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "35 TDI 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Q3",
+          "count": 36,
+          "code": "031",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q3._.Model.Q3.))))",
+          "start": "201101",
+          "end": "201812",
+          "period": "11~18",
+          "image": "/carsdata/cars/cm_cardb/file/011_031_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8U"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "2.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q5",
+      "count": 412,
+      "code": "020",
+      "eng": "Q5",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q5.)))",
+      "sub_models": [
+        {
+          "name": "Q5 (80A)",
+          "count": 43,
+          "code": "077",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q5._.Model.Q5 (80A_).))))",
+          "start": "202505",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/266b2646-06fe-414c-bc2f-3ae7390c78b4.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로 S Line 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로 S Line"
+                },
+                {
+                  "name": "40 TDI 콰트로 S Line 블랙 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TFSI 콰트로 S Line 스포트백"
+                },
+                {
+                  "name": "40 TFSI 콰트로 어드밴스드"
+                },
+                {
+                  "name": "40 TFSI 콰트로 어드밴스드 스포트백"
+                },
+                {
+                  "name": "45 TFSI 콰트로 S Line"
+                },
+                {
+                  "name": "45 TFSI 콰트로 S Line 블랙 에디션"
+                },
+                {
+                  "name": "45 TFSI 콰트로 S Line 블랙 에디션 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로 S Line 스포트백"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Q5 (FY)",
+          "count": 287,
+          "code": "048",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q5._.Model.Q5 (FY_).))))",
+          "start": "201701",
+          "end": null,
+          "period": "17~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b1264996-d321-44fc-aefa-b06386ef5d5b.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "40 TDI 콰트로"
+                },
+                {
+                  "name": "40 TDI 콰트로 스포트백"
+                },
+                {
+                  "name": "40 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "40 TDI 콰트로 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로"
+                },
+                {
+                  "name": "45 TFSI 콰트로 스포트백"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄"
+                },
+                {
+                  "name": "45 TFSI 콰트로 프리미엄 스포트백"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Q5",
+          "count": 82,
+          "code": "025",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q5._.Model.Q5.))))",
+          "start": "200801",
+          "end": "201612",
+          "period": "08~16",
+          "image": "/carsdata/cars/cm_cardb/file/011_025_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1968,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8R"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8R"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3197,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8R"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q7",
+      "count": 375,
+      "code": "013",
+      "eng": "Q7",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q7.)))",
+      "sub_models": [
+        {
+          "name": "Q7 (4M)",
+          "count": 342,
+          "code": "040",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q7._.Model.Q7 (4M_).))))",
+          "start": "201601",
+          "end": "202404",
+          "period": "16~24",
+          "image": "/carsdata/cars/cm_cardb/file/551e208a-329e-42c2-8755-0dd04ea82db0.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TFSI 콰트로"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI 콰트로"
+                },
+                {
+                  "name": "55 TFSI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "35 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "45 TDI 콰트로 스포트"
+                },
+                {
+                  "name": "45 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "35 TDI 콰트로 컴포트"
+                },
+                {
+                  "name": "45 TDI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Q7",
+          "count": 33,
+          "code": "016",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q7._.Model.Q7.))))",
+          "start": "200501",
+          "end": "201512",
+          "period": "05~15",
+          "image": "/carsdata/cars/cm_cardb/file/011_016_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4134,
+              "displacement_l": 4.1,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 4134,
+              "displacement_l": 4.1,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q8",
+      "count": 214,
+      "code": "034",
+      "eng": "Q8",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q8.)))",
+      "sub_models": [
+        {
+          "name": "Q8 (4M)",
+          "count": 214,
+          "code": "047",
+          "eng": null,
+          "order": 33.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q8._.Model.Q8 (4M_).))))",
+          "start": "201805",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/36e3b75d-16c6-4309-998e-7c8c470a8864.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "45 TDI 콰트로 프리미엄"
+                },
+                {
+                  "name": "50 TDI 콰트로 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 TFSI 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "count": 45,
+      "code": "017",
+      "eng": "R8",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.R8.)))",
+      "sub_models": [
+        {
+          "name": "R8 (4S)",
+          "count": 28,
+          "code": "042",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.R8._.Model.R8 (4S_).))))",
+          "start": "201601",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ede3328d-fdf4-483f-bce6-036139778a9e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.2 V10 퍼포먼스 쿠페"
+                },
+                {
+                  "name": "5.2 V10 플러스 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.2 V10 디세니움 에디션 쿠페"
+                },
+                {
+                  "name": "5.2 V10 스파이더"
+                },
+                {
+                  "name": "5.2 V10 퍼포먼스 스파이더"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "R8",
+          "count": 17,
+          "code": "020",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.R8._.Model.R8.))))",
+          "start": "200601",
+          "end": "201512",
+          "period": "06~15",
+          "image": "/carsdata/cars/cm_cardb/file/011_020_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.2 V10 쿠페"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.2 V10 스파이더"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.2 V8 쿠페"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RS3",
+      "count": 21,
+      "code": "033",
+      "eng": "RS3",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS3.)))",
+      "sub_models": [
+        {
+          "name": "RS3 (8Y)",
+          "count": 21,
+          "code": "069",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS3._.Model.RS3 (8Y_).))))",
+          "start": "202308",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2722be11-cf6b-49ab-b24d-800a6a6ecbb4.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2480,
+              "displacement_l": 2.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "2.5 TFSI 콰트로"
+                },
+                {
+                  "name": "2.5 TFSI 콰트로 카본 에디션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RS3",
+          "count": 0,
+          "code": "037",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS3._.Model.RS3.))))",
+          "start": "200301",
+          "end": "202012",
+          "period": "03~20",
+          "image": "/carsdata/cars/cm_cardb/file/011_037_2012.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RS4",
+      "count": 0,
+      "code": "015",
+      "eng": "RS4",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS4.)))",
+      "sub_models": [
+        {
+          "name": "RS4",
+          "count": 0,
+          "code": "018",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS4._.Model.RS4.))))",
+          "start": "200001",
+          "end": "200812",
+          "period": "00~08",
+          "image": "/carsdata/cars/cm_cardb/file/011_018_2008.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RS5",
+      "count": 11,
+      "code": "023",
+      "eng": "RS5",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS5.)))",
+      "sub_models": [
+        {
+          "name": "RS5 (F5)",
+          "count": 3,
+          "code": "062",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS5._.Model.RS5 (F5_).))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bddd29a3-e1df-435d-a16c-87d00194ad03.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2894,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "2.9 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RS5",
+          "count": 8,
+          "code": "028",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS5._.Model.RS5.))))",
+          "start": "201001",
+          "end": "201712",
+          "period": "10~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_028_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8T3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RS6",
+      "count": 4,
+      "code": "016",
+      "eng": "RS6",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS6.)))",
+      "sub_models": [
+        {
+          "name": "RS6 (C8)",
+          "count": 4,
+          "code": "063",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS6._.Model.RS6 (C8_).))))",
+          "start": "202107",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/dc2b88fa-0ea1-4f32-a735-cf7e77602537.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TFSI 콰트로 아반트\t퍼포먼스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RS6",
+          "count": 0,
+          "code": "019",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS6._.Model.RS6.))))",
+          "start": "200201",
+          "end": "201812",
+          "period": "02~18",
+          "image": "/carsdata/cars/cm_cardb/file/011_019_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RS7",
+      "count": 7,
+      "code": "031",
+      "eng": "RS7",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS7.)))",
+      "sub_models": [
+        {
+          "name": "RS7 (4K)",
+          "count": 4,
+          "code": "061",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS7._.Model.RS7 (4K_).))))",
+          "start": "202107",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/294f9905-222d-47d8-9591-0aee5b88c9f6.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TFSI 콰트로 퍼포먼스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RS7",
+          "count": 3,
+          "code": "035",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS7._.Model.RS7.))))",
+          "start": "201401",
+          "end": "201712",
+          "period": "14~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_035_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RSQ8",
+      "count": 14,
+      "code": "038",
+      "eng": "RSQ8",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RSQ8.)))",
+      "sub_models": [
+        {
+          "name": "RSQ8 (4M)",
+          "count": 14,
+          "code": "059",
+          "eng": null,
+          "order": 37.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RSQ8._.Model.RSQ8 (4M_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a1a9c2dd-1591-427d-a48e-e3343a38c348.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TFSI 콰트로"
+                },
+                {
+                  "name": "4.0 TFSI 콰트로 퍼포먼스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "count": 6,
+      "code": "011",
+      "eng": "S3",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S3.)))",
+      "sub_models": [
+        {
+          "name": "S3 (8Y)",
+          "count": 6,
+          "code": "068",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S3._.Model.S3 (8Y_).))))",
+          "start": "202212",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/c572bc5c-4dd2-4cb7-b8cc-2e165c148c90.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "2.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S3",
+          "count": 0,
+          "code": "014",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S3._.Model.S3.))))",
+          "start": "199601",
+          "end": "202211",
+          "period": "96~22",
+          "image": "/carsdata/cars/cm_cardb/file/011_014_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "count": 17,
+      "code": "012",
+      "eng": "S4",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S4.)))",
+      "sub_models": [
+        {
+          "name": "S4 (B9)",
+          "count": 16,
+          "code": "060",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S4._.Model.S4 (B9_).))))",
+          "start": "202106",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ee183f5b-1fa1-46fb-8fe5-d57eb6425a53.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 S4",
+          "count": 0,
+          "code": "032",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S4._.Model.뉴 S4.))))",
+          "start": "200801",
+          "end": "201612",
+          "period": "08~16",
+          "image": "/carsdata/cars/cm_cardb/file/011_032_2018.png",
+          "powertrains": []
+        },
+        {
+          "name": "S4",
+          "count": 1,
+          "code": "015",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S4._.Model.S4.))))",
+          "start": "199101",
+          "end": "200812",
+          "period": "91~08",
+          "image": "/carsdata/cars/cm_cardb/file/011_015_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "B7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S5",
+      "count": 9,
+      "code": "018",
+      "eng": "S5",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S5.)))",
+      "sub_models": [
+        {
+          "name": "S5 (B10)",
+          "count": 1,
+          "code": "076",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S5._.Model.S5 (B10_).))))",
+          "start": "202505",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a200f184-ebe1-4b0a-b6ca-5e8c6ce8512c.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S5 (F5)",
+          "count": 6,
+          "code": "058",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S5._.Model.S5 (F5_).))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/611f83a2-bec1-4150-94c6-511011fc3878.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S5",
+          "count": 2,
+          "code": "021",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S5._.Model.S5.))))",
+          "start": "200701",
+          "end": "201412",
+          "period": "07~14",
+          "image": "/carsdata/cars/cm_cardb/file/011_021_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4163,
+              "displacement_l": 4.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "B8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S6",
+      "count": 9,
+      "code": "014",
+      "eng": "S6",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S6.)))",
+      "sub_models": [
+        {
+          "name": "S6 (C8)",
+          "count": 8,
+          "code": "051",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S6._.Model.S6 (C8_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/29d3e2ad-d400-4a58-9ad3-5129c3364bb0.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TDI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S6",
+          "count": 1,
+          "code": "017",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S6._.Model.S6.))))",
+          "start": "199401",
+          "end": "201812",
+          "period": "94~18",
+          "image": "/carsdata/cars/cm_cardb/file/011_017_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "C7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S7",
+      "count": 18,
+      "code": "029",
+      "eng": "S7",
+      "order": 26.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S7.)))",
+      "sub_models": [
+        {
+          "name": "S7 (4K)",
+          "count": 9,
+          "code": "050",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S7._.Model.S7 (4K_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bd8a3983-b46a-41fa-80f1-51d9cacf0d7c.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TDI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S7",
+          "count": 9,
+          "code": "033",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S7._.Model.S7.))))",
+          "start": "201201",
+          "end": "201712",
+          "period": "12~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_033_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4G"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S8",
+      "count": 16,
+      "code": "019",
+      "eng": "S8",
+      "order": 27.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S8.)))",
+      "sub_models": [
+        {
+          "name": "S8 (D5)",
+          "count": 8,
+          "code": "053",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S8._.Model.S8 (D5_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/86b00ef7-e76c-4353-9a75-2bb259b3cf7e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TFSI 콰트로 LWB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S8",
+          "count": 8,
+          "code": "022",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S8._.Model.S8.))))",
+          "start": "199401",
+          "end": "201712",
+          "period": "94~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_022_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3993,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5204,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "D3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQ5",
+      "count": 79,
+      "code": "030",
+      "eng": "SQ5",
+      "order": 28.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.SQ5.)))",
+      "sub_models": [
+        {
+          "name": "SQ5 (FY)",
+          "count": 64,
+          "code": "054",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ5._.Model.SQ5 (FY_).))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5f734770-5851-4da5-81cf-795e62aaf9e6.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2995,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TFSI 콰트로"
+                },
+                {
+                  "name": "3.0 TFSI 콰트로 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "3.0 TDI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SQ5",
+          "count": 15,
+          "code": "034",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ5._.Model.SQ5.))))",
+          "start": "201301",
+          "end": "201712",
+          "period": "13~17",
+          "image": "/carsdata/cars/cm_cardb/file/011_034_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2967,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQ7",
+      "count": 4,
+      "code": "042",
+      "eng": "SQ7",
+      "order": 29.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.SQ7.)))",
+      "sub_models": [
+        {
+          "name": "SQ7 (4M)",
+          "count": 4,
+          "code": "070",
+          "eng": null,
+          "order": 41.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ7._.Model.SQ7 (4M_).))))",
+          "start": "202312",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a6470023-3193-4f8c-ae51-898eddc6ed19.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3996,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQ8",
+      "count": 3,
+      "code": "037",
+      "eng": "SQ8",
+      "order": 30.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.SQ8.)))",
+      "sub_models": [
+        {
+          "name": "SQ8 (4M)",
+          "count": 3,
+          "code": "056",
+          "eng": null,
+          "order": 36.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ8._.Model.SQ8 (4M_).))))",
+          "start": "202001",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/dd17d0b1-f094-4d0f-9d6d-12c8f843f23e.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 3956,
+              "displacement_l": 4.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "4.0 TDI 콰트로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TTRS",
+      "count": 0,
+      "code": "024",
+      "eng": "TTRS",
+      "order": 31.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.TTRS.)))",
+      "sub_models": [
+        {
+          "name": "TTRS (8S)",
+          "count": 0,
+          "code": "057",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TTRS._.Model.TTRS (8S_).))))",
+          "start": "201604",
+          "end": "202307",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/417e883f-b861-471d-8330-2631bc90324d.png",
+          "powertrains": []
+        },
+        {
+          "name": "TTRS",
+          "count": 0,
+          "code": "029",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TTRS._.Model.TTRS.))))",
+          "start": "200901",
+          "end": "201412",
+          "period": "09~14",
+          "image": "/carsdata/cars/cm_cardb/file/011_029_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "TTS",
+      "count": 8,
+      "code": "022",
+      "eng": "TTS",
+      "order": 32.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.TTS.)))",
+      "sub_models": [
+        {
+          "name": "TTS (8S)",
+          "count": 5,
+          "code": "039",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TTS._.Model.TTS (8S_).))))",
+          "start": "201501",
+          "end": "202307",
+          "period": "15~23",
+          "image": "/carsdata/cars/cm_cardb/file/011_039_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "쿠페 2.0 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TTS",
+          "count": 3,
+          "code": "027",
+          "eng": null,
+          "order": 25.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TTS._.Model.TTS.))))",
+          "start": "200801",
+          "end": "201412",
+          "period": "08~14",
+          "image": "/carsdata/cars/cm_cardb/file/011_027_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8J"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TT",
+      "count": 24,
+      "code": "005",
+      "eng": "TT",
+      "order": 33.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.TT.)))",
+      "sub_models": [
+        {
+          "name": "TT (8S)",
+          "count": 9,
+          "code": "038",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TT._.Model.TT (8S_).))))",
+          "start": "201408",
+          "end": "202311",
+          "period": "14~23",
+          "image": "/carsdata/cars/cm_cardb/file/011_038_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "로드스터 45 TFSI 콰트로"
+                },
+                {
+                  "name": "쿠페 45 TFSI 콰트로"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 TT",
+          "count": 12,
+          "code": "023",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TT._.Model.뉴 TT.))))",
+          "start": "200604",
+          "end": "201412",
+          "period": "06~14",
+          "image": "/carsdata/cars/cm_cardb/file/011_023_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8J"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1984,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8J"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TT",
+          "count": 3,
+          "code": "010",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.TT._.Model.TT.))))",
+          "start": "199810",
+          "end": "200612",
+          "period": "98~06",
+          "image": "/carsdata/cars/cm_cardb/file/011_010_2006.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1781,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "8N"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1781,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "8N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "V8",
+      "count": 0,
+      "code": "008",
+      "eng": "V8",
+      "order": 34.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.V8.)))",
+      "sub_models": [
+        {
+          "name": "V8",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 31.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.V8._.Model.V8.))))",
+          "start": "198801",
+          "end": "199412",
+          "period": "88~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "A6 e-트론",
+      "count": 9,
+      "code": "048",
+      "eng": "A6 e-Tron",
+      "order": 35.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.A6 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "A6 e-트론",
+          "count": 9,
+          "code": "078",
+          "eng": null,
+          "order": 46.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.A6 e-트론._.Model.A6 e-트론.))))",
+          "start": "202508",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 151,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "퍼포먼스 S Line"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "퍼포먼스 S Line 블랙 에디션"
+                },
+                {
+                  "name": "퍼포먼스 어드밴스드"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S6 e-트론",
+      "count": 0,
+      "code": "049",
+      "eng": "S6 e-Tron",
+      "order": 36.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S6 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "S6 e-트론",
+          "count": 0,
+          "code": "079",
+          "eng": null,
+          "order": 47.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S6 e-트론._.Model.S6 e-트론.))))",
+          "start": "202508",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "e-트론",
+      "count": 103,
+      "code": "035",
+      "eng": "e-tron",
+      "order": 37.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.e-트론.)))",
+      "sub_models": [
+        {
+          "name": "e-트론",
+          "count": 103,
+          "code": "052",
+          "eng": null,
+          "order": 34.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.e-트론._.Model.e-트론.))))",
+          "start": "202001",
+          "end": "202406",
+          "period": "20~24",
+          "image": "/carsdata/cars/cm_cardb/file/1be96dcf-4bcf-4bf6-a203-dbc3eddb7b56.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 240,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "55 콰트로"
+                },
+                {
+                  "name": "55 콰트로 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 180,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "50 콰트로"
+                },
+                {
+                  "name": "50 콰트로 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 240,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "S"
+                },
+                {
+                  "name": "S 스포트백"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e-트론 GT",
+      "count": 19,
+      "code": "039",
+      "eng": "e-tron GT",
+      "order": 38.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.e-트론 GT.)))",
+      "sub_models": [
+        {
+          "name": "e-트론 GT",
+          "count": 19,
+          "code": "064",
+          "eng": null,
+          "order": 38.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.e-트론 GT._.Model.e-트론 GT.))))",
+          "start": "202112",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/979285bc-f853-4913-ac44-92b066b8a2c9.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "GT 콰트로"
+                },
+                {
+                  "name": "GT 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S e-트론 GT",
+      "count": 0,
+      "code": "050",
+      "eng": "S e-tron GT",
+      "order": 39.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.S e-트론 GT.)))",
+      "sub_models": [
+        {
+          "name": "S e-트론 GT",
+          "count": 0,
+          "code": "080",
+          "eng": null,
+          "order": 48.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.S e-트론 GT._.Model.S e-트론 GT.))))",
+          "start": "202510",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/45a159f4-eb1c-46f4-9254-80ec16de8f31.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RS e-트론 GT",
+      "count": 15,
+      "code": "040",
+      "eng": "RS e-tron GT",
+      "order": 40.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.RS e-트론 GT.)))",
+      "sub_models": [
+        {
+          "name": "RS e-트론 GT",
+          "count": 15,
+          "code": "065",
+          "eng": null,
+          "order": 39.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.RS e-트론 GT._.Model.RS e-트론 GT.))))",
+          "start": "202112",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1ef05ead-aa09-498b-ad3c-71a80862ee82.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 129,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT RS"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "GT RS 퍼포먼스"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q4 e-트론",
+      "count": 82,
+      "code": "041",
+      "eng": "Q4 e-tron",
+      "order": 41.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q4 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "Q4 e-트론 (F4)",
+          "count": 82,
+          "code": "067",
+          "eng": null,
+          "order": 40.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q4 e-트론._.Model.Q4 e-트론 (F4_).))))",
+          "start": "202209",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/bbe56af5-0e4e-41b1-add2-38cfc23e0f89.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 234,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40"
+                },
+                {
+                  "name": "40 스포트백"
+                },
+                {
+                  "name": "40 프리미엄"
+                },
+                {
+                  "name": "45"
+                },
+                {
+                  "name": "45 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 111,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "40 프리미엄 스포트백"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "45 스포트백"
+                },
+                {
+                  "name": "45 프리미엄 스포트백"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q6 e-트론",
+      "count": 13,
+      "code": "046",
+      "eng": "Q6 e-tron",
+      "order": 42.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q6 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "Q6 e-트론 (GF)",
+          "count": 13,
+          "code": "073",
+          "eng": null,
+          "order": 44.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q6 e-트론._.Model.Q6 e-트론 (GF_).))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/a01c6bd1-48b1-4a8e-85c7-6836cafef6d2.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 151,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "퍼포먼스"
+                },
+                {
+                  "name": "퍼포먼스 프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "프리미엄 콰트로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q8 e-트론",
+      "count": 4,
+      "code": "043",
+      "eng": "Q8 e-tron",
+      "order": 43.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.Q8 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "Q8 e-트론 (GE)",
+          "count": 4,
+          "code": "071",
+          "eng": null,
+          "order": 42.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.Q8 e-트론._.Model.Q8 e-트론 (GE_).))))",
+          "start": "202406",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/34145f2c-1ff3-4da3-a185-07a2806be99d.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "50 콰트로"
+                },
+                {
+                  "name": "55 콰트로"
+                },
+                {
+                  "name": "55 콰트로 스포트백"
+                },
+                {
+                  "name": "55 콰트로 프리미엄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQ6 e-트론",
+      "count": 4,
+      "code": "047",
+      "eng": "SQ6 e-tron",
+      "order": 44.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.SQ6 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "SQ6 e-트론 (GF)",
+          "count": 4,
+          "code": "074",
+          "eng": null,
+          "order": 45.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ6 e-트론._.Model.SQ6 e-트론 (GF_).))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/8070a3f1-8313-4d69-b807-999d980260f2.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 151,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "콰트로"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQ8 e-트론",
+      "count": 1,
+      "code": "044",
+      "eng": "SQ8 e-tron",
+      "order": 45.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.SQ8 e-트론.)))",
+      "sub_models": [
+        {
+          "name": "SQ8 e-트론 (GE)",
+          "count": 1,
+          "code": "072",
+          "eng": null,
+          "order": 43.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.SQ8 e-트론._.Model.SQ8 e-트론 (GE_).))))",
+          "start": "202406",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/53f126ff-6968-4e8c-b41d-aa5f2234faca.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 288,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "콰트로",
+              "trims": [
+                {
+                  "name": "콰트로 스포트백"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "올로드 콰트로",
+      "count": 0,
+      "code": "010",
+      "eng": "Allroad Quattro",
+      "order": 46.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.올로드 콰트로.)))",
+      "sub_models": [
+        {
+          "name": "올로드 콰트로",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.올로드 콰트로._.Model.올로드 콰트로.))))",
+          "start": "199901",
+          "end": "200602",
+          "period": "99~06",
+          "image": "/carsdata/cars/cm_cardb/file/011_012_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "028",
+      "eng": "Others",
+      "order": 47.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 32.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.아우디._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# python
+__pycache__/
+*.pyc
+
+# 임시/중간 점검 파일
+_*.json
+_*.py
+_*.js
+*.tmp
+*.tmp.json
+
+# 워크플로우 베이크 산출물(템플릿+타깃에서 재생성 가능, 용량 큼)
+scripts/*_run.js

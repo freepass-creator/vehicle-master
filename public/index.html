@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>차종마스터</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<style>
+  :root{
+    --ink:#16181d; --sub:#6b7280; --line:#e3e6ea; --hov:#f4f6f8;
+    --sel:#16181d; --selink:#fff;
+    --mono:'Consolas','SFMono-Regular',ui-monospace,monospace;
+    --kr:'Pretendard',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{font-family:var(--kr);color:var(--ink);background:#fff;
+       font-size:13px;line-height:1.45;display:flex;flex-direction:column}
+  header{border-bottom:1px solid var(--line);padding:10px 16px;display:flex;
+         align-items:center;gap:16px;flex:none}
+  header h1{font-size:14px;font-weight:700;margin:0;letter-spacing:-.2px}
+  header .lv{color:var(--sub);font-size:11px}
+  header .lv b{color:var(--ink);font-weight:600}
+  .stat{margin-left:auto;display:flex;gap:13px;font-family:var(--mono);font-size:11px;color:var(--sub)}
+  .stat b{color:var(--ink)}
+  .stat .live{color:#16a34a;font-weight:700}
+  .search{flex:none;padding:8px 16px;border-bottom:1px solid var(--line)}
+  .search input{width:100%;max-width:420px;border:1px solid var(--line);
+       padding:7px 10px;font-family:var(--kr);font-size:13px;outline:none}
+  .search input:focus{border-color:var(--ink)}
+  .cols{flex:1;display:grid;grid-template-columns:repeat(5,1fr);min-height:0}
+  .col{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0}
+  .col:last-child{border-right:none}
+  .col h2{margin:0;padding:7px 12px;font-size:10px;font-weight:700;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--sub);border-bottom:1px solid var(--line);
+       background:#fafbfc;display:flex;align-items:center;gap:8px;flex:none}
+  .col h2 .cnt{margin-left:auto;font-family:var(--mono);color:#9aa1ab;font-weight:600;text-transform:none}
+  .tabs{display:flex;gap:2px}
+  .tabs button{font:inherit;font-size:10px;font-weight:700;border:none;background:none;
+       color:#b3b9c2;cursor:pointer;padding:1px 4px;letter-spacing:0}
+  .tabs button.on{color:var(--ink);border-bottom:1.5px solid var(--ink)}
+  .list{overflow:auto;flex:1}
+  .sec{padding:5px 12px;font-size:10px;font-weight:700;letter-spacing:.1em;color:#9aa1ab;
+       background:#f7f8fa;border-bottom:1px solid var(--line);position:sticky;top:0}
+  .item{padding:6px 12px;border-bottom:1px solid #f1f3f5;cursor:pointer;
+       display:flex;align-items:center;gap:8px;user-select:none}
+  .item:hover{background:var(--hov)}
+  .item.sel{background:var(--sel);color:var(--selink)}
+  .item.sel .meta,.item.sel .cnt,.item.sel .pd{color:#c7cdd6}
+  .item .nm{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .item .pd{font-family:var(--mono);font-size:10px;color:#8b93a0;flex:none}
+  .item .meta{font-family:var(--mono);font-size:10px;color:#9aa1ab}
+  .item .cnt{font-family:var(--mono);font-size:10px;color:var(--sub);flex:none}
+  .item .chev{color:#cbd2da;flex:none}
+  .item.sel .chev{color:#fff}
+  .empty{padding:18px 12px;color:#aeb4bd;font-size:12px}
+  .leaf .item{cursor:default}
+  .pw .nm{font-family:var(--mono);font-size:12px}
+  .tag{font-size:9px;color:#9aa1ab;border:1px solid var(--line);border-radius:2px;padding:0 3px;margin-left:4px}
+  .item.sel .tag{color:#c7cdd6;border-color:#5b6068}
+  .fleetbtn{font:inherit;font-size:10px;font-weight:700;border:1px solid var(--line);background:none;
+       color:#b3b9c2;cursor:pointer;padding:1px 5px;border-radius:2px;letter-spacing:0}
+  .fleetbtn.on{color:var(--ink);border-color:var(--ink)}
+</style>
+</head>
+<body>
+<header>
+  <h1>차종마스터</h1>
+  <span class="lv"><b>제조사</b> › 모델 › 세부모델 › 파워트레인 › 세부트림</span>
+  <div class="stat" id="stat"></div>
+</header>
+<div class="search"><input id="q" placeholder="검색 (예: 그랜저, 카니발, 싼타페, BMW)"></div>
+<div class="cols">
+  <div class="col"><h2>제조사 <span class="cnt" id="c0">·</span></h2><div class="list" id="l0"></div></div>
+  <div class="col"><h2>모델 <span class="cnt" id="c1">·</span></h2><div class="list" id="l1"></div></div>
+  <div class="col"><h2>세부모델
+      <span class="tabs"><button data-s="release" class="on" id="tabR">출시순</button><button data-s="popular" id="tabP">인기순</button></span>
+      <span class="cnt" id="c2">·</span></h2><div class="list" id="l2"></div></div>
+  <div class="col pw"><h2>파워트레인 <span class="cnt" id="c3">·</span></h2><div class="list" id="l3"></div></div>
+  <div class="col leaf"><h2>세부트림
+      <button id="fleetToggle" class="fleetbtn">영업용 표시</button>
+      <span class="cnt" id="c4">·</span></h2><div class="list" id="l4"></div></div>
+</div>
+<script>
+let TREE=null, sel=[null,null,null,null], subSort='release', showFleet=false;
+
+function manufacturers(){ return TREE&&TREE.manufacturers? TREE.manufacturers: []; }
+function models(){ const m=manufacturers()[sel[0]]; return (sel[0]!=null&&m)? (m.models||[]): []; }
+function subModels(){
+  const g=models()[sel[1]];
+  let s = (sel[1]!=null&&g)? (g.sub_models||[]): [];
+  s = s.slice();
+  if(subSort==='popular') s.sort((a,b)=>(b.count||0)-(a.count||0));
+  else s.sort((a,b)=>(b.start||'').localeCompare(a.start||''));   // 출시순(최신 위)
+  return s;
+}
+function powertrains(){ const s=subModels()[sel[2]]; return (sel[2]!=null&&s)? (s.powertrains||[]): []; }
+function trims(){
+  const p=powertrains()[sel[3]];
+  let ts = (sel[3]!=null&&p)? (p.trims||[]): [];
+  if(!showFleet) ts = ts.filter(t=>!t.fleet);   // 기본: 영업용(fleet) 숨김
+  return ts;
+}
+
+function energyStr(pw){
+  // EV/수소: 배터리 kWh, 내연: 배기량(+T)
+  if(pw.battery_kwh!=null) return pw.battery_kwh+'kWh';
+  if(pw.battery_kwh_options) return pw.battery_kwh_options.join('/')+'kWh';
+  if(pw.displacement_l!=null) return pw.displacement_l.toFixed(1)+(pw.turbo?'T':'');
+  return '';
+}
+// 연료 에너지(배기량 or 배터리) 기본 + 인승/구동은 같은 세부모델 내에서 구분될 때만 추가
+function pwLabel(pw, siblings){
+  let base=[pw.fuel||'', energyStr(pw)].filter(Boolean).join(' ');
+  const seatVary = new Set(siblings.map(x=>x.seat==null?'':x.seat)).size>1;
+  const driveVary= new Set(siblings.map(x=>x.drivetrain||'')).size>1;
+  if(seatVary && pw.seat) base+=' '+pw.seat+'인승';
+  if(driveVary && pw.drivetrain) base+=' '+pw.drivetrain;
+  return base.trim()||'(미상)';
+}
+function fmtCnt(n){ if(n==null) return ''; return n>=10000?(n/10000).toFixed(1)+'만':(''+n); }
+
+function render(){
+  // L0 제조사 (국산/수입 섹션 분리)
+  const m=manufacturers(), box0=document.getElementById('l0');
+  document.getElementById('c0').textContent=m.length||'·';
+  box0.innerHTML=''; let lastSec=null;
+  m.forEach((it,i)=>{
+    if(it.car_type!==lastSec){ lastSec=it.car_type;
+      const s=document.createElement('div'); s.className='sec'; s.textContent=lastSec||''; box0.appendChild(s); }
+    box0.appendChild(rowEl(it.name, fmtCnt(it.count), it.eng, (it.models||[]).length, 0, i, sel[0]===i));
+  });
+  if(!m.length) box0.innerHTML='<div class="empty">…</div>';
+
+  // L1 모델
+  fill(1, models(), it=>rowEl(it.name, fmtCnt(it.count), null, (it.sub_models||[]).length, 1, null, false, it));
+  // L2 세부모델 (생산기간)
+  fill(2, subModels(), it=>{
+    const r=rowEl(it.name, fmtCnt(it.count), null, (it.powertrains||[]).length, 2, null, false, it);
+    if(it.period){ const p=document.createElement('span'); p.className='pd'; p.textContent="'"+it.period; r.insertBefore(p, r.querySelector('.cnt')); }
+    return r;
+  });
+  // L3 파워트레인 (EV는 주행거리 meta 표시)
+  const pws=powertrains();
+  fill(3, pws, (it)=>rowEl(pwLabel(it,pws), it.trims?fmtCnt(it.trims.length):'',
+                           it.range_km?it.range_km+'km':null, (it.trims||[]).length, 3, null, false, it));
+  // L4 세부트림 (말단) — 신차가 + 영업용/특수 표시
+  fill(4, trims(), it=>{
+    const price = it.msrp? it.msrp.toLocaleString()+'만' : '';
+    let tag = it.fleet?'영업용':(it.special?'특별':'');
+    const name = it.name + (tag?` <span class="tag">${tag}</span>`:'');
+    return rowEl(name, price, null, 0, 4, null, false);
+  }, true);
+}
+
+function rowEl(name, cnt, eng, childN, lv, fixedIdx, selected, obj){
+  const d=document.createElement('div');
+  d.className='item'+(selected?' sel':'');
+  const meta = eng?`<span class="meta">${eng}</span>`:'';
+  const c = cnt?`<span class="cnt">${cnt}</span>`:'';
+  const chev = (lv<4 && childN)?'<span class="chev">›</span>':'';
+  d.innerHTML=`<span class="nm">${name??''}</span>${meta}${c}${chev}`;
+  d._lv=lv; d._fixedIdx=fixedIdx;
+  return d;
+}
+
+function fill(lv, items, mk, isLeaf){
+  const box=document.getElementById('l'+lv);
+  document.getElementById('c'+lv).textContent=items.length||'·';
+  box.innerHTML='';
+  if(!items.length){ if(sel[lv-1]!=null) box.innerHTML='<div class="empty">—</div>'; return; }
+  items.forEach((it,i)=>{
+    const el=mk(it,i);
+    if(sel[lv]===i) el.classList.add('sel');
+    if(!isLeaf && lv<4){ el.onclick=()=>{ sel[lv]=i; for(let k=lv+1;k<4;k++) sel[k]=null; render(); }; }
+    box.appendChild(el);
+  });
+}
+// L0 클릭은 fixedIdx 사용 (섹션 때문에 i 와 배열 인덱스 동일하지만 명시)
+document.getElementById('l0').addEventListener('click',e=>{
+  const it=e.target.closest('.item'); if(!it) return;
+  const items=[...document.querySelectorAll('#l0 .item')];
+  const idx=items.indexOf(it);
+  sel=[idx,null,null,null]; render();
+});
+
+document.getElementById('fleetToggle').onclick=function(){
+  showFleet=!showFleet;
+  this.classList.toggle('on',showFleet);
+  render();
+};
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
+  subSort=b.dataset.s;
+  document.getElementById('tabR').classList.toggle('on',subSort==='release');
+  document.getElementById('tabP').classList.toggle('on',subSort==='popular');
+  sel[2]=null; sel[3]=null; render();
+});
+
+async function load(){
+  const [t,s]=await Promise.all([
+    fetch('/api/tree').then(r=>r.json()),
+    fetch('/api/stats').then(r=>r.json())
+  ]);
+  TREE=t;
+  document.getElementById('stat').innerHTML=
+    `${s.live?'<span class="live">● LIVE</span>':''}`+
+    `제조사 <b>${s.manufacturers}</b> · 모델 <b>${s.models}</b> · 세부모델 <b>${s.sub_models}</b>`+
+    ` · 파워트레인 <b>${s.powertrains}</b> · 트림 <b>${s.trims}</b>`;
+  try{ render(); }catch(err){ console.error('render', err); }
+  if(s.live) setTimeout(load, 6000);
+}
+
+document.getElementById('q').addEventListener('input', e=>{
+  const q=e.target.value.trim().toLowerCase();
+  if(!q){ render(); return; }
+  const mans=manufacturers();
+  for(let mi=0; mi<mans.length; mi++){
+    const m=mans[mi];
+    for(let gi=0; gi<(m.models||[]).length; gi++){
+      const g=m.models[gi];
+      const subs=g.sub_models||[];
+      for(let si=0; si<subs.length; si++){
+        if((m.name+' '+g.name+' '+subs[si].name+' '+(g.eng||'')).toLowerCase().includes(q)){
+          sel=[mi,gi,null,null]; render(); return; }
+      }
+      if((m.name+' '+g.name).toLowerCase().includes(q)){ sel=[mi,gi,null,null]; render(); return; }
+    }
+  }
+});
+
+load();
+</script>
+</body>
+</html>

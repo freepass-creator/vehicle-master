@@ -1,0 +1,433 @@
+{
+  "name": "GMC",
+  "count": 72,
+  "code": "056",
+  "eng": "GMC",
+  "order": 130.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.GMC.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "밴츄라",
+      "count": 1,
+      "code": "002",
+      "eng": "Vandura",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.밴츄라.)))",
+      "sub_models": [
+        {
+          "name": "밴츄라",
+          "count": 1,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.밴츄라._.Model.밴츄라.))))",
+          "start": "197101",
+          "end": "199612",
+          "period": "71~96",
+          "powertrains": [
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 5730,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사바나",
+      "count": 12,
+      "code": "003",
+      "eng": "Savana",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.사바나.)))",
+      "sub_models": [
+        {
+          "name": "사바나",
+          "count": 12,
+          "code": "003",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.사바나._.Model.사바나.))))",
+          "start": "199601",
+          "end": null,
+          "period": "96~현재",
+          "image": "/carsdata/cars/cm_cardb/file/056_003_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6000,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.0"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5300,
+              "displacement_l": 5.3,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사파리",
+      "count": 1,
+      "code": "008",
+      "eng": "Safari",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.사파리.)))",
+      "sub_models": [
+        {
+          "name": "사파리",
+          "count": 1,
+          "code": "100",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.사파리._.Model.사파리.))))",
+          "start": "199501",
+          "end": "200512",
+          "period": "95~05",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4300,
+              "displacement_l": 4.3,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "STANDARD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "소노마",
+      "count": 0,
+      "code": "001",
+      "eng": "Sonoma",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.소노마.)))",
+      "sub_models": [
+        {
+          "name": "소노마",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.소노마._.Model.소노마.))))",
+          "start": "198201",
+          "end": "200412",
+          "period": "82~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "시에라",
+      "count": 46,
+      "code": "006",
+      "eng": "Sierra",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.시에라.)))",
+      "sub_models": [
+        {
+          "name": "시에라",
+          "count": 46,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.시에라._.Model.시에라.))))",
+          "start": "199901",
+          "end": null,
+          "period": "99~현재",
+          "image": "/carsdata/cars/cm_cardb/file/056_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "드날리"
+                },
+                {
+                  "name": "드날리-X"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6554,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2500HD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6564,
+              "displacement_l": 6.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3500HD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아카디아",
+      "count": 0,
+      "code": "012",
+      "eng": "Acadia",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.아카디아.)))",
+      "sub_models": [
+        {
+          "name": "아카디아",
+          "count": 0,
+          "code": "105",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.아카디아._.Model.아카디아.))))",
+          "start": "202601",
+          "end": null,
+          "period": "26~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "유콘",
+      "count": 3,
+      "code": "004",
+      "eng": "Yukon",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.유콘.)))",
+      "sub_models": [
+        {
+          "name": "유콘",
+          "count": 3,
+          "code": "004",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.유콘._.Model.유콘.))))",
+          "start": "199201",
+          "end": null,
+          "period": "92~현재",
+          "image": "/carsdata/cars/cm_cardb/file/056_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "지미",
+      "count": 0,
+      "code": "005",
+      "eng": "Jimmy",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.지미.)))",
+      "sub_models": [
+        {
+          "name": "지미",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.지미._.Model.지미.))))",
+          "start": "198301",
+          "end": "199412",
+          "period": "83~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "캐니언",
+      "count": 1,
+      "code": "010",
+      "eng": "Canyon",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.캐니언.)))",
+      "sub_models": [
+        {
+          "name": "캐니언 3세대",
+          "count": 0,
+          "code": "106",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.캐니언._.Model.캐니언 3세대.))))",
+          "start": "202301",
+          "end": null,
+          "period": "23~현재",
+          "powertrains": []
+        },
+        {
+          "name": "캐니언",
+          "count": 1,
+          "code": "103",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.캐니언._.Model.캐니언.))))",
+          "start": "200401",
+          "end": "202212",
+          "period": "04~22",
+          "image": "/carsdata/cars/cm_cardb/file/056_103_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3568,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "3.6 2WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "터레인",
+      "count": 0,
+      "code": "009",
+      "eng": "Terrain",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.터레인.)))",
+      "sub_models": [
+        {
+          "name": "터레인",
+          "count": 0,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.터레인._.Model.터레인.))))",
+          "start": "201001",
+          "end": null,
+          "period": "10~현재",
+          "image": "/carsdata/cars/cm_cardb/file/056_102_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "허머EV",
+      "count": 8,
+      "code": "011",
+      "eng": "Hummer EV",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.허머EV.)))",
+      "sub_models": [
+        {
+          "name": "허머 EV",
+          "count": 8,
+          "code": "104",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.허머EV._.Model.허머 EV.))))",
+          "start": "202201",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ecad4b23-0c44-4c3b-93ee-a185857673c8.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 1,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "e4WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "007",
+      "eng": "Others",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "099",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.GMC._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

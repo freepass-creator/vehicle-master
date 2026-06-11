@@ -1,0 +1,1152 @@
+{
+  "name": "캐딜락",
+  "count": 539,
+  "code": "043",
+  "eng": "Cadillac",
+  "order": 620.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.캐딜락.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "ATS-V",
+      "count": 1,
+      "code": "016",
+      "eng": "ATS-V",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.ATS-V.)))",
+      "sub_models": [
+        {
+          "name": "ATS-V",
+          "count": 1,
+          "code": "106",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.ATS-V._.Model.ATS-V.))))",
+          "start": "201601",
+          "end": "201912",
+          "period": "16~19",
+          "image": "/carsdata/cars/cm_cardb/file/043_106_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATS",
+      "count": 25,
+      "code": "015",
+      "eng": "ATS",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.ATS.)))",
+      "sub_models": [
+        {
+          "name": "ATS",
+          "count": 25,
+          "code": "104",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.ATS._.Model.ATS.))))",
+          "start": "201301",
+          "end": "201912",
+          "period": "13~19",
+          "image": "/carsdata/cars/cm_cardb/file/043_104_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLS",
+      "count": 0,
+      "code": "011",
+      "eng": "BLS",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.BLS.)))",
+      "sub_models": [
+        {
+          "name": "BLS",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.BLS._.Model.BLS.))))",
+          "start": "200501",
+          "end": "200912",
+          "period": "05~09",
+          "image": "/carsdata/cars/cm_cardb/file/043_011_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CT4",
+      "count": 16,
+      "code": "021",
+      "eng": "CT4",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CT4.)))",
+      "sub_models": [
+        {
+          "name": "CT4",
+          "count": 16,
+          "code": "111",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CT4._.Model.CT4.))))",
+          "start": "202009",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/6273ba15-588c-42c2-ac3b-1bf2a05a2e6b.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CT5",
+      "count": 10,
+      "code": "022",
+      "eng": "CT5",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CT5.)))",
+      "sub_models": [
+        {
+          "name": "CT5",
+          "count": 10,
+          "code": "112",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CT5._.Model.CT5.))))",
+          "start": "202009",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b877e4b4-cf13-4f34-be2c-1dd173f695d7.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 스포츠"
+                },
+                {
+                  "name": "2.0 프리미엄 럭셔리"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CT5-V",
+      "count": 1,
+      "code": "024",
+      "eng": "CT5-V",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CT5-V.)))",
+      "sub_models": [
+        {
+          "name": "CT5-V",
+          "count": 1,
+          "code": "115",
+          "eng": null,
+          "order": 22.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CT5-V._.Model.CT5-V.))))",
+          "start": "202203",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/828e73bd-8d0b-4f50-ac46-07b4dbfb336f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2 블랙윙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CT6",
+      "count": 109,
+      "code": "017",
+      "eng": "CT6",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CT6.)))",
+      "sub_models": [
+        {
+          "name": "CT6",
+          "count": 109,
+          "code": "107",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CT6._.Model.CT6.))))",
+          "start": "201607",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/043_107_2019.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.6 스포츠 AWD"
+                },
+                {
+                  "name": "3.6 스포츠 플러스 AWD"
+                },
+                {
+                  "name": "3.6 프리미엄 AWD"
+                },
+                {
+                  "name": "3.6 플래티넘 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": true,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 터보"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CT6-V",
+      "count": 0,
+      "code": "025",
+      "eng": "CT6-V",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CT6-V.)))",
+      "sub_models": [
+        {
+          "name": "CT6-V",
+          "count": 0,
+          "code": "116",
+          "eng": null,
+          "order": 23.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CT6-V._.Model.CT6-V.))))",
+          "start": "201901",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/1893b054-bb66-4dc4-adb2-b1e1dc875c1f.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CTS",
+      "count": 41,
+      "code": "001",
+      "eng": "CTS",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CTS.)))",
+      "sub_models": [
+        {
+          "name": "CTS 3세대",
+          "count": 25,
+          "code": "105",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CTS._.Model.CTS 3세대.))))",
+          "start": "201401",
+          "end": "201912",
+          "period": "14~19",
+          "image": "/carsdata/cars/cm_cardb/file/043_105_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0 럭셔리"
+                },
+                {
+                  "name": "2.0 프리미엄"
+                },
+                {
+                  "name": "2.0 프리미엄 플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 프리미엄 AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CTS 2세대",
+          "count": 16,
+          "code": "012",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CTS._.Model.CTS 2세대.))))",
+          "start": "200801",
+          "end": "201412",
+          "period": "08~14",
+          "image": "/carsdata/cars/cm_cardb/file/043_012_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 Luxury"
+                },
+                {
+                  "name": "3.0 Performance"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6 Coupe"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6 Premium"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2994,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 Sport Wagon"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CTS 1세대",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CTS._.Model.CTS 1세대.))))",
+          "start": "200209",
+          "end": "200712",
+          "period": "02~07",
+          "image": "/carsdata/cars/cm_cardb/file/043_001_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "CTS-V",
+      "count": 0,
+      "code": "014",
+      "eng": "CTS-V",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.CTS-V.)))",
+      "sub_models": [
+        {
+          "name": "CTS-V",
+          "count": 0,
+          "code": "103",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.CTS-V._.Model.CTS-V.))))",
+          "start": "200401",
+          "end": "201912",
+          "period": "04~19",
+          "image": "/carsdata/cars/cm_cardb/file/043_103_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "DTS",
+      "count": 2,
+      "code": "010",
+      "eng": "DTS",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.DTS.)))",
+      "sub_models": [
+        {
+          "name": "DTS",
+          "count": 2,
+          "code": "010",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.DTS._.Model.DTS.))))",
+          "start": "200601",
+          "end": "201112",
+          "period": "06~11",
+          "image": "/carsdata/cars/cm_cardb/file/043_010_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4565,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.6 리무진"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SRX",
+      "count": 4,
+      "code": "003",
+      "eng": "SRX",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.SRX.)))",
+      "sub_models": [
+        {
+          "name": "올 뉴 SRX",
+          "count": 4,
+          "code": "102",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.SRX._.Model.올 뉴 SRX.))))",
+          "start": "200907",
+          "end": "201612",
+          "period": "09~16",
+          "image": "/carsdata/cars/cm_cardb/file/043_102_2016.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2997,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 Luxury"
+                },
+                {
+                  "name": "3.0 Premium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SRX",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.SRX._.Model.SRX.))))",
+          "start": "200401",
+          "end": "200912",
+          "period": "04~09",
+          "image": "/carsdata/cars/cm_cardb/file/043_007_2009.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "STS",
+      "count": 1,
+      "code": "002",
+      "eng": "STS",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.STS.)))",
+      "sub_models": [
+        {
+          "name": "뉴 STS",
+          "count": 1,
+          "code": "100",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.STS._.Model.뉴 STS.))))",
+          "start": "200710",
+          "end": "201112",
+          "period": "07~11",
+          "image": "/carsdata/cars/cm_cardb/file/043_100_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3564,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STS",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.STS._.Model.STS.))))",
+          "start": "200401",
+          "end": "200712",
+          "period": "04~07",
+          "image": "/carsdata/cars/cm_cardb/file/043_008_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "XLR",
+      "count": 0,
+      "code": "013",
+      "eng": "XLR",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.XLR.)))",
+      "sub_models": [
+        {
+          "name": "XLR",
+          "count": 0,
+          "code": "101",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.XLR._.Model.XLR.))))",
+          "start": "200401",
+          "end": "200912",
+          "period": "04~09",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "XT4",
+      "count": 10,
+      "code": "023",
+      "eng": "XT4",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.XT4.)))",
+      "sub_models": [
+        {
+          "name": "XT4",
+          "count": 10,
+          "code": "113",
+          "eng": null,
+          "order": 21.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.XT4._.Model.XT4.))))",
+          "start": "201801",
+          "end": null,
+          "period": "18~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e1024cc7-7ad6-4e2a-91f8-de867bad2b0d.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "2.0 스포츠 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XT5",
+      "count": 40,
+      "code": "018",
+      "eng": "XT5",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.XT5.)))",
+      "sub_models": [
+        {
+          "name": "XT5",
+          "count": 40,
+          "code": "108",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.XT5._.Model.XT5.))))",
+          "start": "201611",
+          "end": null,
+          "period": "16~현재",
+          "image": "/carsdata/cars/cm_cardb/file/9aab736d-54cb-48b5-9099-bfe6f44c0c2f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "3.6 스포츠 AWD"
+                },
+                {
+                  "name": "3.6 프리미엄 AWD"
+                },
+                {
+                  "name": "3.6 프리미엄 럭셔리 AWD"
+                },
+                {
+                  "name": "3.6 프리미엄 플러스 AWD"
+                },
+                {
+                  "name": "3.6 플래티넘 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XT6",
+      "count": 27,
+      "code": "020",
+      "eng": "XT6",
+      "order": 16.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.XT6.)))",
+      "sub_models": [
+        {
+          "name": "XT6",
+          "count": 27,
+          "code": "110",
+          "eng": null,
+          "order": 18.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.XT6._.Model.XT6.))))",
+          "start": "202003",
+          "end": null,
+          "period": "20~현재",
+          "image": "/carsdata/cars/cm_cardb/file/83bd4db9-f1e4-45f8-98fc-232e1d9c4fbb.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3649,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6 스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XTS",
+      "count": 0,
+      "code": "019",
+      "eng": "XTS",
+      "order": 17.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.XTS.)))",
+      "sub_models": [
+        {
+          "name": "XTS",
+          "count": 0,
+          "code": "109",
+          "eng": null,
+          "order": 17.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.XTS._.Model.XTS.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "드빌",
+      "count": 1,
+      "code": "004",
+      "eng": "DeVille",
+      "order": 18.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.드빌.)))",
+      "sub_models": [
+        {
+          "name": "드빌",
+          "count": 1,
+          "code": "002",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.드빌._.Model.드빌.))))",
+          "start": "194901",
+          "end": "200512",
+          "period": "49~05",
+          "image": "/carsdata/cars/cm_cardb/file/043_002_2005.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4564,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "DHS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "리릭",
+      "count": 2,
+      "code": "026",
+      "eng": "Lyriq",
+      "order": 19.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.리릭.)))",
+      "sub_models": [
+        {
+          "name": "리릭",
+          "count": 2,
+          "code": "117",
+          "eng": null,
+          "order": 24.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.리릭._.Model.리릭.))))",
+          "start": "202405",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e865d365-298a-4940-ab4d-640fbce46547.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 298,
+              "displacement_l": 0.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스포츠"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스빌",
+      "count": 1,
+      "code": "005",
+      "eng": "SeVille",
+      "order": 20.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.스빌.)))",
+      "sub_models": [
+        {
+          "name": "스빌",
+          "count": 1,
+          "code": "003",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.스빌._.Model.스빌.))))",
+          "start": "197501",
+          "end": "200412",
+          "period": "75~04",
+          "image": "/carsdata/cars/cm_cardb/file/043_003_2004.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4564,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "STS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에스컬레이드",
+      "count": 246,
+      "code": "008",
+      "eng": "Escalade",
+      "order": 21.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.에스컬레이드.)))",
+      "sub_models": [
+        {
+          "name": "에스컬레이드 IQ",
+          "count": 0,
+          "code": "118",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.에스컬레이드._.Model.에스컬레이드 IQ.))))",
+          "start": "202511",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": []
+        },
+        {
+          "name": "에스컬레이드 5세대",
+          "count": 139,
+          "code": "114",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.에스컬레이드._.Model.에스컬레이드 5세대.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/cc871c12-6c69-4780-af3f-8568b45830fe.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "스포츠 플래티넘"
+                },
+                {
+                  "name": "프리미엄 럭셔리 플래티넘"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ESV 스포츠 플래티넘"
+                },
+                {
+                  "name": "ESV 프리미엄 럭셔리 플래티넘"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "에스컬레이드",
+          "count": 107,
+          "code": "006",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.에스컬레이드._.Model.에스컬레이드.))))",
+          "start": "199901",
+          "end": "202012",
+          "period": "99~20",
+          "image": "/carsdata/cars/cm_cardb/file/043_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6162,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                },
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 10,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                },
+                {
+                  "name": "4세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "LPG",
+              "displacement": 5967,
+              "displacement_l": 6.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘도라도",
+      "count": 0,
+      "code": "006",
+      "eng": "Eldorao",
+      "order": 22.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.엘도라도.)))",
+      "sub_models": [
+        {
+          "name": "엘도라도",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.엘도라도._.Model.엘도라도.))))",
+          "start": "195301",
+          "end": "200212",
+          "period": "53~02",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "컨코어",
+      "count": 1,
+      "code": "009",
+      "eng": "Concour",
+      "order": 23.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.컨코어.)))",
+      "sub_models": [
+        {
+          "name": "컨코어",
+          "count": 1,
+          "code": "009",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.컨코어._.Model.컨코어.))))",
+          "start": "199401",
+          "end": "199912",
+          "period": "94~99",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4565,
+              "displacement_l": 4.6,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "4.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "플리트우드",
+      "count": 1,
+      "code": "007",
+      "eng": "Fleetwood",
+      "order": 24.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.플리트우드.)))",
+      "sub_models": [
+        {
+          "name": "플리트우드",
+          "count": 1,
+          "code": "005",
+          "eng": null,
+          "order": 15.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.플리트우드._.Model.플리트우드.))))",
+          "start": "194701",
+          "end": "199612",
+          "period": "47~96",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5731,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "012",
+      "eng": "Others",
+      "order": 25.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "099",
+          "eng": null,
+          "order": 16.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.캐딜락._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

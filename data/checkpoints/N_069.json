@@ -1,0 +1,337 @@
+{
+  "name": "로터스",
+  "count": 18,
+  "code": "069",
+  "eng": "Lotus",
+  "order": 220.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.로터스.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "2-Eleven",
+      "count": 0,
+      "code": "007",
+      "eng": "2-Eleven",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.2-Eleven.)))",
+      "sub_models": [
+        {
+          "name": "2-Eleven",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.2-Eleven._.Model.2-Eleven.))))",
+          "start": "200701",
+          "end": "201101",
+          "period": "07~11",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "에메야",
+      "count": 0,
+      "code": "010",
+      "eng": "Emeya",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.에메야.)))",
+      "sub_models": [
+        {
+          "name": "에메야",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.에메야._.Model.에메야.))))",
+          "start": "202411",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/aaa5290d-993d-4016-8d67-a9be943300bb.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "에미라",
+      "count": 8,
+      "code": "008",
+      "eng": "Emira",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.에미라.)))",
+      "sub_models": [
+        {
+          "name": "에미라",
+          "count": 8,
+          "code": "008",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.에미라._.Model.에미라.))))",
+          "start": "202110",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/216fd28d-3b76-47af-8288-6625f8db9d2c.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1991,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                },
+                {
+                  "name": "2.0 SE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에보라",
+      "count": 3,
+      "code": "005",
+      "eng": "Evora",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.에보라.)))",
+      "sub_models": [
+        {
+          "name": "에보라",
+          "count": 3,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.에보라._.Model.에보라.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/069_005_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.5 IPS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에스프리",
+      "count": 0,
+      "code": "001",
+      "eng": "Esprit",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.에스프리.)))",
+      "sub_models": [
+        {
+          "name": "에스프리",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.에스프리._.Model.에스프리.))))",
+          "start": "197601",
+          "end": "200412",
+          "period": "76~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "엑시지",
+      "count": 3,
+      "code": "004",
+      "eng": "Exige",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.엑시지.)))",
+      "sub_models": [
+        {
+          "name": "엑시지",
+          "count": 3,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.엑시지._.Model.엑시지.))))",
+          "start": "200001",
+          "end": null,
+          "period": "00~현재",
+          "image": "/carsdata/cars/cm_cardb/file/069_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3456,
+              "displacement_l": 3.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CUP 430"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘리스",
+      "count": 2,
+      "code": "002",
+      "eng": "Elise",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.엘리스.)))",
+      "sub_models": [
+        {
+          "name": "엘리스",
+          "count": 2,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.엘리스._.Model.엘리스.))))",
+          "start": "199601",
+          "end": null,
+          "period": "96~현재",
+          "image": "/carsdata/cars/cm_cardb/file/069_002_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1798,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CUP 250"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1796,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "엘레트라",
+      "count": 2,
+      "code": "009",
+      "eng": "Eletre",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.엘레트라.)))",
+      "sub_models": [
+        {
+          "name": "엘레트라",
+          "count": 2,
+          "code": "009",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.엘레트라._.Model.엘레트라.))))",
+          "start": "202404",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/da4d4ecb-4180-4a60-aac1-2f6b7c89d099.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 5,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "유로파",
+      "count": 0,
+      "code": "006",
+      "eng": "Europa",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.유로파.)))",
+      "sub_models": [
+        {
+          "name": "유로파",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.유로파._.Model.유로파.))))",
+          "start": "200601",
+          "end": "201012",
+          "period": "06~10",
+          "image": "/carsdata/cars/cm_cardb/file/069_006_2010.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "003",
+      "eng": "Others",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.로터스._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

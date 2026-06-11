@@ -1,0 +1,99 @@
+{
+  "name": "이스즈",
+  "count": 0,
+  "code": "028",
+  "eng": "Isuzu",
+  "order": 570.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.이스즈.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "로데오",
+      "count": 0,
+      "code": "001",
+      "eng": "Rodeo",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.ModelGroup.로데오.)))",
+      "sub_models": [
+        {
+          "name": "로데오",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.(C.ModelGroup.로데오._.Model.로데오.))))",
+          "start": "198901",
+          "end": "200412",
+          "period": "89~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "비크로스",
+      "count": 0,
+      "code": "002",
+      "eng": "Vehicross",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.ModelGroup.비크로스.)))",
+      "sub_models": [
+        {
+          "name": "비크로스",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.(C.ModelGroup.비크로스._.Model.비크로스.))))",
+          "start": "199701",
+          "end": "200112",
+          "period": "97~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "트루퍼",
+      "count": 0,
+      "code": "003",
+      "eng": "Trooper",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.ModelGroup.트루퍼.)))",
+      "sub_models": [
+        {
+          "name": "트루퍼",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.(C.ModelGroup.트루퍼._.Model.트루퍼.))))",
+          "start": "198101",
+          "end": "200512",
+          "period": "81~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "004",
+      "eng": "Others",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이스즈._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

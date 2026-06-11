@@ -1,0 +1,412 @@
+{
+  "name": "미쯔비시",
+  "count": 11,
+  "code": "030",
+  "eng": "Mitsubishi",
+  "order": 330.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.미쯔비시.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "3000GT",
+      "count": 0,
+      "code": "002",
+      "eng": "3000GT",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.3000GT.)))",
+      "sub_models": [
+        {
+          "name": "3000GT",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.3000GT._.Model.3000GT.))))",
+          "start": "199501",
+          "end": "199912",
+          "period": "95~99",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "FTO",
+      "count": 0,
+      "code": "004",
+      "eng": "FTO",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.FTO.)))",
+      "sub_models": [
+        {
+          "name": "FTO",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.FTO._.Model.FTO.))))",
+          "start": "199401",
+          "end": "200012",
+          "period": "94~00",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "GTO",
+      "count": 0,
+      "code": "005",
+      "eng": "GTO",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.GTO.)))",
+      "sub_models": [
+        {
+          "name": "GTO",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.GTO._.Model.GTO.))))",
+          "start": "199001",
+          "end": "200112",
+          "period": "90~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RVR",
+      "count": 0,
+      "code": "013",
+      "eng": "RVR",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.RVR.)))",
+      "sub_models": [
+        {
+          "name": "RVR",
+          "count": 0,
+          "code": "013",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.RVR._.Model.RVR.))))",
+          "start": "201201",
+          "end": null,
+          "period": "12~현재",
+          "image": "/carsdata/cars/cm_cardb/file/030_013_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "갤랑",
+      "count": 0,
+      "code": "003",
+      "eng": "Galant",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.갤랑.)))",
+      "sub_models": [
+        {
+          "name": "갤랑",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.갤랑._.Model.갤랑.))))",
+          "start": "198001",
+          "end": "201212",
+          "period": "80~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "랜서",
+      "count": 2,
+      "code": "007",
+      "eng": "Lancer",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.랜서.)))",
+      "sub_models": [
+        {
+          "name": "랜서",
+          "count": 2,
+          "code": "007",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.랜서._.Model.랜서.))))",
+          "start": "197301",
+          "end": "201712",
+          "period": "73~17",
+          "image": "/carsdata/cars/cm_cardb/file/030_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "Dynamic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "랜서 에볼루션",
+      "count": 4,
+      "code": "010",
+      "eng": "Lancer Evolution",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.랜서 에볼루션.)))",
+      "sub_models": [
+        {
+          "name": "랜서 에볼루션",
+          "count": 4,
+          "code": "010",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.랜서 에볼루션._.Model.랜서 에볼루션.))))",
+          "start": "199201",
+          "end": "201412",
+          "period": "92~14",
+          "image": "/carsdata/cars/cm_cardb/file/030_010_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "10세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "몬테로",
+      "count": 0,
+      "code": "012",
+      "eng": "Montero",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.몬테로.)))",
+      "sub_models": [
+        {
+          "name": "몬테로",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.몬테로._.Model.몬테로.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아웃랜더",
+      "count": 1,
+      "code": "011",
+      "eng": "Outlander",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.아웃랜더.)))",
+      "sub_models": [
+        {
+          "name": "아웃랜더",
+          "count": 1,
+          "code": "011",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.아웃랜더._.Model.아웃랜더.))))",
+          "start": "200101",
+          "end": null,
+          "period": "01~현재",
+          "image": "/carsdata/cars/cm_cardb/file/030_011_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "아이",
+      "count": 0,
+      "code": "008",
+      "eng": "i",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.아이.)))",
+      "sub_models": [
+        {
+          "name": "아이",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.아이._.Model.아이.))))",
+          "start": "200601",
+          "end": "201312",
+          "period": "06~13",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "이클립스",
+      "count": 1,
+      "code": "001",
+      "eng": "Eclipse",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.이클립스.)))",
+      "sub_models": [
+        {
+          "name": "이클립스",
+          "count": 1,
+          "code": "001",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.이클립스._.Model.이클립스.))))",
+          "start": "199001",
+          "end": "201212",
+          "period": "90~12",
+          "image": "/carsdata/cars/cm_cardb/file/030_001_2012.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파제로",
+      "count": 3,
+      "code": "006",
+      "eng": "Pajero",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.파제로.)))",
+      "sub_models": [
+        {
+          "name": "파제로",
+          "count": 3,
+          "code": "006",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.파제로._.Model.파제로.))))",
+          "start": "198201",
+          "end": null,
+          "period": "82~현재",
+          "image": "/carsdata/cars/cm_cardb/file/030_006_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 3200,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.2 디젤"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 660,
+              "displacement_l": 0.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "미니"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2000,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "이오"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "014",
+      "eng": "Others",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미쯔비시._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

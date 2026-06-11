@@ -1,0 +1,300 @@
+{
+  "name": "어큐라",
+  "count": 3,
+  "code": "057",
+  "eng": "Acura",
+  "order": 530.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.어큐라.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CL",
+      "count": 0,
+      "code": "009",
+      "eng": "CL",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.CL.)))",
+      "sub_models": [
+        {
+          "name": "CL",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.CL._.Model.CL.))))",
+          "start": "199701",
+          "end": "200312",
+          "period": "97~03",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "ILX",
+      "count": 0,
+      "code": "011",
+      "eng": "ILX",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.ILX.)))",
+      "sub_models": [
+        {
+          "name": "ILX",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.ILX._.Model.ILX.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/057_011_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "MDX",
+      "count": 1,
+      "code": "007",
+      "eng": "MDX",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.MDX.)))",
+      "sub_models": [
+        {
+          "name": "MDX",
+          "count": 1,
+          "code": "007",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.MDX._.Model.MDX.))))",
+          "start": "200101",
+          "end": null,
+          "period": "01~현재",
+          "image": "/carsdata/cars/cm_cardb/file/057_007_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3664,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NSX",
+      "count": 0,
+      "code": "001",
+      "eng": "NSX",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.NSX.)))",
+      "sub_models": [
+        {
+          "name": "NSX",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.NSX._.Model.NSX.))))",
+          "start": "199001",
+          "end": "200512",
+          "period": "90~05",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RDX",
+      "count": 0,
+      "code": "008",
+      "eng": "RDX",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.RDX.)))",
+      "sub_models": [
+        {
+          "name": "RDX",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.RDX._.Model.RDX.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/057_008_2018.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RL",
+      "count": 0,
+      "code": "005",
+      "eng": "RL",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.RL.)))",
+      "sub_models": [
+        {
+          "name": "RL",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.RL._.Model.RL.))))",
+          "start": "199601",
+          "end": "201212",
+          "period": "96~12",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "RSX",
+      "count": 0,
+      "code": "002",
+      "eng": "RSX",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.RSX.)))",
+      "sub_models": [
+        {
+          "name": "RSX",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.RSX._.Model.RSX.))))",
+          "start": "200101",
+          "end": "200612",
+          "period": "01~06",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "TL",
+      "count": 1,
+      "code": "004",
+      "eng": "TL",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.TL.)))",
+      "sub_models": [
+        {
+          "name": "TL",
+          "count": 1,
+          "code": "004",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.TL._.Model.TL.))))",
+          "start": "199601",
+          "end": "201412",
+          "period": "96~14",
+          "image": "/carsdata/cars/cm_cardb/file/057_004_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3664,
+              "displacement_l": 3.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TLX",
+      "count": 0,
+      "code": "012",
+      "eng": "TLX",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.TLX.)))",
+      "sub_models": [
+        {
+          "name": "TLX",
+          "count": 0,
+          "code": "012",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.TLX._.Model.TLX.))))",
+          "start": "201407",
+          "end": "201407",
+          "period": "14~14",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "TSX",
+      "count": 1,
+      "code": "006",
+      "eng": "TSX",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.TSX.)))",
+      "sub_models": [
+        {
+          "name": "TSX",
+          "count": 1,
+          "code": "006",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.TSX._.Model.TSX.))))",
+          "start": "200401",
+          "end": "201412",
+          "period": "04~14",
+          "image": "/carsdata/cars/cm_cardb/file/057_006_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2354,
+              "displacement_l": 2.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "003",
+      "eng": "Others",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.어큐라._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

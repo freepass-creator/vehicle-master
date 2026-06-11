@@ -1,0 +1,576 @@
+{
+  "name": "닷지",
+  "count": 92,
+  "code": "034",
+  "eng": "Dodge",
+  "order": 160.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.닷지.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "니트로",
+      "count": 0,
+      "code": "011",
+      "eng": "Nitro",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.니트로.)))",
+      "sub_models": [
+        {
+          "name": "니트로",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.니트로._.Model.니트로.))))",
+          "start": "200601",
+          "end": "201212",
+          "period": "06~12",
+          "image": "/carsdata/cars/cm_cardb/file/034_011_2012.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "다코타",
+      "count": 7,
+      "code": "006",
+      "eng": "Dakoda",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.다코타.)))",
+      "sub_models": [
+        {
+          "name": "다코타",
+          "count": 7,
+          "code": "006",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.다코타._.Model.다코타.))))",
+          "start": "198701",
+          "end": "201112",
+          "period": "87~11",
+          "image": "/carsdata/cars/cm_cardb/file/034_006_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 4701,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "QUAD CAB 4X4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 4701,
+              "displacement_l": 4.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "REGULAR CAB 4X4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "듀랑고",
+      "count": 0,
+      "code": "009",
+      "eng": "Durango",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.듀랑고.)))",
+      "sub_models": [
+        {
+          "name": "듀랑고",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.듀랑고._.Model.듀랑고.))))",
+          "start": "199801",
+          "end": null,
+          "period": "98~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_009_2013.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "램밴",
+      "count": 2,
+      "code": "003",
+      "eng": "Ram Van",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.램밴.)))",
+      "sub_models": [
+        {
+          "name": "램밴",
+          "count": 2,
+          "code": "003",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.램밴._.Model.램밴.))))",
+          "start": "197101",
+          "end": "200312",
+          "period": "71~03",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5198,
+              "displacement_l": 5.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "램픽업",
+      "count": 57,
+      "code": "004",
+      "eng": "Ram Pick Up",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.램픽업.)))",
+      "sub_models": [
+        {
+          "name": "램픽업",
+          "count": 57,
+          "code": "004",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.램픽업._.Model.램픽업.))))",
+          "start": "198101",
+          "end": null,
+          "period": "81~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 5600,
+              "displacement_l": 5.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3000,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "매그넘",
+      "count": 1,
+      "code": "013",
+      "eng": "Magnum",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.매그넘.)))",
+      "sub_models": [
+        {
+          "name": "매그넘",
+          "count": 1,
+          "code": "013",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.매그넘._.Model.매그넘.))))",
+          "start": "200501",
+          "end": "200812",
+          "period": "05~08",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2700,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "바이퍼",
+      "count": 0,
+      "code": "007",
+      "eng": "Viper",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.바이퍼.)))",
+      "sub_models": [
+        {
+          "name": "바이퍼",
+          "count": 0,
+          "code": "007",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.바이퍼._.Model.바이퍼.))))",
+          "start": "199201",
+          "end": "201712",
+          "period": "92~17",
+          "image": "/carsdata/cars/cm_cardb/file/034_007_2017.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "밴",
+      "count": 0,
+      "code": "005",
+      "eng": "Van",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.밴.)))",
+      "sub_models": [
+        {
+          "name": "밴",
+          "count": 0,
+          "code": "005",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.밴._.Model.밴.))))",
+          "start": "196401",
+          "end": "199612",
+          "period": "64~96",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "어벤저",
+      "count": 0,
+      "code": "001",
+      "eng": "Avenger",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.어벤저.)))",
+      "sub_models": [
+        {
+          "name": "어벤저",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.어벤저._.Model.어벤저.))))",
+          "start": "199501",
+          "end": "201412",
+          "period": "95~14",
+          "image": "/carsdata/cars/cm_cardb/file/034_001_2014.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "인트레피드",
+      "count": 0,
+      "code": "002",
+      "eng": "Intrepid",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.인트레피드.)))",
+      "sub_models": [
+        {
+          "name": "인트레피드",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.인트레피드._.Model.인트레피드.))))",
+          "start": "199301",
+          "end": "200412",
+          "period": "93~04",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "차저",
+      "count": 3,
+      "code": "016",
+      "eng": "Charger",
+      "order": 10.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.차저.)))",
+      "sub_models": [
+        {
+          "name": "차저",
+          "count": 3,
+          "code": "015",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.차저._.Model.차저.))))",
+          "start": "200601",
+          "end": null,
+          "period": "06~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_015_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "챌린저",
+      "count": 17,
+      "code": "014",
+      "eng": "Challenger",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.챌린저.)))",
+      "sub_models": [
+        {
+          "name": "챌린저",
+          "count": 17,
+          "code": "014",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.챌린저._.Model.챌린저.))))",
+          "start": "197801",
+          "end": null,
+          "period": "78~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_014_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 6400,
+              "displacement_l": 6.4,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.4"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 6200,
+              "displacement_l": 6.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "6.2"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 5654,
+              "displacement_l": 5.7,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3604,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "캐러밴",
+      "count": 0,
+      "code": "008",
+      "eng": "Caravan",
+      "order": 12.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.캐러밴.)))",
+      "sub_models": [
+        {
+          "name": "캐러밴",
+          "count": 0,
+          "code": "008",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.캐러밴._.Model.캐러밴.))))",
+          "start": "198401",
+          "end": null,
+          "period": "84~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_008_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "그랜드 캐러밴",
+      "count": 2,
+      "code": "012",
+      "eng": "Grand Caravan",
+      "order": 13.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.그랜드 캐러밴.)))",
+      "sub_models": [
+        {
+          "name": "그랜드 캐러밴",
+          "count": 2,
+          "code": "012",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.그랜드 캐러밴._.Model.그랜드 캐러밴.))))",
+          "start": "198401",
+          "end": null,
+          "period": "84~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_012_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3301,
+              "displacement_l": 3.3,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "캘리버",
+      "count": 3,
+      "code": "010",
+      "eng": "Caliber",
+      "order": 14.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.캘리버.)))",
+      "sub_models": [
+        {
+          "name": "캘리버",
+          "count": 3,
+          "code": "010",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.캘리버._.Model.캘리버.))))",
+          "start": "200601",
+          "end": null,
+          "period": "06~현재",
+          "image": "/carsdata/cars/cm_cardb/file/034_010_2013.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기타",
+      "count": 0,
+      "code": "015",
+      "eng": "Others",
+      "order": 15.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.ModelGroup.기타.)))",
+      "sub_models": [
+        {
+          "name": "기타",
+          "count": 0,
+          "code": "999",
+          "eng": null,
+          "order": 14.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.닷지._.(C.ModelGroup.기타._.Model.기타.))))",
+          "start": "198001",
+          "end": null,
+          "period": "80~현재",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

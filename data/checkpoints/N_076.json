@@ -1,0 +1,57 @@
+{
+  "name": "코닉세그",
+  "count": 0,
+  "code": "076",
+  "eng": "Koenigsegg",
+  "order": 620.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.코닉세그.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "CC",
+      "count": 0,
+      "code": "001",
+      "eng": "CC",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.코닉세그._.ModelGroup.CC.)))",
+      "sub_models": [
+        {
+          "name": "CC",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 999.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.코닉세그._.(C.ModelGroup.CC._.Model.CC.))))",
+          "start": "200201",
+          "end": "201512",
+          "period": "02~15",
+          "image": "/carsdata/cars/cm_cardb/file/076_001_2015.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아제라",
+      "count": 0,
+      "code": "002",
+      "eng": "Agera",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.코닉세그._.ModelGroup.아제라.)))",
+      "sub_models": [
+        {
+          "name": "아제라",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.코닉세그._.(C.ModelGroup.아제라._.Model.아제라.))))",
+          "start": "201101",
+          "end": "201712",
+          "period": "11~17",
+          "image": "/carsdata/cars/cm_cardb/file/076_002_2017.png",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

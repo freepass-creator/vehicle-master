@@ -1,0 +1,3377 @@
+{
+  "name": "KG모빌리티(쌍용)",
+  "count": 10947,
+  "code": "004",
+  "eng": "KG_Mobility_Ssangyong",
+  "order": 50.0,
+  "_action": "(And.Hidden.N._.(C.CarType.Y._.Manufacturer.KG모빌리티(쌍용_).))",
+  "car_type": "국산",
+  "models": [
+    {
+      "name": "뉴훼미리",
+      "count": 0,
+      "code": "001",
+      "eng": "New Family",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.뉴훼미리.)))",
+      "sub_models": [
+        {
+          "name": "뉴훼미리",
+          "count": 0,
+          "code": "009",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.뉴훼미리._.Model.뉴훼미리.))))",
+          "start": "199408",
+          "end": "199704",
+          "period": "94~97",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "렉스턴",
+      "count": 4205,
+      "code": "003",
+      "eng": "Rexton",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.렉스턴.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 렉스턴 스포츠",
+          "count": 541,
+          "code": "118",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.더 뉴 렉스턴 스포츠.))))",
+          "start": "202104",
+          "end": "202503",
+          "period": "21~25",
+          "image": "/carsdata/cars/cm_cardb/file/b431e34d-6223-4518-bd8d-8690a29ff175.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "노블레스"
+                },
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "익스페디션"
+                },
+                {
+                  "name": "쿨멘 노블레스"
+                },
+                {
+                  "name": "쿨멘 와일드"
+                },
+                {
+                  "name": "쿨멘 프레스티지"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "쿨멘 노블레스"
+                },
+                {
+                  "name": "쿨멘 와일드"
+                },
+                {
+                  "name": "쿨멘 와일드 플러스"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 렉스턴 스포츠 칸",
+          "count": 836,
+          "code": "119",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.더 뉴 렉스턴 스포츠 칸.))))",
+          "start": "202104",
+          "end": "202503",
+          "period": "21~25",
+          "image": "/carsdata/cars/cm_cardb/file/f1683e63-7ca2-4cb2-9e21-1ccc910eb7a8.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "노블레스"
+                },
+                {
+                  "name": "어드밴스"
+                },
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "익스페디션"
+                },
+                {
+                  "name": "쿨멘 노블레스"
+                },
+                {
+                  "name": "쿨멘 와일드"
+                },
+                {
+                  "name": "쿨멘 와일드 플러스"
+                },
+                {
+                  "name": "쿨멘 프레스티지"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "노블레스"
+                },
+                {
+                  "name": "쿨멘 프레스티지"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "렉스턴 스포츠",
+          "count": 871,
+          "code": "113",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴 스포츠.))))",
+          "start": "201801",
+          "end": "202106",
+          "period": "18~21",
+          "image": "/carsdata/cars/cm_cardb/file/004_113_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "노블레스"
+                },
+                {
+                  "name": "다이내믹 에디션"
+                },
+                {
+                  "name": "어드벤처"
+                },
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프레스티지 스페셜"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "어드벤처"
+                },
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "프레스티지"
+                },
+                {
+                  "name": "프레스티지 스페셜"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "렉스턴 스포츠 칸",
+          "count": 445,
+          "code": "114",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴 스포츠 칸.))))",
+          "start": "201901",
+          "end": "202106",
+          "period": "19~21",
+          "image": "/carsdata/cars/cm_cardb/file/004_114_2019.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "노블레스 (5링크)"
+                },
+                {
+                  "name": "노블레스 (리프)"
+                },
+                {
+                  "name": "다이내믹 에디션 (5링크)"
+                },
+                {
+                  "name": "파이오니어 S (리프)"
+                },
+                {
+                  "name": "파이오니어 X (리프)"
+                },
+                {
+                  "name": "프레스티지 (5링크)"
+                },
+                {
+                  "name": "프레스티지 (리프)"
+                },
+                {
+                  "name": "프레스티지 스페셜 (5링크)"
+                },
+                {
+                  "name": "프로페셔널 S (5링크)"
+                },
+                {
+                  "name": "프로페셔널 X (5링크)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "프레스티지 (5링크)"
+                },
+                {
+                  "name": "프레스티지 스페셜 (5링크)"
+                },
+                {
+                  "name": "프로페셔널 S (5링크)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "렉스턴 뉴 아레나",
+          "count": 109,
+          "code": "122",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴 뉴 아레나.))))",
+          "start": "202305",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5a39a1f3-f49b-480e-b45c-77f993e81a41.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "노블레스"
+                },
+                {
+                  "name": "더 블랙"
+                },
+                {
+                  "name": "써밋"
+                },
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "프리미엄"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "올 뉴 렉스턴",
+          "count": 640,
+          "code": "117",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.올 뉴 렉스턴.))))",
+          "start": "202011",
+          "end": "202304",
+          "period": "20~23",
+          "image": "/carsdata/cars/cm_cardb/file/8a7fed15-20ff-4332-a890-154d7cab9ac8.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "더 블랙"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "마스터"
+                },
+                {
+                  "name": "시그니처"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G4 렉스턴",
+          "count": 497,
+          "code": "111",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.G4 렉스턴.))))",
+          "start": "201704",
+          "end": "202012",
+          "period": "17~20",
+          "image": "/carsdata/cars/cm_cardb/file/004_111_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "마제스티"
+                },
+                {
+                  "name": "마제스티 스페셜"
+                },
+                {
+                  "name": "유라시아 에디션"
+                },
+                {
+                  "name": "프라임"
+                },
+                {
+                  "name": "헤리티지"
+                },
+                {
+                  "name": "헤리티지 스페셜"
+                },
+                {
+                  "name": "화이트 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "마제스티"
+                },
+                {
+                  "name": "마제스티 스페셜"
+                },
+                {
+                  "name": "유라시아 에디션"
+                },
+                {
+                  "name": "프라임"
+                },
+                {
+                  "name": "헤리티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "렉스턴 W",
+          "count": 213,
+          "code": "103",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴 W.))))",
+          "start": "201206",
+          "end": "201707",
+          "period": "12~17",
+          "image": "/carsdata/cars/cm_cardb/file/004_103_2017.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 4WD 노블레스"
+                },
+                {
+                  "name": "2.0 4WD 어드벤처 60th 에디션"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "브라운 스페셜"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.2 4WD 노블레스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디럭스"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "슈퍼 렉스턴",
+          "count": 44,
+          "code": "024",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.슈퍼 렉스턴.))))",
+          "start": "200807",
+          "end": "201208",
+          "period": "08~12",
+          "image": "/carsdata/cars/cm_cardb/file/004_024_2012.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "AWD 노블레스"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "브라운스페셜"
+                },
+                {
+                  "name": "브라운에디션"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "브라운에디션"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "브라운에디션"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "렉스턴 II",
+          "count": 9,
+          "code": "018",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴 II.))))",
+          "start": "200604",
+          "end": "200809",
+          "period": "06~08",
+          "image": "/carsdata/cars/cm_cardb/file/004_018_2008.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴렉스턴",
+          "count": 0,
+          "code": "015",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.뉴렉스턴.))))",
+          "start": "200312",
+          "end": "200606",
+          "period": "03~06",
+          "image": "/carsdata/cars/cm_cardb/file/004_015_2006.png",
+          "powertrains": []
+        },
+        {
+          "name": "렉스턴",
+          "count": 0,
+          "code": "011",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.렉스턴._.Model.렉스턴.))))",
+          "start": "200109",
+          "end": "200312",
+          "period": "01~03",
+          "image": "/carsdata/cars/cm_cardb/file/004_011_2003.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "로디우스",
+      "count": 3,
+      "code": "004",
+      "eng": "Rodius",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.로디우스.)))",
+      "sub_models": [
+        {
+          "name": "로디우스 유로",
+          "count": 1,
+          "code": "104",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.로디우스._.Model.로디우스 유로.))))",
+          "start": "201207",
+          "end": "201304",
+          "period": "12~13",
+          "image": "/carsdata/cars/cm_cardb/file/004_104_2014.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD RD400"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴로디우스",
+          "count": 1,
+          "code": "021",
+          "eng": null,
+          "order": 12.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.로디우스._.Model.뉴로디우스.))))",
+          "start": "200707",
+          "end": "201203",
+          "period": "07~12",
+          "image": "/carsdata/cars/cm_cardb/file/004_021_2012.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "로디우스",
+          "count": 1,
+          "code": "013",
+          "eng": null,
+          "order": 13.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.로디우스._.Model.로디우스.))))",
+          "start": "200405",
+          "end": "200709",
+          "period": "04~07",
+          "image": "/carsdata/cars/cm_cardb/file/004_013_2007.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "EZ 스페셜"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "무쏘",
+      "count": 95,
+      "code": "005",
+      "eng": "Musso",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.무쏘.)))",
+      "sub_models": [
+        {
+          "name": "무쏘 (Q300)",
+          "count": 28,
+          "code": "132",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘 (Q300_).))))",
+          "start": "202601",
+          "end": null,
+          "period": "26~현재",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "M7"
+                },
+                {
+                  "name": "M7 그랜드 스타일"
+                },
+                {
+                  "name": "M7 롱 데크 그랜드 스타일"
+                },
+                {
+                  "name": "M9"
+                },
+                {
+                  "name": "M9 그랜드 스타일"
+                },
+                {
+                  "name": "M9 롱 데크"
+                },
+                {
+                  "name": "M9 롱 데크 그랜드 스타일"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "M9"
+                },
+                {
+                  "name": "M9 그랜드 스타일"
+                },
+                {
+                  "name": "M9 롱 데크"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "무쏘 스포츠 (Q250)",
+          "count": 28,
+          "code": "129",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘 스포츠 (Q250_).))))",
+          "start": "202503",
+          "end": "202601",
+          "period": "25~26",
+          "image": "/carsdata/cars/cm_cardb/file/05c616dc-3240-4d5c-924d-a2aa18be15ca.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "무쏘 스포츠 칸 (Q250)",
+          "count": 17,
+          "code": "130",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘 스포츠 칸 (Q250_).))))",
+          "start": "202503",
+          "end": "202601",
+          "period": "25~26",
+          "image": "/carsdata/cars/cm_cardb/file/141a0c1d-72bc-4f8f-bf6a-0d7cb04032c7.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "와일드"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "무쏘 EV (O100)",
+          "count": 13,
+          "code": "131",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘 EV (O100_).))))",
+          "start": "202502",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/003f1c02-8c45-404d-bf81-582a604930c4.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 217,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "MX AWD"
+                },
+                {
+                  "name": "블랙엣지 AWD"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 0,
+              "displacement_l": null,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "MX"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 217,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "블랙엣지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "무쏘 스포츠",
+          "count": 2,
+          "code": "012",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘 스포츠.))))",
+          "start": "200209",
+          "end": "200603",
+          "period": "02~06",
+          "image": "/carsdata/cars/cm_cardb/file/004_012_2006.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2874,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴무쏘",
+          "count": 4,
+          "code": "003",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.뉴무쏘.))))",
+          "start": "199807",
+          "end": "200407",
+          "period": "98~04",
+          "image": "/carsdata/cars/cm_cardb/file/004_003_2004.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "가솔린 320LX"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2299,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴무쏘 밴",
+          "count": 0,
+          "code": "010",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.뉴무쏘 밴.))))",
+          "start": "199807",
+          "end": "200407",
+          "period": "98~04",
+          "image": "/carsdata/cars/cm_cardb/file/004_010_2004.png",
+          "powertrains": []
+        },
+        {
+          "name": "무쏘",
+          "count": 3,
+          "code": "002",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.무쏘._.Model.무쏘.))))",
+          "start": "199308",
+          "end": "199809",
+          "period": "93~98",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2295,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "가솔린 2300 DOHC"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "가솔린 3200 IL6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "액티언",
+      "count": 134,
+      "code": "006",
+      "eng": "Actyon",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.액티언.)))",
+      "sub_models": [
+        {
+          "name": "액티언 2세대",
+          "count": 122,
+          "code": "127",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.액티언._.Model.액티언 2세대.))))",
+          "start": "202409",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/64fbc185-39ff-42a0-b73f-3ad347762fdb.png",
+          "powertrains": [
+            {
+              "fuel": "하이브리드",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "S8"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "S7"
+                },
+                {
+                  "name": "S8"
+                },
+                {
+                  "name": "S9"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "S7"
+                },
+                {
+                  "name": "S9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "액티언",
+          "count": 3,
+          "code": "017",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.액티언._.Model.액티언.))))",
+          "start": "200510",
+          "end": "201104",
+          "period": "05~11",
+          "image": "/carsdata/cars/cm_cardb/file/004_017_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "액티언 스포츠",
+          "count": 9,
+          "code": "019",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.액티언._.Model.액티언 스포츠.))))",
+          "start": "200604",
+          "end": "201112",
+          "period": "06~11",
+          "image": "/carsdata/cars/cm_cardb/file/004_019_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD AX5 클럽"
+                },
+                {
+                  "name": "2WD AX5 패션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD AX7 클럽"
+                },
+                {
+                  "name": "4WD AX7 패션"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "이스타나",
+      "count": 1,
+      "code": "007",
+      "eng": "Istana",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.이스타나.)))",
+      "sub_models": [
+        {
+          "name": "이스타나",
+          "count": 1,
+          "code": "005",
+          "eng": null,
+          "order": 20.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.이스타나._.Model.이스타나.))))",
+          "start": "199510",
+          "end": "200309",
+          "period": "95~03",
+          "image": "/carsdata/cars/cm_cardb/file/004_005_2003.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2874,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9인승 슈퍼프라임"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "체어맨",
+      "count": 113,
+      "code": "008",
+      "eng": "Chairman",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.체어맨.)))",
+      "sub_models": [
+        {
+          "name": "뉴체어맨 W",
+          "count": 71,
+          "code": "100",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.뉴체어맨 W.))))",
+          "start": "201107",
+          "end": "201712",
+          "period": "11~17",
+          "image": "/carsdata/cars/cm_cardb/file/004_100_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SVIP"
+                },
+                {
+                  "name": "VIP"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3598,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VIP"
+                },
+                {
+                  "name": "VVIP"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "리무진"
+                },
+                {
+                  "name": "익스큐티브"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5.0 구조변경 (바이퓨얼)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VVIP"
+                },
+                {
+                  "name": "리무진"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 4966,
+              "displacement_l": 5.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "서밋"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "체어맨 W",
+          "count": 19,
+          "code": "022",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.체어맨 W.))))",
+          "start": "200803",
+          "end": "201109",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/004_022_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.2 구조변경 (LPG)"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3598,
+              "displacement_l": 3.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "VVIP"
+                },
+                {
+                  "name": "럭셔리 그레이 에디션"
+                },
+                {
+                  "name": "리무진"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "프레스티지"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "체어맨 H 뉴 클래식",
+          "count": 14,
+          "code": "101",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.체어맨 H 뉴 클래식.))))",
+          "start": "201105",
+          "end": "201412",
+          "period": "11~14",
+          "image": "/carsdata/cars/cm_cardb/file/004_101_2014.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2799,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "500S VIP"
+                },
+                {
+                  "name": "500S 고급형"
+                },
+                {
+                  "name": "500S 최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "600S VIP"
+                },
+                {
+                  "name": "600S 최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "체어맨 H",
+          "count": 1,
+          "code": "023",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.체어맨 H.))))",
+          "start": "200801",
+          "end": "201107",
+          "period": "08~11",
+          "image": "/carsdata/cars/cm_cardb/file/004_023_2011.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "600S 최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴체어맨",
+          "count": 6,
+          "code": "014",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.뉴체어맨.))))",
+          "start": "200310",
+          "end": "200803",
+          "period": "03~08",
+          "image": "/carsdata/cars/cm_cardb/file/004_014_2008.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2799,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "트라이엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2295,
+              "displacement_l": 2.3,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "마제스티"
+                },
+                {
+                  "name": "트라이엄"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "마제스티"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "체어맨",
+          "count": 2,
+          "code": "004",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.체어맨._.Model.체어맨.))))",
+          "start": "199710",
+          "end": "200312",
+          "period": "97~03",
+          "image": "/carsdata/cars/cm_cardb/file/004_004_2003.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 3199,
+              "displacement_l": 3.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CM600S"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 2799,
+              "displacement_l": 2.8,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "CM500S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "칼리스타",
+      "count": 0,
+      "code": "009",
+      "eng": "Caristar",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.칼리스타.)))",
+      "sub_models": [
+        {
+          "name": "칼리스타",
+          "count": 0,
+          "code": "006",
+          "eng": null,
+          "order": 27.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.칼리스타._.Model.칼리스타.))))",
+          "start": "199201",
+          "end": "199409",
+          "period": "92~94",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "카이런",
+      "count": 6,
+      "code": "010",
+      "eng": "Kyron",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.카이런.)))",
+      "sub_models": [
+        {
+          "name": "뉴카이런",
+          "count": 6,
+          "code": "020",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.카이런._.Model.뉴카이런.))))",
+          "start": "200704",
+          "end": "201112",
+          "period": "07~11",
+          "image": "/carsdata/cars/cm_cardb/file/004_020_2011.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "기본형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2696,
+              "displacement_l": 2.7,
+              "turbo": false,
+              "seat": 7,
+              "drivetrain": "AWD",
+              "trims": [
+                {
+                  "name": "하이테크"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "카이런",
+          "count": 0,
+          "code": "016",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.카이런._.Model.카이런.))))",
+          "start": "200506",
+          "end": "200706",
+          "period": "05~07",
+          "image": "/carsdata/cars/cm_cardb/file/004_016_2007.png",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "코란도",
+      "count": 2442,
+      "code": "011",
+      "eng": "KORANDO",
+      "order": 9.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.코란도.)))",
+      "sub_models": [
+        {
+          "name": "뷰티풀 코란도",
+          "count": 712,
+          "code": "115",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.뷰티풀 코란도.))))",
+          "start": "201902",
+          "end": null,
+          "period": "19~현재",
+          "image": "/carsdata/cars/cm_cardb/file/004_115_2019.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 1.6 4WD C7"
+                },
+                {
+                  "name": "디젤 1.6 4WD R-플러스"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "디젤 1.6 2WD C3 플러스"
+                },
+                {
+                  "name": "디젤 1.6 2WD 딜라이트"
+                },
+                {
+                  "name": "디젤 1.6 2WD 딜라이트 플러스"
+                },
+                {
+                  "name": "디젤 1.6 2WD 판타스틱"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "가솔린 1.5 2WD C3 플러스"
+                },
+                {
+                  "name": "가솔린 1.5 2WD C7"
+                },
+                {
+                  "name": "가솔린 1.5 2WD R-플러스"
+                },
+                {
+                  "name": "프라임"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "가솔린 1.5 4WD C7"
+                },
+                {
+                  "name": "가솔린 1.5 4WD R-플러스"
+                },
+                {
+                  "name": "플러스"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 EV (이모션)",
+          "count": 2,
+          "code": "120",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 EV (이모션_).))))",
+          "start": "202202",
+          "end": null,
+          "period": "22~현재",
+          "image": "/carsdata/cars/cm_cardb/file/e2812284-44e3-424f-b362-cb55ae8bdcf3.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 168,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴 스타일 코란도 C",
+          "count": 102,
+          "code": "110",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.뉴 스타일 코란도 C.))))",
+          "start": "201701",
+          "end": "201804",
+          "period": "17~18",
+          "image": "/carsdata/cars/cm_cardb/file/004_110_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "2.2 DX 2WD"
+                },
+                {
+                  "name": "2.2 KX 2WD"
+                },
+                {
+                  "name": "2.2 익스트림 2WD"
+                },
+                {
+                  "name": "2.2 익스트림 스포츠 2WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.2 DX 4WD"
+                },
+                {
+                  "name": "2.2 익스트림 4WD"
+                },
+                {
+                  "name": "2.2 익스트림 스포츠 4WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴코란도 C",
+          "count": 357,
+          "code": "106",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.뉴코란도 C.))))",
+          "start": "201308",
+          "end": "201703",
+          "period": "13~17",
+          "image": "/carsdata/cars/cm_cardb/file/004_106_2017.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2.0 어드벤처 60th 에디션 2WD"
+                },
+                {
+                  "name": "2.0 익스트림 2WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.0 DX 4WD"
+                },
+                {
+                  "name": "2.0 어드벤처 60th 에디션 4WD"
+                },
+                {
+                  "name": "2.0 익스트림 4WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "2.2 DX 2WD"
+                },
+                {
+                  "name": "2.2 익스트림 2WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "스페셜"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "2.2 익스트림 4WD"
+                },
+                {
+                  "name": "고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 C",
+          "count": 81,
+          "code": "099",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 C.))))",
+          "start": "201103",
+          "end": "201310",
+          "period": "11~13",
+          "image": "/carsdata/cars/cm_cardb/file/004_099_2013.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "럭셔리"
+                },
+                {
+                  "name": "파크"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "기본형"
+                },
+                {
+                  "name": "리미티드"
+                },
+                {
+                  "name": "비트"
+                },
+                {
+                  "name": "컴포트"
+                },
+                {
+                  "name": "파크"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 코란도 스포츠",
+          "count": 246,
+          "code": "109",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.더 뉴 코란도 스포츠.))))",
+          "start": "201607",
+          "end": "201803",
+          "period": "16~18",
+          "image": "/carsdata/cars/cm_cardb/file/004_109_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "에코"
+                },
+                {
+                  "name": "클럽"
+                },
+                {
+                  "name": "패션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "2.2 삼바 에디션 4WD"
+                },
+                {
+                  "name": "2.2 익스트림 4WD"
+                },
+                {
+                  "name": "매니아"
+                },
+                {
+                  "name": "비젼"
+                },
+                {
+                  "name": "클럽"
+                },
+                {
+                  "name": "패션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 스포츠",
+          "count": 587,
+          "code": "102",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 스포츠.))))",
+          "start": "201201",
+          "end": "201611",
+          "period": "12~16",
+          "image": "/carsdata/cars/cm_cardb/file/004_102_2017.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "비전"
+                },
+                {
+                  "name": "어드벤처 60th 에디션 4WD"
+                },
+                {
+                  "name": "익스트림 4WD"
+                },
+                {
+                  "name": "클럽"
+                },
+                {
+                  "name": "패션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "에코"
+                },
+                {
+                  "name": "클럽"
+                },
+                {
+                  "name": "패션"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 투리스모",
+          "count": 349,
+          "code": "105",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 투리스모.))))",
+          "start": "201302",
+          "end": "201909",
+          "period": "13~19",
+          "image": "/carsdata/cars/cm_cardb/file/004_105_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "4WD GT 11인승"
+                },
+                {
+                  "name": "4WD LT 11인승"
+                },
+                {
+                  "name": "4WD RT 11인승"
+                },
+                {
+                  "name": "4WD 익스트림 11인승"
+                },
+                {
+                  "name": "하이 루프"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "4WD RX 9인승"
+                },
+                {
+                  "name": "4WD TX 9인승"
+                },
+                {
+                  "name": "4WD 아웃도어 에디션 9인승"
+                },
+                {
+                  "name": "4WD 익스트림 스포츠 9인승"
+                },
+                {
+                  "name": "하이 루프"
+                },
+                {
+                  "name": "하이 리무진"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD RX 11인승"
+                },
+                {
+                  "name": "4WD TX 11인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD LT 9인승"
+                },
+                {
+                  "name": "2WD 익스트림 9인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD 9인승 어드벤처 60th 에디션"
+                },
+                {
+                  "name": "4WD GT 9인승"
+                },
+                {
+                  "name": "4WD LT 9인승"
+                },
+                {
+                  "name": "4WD 익스트림 9인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD LT 11인승"
+                },
+                {
+                  "name": "2WD RT 11인승"
+                },
+                {
+                  "name": "2WD 익스트림 11인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "4WD RT 9인승"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2157,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 11,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "2WD KX 11인승"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "뉴코란도",
+          "count": 4,
+          "code": "001",
+          "eng": null,
+          "order": 8.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.뉴코란도.))))",
+          "start": "199607",
+          "end": "200512",
+          "period": "96~05",
+          "image": "/carsdata/cars/cm_cardb/file/004_001_2005.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2874,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 2874,
+              "displacement_l": 2.9,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "일반형"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 훼미리",
+          "count": 1,
+          "code": "008",
+          "eng": null,
+          "order": 9.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 훼미리.))))",
+          "start": "198812",
+          "end": "199608",
+          "period": "88~96",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 2238,
+              "displacement_l": 2.2,
+              "turbo": false,
+              "seat": 6,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "코란도 지프",
+          "count": 1,
+          "code": "007",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.코란도._.Model.코란도 지프.))))",
+          "start": "196911",
+          "end": "199608",
+          "period": "69~96",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1800,
+              "displacement_l": 1.8,
+              "turbo": false,
+              "seat": 9,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "9인승 디럭스 RS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "토레스",
+      "count": 1164,
+      "code": "013",
+      "eng": "Torres",
+      "order": 11.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.토레스.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 토레스",
+          "count": 122,
+          "code": "126",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.토레스._.Model.더 뉴 토레스.))))",
+          "start": "202405",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/01ecadc8-9ddd-4861-93d3-2f9f75cb73c3.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "TL7"
+                },
+                {
+                  "name": "블랙에디션"
+                },
+                {
+                  "name": "택시형"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "T5"
+                },
+                {
+                  "name": "T7"
+                },
+                {
+                  "name": "TV5"
+                },
+                {
+                  "name": "TV7"
+                },
+                {
+                  "name": "블랙에디션"
+                },
+                {
+                  "name": "블랙엣지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "T7"
+                },
+                {
+                  "name": "TV7"
+                },
+                {
+                  "name": "블랙에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "하이브리드",
+              "displacement": 1498,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "T5"
+                },
+                {
+                  "name": "T7"
+                },
+                {
+                  "name": "블랙엣지"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "TL7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "토레스 EVX",
+          "count": 30,
+          "code": "125",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.토레스._.Model.토레스 EVX.))))",
+          "start": "202309",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/152f187c-846c-47ab-b26a-d9ac18efa9f5.PNG",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 189,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E7"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 111,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E5"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 189,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "TV7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "토레스",
+          "count": 1012,
+          "code": "121",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.토레스._.Model.토레스.))))",
+          "start": "202207",
+          "end": "202405",
+          "period": "22~24",
+          "image": "/carsdata/cars/cm_cardb/file/dfb0a4f2-a5c1-45a5-9f33-6208de46483e.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "T5"
+                },
+                {
+                  "name": "T7"
+                },
+                {
+                  "name": "블랙에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "T7"
+                },
+                {
+                  "name": "TV7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "TL7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린+LPG",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "TL7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "티볼리",
+      "count": 2784,
+      "code": "012",
+      "eng": "TIBOLI",
+      "order": 999.0,
+      "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.ModelGroup.티볼리.)))",
+      "sub_models": [
+        {
+          "name": "더 뉴 티볼리",
+          "count": 91,
+          "code": "123",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.더 뉴 티볼리.))))",
+          "start": "202306",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/5dbe2856-d733-4839-996a-7aaac37e2807.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "V1"
+                },
+                {
+                  "name": "V3"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "V5"
+                },
+                {
+                  "name": "V7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "V7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "더 뉴 티볼리 에어",
+          "count": 7,
+          "code": "124",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.더 뉴 티볼리 에어.))))",
+          "start": "202306",
+          "end": null,
+          "period": "23~현재",
+          "image": "/carsdata/cars/cm_cardb/file/ae97cf54-d2fb-496c-bd6c-06d95a2617d4.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "A5"
+                },
+                {
+                  "name": "A7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "베리 뉴 티볼리",
+          "count": 805,
+          "code": "116",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.베리 뉴 티볼리.))))",
+          "start": "201906",
+          "end": "202305",
+          "period": "19~23",
+          "image": "/carsdata/cars/cm_cardb/file/bb78394a-b14b-406d-a35b-8aea19159083.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "R-PLUS 화이트"
+                },
+                {
+                  "name": "V1"
+                },
+                {
+                  "name": "V3"
+                },
+                {
+                  "name": "V3 스페셜"
+                },
+                {
+                  "name": "V5"
+                },
+                {
+                  "name": "V7"
+                },
+                {
+                  "name": "리미티드 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "V1"
+                },
+                {
+                  "name": "V3"
+                },
+                {
+                  "name": "V5"
+                },
+                {
+                  "name": "V7"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "V3"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "V5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "티볼리 아머",
+          "count": 480,
+          "code": "112",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.티볼리 아머.))))",
+          "start": "201707",
+          "end": "201908",
+          "period": "17~19",
+          "image": "/carsdata/cars/cm_cardb/file/004_112_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "LX 2WD"
+                },
+                {
+                  "name": "TX 2WD"
+                },
+                {
+                  "name": "VX 2WD"
+                },
+                {
+                  "name": "기어 에디션 2WD"
+                },
+                {
+                  "name": "기어 플러스 2WD"
+                },
+                {
+                  "name": "기어 플러스Ⅰ 2WD"
+                },
+                {
+                  "name": "드라이빙 기어"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 LX 2WD"
+                },
+                {
+                  "name": "디젤 TX 2WD"
+                },
+                {
+                  "name": "디젤 VX 2WD"
+                },
+                {
+                  "name": "디젤 기어 에디션 2WD"
+                },
+                {
+                  "name": "디젤 기어 플러스 2WD"
+                },
+                {
+                  "name": "디젤 기어 플러스Ⅰ 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 LX 4WD"
+                },
+                {
+                  "name": "디젤 VX 4WD"
+                },
+                {
+                  "name": "디젤 기어 플러스 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "LX 4WD"
+                },
+                {
+                  "name": "기어 에디션 4WD"
+                },
+                {
+                  "name": "기어 플러스 4WD"
+                },
+                {
+                  "name": "드라이빙 기어"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "티볼리 에어",
+          "count": 644,
+          "code": "108",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.티볼리 에어.))))",
+          "start": "201603",
+          "end": "202305",
+          "period": "16~23",
+          "image": "/carsdata/cars/cm_cardb/file/004_108_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.6 IX 2WD"
+                },
+                {
+                  "name": "1.6 RX 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1497,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "1.5 A1 2WD"
+                },
+                {
+                  "name": "1.5 A3 2WD"
+                },
+                {
+                  "name": "1.5 A7 2WD"
+                },
+                {
+                  "name": "1.5 업비트 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 AX 2WD"
+                },
+                {
+                  "name": "디젤 IX 2WD"
+                },
+                {
+                  "name": "디젤 RX 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 AX 4WD"
+                },
+                {
+                  "name": "디젤 IX 4WD"
+                },
+                {
+                  "name": "디젤 RX 4WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "1.6 RX 4WD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "티볼리",
+          "count": 757,
+          "code": "107",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.KG모빌리티(쌍용_)._.(C.ModelGroup.티볼리._.Model.티볼리.))))",
+          "start": "201501",
+          "end": "201709",
+          "period": "15~17",
+          "image": "/carsdata/cars/cm_cardb/file/004_107_2017.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "VX 2WD"
+                },
+                {
+                  "name": "고급형"
+                },
+                {
+                  "name": "삼바 에디션 2WD"
+                },
+                {
+                  "name": "엣지 에디션 2WD"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "2WD",
+              "trims": [
+                {
+                  "name": "디젤 LX 2WD"
+                },
+                {
+                  "name": "디젤 TX 2WD"
+                },
+                {
+                  "name": "디젤 VX 2WD"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "(세부등급 없음)"
+                },
+                {
+                  "name": "최고급형"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1597,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": "4WD",
+              "trims": [
+                {
+                  "name": "디젤 LX 4WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

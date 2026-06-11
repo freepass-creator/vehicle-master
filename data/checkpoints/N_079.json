@@ -1,0 +1,99 @@
+{
+  "name": "새턴",
+  "count": 0,
+  "code": "079",
+  "eng": "Saturn",
+  "order": 420.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.새턴.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "S시리즈",
+      "count": 0,
+      "code": "001",
+      "eng": "S-Series",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.ModelGroup.S시리즈.)))",
+      "sub_models": [
+        {
+          "name": "S시리즈",
+          "count": 0,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.(C.ModelGroup.S시리즈._.Model.S시리즈.))))",
+          "start": "199101",
+          "end": "200112",
+          "period": "91~01",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "뷰",
+      "count": 0,
+      "code": "002",
+      "eng": "Vue",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.ModelGroup.뷰.)))",
+      "sub_models": [
+        {
+          "name": "뷰",
+          "count": 0,
+          "code": "002",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.(C.ModelGroup.뷰._.Model.뷰.))))",
+          "start": "200101",
+          "end": "201012",
+          "period": "01~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "스카이",
+      "count": 0,
+      "code": "004",
+      "eng": "Sky",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.ModelGroup.스카이.)))",
+      "sub_models": [
+        {
+          "name": "스카이",
+          "count": 0,
+          "code": "004",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.(C.ModelGroup.스카이._.Model.스카이.))))",
+          "start": "200701",
+          "end": "201012",
+          "period": "07~10",
+          "powertrains": []
+        }
+      ]
+    },
+    {
+      "name": "아스트라",
+      "count": 0,
+      "code": "003",
+      "eng": "Astra",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.ModelGroup.아스트라.)))",
+      "sub_models": [
+        {
+          "name": "아스트라",
+          "count": 0,
+          "code": "003",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.새턴._.(C.ModelGroup.아스트라._.Model.아스트라.))))",
+          "start": "200801",
+          "end": "200912",
+          "period": "08~09",
+          "powertrains": []
+        }
+      ]
+    }
+  ]
+}

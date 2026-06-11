@@ -1,0 +1,48 @@
+{
+  "name": "이네오스",
+  "count": 8,
+  "code": "093",
+  "eng": "Ineos",
+  "order": 551.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.이네오스.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "그레나디어",
+      "count": 8,
+      "code": "001",
+      "eng": "Grenadier",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이네오스._.ModelGroup.그레나디어.)))",
+      "sub_models": [
+        {
+          "name": "그레나디어",
+          "count": 8,
+          "code": "001",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.이네오스._.(C.ModelGroup.그레나디어._.Model.그레나디어.))))",
+          "start": "202101",
+          "end": null,
+          "period": "21~현재",
+          "image": "/carsdata/cars/cm_cardb/file/84252b74-1a67-485c-b4a1-781b5026422f.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 2998,
+              "displacement_l": 3.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3.0 스테이션 왜건"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

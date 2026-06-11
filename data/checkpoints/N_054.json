@@ -1,0 +1,1270 @@
+{
+  "name": "미니",
+  "count": 3118,
+  "code": "054",
+  "eng": "Mini",
+  "order": 320.0,
+  "_action": "(And.Hidden.N._.(C.CarType.N._.Manufacturer.미니.))",
+  "car_type": "수입",
+  "models": [
+    {
+      "name": "쿠퍼",
+      "count": 1418,
+      "code": "001",
+      "eng": "Cooper",
+      "order": 0.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.쿠퍼.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 C 4세대",
+          "count": 61,
+          "code": "138",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 C 4세대.))))",
+          "start": "202409",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/0c630ba1-78af-486c-99e2-4161f26c5fdd.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "에센셜"
+                },
+                {
+                  "name": "클래식"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5도어 브리즈 에디션"
+                },
+                {
+                  "name": "5도어 에센셜"
+                },
+                {
+                  "name": "5도어 클래식"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 4세대",
+          "count": 125,
+          "code": "137",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 S 4세대.))))",
+          "start": "202407",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/2d181c38-8b7d-401f-a4ad-c5657ecf02d4.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "JCW"
+                },
+                {
+                  "name": "페이버드"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "5도어 페이버드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 일렉트릭 4세대",
+          "count": 18,
+          "code": "141",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 일렉트릭 4세대.))))",
+          "start": "202503",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/48c0d942-0d89-41ec-9e6b-c7eccf24f358.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 136,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "JCW"
+                },
+                {
+                  "name": "SE 클래식"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 136,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SE 페이버드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 일렉트릭",
+          "count": 17,
+          "code": "135",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 일렉트릭.))))",
+          "start": "202202",
+          "end": "202403",
+          "period": "22~24",
+          "image": "/carsdata/cars/cm_cardb/file/0a903a02-dff7-4eb7-8b3b-7bed1e32dac6.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 93,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼",
+          "count": 555,
+          "code": "001",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼.))))",
+          "start": "200101",
+          "end": "202412",
+          "period": "01~24",
+          "image": "/carsdata/cars/cm_cardb/file/7ef95832-01de-4abf-bbb8-1c1ef0fb17dd.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "SE"
+                },
+                {
+                  "name": "브릭레인 에디션"
+                },
+                {
+                  "name": "오리지널"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S",
+          "count": 467,
+          "code": "002",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 S.))))",
+          "start": "200101",
+          "end": "202412",
+          "period": "01~24",
+          "image": "/carsdata/cars/cm_cardb/file/d4ff9139-5e82-4afa-9b77-46ce618eafd3.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                },
+                {
+                  "name": "킹스로드 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 D",
+          "count": 156,
+          "code": "117",
+          "eng": null,
+          "order": 6.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 D.))))",
+          "start": "200701",
+          "end": "201912",
+          "period": "07~19",
+          "image": "/carsdata/cars/cm_cardb/file/054_117_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1496,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "베이커스트릿"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1496,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 SD",
+          "count": 19,
+          "code": "118",
+          "eng": null,
+          "order": 7.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼._.Model.쿠퍼 SD.))))",
+          "start": "201201",
+          "end": "201912",
+          "period": "12~19",
+          "image": "/carsdata/cars/cm_cardb/file/054_118_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                },
+                {
+                  "name": "베이스워터"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "쿠퍼 컨버터블",
+      "count": 259,
+      "code": "011",
+      "eng": "Cooper Convertible",
+      "order": 1.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.쿠퍼 컨버터블.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 S 컨버터블 4세대",
+          "count": 27,
+          "code": "144",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼 컨버터블._.Model.쿠퍼 S 컨버터블 4세대.))))",
+          "start": "202504",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "JCW"
+                },
+                {
+                  "name": "페이버드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 C 컨버터블 4세대",
+          "count": 4,
+          "code": "143",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼 컨버터블._.Model.쿠퍼 C 컨버터블 4세대.))))",
+          "start": "202504",
+          "end": null,
+          "period": "25~현재",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "클래식"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 컨버터블",
+          "count": 51,
+          "code": "004",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼 컨버터블._.Model.쿠퍼 컨버터블.))))",
+          "start": "200101",
+          "end": "202412",
+          "period": "01~24",
+          "image": "/carsdata/cars/cm_cardb/file/054_004_2018.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 컨버터블",
+          "count": 177,
+          "code": "005",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠퍼 컨버터블._.Model.쿠퍼 S 컨버터블.))))",
+          "start": "200101",
+          "end": "202412",
+          "period": "01~24",
+          "image": "/carsdata/cars/cm_cardb/file/1e34264e-cb34-4f53-9589-a80b34cf489d.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "3세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "하이게이트"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "쿠페",
+      "count": 17,
+      "code": "006",
+      "eng": "Coupe",
+      "order": 2.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.쿠페.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 쿠페",
+          "count": 2,
+          "code": "110",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠페._.Model.쿠퍼 쿠페.))))",
+          "start": "201101",
+          "end": "201512",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/054_110_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 쿠페",
+          "count": 11,
+          "code": "111",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠페._.Model.쿠퍼 S 쿠페.))))",
+          "start": "201101",
+          "end": "201512",
+          "period": "11~15",
+          "image": "/carsdata/cars/cm_cardb/file/054_111_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6"
+                },
+                {
+                  "name": "JCW"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 SD 쿠페",
+          "count": 4,
+          "code": "132",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.쿠페._.Model.쿠퍼 SD 쿠페.))))",
+          "start": "201201",
+          "end": "201512",
+          "period": "12~15",
+          "image": "/carsdata/cars/cm_cardb/file/054_132_2015.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "로드스터",
+      "count": 11,
+      "code": "004",
+      "eng": "Roadster",
+      "order": 3.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.로드스터.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 로드스터",
+          "count": 4,
+          "code": "113",
+          "eng": null,
+          "order": 10.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.로드스터._.Model.쿠퍼 로드스터.))))",
+          "start": "201204",
+          "end": "201512",
+          "period": "12~15",
+          "image": "/carsdata/cars/cm_cardb/file/054_113_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 로드스터",
+          "count": 7,
+          "code": "114",
+          "eng": null,
+          "order": 11.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.로드스터._.Model.쿠퍼 S 로드스터.))))",
+          "start": "201204",
+          "end": "201512",
+          "period": "12~15",
+          "image": "/carsdata/cars/cm_cardb/file/054_114_2015.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 2,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "에이스맨",
+      "count": 6,
+      "code": "013",
+      "eng": "Aceman",
+      "order": 4.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.에이스맨.)))",
+      "sub_models": [
+        {
+          "name": "에이스맨 1세대",
+          "count": 6,
+          "code": "140",
+          "eng": null,
+          "order": 41.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.에이스맨._.Model.에이스맨 1세대.))))",
+          "start": "202501",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/c90a09c7-5415-4cc3-bdeb-6751f374d690.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 136,
+              "displacement_l": 0.1,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "E 클래식"
+                }
+              ]
+            },
+            {
+              "fuel": "전기",
+              "displacement": 1,
+              "displacement_l": 0.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "JCW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컨트리맨",
+      "count": 830,
+      "code": "003",
+      "eng": "Countryman",
+      "order": 5.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.컨트리맨.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 S 컨트리맨 3세대",
+          "count": 91,
+          "code": "139",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 S 컨트리맨 3세대.))))",
+          "start": "202406",
+          "end": null,
+          "period": "24~현재",
+          "image": "/carsdata/cars/cm_cardb/file/b8e46e19-716c-4d23-9939-fc7dc69c37b2.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ALL4 JCW"
+                },
+                {
+                  "name": "ALL4 에센셜"
+                },
+                {
+                  "name": "ALL4 클래식"
+                },
+                {
+                  "name": "ALL4 클래식 퍼스트 에디션"
+                },
+                {
+                  "name": "ALL4 페이버드"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 컨트리맨 일렉트릭 3세대",
+          "count": 28,
+          "code": "142",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 컨트리맨 일렉트릭 3세대.))))",
+          "start": "202503",
+          "end": null,
+          "period": "25~현재",
+          "image": "/carsdata/cars/cm_cardb/file/3d8b0010-763d-4910-9862-7fd29dedea2d.png",
+          "powertrains": [
+            {
+              "fuel": "전기",
+              "displacement": 232,
+              "displacement_l": 0.2,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "ALL4 SE JCW"
+                },
+                {
+                  "name": "ALL4 SE 페이버드"
+                },
+                {
+                  "name": "E 클래식"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 컨트리맨",
+          "count": 220,
+          "code": "105",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 컨트리맨.))))",
+          "start": "201103",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/f837e3de-8c1d-4f7c-ad9e-8f49958192ed.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 컨트리맨",
+          "count": 302,
+          "code": "106",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 S 컨트리맨.))))",
+          "start": "201103",
+          "end": "202408",
+          "period": "11~24",
+          "image": "/carsdata/cars/cm_cardb/file/3d84ced6-5824-4fe7-8e03-54e11a6c40b5.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 D 컨트리맨",
+          "count": 145,
+          "code": "115",
+          "eng": null,
+          "order": 4.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 D 컨트리맨.))))",
+          "start": "201105",
+          "end": "202306",
+          "period": "11~23",
+          "image": "/carsdata/cars/cm_cardb/file/f024234a-4ebb-4674-8fe1-f0e0d9a858a8.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": null,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 SD 컨트리맨",
+          "count": 44,
+          "code": "116",
+          "eng": null,
+          "order": 5.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.컨트리맨._.Model.쿠퍼 SD 컨트리맨.))))",
+          "start": "201105",
+          "end": null,
+          "period": "11~현재",
+          "image": "/carsdata/cars/cm_cardb/file/070e27fb-b8ae-4d17-95ed-7cae031fc427.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "클럽맨",
+      "count": 569,
+      "code": "002",
+      "eng": "Clubman",
+      "order": 6.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.클럽맨.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 클럽맨",
+          "count": 294,
+          "code": "007",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.클럽맨._.Model.쿠퍼 클럽맨.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_007_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1499,
+              "displacement_l": 1.5,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "햄튼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 S 클럽맨",
+          "count": 181,
+          "code": "008",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.클럽맨._.Model.쿠퍼 S 클럽맨.))))",
+          "start": "200701",
+          "end": null,
+          "period": "07~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_008_2020.png",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1998,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "JCW T51 에디션"
+                }
+              ]
+            },
+            {
+              "fuel": "가솔린",
+              "displacement": 1598,
+              "displacement_l": 1.6,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                },
+                {
+                  "name": "햄튼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 D 클럽맨",
+          "count": 84,
+          "code": "006",
+          "eng": null,
+          "order": 2.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.클럽맨._.Model.쿠퍼 D 클럽맨.))))",
+          "start": "200901",
+          "end": null,
+          "period": "09~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_006_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 SD 클럽맨",
+          "count": 10,
+          "code": "131",
+          "eng": null,
+          "order": 3.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.클럽맨._.Model.쿠퍼 SD 클럽맨.))))",
+          "start": "201301",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_131_2020.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1세대"
+                },
+                {
+                  "name": "2세대"
+                }
+              ]
+            },
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 5,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "2세대"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "페이스맨",
+      "count": 5,
+      "code": "012",
+      "eng": "Paceman",
+      "order": 7.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.페이스맨.)))",
+      "sub_models": [
+        {
+          "name": "쿠퍼 D 페이스맨",
+          "count": 3,
+          "code": "133",
+          "eng": null,
+          "order": 0.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.페이스맨._.Model.쿠퍼 D 페이스맨.))))",
+          "start": "201304",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_133_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기본형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "쿠퍼 SD 페이스맨",
+          "count": 2,
+          "code": "134",
+          "eng": null,
+          "order": 1.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.페이스맨._.Model.쿠퍼 SD 페이스맨.))))",
+          "start": "201304",
+          "end": null,
+          "period": "13~현재",
+          "image": "/carsdata/cars/cm_cardb/file/054_134_2018.png",
+          "powertrains": [
+            {
+              "fuel": "디젤",
+              "displacement": 1995,
+              "displacement_l": 2.0,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "기본형"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "로버 미니",
+      "count": 2,
+      "code": "007",
+      "eng": "Rover Mini",
+      "order": 8.0,
+      "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.ModelGroup.로버 미니.)))",
+      "sub_models": [
+        {
+          "name": "로버 미니",
+          "count": 2,
+          "code": "003",
+          "eng": null,
+          "order": 19.0,
+          "_action": "(And.Hidden.N._.(C.CarType.N._.(C.Manufacturer.미니._.(C.ModelGroup.로버 미니._.Model.로버 미니.))))",
+          "start": "197601",
+          "end": "200112",
+          "period": "76~01",
+          "powertrains": [
+            {
+              "fuel": "가솔린",
+              "displacement": 1300,
+              "displacement_l": 1.3,
+              "turbo": false,
+              "seat": 4,
+              "drivetrain": null,
+              "trims": [
+                {
+                  "name": "1.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
