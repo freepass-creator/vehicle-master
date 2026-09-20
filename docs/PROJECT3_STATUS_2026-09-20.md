@@ -21,6 +21,9 @@ Do not break existing ERP consumers during migration.
 - duplicate current identity rejection
 - missing alias target rejection (fail-closed)
 - unit scenarios for rename continuity and collision protection
+- cross-artifact identity/provenance release validator
+- exporter now fails closed when the validation gate fails
+- persisted registry lifecycle documented
 - consumer contract documentation
 
 ## Validation performed
@@ -29,15 +32,18 @@ Isolated local logic validation:
 
 1. direct rename alias preserves UID — PASS
 2. parent rename preserves unchanged descendant UID — PASS
-3. alias to missing previous identity fails closed — PASS
+3. duplicate current identity fails closed — PASS
+4. alias to missing previous identity fails closed — PASS
+5. valid cross-artifact export graph — PASS
+6. corrupted flat UID is rejected — PASS
 
 GitHub Actions was intentionally not added.
 
 ## Still HOLD before canonical adoption
 
 - run the full real `vehicle-tree.json` export once and inspect generated identity/provenance ledgers
-- confirm no unexpected structural collisions across the full dataset
-- review first generated `identity-map.json` as the baseline registry
+- confirm the release validator passes against the full dataset
+- review first generated `identity-map.json` as the persisted baseline registry
 - then migrate downstream foreign keys gradually from `id` to `uid`
 
 Until that full-dataset baseline is reviewed, this branch is a candidate implementation, not canonical main.
