@@ -41,6 +41,13 @@ Root causes verified include:
 - same fuel/displacement powertrain split by seat count
 - normalized trim names collapsing distinct raw variants
 
+Additional lookup-loss finding:
+
+- sub_models: 1,805
+- unique compatibility-id keys: 1,695
+- existing `codes.json.generations` can therefore overwrite 110 sub-model entries
+- v2 adds `generations_by_uid` and `generation_id_index` to preserve all 1,805
+
 ## Semantic-key audit
 
 v2 candidate semantic keys were evaluated against the full dataset:
@@ -63,6 +70,7 @@ Collision count: **0**
 - duplicate compatibility ids allowed
 - duplicate semantic identity / uid rejected
 - uid added to tree, flat export, codes, and match index
+- lossless `generations_by_uid` + compatibility-id-to-uid[] index
 - identity-map generation
 - provenance generation
 - cross-artifact release validator
