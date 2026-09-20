@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from collections import Counter
 
@@ -64,8 +65,16 @@ def validate(dist_dir):
         errors.append("version mismatch: %r" % versions)
 
     contract = manifest.get("identity_contract") or {}
+    if contract.get("schema_version") != "2.0":
+        errors.append("manifest identity_contract schema_version must be 2.0")
     if contract.get("durable_id") != "uid" or contract.get("compatibility_id") != "id":
         errors.append("manifest identity_contract is missing uid/id declaration")
+    if contract.get("compatibility_id_unique") is not False:
+        errors.append("manifest must declare compatibility_id_unique=false")
+    if identity.get("schema_version") != "2.0":
+        errors.append("identity-map schema_version must be 2.0")
+    if provenance.get("schema_version") != "2.0":
+        errors.append("provenance schema_version must be 2.0")
 
     nodes = []
     seen_ids = set()
@@ -88,8 +97,9 @@ def validate(dist_dir):
         if uid in seen_uids:
             duplicate_uids.append(uid)
         seen_uids.add(uid)
-        if not uid.startswith(TYPE_PREFIX[entity_type]):
-            errors.append("uid type prefix mismatch: %s %s" % (entity_type, uid))
+        prefix = TYPE_PREFIX[entity_type]
+        if not re.fullmatch(re.escape(prefix) + r"[0-9a-f]{32}", uid):
+            errors.append("uid format mismatch: %s %s" % (entity_type, uid))
         nodes.append((entity_type, legacy_id, uid, parent_uid))
         return uid
 
