@@ -40,7 +40,12 @@ If a normalization changes an identity-bearing field:
 4. verify the UID did not change
 5. ship the export and keep the previous id in the registry alias history
 
-An undeclared rename creates a new UID by design; this makes identity breaks visible instead of silently guessing.
+If the renamed entity is a parent, unchanged descendants reuse their prior UID structurally from
+`(entity_type, durable parent UID, local id segment)`. You do not need to enumerate every
+descendant alias. A descendant whose own identity-bearing segment changes still needs its own alias.
+
+An undeclared rename of the changed identity segment creates a new UID by design; this makes
+identity breaks visible instead of silently guessing.
 
 ### 4. Provenance
 
