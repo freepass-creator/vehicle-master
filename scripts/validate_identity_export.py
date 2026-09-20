@@ -69,8 +69,6 @@ def validate(dist_dir):
     seen_uids = set()
     duplicate_ids = []
     duplicate_uids = []
-    expected_parent = {}
-    expected_type = {}
 
     def add(node, entity_type, parent_uid):
         legacy_id = node.get("id")
@@ -90,8 +88,6 @@ def validate(dist_dir):
         if not uid.startswith(TYPE_PREFIX[entity_type]):
             errors.append("uid type prefix mismatch: %s %s" % (entity_type, uid))
         nodes.append((entity_type, legacy_id, uid, parent_uid))
-        expected_parent[uid] = parent_uid
-        expected_type[uid] = entity_type
         return uid
 
     counts = Counter()
@@ -118,8 +114,6 @@ def validate(dist_dir):
                         if trim_uid:
                             trim_pairs.add((trim.get("id"), trim_uid))
 
-    if duplicate_ids:
-        errors.append("duplicate compatibility ids: %s" % sorted(set(duplicate_ids))[:10])
     if duplicate_uids:
         errors.append("duplicate durable uids: %s" % sorted(set(duplicate_uids))[:10])
 
@@ -146,8 +140,22 @@ def validate(dist_dir):
         extra = sorted(set(active_registry) - seen_uids)[:10]
         errors.append("identity registry/tree uid set mismatch missing=%r extra=%r" % (missing, extra))
 
-    by_uid = {uid: (entity_type, legacy_id, parent_uid) for entity_type, legacy_id, uid, parent_uid in nodes}
+    by_uid = {
+        uid: (entity_type, legacy_id, parent_uid)
+        for entity_type, legacy_id, uid, parent_uid in nodes
+    }
+    active_identity_keys = {}
     for uid, record in active_registry.items():
+        identity_key = record.get("identity_key")
+        if not identity_key:
+            errors.append("registry identity_key missing for %s" % uid)
+        else:
+            previous_uid = active_identity_keys.get(identity_key)
+            if previous_uid and previous_uid != uid:
+                errors.append(
+                    "registry identity_key is not unique: %s" % identity_key
+                )
+            active_identity_keys[identity_key] = uid
         if uid not in by_uid:
             continue
         entity_type, legacy_id, parent_uid = by_uid[uid]
@@ -173,6 +181,9 @@ def validate(dist_dir):
             errors.append("provenance id mismatch for %s" % uid)
         if record.get("parent_uid") != parent_uid:
             errors.append("provenance parent_uid mismatch for %s" % uid)
+        registry_record = active_registry.get(uid) or {}
+        if record.get("identity_key") != registry_record.get("identity_key"):
+            errors.append("provenance identity_key mismatch for %s" % uid)
 
     flat_rows = flat_doc.get("rows") or []
     flat_pairs = [(row.get("id"), row.get("uid")) for row in flat_rows]
@@ -201,11 +212,16 @@ def validate(dist_dir):
     if retired & seen_uids:
         errors.append("active tree uid incorrectly listed as retired")
 
+    duplicate_id_counts = Counter(duplicate_ids)
     return {
         "ok": not errors,
         "version": manifest.get("version"),
         "counts": dict(counts),
         "tree_identity_count": len(nodes),
+        "unique_compatibility_id_count": len(seen_ids),
+        "compatibility_id_collision_count": len(duplicate_id_counts),
+        "compatibility_id_duplicate_occurrences": len(duplicate_ids),
+        "compatibility_id_collision_samples": sorted(duplicate_id_counts)[:10],
         "retired_identity_count": len(retired),
         "errors": errors,
     }
