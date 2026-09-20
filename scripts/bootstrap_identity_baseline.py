@@ -82,6 +82,26 @@ def main(argv=None):
         )
         return 6
 
+    if final_validation.get("counts") != source_audit.get("counts"):
+        print(
+            "source/export count mismatch: source=%r export=%r"
+            % (source_audit.get("counts"), final_validation.get("counts")),
+            file=sys.stderr,
+        )
+        return 7
+
+    if (
+        final_validation.get("compatibility_id_duplicate_occurrences")
+        != source_audit["compatibility_id"]["duplicate_occurrences"]
+        or final_validation.get("compatibility_id_collision_count")
+        != source_audit["compatibility_id"]["duplicate_distinct"]
+    ):
+        print(
+            "source/export compatibility-id collision metrics disagree",
+            file=sys.stderr,
+        )
+        return 8
+
     identity = _load(identity_path)
     if identity.get("entity_count") != source_audit.get("total_entities"):
         print(
@@ -92,7 +112,7 @@ def main(argv=None):
             ),
             file=sys.stderr,
         )
-        return 7
+        return 9
 
     receipt = {
         "ok": True,
