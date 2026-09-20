@@ -10,53 +10,192 @@
   SCHEMA.md              스키마 문서
 usage: python export.py [YYYY-MM-DD]   (날짜 생략 시 버전 날짜는 호출자가 stamp)
 """
-import json, os, re, csv, sys, hashlib
+import json, os, re, csv, sys, hashlib, shutil, tempfile
+from identity_contract import IdentityRegistry
+from identity_semantics import (
+    slug,
+    manufacturer_identity_key,
+    model_identity_key,
+    sub_model_identity_key,
+    powertrain_identity_key,
+    trim_identity_key,
+)
+from validate_identity_export import validate as validate_identity_export
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
 
 INTERNAL = ("name_raw", "_action", "period_raw", "battery_note")  # export 에서 제거
 
-def slug(s):
-    s = re.sub(r"[^\w가-힣]+", "-", (s or "").strip())
-    return re.sub(r"-+", "-", s).strip("-").lower() or "x"
-
 def clean(node):
     for k in INTERNAL:
         node.pop(k, None)
     return node
 
-def build(date_str):
-    tree = json.load(open(os.path.join(DATA, "vehicle-master".replace("master", "tree") + ".json"), encoding="utf-8"))
-    os.makedirs(DIST, exist_ok=True)
+GENERATED_FILES = (
+    "vehicle-master.json",
+    "vehicle-master.flat.json",
+    "vehicle-master.flat.csv",
+    "codes.json",
+    "identity-map.json",
+    "provenance.json",
+    "match-index.json",
+    "SCHEMA.md",
+    "manifest.json",  # release pointer: always promote last
+)
 
-    flat, codes = [], {"manufacturers": {}, "models": {}, "generations": {}}
+
+def _promote_staged_export(staging_dir, final_dir):
+    """Promote a validated export with rollback if any file move fails."""
+    os.makedirs(final_dir, exist_ok=True)
+    parent = os.path.dirname(os.path.abspath(final_dir))
+    backup_dir = tempfile.mkdtemp(prefix=".vehicle-master-backup-", dir=parent)
+    promoted = []
+    backed_up = []
+    try:
+        for name in GENERATED_FILES:
+            source = os.path.join(staging_dir, name)
+            destination = os.path.join(final_dir, name)
+            backup = os.path.join(backup_dir, name)
+            if not os.path.exists(source):
+                raise RuntimeError("validated export missing staged file: %s" % name)
+            if os.path.exists(destination):
+                os.replace(destination, backup)
+                backed_up.append(name)
+            os.replace(source, destination)
+            promoted.append(name)
+    except Exception:
+        for name in reversed(promoted):
+            destination = os.path.join(final_dir, name)
+            if os.path.exists(destination):
+                os.remove(destination)
+        for name in backed_up:
+            backup = os.path.join(backup_dir, name)
+            destination = os.path.join(final_dir, name)
+            if os.path.exists(backup):
+                os.replace(backup, destination)
+        raise
+    finally:
+        shutil.rmtree(backup_dir, ignore_errors=True)
+
+
+def build(date_str):
+    input_path = os.path.join(DATA, "vehicle-tree.json")
+    input_sha256 = hashlib.sha256(open(input_path, "rb").read()).hexdigest()
+    tree = json.load(open(input_path, encoding="utf-8"))
+    os.makedirs(DIST, exist_ok=True)
+    staging_dir = tempfile.mkdtemp(
+        prefix=".vehicle-master-stage-",
+        dir=os.path.dirname(os.path.abspath(DIST)),
+    )
+
+    identity = IdentityRegistry(
+        os.path.join(DIST, "identity-map.json"),
+        os.path.join(DATA, "id-aliases.json"),
+        date_str,
+    )
+    provenance_entries = {}
+
+    def bind_identity(
+        node, entity_type, identity_key, legacy_id, parent_uid=None,
+        declared_source=None, raw_name=None, source_code=None,
+    ):
+        uid = identity.resolve(entity_type, identity_key, legacy_id, parent_uid)
+        node["uid"] = uid
+        record = {
+            "entity_type": entity_type,
+            "identity_key": identity_key,
+            "id": legacy_id,
+            "parent_uid": parent_uid,
+        }
+        if declared_source:
+            record["declared_source"] = declared_source
+        if source_code is not None:
+            record["source_code"] = source_code
+        if raw_name and raw_name != node.get("name"):
+            record["raw_name"] = raw_name
+        provenance_entries[uid] = record
+        return uid
+
+    flat, codes = [], {
+        "manufacturers": {},
+        "models": {},
+        "generations": {},
+        "generations_by_uid": {},
+        "generation_id_index": {},
+    }
     for m in tree["manufacturers"]:
         mfc = m.get("code") or slug(m["name"])
         m["id"] = "mf-%s" % mfc
+        m_identity_key = manufacturer_identity_key(mfc)
+        m_uid = bind_identity(
+            m, "manufacturer", m_identity_key, m["id"],
+            raw_name=m.get("name_raw"),
+            declared_source=m.get("source"),
+            source_code=m.get("code"),
+        )
         clean(m)
-        codes["manufacturers"][mfc] = {"name": m["name"], "eng": m.get("eng"), "car_type": m.get("car_type")}
+        codes["manufacturers"][mfc] = {
+            "name": m["name"], "eng": m.get("eng"), "car_type": m.get("car_type"), "uid": m_uid
+        }
         for g in m.get("models", []):
             mdc = g.get("code") or slug(g["name"])
             g["id"] = "%s.md-%s" % (m["id"], mdc)
+            g_identity_key = model_identity_key(m_uid, mdc)
+            g_uid = bind_identity(
+                g, "model", g_identity_key, g["id"], m_uid,
+                raw_name=g.get("name_raw"),
+                declared_source=g.get("source"),
+                source_code=g.get("code"),
+            )
             clean(g)
-            codes["models"]["%s-%s" % (mfc, mdc)] = {"manufacturer": m["name"], "name": g["name"], "eng": g.get("eng")}
+            codes["models"]["%s-%s" % (mfc, mdc)] = {
+                "manufacturer": m["name"], "name": g["name"], "eng": g.get("eng"), "uid": g_uid
+            }
             for s in g.get("sub_models", []):
                 gc = s.get("gen_code") or slug(s["name"])
                 s["id"] = "%s.sm-%s" % (g["id"], slug(gc))
+                s_identity_key = sub_model_identity_key(g_uid, s)
+                s_uid = bind_identity(
+                    s, "sub_model", s_identity_key, s["id"], g_uid,
+                    raw_name=s.get("name_raw"),
+                    declared_source=s.get("source"),
+                    source_code=s.get("code"),
+                )
                 clean(s)
-                codes["generations"][s["id"]] = {"model": g["name"], "sub_model": s["name"],
-                                                  "gen_code": s.get("gen_code"), "period": s.get("period")}
+                generation_record = {
+                    "model": g["name"], "sub_model": s["name"],
+                    "gen_code": s.get("gen_code"), "period": s.get("period"),
+                    "uid": s_uid,
+                }
+                # Legacy map is intentionally retained for compatibility even though
+                # duplicate compatibility ids can overwrite. New consumers use uid/index.
+                codes["generations"][s["id"]] = generation_record
+                codes["generations_by_uid"][s_uid] = {
+                    **generation_record, "id": s["id"]
+                }
+                codes["generation_id_index"].setdefault(s["id"], []).append(s_uid)
                 for p in s.get("powertrains", []):
                     pid = "%s.pw-%s" % (s["id"], slug("%s-%s-%s" % (p.get("fuel"), p.get("displacement_l") or p.get("battery_kwh") or "", p.get("drivetrain") or "")))
                     p["id"] = pid
+                    p_identity_key = powertrain_identity_key(s_uid, p)
+                    p_uid = bind_identity(
+                        p, "powertrain", p_identity_key, pid, s_uid,
+                        declared_source=s.get("source"),
+                    )
                     clean(p)
                     for t in p.get("trims", []):
                         tid = "%s.tr-%s" % (pid, slug(t["name"]))
                         t["id"] = tid
+                        t_identity_key = trim_identity_key(p_uid, t)
+                        t_uid = bind_identity(
+                            t, "trim", t_identity_key, tid, p_uid,
+                            declared_source=s.get("source"),
+                            raw_name=t.get("raw") or t.get("name_raw"),
+                        )
                         clean(t)
                         flat.append({
-                            "id": tid,
+                            "id": tid, "uid": t_uid,
                             "manufacturer": m["name"], "manufacturer_code": mfc, "car_type": m.get("car_type"),
                             "model": g["name"], "model_code": mdc,
                             "sub_model": s["name"], "gen_code": s.get("gen_code"),
@@ -73,12 +212,21 @@ def build(date_str):
     version = "%s+%s" % (date_str or "0000-00-00", digest)
 
     def w(name, obj):
-        json.dump(obj, open(os.path.join(DIST, name), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        with open(os.path.join(staging_dir, name), "w", encoding="utf-8") as handle:
+            json.dump(obj, handle, ensure_ascii=False, indent=2)
 
     tree["version"] = version
     w("vehicle-master.json", tree)
     w("vehicle-master.flat.json", {"version": version, "rows": flat})
     w("codes.json", {"version": version, **codes})
+    w("identity-map.json", identity.document())
+    w("provenance.json", {
+        "schema_version": "2.0",
+        "version": version,
+        "generated": date_str,
+        "input": {"path": "data/vehicle-tree.json", "sha256": input_sha256},
+        "entries": provenance_entries,
+    })
 
     # 매칭 전용 슬림 인덱스 — 세부모델당 1엔트리 (외부 ERP 시트→우리 규격 매칭용)
     def norm_maker(name):
@@ -102,7 +250,7 @@ def build(date_str):
                     ctrims += ptrims
                 ye = s.get("end")
                 match_entries.append({
-                    "id": s["id"], "maker": mk, "model": g["name"], "sub_model": s["name"],
+                    "id": s["id"], "uid": s["uid"], "maker": mk, "model": g["name"], "sub_model": s["name"],
                     "gen_code": s.get("gen_code"), "origin": m.get("car_type"),
                     "year_start": (s.get("start") or "")[:4], "year_end": (ye[:4] if ye else "현재"),
                     "title": ("%s %s" % (mk, s["name"])).strip(),
@@ -112,7 +260,7 @@ def build(date_str):
 
     # CSV (엑셀 호환 utf-8-sig)
     cols = list(flat[0].keys()) if flat else []
-    with open(os.path.join(DIST, "vehicle-master.flat.csv"), "w", encoding="utf-8-sig", newline="") as f:
+    with open(os.path.join(staging_dir, "vehicle-master.flat.csv"), "w", encoding="utf-8-sig", newline="") as f:
         wr = csv.DictWriter(f, fieldnames=cols)
         wr.writeheader(); wr.writerows(flat)
 
@@ -127,8 +275,23 @@ def build(date_str):
         "counts": counts,
         "files": {
             "tree": "vehicle-master.json", "flat_json": "vehicle-master.flat.json",
-            "flat_csv": "vehicle-master.flat.csv", "codes": "codes.json", "schema": "SCHEMA.md"},
+            "flat_csv": "vehicle-master.flat.csv", "codes": "codes.json",
+            "match_index": "match-index.json", "identity_map": "identity-map.json",
+            "provenance": "provenance.json", "schema": "SCHEMA.md"},
         "id_scheme": "mf-{mfCode}.md-{modelCode}.sm-{genCode}.pw-{fuel-disp-drive}.tr-{trim}",
+        "identity_contract": {
+            "schema_version": "2.0",
+            "compatibility_id": "id",
+            "compatibility_id_unique": False,
+            "durable_id": "uid",
+            "durable_identity_basis": "semantic_identity_key",
+            "alias_ledger": "../data/id-aliases.json",
+        },
+        "provenance": {
+            "input": "data/vehicle-tree.json",
+            "input_sha256": input_sha256,
+            "sources": ["encar", "welrix", "namuwiki/wikipedia crosscheck"],
+        },
         "notes": "trims[].fleet=true 는 택시/렌트/특장 영업용. 일반 표시 시 제외 권장. msrp_manwon=신차가(만원).",
     }
     w("manifest.json", manifest)
@@ -142,19 +305,31 @@ def build(date_str):
 - **vehicle-master.json** — 전체 트리 (5단계 중첩, 각 노드 `id` 포함)
 - **vehicle-master.flat.json** — `{version, rows[]}` 트림 1행 denormalized (DB/매칭용 권장)
 - **vehicle-master.flat.csv** — 동일 (엑셀/DB import, utf-8-sig)
-- **codes.json** — 제조사/모델/세대 코드 룩업
+- **codes.json** — 제조사/모델/세대 코드 룩업 + UID lossless index
+- **identity-map.json** — 지속 UID 레지스트리와 semantic identity key alias
+- **provenance.json** — UID별 semantic key/출처/원본명/부모 관계 추적
 
-## 안정 ID
+## 식별자
+- `uid`: 유일한 장기 참조키. 외부 ERP의 신규 foreign key는 uid 사용.
+- `id`: 기존 호환 표시키. 현재 데이터에서 중복 가능하므로 foreign key로 사용하지 않음.
+- `identity_key`: UID 생성·연속성 판정에 쓰는 내부 semantic key.
+- semantic key 변경 시 `data/id-aliases.json`에 새 identity_key → 이전 identity_key를 선언.
+
+## 호환 ID
 `%s`
 예: `mf-001.md-004.sm-gn7.pw-가솔린-3.5-4wd.tr-캘리그래피`
-- 같은 차량은 항상 같은 id (재빌드해도 유지). 외부 ERP는 이 id 로 참조.
+
+## codes.json
+- `generations`: 기존 호환 map. compatibility id 중복 시 마지막 항목이 남을 수 있음.
+- `generations_by_uid`: 모든 세부모델을 uid key로 손실 없이 보존.
+- `generation_id_index`: compatibility id → uid[] 역색인. 중복 id를 모두 추적.
 
 ## 트리 노드
-- 제조사: name, eng, code, count, car_type(국산/수입), id
-- 모델: name, eng, code, count, id
-- 세부모델: name(코드통일 '그랜저 GN7'), gen_code, period('22~26'), start, end, source(encar/welrix), battery_options(EV), id
-- 파워트레인: fuel, displacement_l, turbo, drivetrain, seat, battery_kwh, range_km(EV), id
-- 트림: name, msrp(신차가/만원), fleet(영업용 bool), special(한정판 bool), id, raw(엔카원본 명칭이 다를 때)
+- 제조사: name, eng, code, count, car_type(국산/수입), id, uid
+- 모델: name, eng, code, count, id, uid
+- 세부모델: name(코드통일 '그랜저 GN7'), gen_code, period('22~26'), start, end, source(encar/welrix), battery_options(EV), id, uid
+- 파워트레인: fuel, displacement_l, turbo, drivetrain, seat, battery_kwh, range_km(EV), id, uid
+- 트림: name, msrp(신차가/만원), fleet(영업용 bool), special(한정판 bool), id, uid, raw(엔카원본 명칭이 다를 때)
 
 ## flat row 컬럼
 %s
@@ -164,9 +339,26 @@ def build(date_str):
 - 트림 정렬은 `msrp_manwon` 오름차순(기본→상위).
 - 모델/세대 매칭 키는 `gen_code`(그랜저 GN7) 권장.
 """ % (version, date_str, manifest["id_scheme"], ", ".join(cols))
-    open(os.path.join(DIST, "SCHEMA.md"), "w", encoding="utf-8").write(schema)
+    with open(os.path.join(staging_dir, "SCHEMA.md"), "w", encoding="utf-8") as handle:
+        handle.write(schema)
 
-    print("export 완료 → dist/  version=%s  trims=%d" % (version, len(flat)))
+    validation = validate_identity_export(staging_dir)
+    if not validation["ok"]:
+        shutil.rmtree(staging_dir, ignore_errors=True)
+        raise RuntimeError(
+            "identity/provenance export validation failed: %s"
+            % "; ".join(validation["errors"])
+        )
+
+    try:
+        _promote_staged_export(staging_dir, DIST)
+    finally:
+        shutil.rmtree(staging_dir, ignore_errors=True)
+
+    print(
+        "export staging 검증 PASS + atomic promote 완료 → dist/  version=%s  trims=%d  entities=%d"
+        % (version, len(flat), validation["tree_identity_count"])
+    )
     return version
 
 if __name__ == "__main__":
