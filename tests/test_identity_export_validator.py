@@ -160,7 +160,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             flat_path = os.path.join(tmp, "vehicle-master.flat.json")
             with open(flat_path, encoding="utf-8") as handle:
                 flat = json.load(handle)
-            flat["rows"].append({"id": ids["trim"][0], "uid": "vm_tr_f"})
+            flat["rows"].append({"id": ids["trim"][0], "uid": "vm_tr_" + "f" * 32})
             with open(flat_path, "w", encoding="utf-8") as handle:
                 json.dump(flat, handle)
 
