@@ -272,7 +272,7 @@ def build(date_str):
 - **vehicle-master.json** — 전체 트리 (5단계 중첩, 각 노드 `id` 포함)
 - **vehicle-master.flat.json** — `{version, rows[]}` 트림 1행 denormalized (DB/매칭용 권장)
 - **vehicle-master.flat.csv** — 동일 (엑셀/DB import, utf-8-sig)
-- **codes.json** — 제조사/모델/세대 코드 룩업
+- **codes.json** — 제조사/모델/세대 코드 룩업 + UID lossless index
 - **identity-map.json** — 지속 UID 레지스트리와 semantic identity key alias
 - **provenance.json** — UID별 semantic key/출처/원본명/부모 관계 추적
 
@@ -286,12 +286,17 @@ def build(date_str):
 `%s`
 예: `mf-001.md-004.sm-gn7.pw-가솔린-3.5-4wd.tr-캘리그래피`
 
+## codes.json
+- `generations`: 기존 호환 map. compatibility id 중복 시 마지막 항목이 남을 수 있음.
+- `generations_by_uid`: 모든 세부모델을 uid key로 손실 없이 보존.
+- `generation_id_index`: compatibility id → uid[] 역색인. 중복 id를 모두 추적.
+
 ## 트리 노드
-- 제조사: name, eng, code, count, car_type(국산/수입), id
-- 모델: name, eng, code, count, id
-- 세부모델: name(코드통일 '그랜저 GN7'), gen_code, period('22~26'), start, end, source(encar/welrix), battery_options(EV), id
-- 파워트레인: fuel, displacement_l, turbo, drivetrain, seat, battery_kwh, range_km(EV), id
-- 트림: name, msrp(신차가/만원), fleet(영업용 bool), special(한정판 bool), id, raw(엔카원본 명칭이 다를 때)
+- 제조사: name, eng, code, count, car_type(국산/수입), id, uid
+- 모델: name, eng, code, count, id, uid
+- 세부모델: name(코드통일 '그랜저 GN7'), gen_code, period('22~26'), start, end, source(encar/welrix), battery_options(EV), id, uid
+- 파워트레인: fuel, displacement_l, turbo, drivetrain, seat, battery_kwh, range_km(EV), id, uid
+- 트림: name, msrp(신차가/만원), fleet(영업용 bool), special(한정판 bool), id, uid, raw(엔카원본 명칭이 다를 때)
 
 ## flat row 컬럼
 %s
