@@ -101,8 +101,8 @@ class IdentityExportValidatorTest(unittest.TestCase):
             "provenance.json": provenance,
         }
         for name, payload in payloads.items():
-            with open(os.path.join(directory, name), "w", encoding="utf-8") as f:
-                json.dump(payload, f)
+            with open(os.path.join(directory, name), "w", encoding="utf-8") as handle:
+                json.dump(payload, handle)
         return ids
 
     def test_valid_cross_artifact_identity_graph_passes(self):
@@ -115,10 +115,11 @@ class IdentityExportValidatorTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             self._write_fixture(tmp)
             path = os.path.join(tmp, "vehicle-master.flat.json")
-            payload = json.load(open(path, encoding="utf-8"))
+            with open(path, encoding="utf-8") as handle:
+                payload = json.load(handle)
             payload["rows"][0]["uid"] = "vm_tr_wrong"
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(payload, f)
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(payload, handle)
             result = validate(tmp)
             self.assertFalse(result["ok"])
             self.assertTrue(any("unknown trim" in error for error in result["errors"]))
