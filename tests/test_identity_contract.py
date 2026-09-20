@@ -59,6 +59,24 @@ class IdentityContractTest(unittest.TestCase):
             self.assertEqual(parent_uid, renamed_parent_uid)
             self.assertEqual(child_uid, renamed_child_uid)
 
+    def test_missing_alias_target_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            aliases = os.path.join(tmp, "id-aliases.json")
+            with open(aliases, "w", encoding="utf-8") as handle:
+                json.dump({
+                    "schema_version": "1.0",
+                    "aliases": {"mf-1.md-new": "mf-1.md-missing"},
+                }, handle)
+
+            registry = IdentityRegistry(
+                os.path.join(tmp, "identity-map.json"),
+                aliases,
+                "2026-09-20",
+            )
+            with self.assertRaises(ValueError):
+                registry.resolve("model", "mf-1.md-new", "manufacturer")
+
+
     def test_same_current_identity_cannot_be_emitted_twice(self):
         with tempfile.TemporaryDirectory() as tmp:
             registry = IdentityRegistry(
