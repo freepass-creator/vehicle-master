@@ -36,6 +36,7 @@ python app.py        # http://localhost:8777  (5단계 드릴다운 뷰어, /api
 ## 재빌드 (재크롤 없이 가공만, 멱등)
 ```
 python scripts/rebuild.py   # merge→EV배터리→하이브리드병합→코드명명→트림서열→신차반영→트림분류
+python scripts/audit_identity_source.py   # full source semantic-key collision 감사
 python scripts/export.py 2026-06-11   # dist/ 배포물 생성 + identity/provenance 교차검증
 # 필요 시 검증만 재실행:
 python scripts/validate_identity_export.py
