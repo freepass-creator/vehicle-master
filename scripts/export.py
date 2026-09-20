@@ -10,7 +10,7 @@
   SCHEMA.md              스키마 문서
 usage: python export.py [YYYY-MM-DD]   (날짜 생략 시 버전 날짜는 호출자가 stamp)
 """
-import json, os, re, csv, sys, hashlib
+import json, os, re, csv, sys, hashlib, shutil, tempfile
 from identity_contract import IdentityRegistry
 from identity_semantics import (
     slug,
@@ -32,11 +32,62 @@ def clean(node):
         node.pop(k, None)
     return node
 
+GENERATED_FILES = (
+    "vehicle-master.json",
+    "vehicle-master.flat.json",
+    "vehicle-master.flat.csv",
+    "codes.json",
+    "identity-map.json",
+    "provenance.json",
+    "match-index.json",
+    "SCHEMA.md",
+    "manifest.json",  # release pointer: always promote last
+)
+
+
+def _promote_staged_export(staging_dir, final_dir):
+    """Promote a validated export with rollback if any file move fails."""
+    os.makedirs(final_dir, exist_ok=True)
+    parent = os.path.dirname(os.path.abspath(final_dir))
+    backup_dir = tempfile.mkdtemp(prefix=".vehicle-master-backup-", dir=parent)
+    promoted = []
+    backed_up = []
+    try:
+        for name in GENERATED_FILES:
+            source = os.path.join(staging_dir, name)
+            destination = os.path.join(final_dir, name)
+            backup = os.path.join(backup_dir, name)
+            if not os.path.exists(source):
+                raise RuntimeError("validated export missing staged file: %s" % name)
+            if os.path.exists(destination):
+                os.replace(destination, backup)
+                backed_up.append(name)
+            os.replace(source, destination)
+            promoted.append(name)
+    except Exception:
+        for name in reversed(promoted):
+            destination = os.path.join(final_dir, name)
+            if os.path.exists(destination):
+                os.remove(destination)
+        for name in backed_up:
+            backup = os.path.join(backup_dir, name)
+            destination = os.path.join(final_dir, name)
+            if os.path.exists(backup):
+                os.replace(backup, destination)
+        raise
+    finally:
+        shutil.rmtree(backup_dir, ignore_errors=True)
+
+
 def build(date_str):
     input_path = os.path.join(DATA, "vehicle-tree.json")
     input_sha256 = hashlib.sha256(open(input_path, "rb").read()).hexdigest()
     tree = json.load(open(input_path, encoding="utf-8"))
     os.makedirs(DIST, exist_ok=True)
+    staging_dir = tempfile.mkdtemp(
+        prefix=".vehicle-master-stage-",
+        dir=os.path.dirname(os.path.abspath(DIST)),
+    )
 
     identity = IdentityRegistry(
         os.path.join(DIST, "identity-map.json"),
@@ -161,7 +212,8 @@ def build(date_str):
     version = "%s+%s" % (date_str or "0000-00-00", digest)
 
     def w(name, obj):
-        json.dump(obj, open(os.path.join(DIST, name), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        with open(os.path.join(staging_dir, name), "w", encoding="utf-8") as handle:
+            json.dump(obj, handle, ensure_ascii=False, indent=2)
 
     tree["version"] = version
     w("vehicle-master.json", tree)
@@ -208,7 +260,7 @@ def build(date_str):
 
     # CSV (엑셀 호환 utf-8-sig)
     cols = list(flat[0].keys()) if flat else []
-    with open(os.path.join(DIST, "vehicle-master.flat.csv"), "w", encoding="utf-8-sig", newline="") as f:
+    with open(os.path.join(staging_dir, "vehicle-master.flat.csv"), "w", encoding="utf-8-sig", newline="") as f:
         wr = csv.DictWriter(f, fieldnames=cols)
         wr.writeheader(); wr.writerows(flat)
 
@@ -287,17 +339,24 @@ def build(date_str):
 - 트림 정렬은 `msrp_manwon` 오름차순(기본→상위).
 - 모델/세대 매칭 키는 `gen_code`(그랜저 GN7) 권장.
 """ % (version, date_str, manifest["id_scheme"], ", ".join(cols))
-    open(os.path.join(DIST, "SCHEMA.md"), "w", encoding="utf-8").write(schema)
+    with open(os.path.join(staging_dir, "SCHEMA.md"), "w", encoding="utf-8") as handle:
+        handle.write(schema)
 
-    validation = validate_identity_export(DIST)
+    validation = validate_identity_export(staging_dir)
     if not validation["ok"]:
+        shutil.rmtree(staging_dir, ignore_errors=True)
         raise RuntimeError(
             "identity/provenance export validation failed: %s"
             % "; ".join(validation["errors"])
         )
 
+    try:
+        _promote_staged_export(staging_dir, DIST)
+    finally:
+        shutil.rmtree(staging_dir, ignore_errors=True)
+
     print(
-        "export 완료 + identity 검증 PASS → dist/  version=%s  trims=%d  entities=%d"
+        "export staging 검증 PASS + atomic promote 완료 → dist/  version=%s  trims=%d  entities=%d"
         % (version, len(flat), validation["tree_identity_count"])
     )
     return version
