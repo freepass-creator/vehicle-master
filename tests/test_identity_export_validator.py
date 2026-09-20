@@ -74,6 +74,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             "entities": {
                 uid: {
                     "entity_type": types[uid],
+                    "identity_key": "key:" + uid,
                     "current_id": current_ids[uid],
                     "parent_uid": parents[uid],
                     "active": True,
@@ -86,6 +87,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             "entries": {
                 uid: {
                     "entity_type": types[uid],
+                    "identity_key": "key:" + uid,
                     "id": current_ids[uid],
                     "parent_uid": parents[uid],
                 }
