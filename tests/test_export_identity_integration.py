@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,6 +68,87 @@ class ExportIdentityIntegrationTest(unittest.TestCase):
             }],
         }
 
+    def _write_source(self, data_dir):
+        with open(
+            os.path.join(data_dir, "vehicle-tree.json"),
+            "w",
+            encoding="utf-8",
+        ) as handle:
+            json.dump(self._source_tree(), handle, ensure_ascii=False)
+        with open(
+            os.path.join(data_dir, "id-aliases.json"),
+            "w",
+            encoding="utf-8",
+        ) as handle:
+            json.dump({"schema_version": "2.0", "aliases": {}}, handle)
+
+    def test_validation_failure_does_not_replace_existing_release(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = os.path.join(tmp, "data")
+            dist_dir = os.path.join(tmp, "dist")
+            os.makedirs(data_dir)
+            os.makedirs(dist_dir)
+            self._write_source(data_dir)
+
+            sentinel = {"version": "stable-old-release"}
+            with open(
+                os.path.join(dist_dir, "manifest.json"),
+                "w",
+                encoding="utf-8",
+            ) as handle:
+                json.dump(sentinel, handle)
+
+            original_data, original_dist = exporter.DATA, exporter.DIST
+            exporter.DATA, exporter.DIST = data_dir, dist_dir
+            try:
+                with mock.patch.object(
+                    exporter,
+                    "validate_identity_export",
+                    return_value={"ok": False, "errors": ["synthetic failure"]},
+                ):
+                    with self.assertRaises(RuntimeError):
+                        exporter.build("2026-09-20")
+                with open(
+                    os.path.join(dist_dir, "manifest.json"),
+                    encoding="utf-8",
+                ) as handle:
+                    self.assertEqual(json.load(handle), sentinel)
+            finally:
+                exporter.DATA, exporter.DIST = original_data, original_dist
+
+    def test_promote_failure_rolls_back_existing_release(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            staging = os.path.join(tmp, "stage")
+            final = os.path.join(tmp, "dist")
+            os.makedirs(staging)
+            os.makedirs(final)
+
+            for name in exporter.GENERATED_FILES:
+                with open(os.path.join(staging, name), "w", encoding="utf-8") as handle:
+                    handle.write("new:" + name)
+                with open(os.path.join(final, name), "w", encoding="utf-8") as handle:
+                    handle.write("old:" + name)
+
+            real_replace = exporter.os.replace
+            failed = {"value": False}
+
+            def flaky_replace(source, destination):
+                if (
+                    not failed["value"]
+                    and source == os.path.join(staging, "codes.json")
+                ):
+                    failed["value"] = True
+                    raise OSError("synthetic promote failure")
+                return real_replace(source, destination)
+
+            with mock.patch.object(exporter.os, "replace", side_effect=flaky_replace):
+                with self.assertRaises(OSError):
+                    exporter._promote_staged_export(staging, final)
+
+            for name in exporter.GENERATED_FILES:
+                with open(os.path.join(final, name), encoding="utf-8") as handle:
+                    self.assertEqual(handle.read(), "old:" + name)
+
     def test_export_is_lossless_with_duplicate_compatibility_ids(self):
         with tempfile.TemporaryDirectory() as tmp:
             data_dir = os.path.join(tmp, "data")
@@ -74,22 +156,7 @@ class ExportIdentityIntegrationTest(unittest.TestCase):
             os.makedirs(data_dir)
             os.makedirs(dist_dir)
 
-            with open(
-                os.path.join(data_dir, "vehicle-tree.json"),
-                "w",
-                encoding="utf-8",
-            ) as handle:
-                json.dump(self._source_tree(), handle, ensure_ascii=False)
-
-            with open(
-                os.path.join(data_dir, "id-aliases.json"),
-                "w",
-                encoding="utf-8",
-            ) as handle:
-                json.dump(
-                    {"schema_version": "2.0", "aliases": {}},
-                    handle,
-                )
+            self._write_source(data_dir)
 
             original_data, original_dist = exporter.DATA, exporter.DIST
             exporter.DATA, exporter.DIST = data_dir, dist_dir
