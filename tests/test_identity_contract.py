@@ -7,6 +7,15 @@ from scripts.identity_contract import IdentityRegistry
 
 
 class IdentityContractTest(unittest.TestCase):
+    def test_uid_is_deterministic_and_128_bit_hex(self):
+        from scripts.identity_contract import stable_uid
+
+        first = stable_uid("model", "semantic-key")
+        second = stable_uid("model", "semantic-key")
+        self.assertEqual(first, second)
+        self.assertTrue(first.startswith("vm_md_"))
+        self.assertEqual(len(first.split("_")[-1]), 32)
+
     def test_semantic_alias_preserves_uid(self):
         with tempfile.TemporaryDirectory() as tmp:
             previous = os.path.join(tmp, "identity-map.json")
