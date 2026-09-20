@@ -13,7 +13,7 @@
 | `dist/vehicle-master.json` | 전체 5단계 트리 (각 노드 안정 `id`) |
 | `dist/vehicle-master.flat.json` | 트림 1행 denormalized (DB/매칭 권장) |
 | `dist/vehicle-master.flat.csv` | 엑셀/DB import (utf-8-sig) |
-| `dist/codes.json` | 제조사/모델/세대 코드 룩업 |
+| `dist/codes.json` | 코드 룩업 + `generations_by_uid` / `generation_id_index` lossless index |
 | `dist/identity-map.json` | 지속 UID 레지스트리 + semantic key alias |
 | `dist/provenance.json` | UID별 출처·원본명·부모 관계 추적 |
 | `dist/SCHEMA.md` | 스키마 문서 |
