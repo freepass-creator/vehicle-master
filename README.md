@@ -14,13 +14,14 @@
 | `dist/vehicle-master.flat.json` | 트림 1행 denormalized (DB/매칭 권장) |
 | `dist/vehicle-master.flat.csv` | 엑셀/DB import (utf-8-sig) |
 | `dist/codes.json` | 제조사/모델/세대 코드 룩업 |
-| `dist/identity-map.json` | 지속 UID 레지스트리 + 과거 id alias |
+| `dist/identity-map.json` | 지속 UID 레지스트리 + semantic key alias |
 | `dist/provenance.json` | UID별 출처·원본명·부모 관계 추적 |
 | `dist/SCHEMA.md` | 스키마 문서 |
 
-- **장기 참조키는 `uid` 권장**: 정규화 명칭이 바뀌어도 동일 개체면 유지.
-- **기존 `id`는 호환 유지**: `mf-{제조사}.md-{모델}.sm-{세대코드}.pw-{연료-배기-구동}.tr-{트림}`.
-- identity-bearing 변경은 `data/id-aliases.json`에 새 id → 이전 id를 선언해 UID 연속성을 보존.
+- **유일 참조키는 `uid`**: 신규 ERP foreign key는 반드시 uid 사용.
+- **기존 `id`는 호환 표시키**: 현재 데이터에서도 중복이 존재하므로 유일키로 사용하지 않음.
+- **UID 기준은 semantic identity key**: 세부모델 source code, 파워트레인 인승, 트림 raw 원본명까지 포함해 실제 개체를 구분.
+- semantic identity key 변경은 `data/id-aliases.json`에 새 key → 이전 key를 선언해 UID 연속성을 보존.
 - **트림**: `msrp_manwon`(신차가/만원) 오름차순 = 기본→상위. `fleet:true`(택시/렌트/특장)는 일반 표시 시 제외 권장.
 - **세부모델명**: 섀시코드 통일 (`그랜저 GN7`, `카니발 KA4`). 매칭은 `gen_code` 권장.
 
