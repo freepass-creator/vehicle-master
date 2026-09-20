@@ -12,16 +12,20 @@ usage: python export.py [YYYY-MM-DD]   (날짜 생략 시 버전 날짜는 호�
 """
 import json, os, re, csv, sys, hashlib
 from identity_contract import IdentityRegistry
+from identity_semantics import (
+    slug,
+    manufacturer_identity_key,
+    model_identity_key,
+    sub_model_identity_key,
+    powertrain_identity_key,
+    trim_identity_key,
+)
 from validate_identity_export import validate as validate_identity_export
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
 
 INTERNAL = ("name_raw", "_action", "period_raw", "battery_note")  # export 에서 제거
-
-def slug(s):
-    s = re.sub(r"[^\w가-힣]+", "-", (s or "").strip())
-    return re.sub(r"-+", "-", s).strip("-").lower() or "x"
 
 def clean(node):
     for k in INTERNAL:
@@ -40,9 +44,6 @@ def build(date_str):
         date_str,
     )
     provenance_entries = {}
-
-    def semantic_key(*parts):
-        return json.dumps(parts, ensure_ascii=False, separators=(",", ":"))
 
     def bind_identity(
         node, entity_type, identity_key, legacy_id, parent_uid=None,
@@ -75,7 +76,7 @@ def build(date_str):
     for m in tree["manufacturers"]:
         mfc = m.get("code") or slug(m["name"])
         m["id"] = "mf-%s" % mfc
-        m_identity_key = semantic_key("manufacturer", mfc)
+        m_identity_key = manufacturer_identity_key(mfc)
         m_uid = bind_identity(
             m, "manufacturer", m_identity_key, m["id"],
             raw_name=m.get("name_raw"),
@@ -89,7 +90,7 @@ def build(date_str):
         for g in m.get("models", []):
             mdc = g.get("code") or slug(g["name"])
             g["id"] = "%s.md-%s" % (m["id"], mdc)
-            g_identity_key = semantic_key("model", m_uid, mdc)
+            g_identity_key = model_identity_key(m_uid, mdc)
             g_uid = bind_identity(
                 g, "model", g_identity_key, g["id"], m_uid,
                 raw_name=g.get("name_raw"),
@@ -103,17 +104,7 @@ def build(date_str):
             for s in g.get("sub_models", []):
                 gc = s.get("gen_code") or slug(s["name"])
                 s["id"] = "%s.sm-%s" % (g["id"], slug(gc))
-                if s.get("code") is not None:
-                    s_identity_key = semantic_key(
-                        "sub_model", g_uid, "source_code", str(s.get("code"))
-                    )
-                else:
-                    s_identity_key = semantic_key(
-                        "sub_model", g_uid, "fallback",
-                        s.get("gen_code") or "",
-                        s.get("start") or "",
-                        s.get("name_raw") or s.get("name") or "",
-                    )
+                s_identity_key = sub_model_identity_key(g_uid, s)
                 s_uid = bind_identity(
                     s, "sub_model", s_identity_key, s["id"], g_uid,
                     raw_name=s.get("name_raw"),
@@ -136,15 +127,7 @@ def build(date_str):
                 for p in s.get("powertrains", []):
                     pid = "%s.pw-%s" % (s["id"], slug("%s-%s-%s" % (p.get("fuel"), p.get("displacement_l") or p.get("battery_kwh") or "", p.get("drivetrain") or "")))
                     p["id"] = pid
-                    p_identity_key = semantic_key(
-                        "powertrain", s_uid,
-                        p.get("fuel"),
-                        p.get("displacement_l"),
-                        p.get("battery_kwh"),
-                        p.get("drivetrain"),
-                        p.get("turbo"),
-                        p.get("seat"),
-                    )
+                    p_identity_key = powertrain_identity_key(s_uid, p)
                     p_uid = bind_identity(
                         p, "powertrain", p_identity_key, pid, s_uid,
                         declared_source=s.get("source"),
@@ -153,9 +136,7 @@ def build(date_str):
                     for t in p.get("trims", []):
                         tid = "%s.tr-%s" % (pid, slug(t["name"]))
                         t["id"] = tid
-                        t_identity_key = semantic_key(
-                            "trim", p_uid, t.get("raw") or t.get("name") or ""
-                        )
+                        t_identity_key = trim_identity_key(p_uid, t)
                         t_uid = bind_identity(
                             t, "trim", t_identity_key, tid, p_uid,
                             declared_source=s.get("source"),
