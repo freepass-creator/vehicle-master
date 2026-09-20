@@ -36,7 +36,7 @@ def stable_uid(entity_type: str, identity_key: str) -> str:
     prefix = TYPE_PREFIX.get(entity_type, "xx")
     digest = hashlib.sha256(
         ("%s|%s" % (entity_type, identity_key)).encode("utf-8")
-    ).hexdigest()[:20]
+    ).hexdigest()[:32]
     return "vm_%s_%s" % (prefix, digest)
 
 
