@@ -69,6 +69,11 @@ class IdentityRegistry:
 
     def resolve(self, entity_type: str, legacy_id: str, parent_uid: Optional[str] = None) -> str:
         previous_id = self.alias_rules.get(legacy_id, legacy_id)
+        if previous_id != legacy_id and previous_id not in self.lookup:
+            raise ValueError(
+                "alias target does not exist in previous identity registry: %s" % previous_id
+            )
+
         uid = self.lookup.get(legacy_id) or self.lookup.get(previous_id)
 
         if uid is None:
@@ -108,12 +113,16 @@ class IdentityRegistry:
         return uid
 
     def document(self) -> dict:
-        active = {uid: self.entities[uid] for uid in sorted(self.current_uids)}
         retired = sorted(set(self.entities) - self.current_uids)
+        entities = {}
+        for uid in sorted(self.entities):
+            record = dict(self.entities[uid])
+            record["active"] = uid in self.current_uids
+            entities[uid] = record
         return {
             "schema_version": SCHEMA_VERSION,
             "generated": self.generated,
-            "entity_count": len(active),
+            "entity_count": len(self.current_uids),
             "retired_uids": retired,
-            "entities": active,
+            "entities": entities,
         }
