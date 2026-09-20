@@ -10,11 +10,11 @@ class IdentityExportValidatorTest(unittest.TestCase):
     def _write_fixture(self, directory):
         version = "2026-09-20+fixture"
         ids = {
-            "manufacturer": ("mf-001", "vm_mf_a"),
-            "model": ("mf-001.md-001", "vm_md_b"),
-            "sub_model": ("mf-001.md-001.sm-x", "vm_sm_c"),
-            "powertrain": ("mf-001.md-001.sm-x.pw-gas", "vm_pw_d"),
-            "trim": ("mf-001.md-001.sm-x.pw-gas.tr-base", "vm_tr_e"),
+            "manufacturer": ("mf-001", "vm_mf_" + "a" * 32),
+            "model": ("mf-001.md-001", "vm_md_" + "b" * 32),
+            "sub_model": ("mf-001.md-001.sm-x", "vm_sm_" + "c" * 32),
+            "powertrain": ("mf-001.md-001.sm-x.pw-gas", "vm_pw_" + "d" * 32),
+            "trim": ("mf-001.md-001.sm-x.pw-gas.tr-base", "vm_tr_" + "e" * 32),
         }
         tree = {
             "version": version,
@@ -39,8 +39,10 @@ class IdentityExportValidatorTest(unittest.TestCase):
                 "powertrains": 1, "trims": 1,
             },
             "identity_contract": {
+                "schema_version": "2.0",
                 "durable_id": "uid",
                 "compatibility_id": "id",
+                "compatibility_id_unique": False,
             },
         }
         flat = {
@@ -88,7 +90,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
         }
         current_ids = {uid: legacy_id for legacy_id, uid in ids.values()}
         identity = {
-            "schema_version": "1.0",
+            "schema_version": "2.0",
             "entity_count": 5,
             "retired_uids": [],
             "entities": {
@@ -103,6 +105,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             },
         }
         provenance = {
+            "schema_version": "2.0",
             "version": version,
             "entries": {
                 uid: {
@@ -143,7 +146,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             with open(tree_path, encoding="utf-8") as handle:
                 tree = json.load(handle)
             trims = tree["manufacturers"][0]["models"][0]["sub_models"][0]["powertrains"][0]["trims"]
-            trims.append({"id": ids["trim"][0], "uid": "vm_tr_f"})
+            trims.append({"id": ids["trim"][0], "uid": "vm_tr_" + "f" * 32})
             with open(tree_path, "w", encoding="utf-8") as handle:
                 json.dump(tree, handle)
 
@@ -165,7 +168,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             with open(identity_path, encoding="utf-8") as handle:
                 identity = json.load(handle)
             identity["entity_count"] = 6
-            identity["entities"]["vm_tr_f"] = {
+            identity["entities"]["vm_tr_" + "f" * 32] = {
                 "entity_type": "trim",
                 "identity_key": "key:vm_tr_f",
                 "current_id": ids["trim"][0],
@@ -178,7 +181,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             provenance_path = os.path.join(tmp, "provenance.json")
             with open(provenance_path, encoding="utf-8") as handle:
                 provenance = json.load(handle)
-            provenance["entries"]["vm_tr_f"] = {
+            provenance["entries"]["vm_tr_" + "f" * 32] = {
                 "entity_type": "trim",
                 "identity_key": "key:vm_tr_f",
                 "id": ids["trim"][0],
@@ -206,6 +209,32 @@ class IdentityExportValidatorTest(unittest.TestCase):
             self.assertTrue(
                 any("generation_id_index" in error for error in result["errors"])
             )
+
+    def test_malformed_uid_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._write_fixture(tmp)
+            path = os.path.join(tmp, "vehicle-master.json")
+            with open(path, encoding="utf-8") as handle:
+                tree = json.load(handle)
+            tree["manufacturers"][0]["uid"] = "vm_mf_short"
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(tree, handle)
+            result = validate(tmp)
+            self.assertFalse(result["ok"])
+            self.assertTrue(any("uid format mismatch" in error for error in result["errors"]))
+
+    def test_schema_v1_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._write_fixture(tmp)
+            path = os.path.join(tmp, "identity-map.json")
+            with open(path, encoding="utf-8") as handle:
+                identity = json.load(handle)
+            identity["schema_version"] = "1.0"
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(identity, handle)
+            result = validate(tmp)
+            self.assertFalse(result["ok"])
+            self.assertTrue(any("identity-map schema_version" in error for error in result["errors"]))
 
     def test_unknown_flat_uid_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
