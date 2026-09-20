@@ -4,46 +4,93 @@ Date: 2026-09-20
 Branch: `codex/project3-identity-provenance`  
 Base: `main@233115fb1daf9f17ba58a4fae2c30eaaf99b2e8c`
 
-## Decision
+## Current decision
 
-Keep the current readable hierarchical `id` as a compatibility key and add a durable `uid`.
-Do not break existing ERP consumers during migration.
+The original assumption that the existing `id` was stable and unique was disproved by a
+full real-data blob audit.
 
-## Implemented
+Current contract:
 
-- durable UID registry: `scripts/identity_contract.py`
-- explicit rename ledger: `data/id-aliases.json`
-- UID added to tree, flat export, codes and match index
-- `dist/identity-map.json` generation
-- `dist/provenance.json` generation
-- manifest identity/provenance metadata
-- parent rename continuity without descendant alias explosion
-- duplicate current identity rejection
-- missing alias target rejection (fail-closed)
-- unit scenarios for rename continuity and collision protection
-- cross-artifact identity/provenance release validator
-- exporter now fails closed when the validation gate fails
-- persisted registry lifecycle documented
-- consumer contract documentation
+- `id` = backward-compatible, non-unique display/matching key
+- `uid` = unique durable foreign key
+- `identity_key` = internal semantic identity basis for uid continuity
 
-## Validation performed
+## Real-data audit
 
-Isolated local logic validation:
+Current export contains 12,301 total entity nodes:
 
-1. direct rename alias preserves UID — PASS
-2. parent rename preserves unchanged descendant UID — PASS
-3. duplicate current identity fails closed — PASS
-4. alias to missing previous identity fails closed — PASS
-5. valid cross-artifact export graph — PASS
-6. corrupted flat UID is rejected — PASS
+- manufacturers: 75
+- models: 1,121
+- sub_models: 1,805
+- powertrains: 2,950
+- trims: 6,350
+
+Existing compatibility-id debt:
+
+- unique compatibility ids: 11,123
+- duplicate occurrences: 1,178
+- duplicate distinct ids: 922
+- duplicate-id levels:
+  - sub_model: 86 distinct duplicated ids
+  - powertrain: 392
+  - trim: 444
+
+Root causes verified include:
+
+- same chassis/gen code reused across facelift periods
+- same fuel/displacement powertrain split by seat count
+- normalized trim names collapsing distinct raw variants
+
+## Semantic-key audit
+
+v2 candidate semantic keys were evaluated against the full dataset:
+
+- manufacturer: 75 / 75 unique
+- model: 1,121 / 1,121 unique
+- sub_model: 1,805 / 1,805 unique
+- powertrain: 2,950 / 2,950 unique
+- trim: 6,350 / 6,350 unique
+
+Collision count: **0**
+
+## Implemented on branch
+
+- identity contract upgraded to schema v2.0
+- semantic-key-based durable UID registry
+- explicit semantic-key alias ledger
+- compatibility id history
+- parent alias continuity
+- duplicate compatibility ids allowed
+- duplicate semantic identity / uid rejected
+- uid added to tree, flat export, codes, and match index
+- identity-map generation
+- provenance generation
+- cross-artifact release validator
+- exporter automatically fails closed when validator fails
+- persisted-registry lifecycle documented
+- regression tests for semantic aliasing, duplicate legacy ids, and validator rejection paths
+
+## Validation completed
+
+- full real-data compatibility-id audit — PASS
+- full real-data semantic-key uniqueness audit — PASS, 0 collisions
+- semantic alias continuity test — PASS
+- parent alias / descendant continuity test — PASS
+- missing alias target rejection — PASS
+- duplicate active semantic identity rejection — PASS
+- duplicate legacy id with distinct semantic entities — PASS
+- valid cross-artifact fixture validation — PASS
+- corrupted flat uid rejection — PASS
+- Python syntax compilation of local validation modules — PASS
 
 GitHub Actions was intentionally not added.
 
-## Still HOLD before canonical adoption
+## Remaining HOLD before canonical main
 
-- run the full real `vehicle-tree.json` export once and inspect generated identity/provenance ledgers
-- confirm the release validator passes against the full dataset
-- review first generated `identity-map.json` as the persisted baseline registry
-- then migrate downstream foreign keys gradually from `id` to `uid`
+- execute the actual Python exporter once against the full real `vehicle-tree.json`
+- inspect and persist the first generated `dist/identity-map.json` baseline
+- run the release validator on those generated full artifacts
+- then migrate downstream foreign keys from `id` to `uid`
 
-Until that full-dataset baseline is reviewed, this branch is a candidate implementation, not canonical main.
+The design collision problem is resolved. The only remaining gate is the first real Python export
+and baseline-registry review.
