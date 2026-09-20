@@ -52,6 +52,7 @@ class IdentityRegistry:
         }
         self.alias_rules: Dict[str, str] = dict(aliases_doc.get("aliases", {}))
         self.lookup: Dict[str, str] = {}
+        self.structural_lookup: Dict[tuple, str] = {}
         self.current_uids = set()
 
         for uid, record in self.entities.items():
@@ -60,6 +61,23 @@ class IdentityRegistry:
                 self._register_lookup(current_id, uid)
             for alias in record.get("aliases", []):
                 self._register_lookup(alias, uid)
+            if record.get("active", True) and current_id:
+                self._register_structural(
+                    record.get("entity_type"), record.get("parent_uid"), current_id, uid
+                )
+
+    @staticmethod
+    def _local_identity(legacy_id: str) -> str:
+        return legacy_id.rsplit(".", 1)[-1]
+
+    def _register_structural(
+        self, entity_type: str, parent_uid: Optional[str], legacy_id: str, uid: str
+    ) -> None:
+        key = (entity_type, parent_uid, self._local_identity(legacy_id))
+        existing = self.structural_lookup.get(key)
+        if existing and existing != uid:
+            raise ValueError("structural identity maps to multiple uids: %r" % (key,))
+        self.structural_lookup[key] = uid
 
     def _register_lookup(self, legacy_id: str, uid: str) -> None:
         existing = self.lookup.get(legacy_id)
@@ -75,6 +93,10 @@ class IdentityRegistry:
             )
 
         uid = self.lookup.get(legacy_id) or self.lookup.get(previous_id)
+        if uid is None:
+            uid = self.structural_lookup.get(
+                (entity_type, parent_uid, self._local_identity(legacy_id))
+            )
 
         if uid is None:
             uid = stable_uid(entity_type, legacy_id)
@@ -110,6 +132,7 @@ class IdentityRegistry:
             raise ValueError("multiple current entities resolved to the same uid: %s" % uid)
         self.current_uids.add(uid)
         self._register_lookup(legacy_id, uid)
+        self._register_structural(entity_type, parent_uid, legacy_id, uid)
         return uid
 
     def document(self) -> dict:
