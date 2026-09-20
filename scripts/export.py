@@ -41,16 +41,25 @@ def build(date_str):
     )
     provenance_entries = {}
 
-    def bind_identity(node, entity_type, legacy_id, parent_uid=None, declared_source=None, raw_name=None):
-        uid = identity.resolve(entity_type, legacy_id, parent_uid)
+    def semantic_key(*parts):
+        return json.dumps(parts, ensure_ascii=False, separators=(",", ":"))
+
+    def bind_identity(
+        node, entity_type, identity_key, legacy_id, parent_uid=None,
+        declared_source=None, raw_name=None, source_code=None,
+    ):
+        uid = identity.resolve(entity_type, identity_key, legacy_id, parent_uid)
         node["uid"] = uid
         record = {
             "entity_type": entity_type,
+            "identity_key": identity_key,
             "id": legacy_id,
             "parent_uid": parent_uid,
         }
         if declared_source:
             record["declared_source"] = declared_source
+        if source_code is not None:
+            record["source_code"] = source_code
         if raw_name and raw_name != node.get("name"):
             record["raw_name"] = raw_name
         provenance_entries[uid] = record
@@ -60,8 +69,12 @@ def build(date_str):
     for m in tree["manufacturers"]:
         mfc = m.get("code") or slug(m["name"])
         m["id"] = "mf-%s" % mfc
+        m_identity_key = semantic_key("manufacturer", mfc)
         m_uid = bind_identity(
-            m, "manufacturer", m["id"], raw_name=m.get("name_raw"), declared_source=m.get("source")
+            m, "manufacturer", m_identity_key, m["id"],
+            raw_name=m.get("name_raw"),
+            declared_source=m.get("source"),
+            source_code=m.get("code"),
         )
         clean(m)
         codes["manufacturers"][mfc] = {
@@ -70,8 +83,12 @@ def build(date_str):
         for g in m.get("models", []):
             mdc = g.get("code") or slug(g["name"])
             g["id"] = "%s.md-%s" % (m["id"], mdc)
+            g_identity_key = semantic_key("model", m_uid, mdc)
             g_uid = bind_identity(
-                g, "model", g["id"], m_uid, raw_name=g.get("name_raw"), declared_source=g.get("source")
+                g, "model", g_identity_key, g["id"], m_uid,
+                raw_name=g.get("name_raw"),
+                declared_source=g.get("source"),
+                source_code=g.get("code"),
             )
             clean(g)
             codes["models"]["%s-%s" % (mfc, mdc)] = {
@@ -80,9 +97,22 @@ def build(date_str):
             for s in g.get("sub_models", []):
                 gc = s.get("gen_code") or slug(s["name"])
                 s["id"] = "%s.sm-%s" % (g["id"], slug(gc))
+                if s.get("code") is not None:
+                    s_identity_key = semantic_key(
+                        "sub_model", g_uid, "source_code", str(s.get("code"))
+                    )
+                else:
+                    s_identity_key = semantic_key(
+                        "sub_model", g_uid, "fallback",
+                        s.get("gen_code") or "",
+                        s.get("start") or "",
+                        s.get("name_raw") or s.get("name") or "",
+                    )
                 s_uid = bind_identity(
-                    s, "sub_model", s["id"], g_uid,
-                    raw_name=s.get("name_raw"), declared_source=s.get("source")
+                    s, "sub_model", s_identity_key, s["id"], g_uid,
+                    raw_name=s.get("name_raw"),
+                    declared_source=s.get("source"),
+                    source_code=s.get("code"),
                 )
                 clean(s)
                 codes["generations"][s["id"]] = {
@@ -92,15 +122,28 @@ def build(date_str):
                 for p in s.get("powertrains", []):
                     pid = "%s.pw-%s" % (s["id"], slug("%s-%s-%s" % (p.get("fuel"), p.get("displacement_l") or p.get("battery_kwh") or "", p.get("drivetrain") or "")))
                     p["id"] = pid
+                    p_identity_key = semantic_key(
+                        "powertrain", s_uid,
+                        p.get("fuel"),
+                        p.get("displacement_l"),
+                        p.get("battery_kwh"),
+                        p.get("drivetrain"),
+                        p.get("turbo"),
+                        p.get("seat"),
+                    )
                     p_uid = bind_identity(
-                        p, "powertrain", pid, s_uid, declared_source=s.get("source")
+                        p, "powertrain", p_identity_key, pid, s_uid,
+                        declared_source=s.get("source"),
                     )
                     clean(p)
                     for t in p.get("trims", []):
                         tid = "%s.tr-%s" % (pid, slug(t["name"]))
                         t["id"] = tid
+                        t_identity_key = semantic_key(
+                            "trim", p_uid, t.get("raw") or t.get("name") or ""
+                        )
                         t_uid = bind_identity(
-                            t, "trim", tid, p_uid,
+                            t, "trim", t_identity_key, tid, p_uid,
                             declared_source=s.get("source"),
                             raw_name=t.get("raw") or t.get("name_raw"),
                         )
@@ -131,7 +174,7 @@ def build(date_str):
     w("codes.json", {"version": version, **codes})
     w("identity-map.json", identity.document())
     w("provenance.json", {
-        "schema_version": "1.0",
+        "schema_version": "2.0",
         "version": version,
         "generated": date_str,
         "input": {"path": "data/vehicle-tree.json", "sha256": input_sha256},
@@ -190,9 +233,11 @@ def build(date_str):
             "provenance": "provenance.json", "schema": "SCHEMA.md"},
         "id_scheme": "mf-{mfCode}.md-{modelCode}.sm-{genCode}.pw-{fuel-disp-drive}.tr-{trim}",
         "identity_contract": {
-            "schema_version": "1.0",
+            "schema_version": "2.0",
             "compatibility_id": "id",
+            "compatibility_id_unique": False,
             "durable_id": "uid",
+            "durable_identity_basis": "semantic_identity_key",
             "alias_ledger": "../data/id-aliases.json",
         },
         "provenance": {
@@ -214,13 +259,14 @@ def build(date_str):
 - **vehicle-master.flat.json** — `{version, rows[]}` 트림 1행 denormalized (DB/매칭용 권장)
 - **vehicle-master.flat.csv** — 동일 (엑셀/DB import, utf-8-sig)
 - **codes.json** — 제조사/모델/세대 코드 룩업
-- **identity-map.json** — 지속 UID 레지스트리와 과거 id alias
-- **provenance.json** — UID별 출처/원본명/부모 관계 추적
+- **identity-map.json** — 지속 UID 레지스트리와 semantic identity key alias
+- **provenance.json** — UID별 semantic key/출처/원본명/부모 관계 추적
 
 ## 식별자
-- `uid`: 장기 참조용 불변 식별자. 외부 ERP의 신규 foreign key는 uid 권장.
-- `id`: 기존 호환 식별자. 아래 규칙으로 계속 제공.
-- identity-bearing 이름/규격 변경 시 `data/id-aliases.json`에 새 id → 이전 id 를 선언해야 uid가 유지됨.
+- `uid`: 유일한 장기 참조키. 외부 ERP의 신규 foreign key는 uid 사용.
+- `id`: 기존 호환 표시키. 현재 데이터에서 중복 가능하므로 foreign key로 사용하지 않음.
+- `identity_key`: UID 생성·연속성 판정에 쓰는 내부 semantic key.
+- semantic key 변경 시 `data/id-aliases.json`에 새 identity_key → 이전 identity_key를 선언.
 
 ## 호환 ID
 `%s`
