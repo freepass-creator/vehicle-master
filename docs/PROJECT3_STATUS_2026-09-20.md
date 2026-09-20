@@ -63,7 +63,9 @@ Collision count: **0**
 ## Implemented on branch
 
 - identity contract upgraded to schema v2.0
-- semantic-key-based durable UID registry
+- semantic-key-based durable UID registry with deterministic 128-bit digest
+- shared `identity_semantics.py` to prevent export/audit rule drift
+- reproducible `audit_identity_source.py` full-source audit command
 - explicit semantic-key alias ledger
 - compatibility id history
 - parent alias continuity
