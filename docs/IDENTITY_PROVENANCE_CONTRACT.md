@@ -36,6 +36,7 @@ It is explicitly non-unique.
 Every entity receives one unique opaque `uid`.
 
 `uid` is generated from an internal semantic `identity_key`, not from compatibility `id`.
+The UID suffix is a deterministic 128-bit (32 hex) SHA-256 digest segment, prefixed by entity type.
 
 The real 12,301-node dataset was audited against the v2 semantic-key rules and produced
 **zero semantic-key collisions** at every level.
@@ -95,7 +96,12 @@ their key uses the durable parent uid.
 - raw/original naming evidence where present
 - dataset input SHA-256
 
-### 7. Release gate
+### 7. Source audit
+
+`python scripts/audit_identity_source.py` audits the entire source tree with the same shared
+semantic-key module used by the exporter. It exits non-zero if any semantic collision appears.
+
+### 8. Release gate
 
 `scripts/export.py` automatically runs `scripts/validate_identity_export.py`.
 
