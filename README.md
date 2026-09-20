@@ -14,9 +14,13 @@
 | `dist/vehicle-master.flat.json` | 트림 1행 denormalized (DB/매칭 권장) |
 | `dist/vehicle-master.flat.csv` | 엑셀/DB import (utf-8-sig) |
 | `dist/codes.json` | 제조사/모델/세대 코드 룩업 |
+| `dist/identity-map.json` | 지속 UID 레지스트리 + 과거 id alias |
+| `dist/provenance.json` | UID별 출처·원본명·부모 관계 추적 |
 | `dist/SCHEMA.md` | 스키마 문서 |
 
-- **안정 ID**: `mf-{제조사}.md-{모델}.sm-{세대코드}.pw-{연료-배기-구동}.tr-{트림}` — 재빌드해도 유지, 외부 참조 키.
+- **장기 참조키는 `uid` 권장**: 정규화 명칭이 바뀌어도 동일 개체면 유지.
+- **기존 `id`는 호환 유지**: `mf-{제조사}.md-{모델}.sm-{세대코드}.pw-{연료-배기-구동}.tr-{트림}`.
+- identity-bearing 변경은 `data/id-aliases.json`에 새 id → 이전 id를 선언해 UID 연속성을 보존.
 - **트림**: `msrp_manwon`(신차가/만원) 오름차순 = 기본→상위. `fleet:true`(택시/렌트/특장)는 일반 표시 시 제외 권장.
 - **세부모델명**: 섀시코드 통일 (`그랜저 GN7`, `카니발 KA4`). 매칭은 `gen_code` 권장.
 
