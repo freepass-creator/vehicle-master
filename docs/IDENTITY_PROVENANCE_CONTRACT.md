@@ -65,3 +65,20 @@ The export produces `provenance.json` keyed by UID. It records:
 This is additive. Existing consumers can keep using `id` unchanged. New consumers should prefer `uid`.
 
 No existing `id` values are rewritten by this change.
+
+
+## Registry persistence rule
+
+`dist/identity-map.json` is not disposable generated cache. After the first full-dataset baseline is
+reviewed, it becomes the persisted identity registry for subsequent exports.
+
+- do not delete or regenerate it from scratch after aliases exist
+- review and version it together with identity-bearing master changes
+- a fresh clone must receive the previous registry before applying a rename alias
+- the exporter fails closed when an alias points to an identity absent from the previous registry
+
+## Release gate
+
+`scripts/export.py` runs `scripts/validate_identity_export.py` after writing the artifacts.
+A release fails if the tree, flat export, match index, identity registry, provenance ledger,
+manifest counts, or version references disagree.
