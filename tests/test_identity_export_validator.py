@@ -52,6 +52,26 @@ class IdentityExportValidatorTest(unittest.TestCase):
             "count": 1,
             "entries": [{"id": ids["sub_model"][0], "uid": ids["sub_model"][1]}],
         }
+        codes = {
+            "version": version,
+            "manufacturers": {},
+            "models": {},
+            "generations": {
+                ids["sub_model"][0]: {
+                    "id": ids["sub_model"][0],
+                    "uid": ids["sub_model"][1],
+                }
+            },
+            "generations_by_uid": {
+                ids["sub_model"][1]: {
+                    "id": ids["sub_model"][0],
+                    "uid": ids["sub_model"][1],
+                }
+            },
+            "generation_id_index": {
+                ids["sub_model"][0]: [ids["sub_model"][1]]
+            },
+        }
         parents = {
             ids["manufacturer"][1]: None,
             ids["model"][1]: ids["manufacturer"][1],
@@ -98,6 +118,7 @@ class IdentityExportValidatorTest(unittest.TestCase):
             "manifest.json": manifest,
             "vehicle-master.json": tree,
             "vehicle-master.flat.json": flat,
+            "codes.json": codes,
             "match-index.json": match,
             "identity-map.json": identity,
             "provenance.json": provenance,
@@ -112,6 +133,79 @@ class IdentityExportValidatorTest(unittest.TestCase):
             self._write_fixture(tmp)
             result = validate(tmp)
             self.assertTrue(result["ok"], result["errors"])
+
+
+    def test_duplicate_compatibility_id_is_allowed_and_reported(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ids = self._write_fixture(tmp)
+
+            tree_path = os.path.join(tmp, "vehicle-master.json")
+            with open(tree_path, encoding="utf-8") as handle:
+                tree = json.load(handle)
+            trims = tree["manufacturers"][0]["models"][0]["sub_models"][0]["powertrains"][0]["trims"]
+            trims.append({"id": ids["trim"][0], "uid": "vm_tr_f"})
+            with open(tree_path, "w", encoding="utf-8") as handle:
+                json.dump(tree, handle)
+
+            manifest_path = os.path.join(tmp, "manifest.json")
+            with open(manifest_path, encoding="utf-8") as handle:
+                manifest = json.load(handle)
+            manifest["counts"]["trims"] = 2
+            with open(manifest_path, "w", encoding="utf-8") as handle:
+                json.dump(manifest, handle)
+
+            flat_path = os.path.join(tmp, "vehicle-master.flat.json")
+            with open(flat_path, encoding="utf-8") as handle:
+                flat = json.load(handle)
+            flat["rows"].append({"id": ids["trim"][0], "uid": "vm_tr_f"})
+            with open(flat_path, "w", encoding="utf-8") as handle:
+                json.dump(flat, handle)
+
+            identity_path = os.path.join(tmp, "identity-map.json")
+            with open(identity_path, encoding="utf-8") as handle:
+                identity = json.load(handle)
+            identity["entity_count"] = 6
+            identity["entities"]["vm_tr_f"] = {
+                "entity_type": "trim",
+                "identity_key": "key:vm_tr_f",
+                "current_id": ids["trim"][0],
+                "parent_uid": ids["powertrain"][1],
+                "active": True,
+            }
+            with open(identity_path, "w", encoding="utf-8") as handle:
+                json.dump(identity, handle)
+
+            provenance_path = os.path.join(tmp, "provenance.json")
+            with open(provenance_path, encoding="utf-8") as handle:
+                provenance = json.load(handle)
+            provenance["entries"]["vm_tr_f"] = {
+                "entity_type": "trim",
+                "identity_key": "key:vm_tr_f",
+                "id": ids["trim"][0],
+                "parent_uid": ids["powertrain"][1],
+            }
+            with open(provenance_path, "w", encoding="utf-8") as handle:
+                json.dump(provenance, handle)
+
+            result = validate(tmp)
+            self.assertTrue(result["ok"], result["errors"])
+            self.assertEqual(result["compatibility_id_collision_count"], 1)
+            self.assertEqual(result["compatibility_id_duplicate_occurrences"], 1)
+
+    def test_missing_generation_uid_index_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._write_fixture(tmp)
+            path = os.path.join(tmp, "codes.json")
+            with open(path, encoding="utf-8") as handle:
+                codes = json.load(handle)
+            codes["generation_id_index"] = {}
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(codes, handle)
+            result = validate(tmp)
+            self.assertFalse(result["ok"])
+            self.assertTrue(
+                any("generation_id_index" in error for error in result["errors"])
+            )
 
     def test_unknown_flat_uid_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
