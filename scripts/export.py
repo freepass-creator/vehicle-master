@@ -11,6 +11,7 @@
 usage: python export.py [YYYY-MM-DD]   (날짜 생략 시 버전 날짜는 호출자가 stamp)
 """
 import json, os, re, csv, sys, hashlib
+from identity_contract import IdentityRegistry
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
@@ -27,36 +28,84 @@ def clean(node):
     return node
 
 def build(date_str):
-    tree = json.load(open(os.path.join(DATA, "vehicle-master".replace("master", "tree") + ".json"), encoding="utf-8"))
+    input_path = os.path.join(DATA, "vehicle-tree.json")
+    input_sha256 = hashlib.sha256(open(input_path, "rb").read()).hexdigest()
+    tree = json.load(open(input_path, encoding="utf-8"))
     os.makedirs(DIST, exist_ok=True)
+
+    identity = IdentityRegistry(
+        os.path.join(DIST, "identity-map.json"),
+        os.path.join(DATA, "id-aliases.json"),
+        date_str,
+    )
+    provenance_entries = {}
+
+    def bind_identity(node, entity_type, legacy_id, parent_uid=None, declared_source=None, raw_name=None):
+        uid = identity.resolve(entity_type, legacy_id, parent_uid)
+        node["uid"] = uid
+        record = {
+            "entity_type": entity_type,
+            "id": legacy_id,
+            "parent_uid": parent_uid,
+        }
+        if declared_source:
+            record["declared_source"] = declared_source
+        if raw_name and raw_name != node.get("name"):
+            record["raw_name"] = raw_name
+        provenance_entries[uid] = record
+        return uid
 
     flat, codes = [], {"manufacturers": {}, "models": {}, "generations": {}}
     for m in tree["manufacturers"]:
         mfc = m.get("code") or slug(m["name"])
         m["id"] = "mf-%s" % mfc
+        m_uid = bind_identity(
+            m, "manufacturer", m["id"], raw_name=m.get("name_raw"), declared_source=m.get("source")
+        )
         clean(m)
-        codes["manufacturers"][mfc] = {"name": m["name"], "eng": m.get("eng"), "car_type": m.get("car_type")}
+        codes["manufacturers"][mfc] = {
+            "name": m["name"], "eng": m.get("eng"), "car_type": m.get("car_type"), "uid": m_uid
+        }
         for g in m.get("models", []):
             mdc = g.get("code") or slug(g["name"])
             g["id"] = "%s.md-%s" % (m["id"], mdc)
+            g_uid = bind_identity(
+                g, "model", g["id"], m_uid, raw_name=g.get("name_raw"), declared_source=g.get("source")
+            )
             clean(g)
-            codes["models"]["%s-%s" % (mfc, mdc)] = {"manufacturer": m["name"], "name": g["name"], "eng": g.get("eng")}
+            codes["models"]["%s-%s" % (mfc, mdc)] = {
+                "manufacturer": m["name"], "name": g["name"], "eng": g.get("eng"), "uid": g_uid
+            }
             for s in g.get("sub_models", []):
                 gc = s.get("gen_code") or slug(s["name"])
                 s["id"] = "%s.sm-%s" % (g["id"], slug(gc))
+                s_uid = bind_identity(
+                    s, "sub_model", s["id"], g_uid,
+                    raw_name=s.get("name_raw"), declared_source=s.get("source")
+                )
                 clean(s)
-                codes["generations"][s["id"]] = {"model": g["name"], "sub_model": s["name"],
-                                                  "gen_code": s.get("gen_code"), "period": s.get("period")}
+                codes["generations"][s["id"]] = {
+                    "model": g["name"], "sub_model": s["name"],
+                    "gen_code": s.get("gen_code"), "period": s.get("period"), "uid": s_uid
+                }
                 for p in s.get("powertrains", []):
                     pid = "%s.pw-%s" % (s["id"], slug("%s-%s-%s" % (p.get("fuel"), p.get("displacement_l") or p.get("battery_kwh") or "", p.get("drivetrain") or "")))
                     p["id"] = pid
+                    p_uid = bind_identity(
+                        p, "powertrain", pid, s_uid, declared_source=s.get("source")
+                    )
                     clean(p)
                     for t in p.get("trims", []):
                         tid = "%s.tr-%s" % (pid, slug(t["name"]))
                         t["id"] = tid
+                        t_uid = bind_identity(
+                            t, "trim", tid, p_uid,
+                            declared_source=s.get("source"),
+                            raw_name=t.get("raw") or t.get("name_raw"),
+                        )
                         clean(t)
                         flat.append({
-                            "id": tid,
+                            "id": tid, "uid": t_uid,
                             "manufacturer": m["name"], "manufacturer_code": mfc, "car_type": m.get("car_type"),
                             "model": g["name"], "model_code": mdc,
                             "sub_model": s["name"], "gen_code": s.get("gen_code"),
@@ -79,6 +128,14 @@ def build(date_str):
     w("vehicle-master.json", tree)
     w("vehicle-master.flat.json", {"version": version, "rows": flat})
     w("codes.json", {"version": version, **codes})
+    w("identity-map.json", identity.document())
+    w("provenance.json", {
+        "schema_version": "1.0",
+        "version": version,
+        "generated": date_str,
+        "input": {"path": "data/vehicle-tree.json", "sha256": input_sha256},
+        "entries": provenance_entries,
+    })
 
     # 매칭 전용 슬림 인덱스 — 세부모델당 1엔트리 (외부 ERP 시트→우리 규격 매칭용)
     def norm_maker(name):
@@ -102,7 +159,7 @@ def build(date_str):
                     ctrims += ptrims
                 ye = s.get("end")
                 match_entries.append({
-                    "id": s["id"], "maker": mk, "model": g["name"], "sub_model": s["name"],
+                    "id": s["id"], "uid": s["uid"], "maker": mk, "model": g["name"], "sub_model": s["name"],
                     "gen_code": s.get("gen_code"), "origin": m.get("car_type"),
                     "year_start": (s.get("start") or "")[:4], "year_end": (ye[:4] if ye else "현재"),
                     "title": ("%s %s" % (mk, s["name"])).strip(),
@@ -127,8 +184,21 @@ def build(date_str):
         "counts": counts,
         "files": {
             "tree": "vehicle-master.json", "flat_json": "vehicle-master.flat.json",
-            "flat_csv": "vehicle-master.flat.csv", "codes": "codes.json", "schema": "SCHEMA.md"},
+            "flat_csv": "vehicle-master.flat.csv", "codes": "codes.json",
+            "match_index": "match-index.json", "identity_map": "identity-map.json",
+            "provenance": "provenance.json", "schema": "SCHEMA.md"},
         "id_scheme": "mf-{mfCode}.md-{modelCode}.sm-{genCode}.pw-{fuel-disp-drive}.tr-{trim}",
+        "identity_contract": {
+            "schema_version": "1.0",
+            "compatibility_id": "id",
+            "durable_id": "uid",
+            "alias_ledger": "../data/id-aliases.json",
+        },
+        "provenance": {
+            "input": "data/vehicle-tree.json",
+            "input_sha256": input_sha256,
+            "sources": ["encar", "welrix", "namuwiki/wikipedia crosscheck"],
+        },
         "notes": "trims[].fleet=true 는 택시/렌트/특장 영업용. 일반 표시 시 제외 권장. msrp_manwon=신차가(만원).",
     }
     w("manifest.json", manifest)
@@ -143,11 +213,17 @@ def build(date_str):
 - **vehicle-master.flat.json** — `{version, rows[]}` 트림 1행 denormalized (DB/매칭용 권장)
 - **vehicle-master.flat.csv** — 동일 (엑셀/DB import, utf-8-sig)
 - **codes.json** — 제조사/모델/세대 코드 룩업
+- **identity-map.json** — 지속 UID 레지스트리와 과거 id alias
+- **provenance.json** — UID별 출처/원본명/부모 관계 추적
 
-## 안정 ID
+## 식별자
+- `uid`: 장기 참조용 불변 식별자. 외부 ERP의 신규 foreign key는 uid 권장.
+- `id`: 기존 호환 식별자. 아래 규칙으로 계속 제공.
+- identity-bearing 이름/규격 변경 시 `data/id-aliases.json`에 새 id → 이전 id 를 선언해야 uid가 유지됨.
+
+## 호환 ID
 `%s`
 예: `mf-001.md-004.sm-gn7.pw-가솔린-3.5-4wd.tr-캘리그래피`
-- 같은 차량은 항상 같은 id (재빌드해도 유지). 외부 ERP는 이 id 로 참조.
 
 ## 트리 노드
 - 제조사: name, eng, code, count, car_type(국산/수입), id
