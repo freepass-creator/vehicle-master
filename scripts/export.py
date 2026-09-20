@@ -65,7 +65,13 @@ def build(date_str):
         provenance_entries[uid] = record
         return uid
 
-    flat, codes = [], {"manufacturers": {}, "models": {}, "generations": {}}
+    flat, codes = [], {
+        "manufacturers": {},
+        "models": {},
+        "generations": {},
+        "generations_by_uid": {},
+        "generation_id_index": {},
+    }
     for m in tree["manufacturers"]:
         mfc = m.get("code") or slug(m["name"])
         m["id"] = "mf-%s" % mfc
@@ -115,10 +121,18 @@ def build(date_str):
                     source_code=s.get("code"),
                 )
                 clean(s)
-                codes["generations"][s["id"]] = {
+                generation_record = {
                     "model": g["name"], "sub_model": s["name"],
-                    "gen_code": s.get("gen_code"), "period": s.get("period"), "uid": s_uid
+                    "gen_code": s.get("gen_code"), "period": s.get("period"),
+                    "uid": s_uid,
                 }
+                # Legacy map is intentionally retained for compatibility even though
+                # duplicate compatibility ids can overwrite. New consumers use uid/index.
+                codes["generations"][s["id"]] = generation_record
+                codes["generations_by_uid"][s_uid] = {
+                    **generation_record, "id": s["id"]
+                }
+                codes["generation_id_index"].setdefault(s["id"], []).append(s_uid)
                 for p in s.get("powertrains", []):
                     pid = "%s.pw-%s" % (s["id"], slug("%s-%s-%s" % (p.get("fuel"), p.get("displacement_l") or p.get("battery_kwh") or "", p.get("drivetrain") or "")))
                     p["id"] = pid
