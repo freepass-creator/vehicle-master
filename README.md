@@ -37,7 +37,10 @@ python app.py        # http://localhost:8777  (5단계 드릴다운 뷰어, /api
 ```
 python scripts/rebuild.py   # merge→EV배터리→하이브리드병합→코드명명→트림서열→신차반영→트림분류
 python scripts/audit_identity_source.py   # full source semantic-key collision 감사
-python scripts/export.py 2026-06-11   # dist/ 배포물 생성 + identity/provenance 교차검증
+# 최초 v2 identity-map 정본 생성 시 1회:
+python scripts/bootstrap_identity_baseline.py 2026-09-20
+# baseline 승인 이후 일반 배포:
+python scripts/export.py 2026-09-20   # staging 검증 → rollback-safe promote
 # 필요 시 검증만 재실행:
 python scripts/validate_identity_export.py
 ```
