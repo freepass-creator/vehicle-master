@@ -1,84 +1,121 @@
 # Vehicle Master Identity & Provenance Contract
 
 Status: Project 3 implementation candidate  
+Schema: identity contract v2.0  
 Scope: `vehicle-master` export contract
 
-## Why this exists
+## Ground truth discovered on 2026-09-20
 
-The existing `id` is readable and useful, but parts of it are derived from fields that can legitimately change during normalization:
+The existing human-readable `id` is **not unique** in the real export.
 
-- powertrain: fuel / displacement or battery / drivetrain
-- trim: trim name
-- fallback manufacturer/model codes: normalized names
+- total nodes: 12,301
+- unique compatibility ids: 11,123
+- duplicate occurrences after the first: 1,178
+- duplicate distinct ids: 922
+- affected levels: sub_model, powertrain, trim
 
-Changing one of those fields can change the current `id`. Downstream ERP systems must not lose entity identity because wording or normalization improved.
+Examples include the same chassis code being reused across facelift periods and the same
+fuel/displacement powertrain being split by seat count.
+
+Therefore `id` is a compatibility/display key only. It must not be used as a unique foreign key.
 
 ## Contract
 
-### 1. `id` stays compatible
+### 1. Compatibility id
 
-The existing hierarchical `id` remains in every export. It is not silently rewritten or removed.
+The existing `id` format remains available so current consumers are not broken.
 
-### 2. `uid` is the durable reference
+```
+mf-{manufacturer}.md-{model}.sm-{generation}.pw-{fuel-disp-drive}.tr-{trim}
+```
 
-Every exported entity receives an opaque `uid`.
+It is explicitly non-unique.
 
-- first appearance: deterministic UID is created from entity type + current compatibility id
-- later rebuilds: prior registry is loaded and the same UID is reused
-- intentional identity-bearing rename: add an entry to `data/id-aliases.json`
-- two current entities may never resolve to the same UID
+### 2. Durable uid
 
-Downstream systems should migrate foreign keys from `id` to `uid`. During migration they may store both.
+Every entity receives one unique opaque `uid`.
 
-### 3. Rename procedure
+`uid` is generated from an internal semantic `identity_key`, not from compatibility `id`.
 
-If a normalization changes an identity-bearing field:
+The real 12,301-node dataset was audited against the v2 semantic-key rules and produced
+**zero semantic-key collisions** at every level.
 
-1. calculate the new compatibility `id`
-2. add `"new-id": "previous-id"` to `data/id-aliases.json`
-3. run export
-4. verify the UID did not change
-5. ship the export and keep the previous id in the registry alias history
+### 3. Semantic identity key rules
 
-If the renamed entity is a parent, unchanged descendants reuse their prior UID structurally from
-`(entity_type, durable parent UID, local id segment)`. You do not need to enumerate every
-descendant alias. A descendant whose own identity-bearing segment changes still needs its own alias.
+- manufacturer: manufacturer source code, with normalized name fallback
+- model: durable manufacturer uid + model source code, with normalized name fallback
+- sub_model:
+  - preferred: durable model uid + sub-model source code
+  - fallback: durable model uid + generation code + start month + source/raw name
+- powertrain: durable sub-model uid + fuel + displacement + battery + drivetrain + turbo + seat
+- trim: durable powertrain uid + raw/original trim name, normalized name fallback
 
-An undeclared rename of the changed identity segment creates a new UID by design; this makes
-identity breaks visible instead of silently guessing.
+Mutable price, range, classification flags, and display ordering are not identity components.
 
-### 4. Provenance
+### 4. Alias / rename continuity
 
-The export produces `provenance.json` keyed by UID. It records:
+If a semantic identity-bearing field must change, add:
+
+```json
+{
+  "schema_version": "2.0",
+  "aliases": {
+    "<new identity_key>": "<previous identity_key>"
+  }
+}
+```
+
+The registry reuses the previous uid and records the old key in `key_aliases`.
+
+A compatibility `id` may change without changing uid when the semantic key remains the same.
+Past compatibility ids are retained in `id_history`.
+
+If a parent semantic key changes through an alias, unchanged descendants remain stable because
+their key uses the durable parent uid.
+
+### 5. Registry persistence
+
+`dist/identity-map.json` becomes persistent state after the first approved full export.
+
+- do not treat it as disposable cache after aliases exist
+- version it with identity-bearing master changes
+- fresh clones must receive the prior registry before applying aliases
+- missing alias targets fail closed
+
+### 6. Provenance
+
+`dist/provenance.json` is keyed by uid and records:
 
 - entity type
-- current compatibility id
-- parent UID
-- declared source where available
-- raw/original naming evidence where available
-- pipeline input file and input SHA-256 at dataset level
+- semantic identity key
+- compatibility id
+- parent uid
+- source code where present
+- declared source where present
+- raw/original naming evidence where present
+- dataset input SHA-256
 
-`manifest.json` points to the identity registry and provenance ledger.
+### 7. Release gate
 
-## Compatibility / rollout
+`scripts/export.py` automatically runs `scripts/validate_identity_export.py`.
 
-This is additive. Existing consumers can keep using `id` unchanged. New consumers should prefer `uid`.
+The release fails for:
 
-No existing `id` values are rewritten by this change.
+- duplicate uid
+- duplicate active semantic identity key
+- tree / registry uid-set mismatch
+- provenance mismatch
+- flat / trim reference mismatch
+- match-index / sub-model reference mismatch
+- manifest count mismatch
+- version mismatch
+- invalid retired/active identity overlap
 
+Duplicate compatibility `id` is measured and reported, but is not a release failure.
 
-## Registry persistence rule
+## Consumer migration
 
-`dist/identity-map.json` is not disposable generated cache. After the first full-dataset baseline is
-reviewed, it becomes the persisted identity registry for subsequent exports.
+Existing consumers may continue reading `id` for display or compatibility matching.
+New foreign keys must use `uid`.
 
-- do not delete or regenerate it from scratch after aliases exist
-- review and version it together with identity-bearing master changes
-- a fresh clone must receive the previous registry before applying a rename alias
-- the exporter fails closed when an alias points to an identity absent from the previous registry
-
-## Release gate
-
-`scripts/export.py` runs `scripts/validate_identity_export.py` after writing the artifacts.
-A release fails if the tree, flat export, match index, identity registry, provenance ledger,
-manifest counts, or version references disagree.
+During migration, storing both `uid` and `id` is recommended.
