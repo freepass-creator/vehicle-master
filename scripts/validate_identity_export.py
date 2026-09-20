@@ -32,6 +32,7 @@ def validate(dist_dir):
         "manifest.json",
         "vehicle-master.json",
         "vehicle-master.flat.json",
+        "codes.json",
         "match-index.json",
         "identity-map.json",
         "provenance.json",
@@ -46,6 +47,7 @@ def validate(dist_dir):
     manifest = load(os.path.join(dist_dir, "manifest.json"))
     tree = load(os.path.join(dist_dir, "vehicle-master.json"))
     flat_doc = load(os.path.join(dist_dir, "vehicle-master.flat.json"))
+    codes_doc = load(os.path.join(dist_dir, "codes.json"))
     match_doc = load(os.path.join(dist_dir, "match-index.json"))
     identity = load(os.path.join(dist_dir, "identity-map.json"))
     provenance = load(os.path.join(dist_dir, "provenance.json"))
@@ -54,6 +56,7 @@ def validate(dist_dir):
         "manifest": manifest.get("version"),
         "tree": tree.get("version"),
         "flat": flat_doc.get("version"),
+        "codes": codes_doc.get("version"),
         "match": match_doc.get("version"),
         "provenance": provenance.get("version"),
     }
@@ -194,6 +197,40 @@ def validate(dist_dir):
     invalid_flat = [pair for pair in flat_pairs if pair not in trim_pairs]
     if invalid_flat:
         errors.append("flat rows reference unknown trim identities: %r" % invalid_flat[:10])
+
+    generations_by_uid = codes_doc.get("generations_by_uid") or {}
+    generation_id_index = codes_doc.get("generation_id_index") or {}
+
+    expected_generation_by_uid = {
+        uid: legacy_id
+        for entity_type, legacy_id, uid, parent_uid in nodes
+        if entity_type == "sub_model"
+    }
+    if set(generations_by_uid) != set(expected_generation_by_uid):
+        missing = sorted(set(expected_generation_by_uid) - set(generations_by_uid))[:10]
+        extra = sorted(set(generations_by_uid) - set(expected_generation_by_uid))[:10]
+        errors.append(
+            "codes generations_by_uid mismatch missing=%r extra=%r"
+            % (missing, extra)
+        )
+    for uid, legacy_id in expected_generation_by_uid.items():
+        record = generations_by_uid.get(uid) or {}
+        if record.get("id") != legacy_id:
+            errors.append("codes generations_by_uid id mismatch for %s" % uid)
+
+    expected_id_index = {}
+    for uid, legacy_id in expected_generation_by_uid.items():
+        expected_id_index.setdefault(legacy_id, []).append(uid)
+    normalized_actual_index = {
+        legacy_id: sorted(values)
+        for legacy_id, values in generation_id_index.items()
+    }
+    normalized_expected_index = {
+        legacy_id: sorted(values)
+        for legacy_id, values in expected_id_index.items()
+    }
+    if normalized_actual_index != normalized_expected_index:
+        errors.append("codes generation_id_index does not preserve every sub_model uid")
 
     match_entries = match_doc.get("entries") or []
     match_pairs = [(entry.get("id"), entry.get("uid")) for entry in match_entries]
