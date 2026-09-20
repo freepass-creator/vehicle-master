@@ -76,6 +76,9 @@ Collision count: **0**
 - identity-map generation
 - provenance generation
 - cross-artifact release validator
+- exporter writes to staging, validates there, then rollback-safe promotes to `dist/`
+- validation failure leaves the existing release untouched
+- promote failure restores every previous generated artifact
 - exporter automatically fails closed when validator fails
 - persisted-registry lifecycle documented
 - regression tests for semantic aliasing, duplicate legacy ids, and validator rejection paths
@@ -91,15 +94,19 @@ Collision count: **0**
 - duplicate legacy id with distinct semantic entities — PASS
 - valid cross-artifact fixture validation — PASS
 - corrupted flat uid rejection — PASS
-- Python syntax compilation of local validation modules — PASS
+- current v2 registry/semantic/validator tests — 16/16 PASS
+- synthetic end-to-end exporter run with duplicate compatibility ids — PASS
+- second export preserves the same UID set — PASS
+- validation failure preserves the previous release — PASS
+- synthetic promote failure rolls back every generated artifact — PASS
 
 GitHub Actions was intentionally not added.
 
 ## Remaining HOLD before canonical main
 
-- execute the actual Python exporter once against the full real `vehicle-tree.json`
-- inspect and persist the first generated `dist/identity-map.json` baseline
-- run the release validator on those generated full artifacts
+- run `python scripts/bootstrap_identity_baseline.py 2026-09-20` on the actual local repo
+- inspect and persist the first generated `dist/identity-map.json` baseline and printed SHA-256 receipt
+- confirm the release validator passes on those generated full artifacts
 - then migrate downstream foreign keys from `id` to `uid`
 
 The design collision problem is resolved. The only remaining gate is the first real Python export
