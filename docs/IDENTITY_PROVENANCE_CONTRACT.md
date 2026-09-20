@@ -125,3 +125,19 @@ Existing consumers may continue reading `id` for display or compatibility matchi
 New foreign keys must use `uid`.
 
 During migration, storing both `uid` and `id` is recommended.
+
+
+## First baseline bootstrap
+
+For the first canonical v2 registry only, run:
+
+```bash
+python scripts/bootstrap_identity_baseline.py 2026-09-20
+```
+
+The bootstrap command refuses to overwrite an existing non-empty v2 registry. It runs the
+full-source semantic audit, performs the staging/validation/promote export, validates the final
+release again, verifies entity counts, and prints SHA-256 hashes for the identity map,
+provenance ledger, and manifest.
+
+After that first baseline is accepted, normal releases use `scripts/export.py`.
