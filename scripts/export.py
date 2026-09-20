@@ -12,6 +12,7 @@ usage: python export.py [YYYY-MM-DD]   (날짜 생략 시 버전 날짜는 호�
 """
 import json, os, re, csv, sys, hashlib
 from identity_contract import IdentityRegistry
+from validate_identity_export import validate as validate_identity_export
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
@@ -242,7 +243,17 @@ def build(date_str):
 """ % (version, date_str, manifest["id_scheme"], ", ".join(cols))
     open(os.path.join(DIST, "SCHEMA.md"), "w", encoding="utf-8").write(schema)
 
-    print("export 완료 → dist/  version=%s  trims=%d" % (version, len(flat)))
+    validation = validate_identity_export(DIST)
+    if not validation["ok"]:
+        raise RuntimeError(
+            "identity/provenance export validation failed: %s"
+            % "; ".join(validation["errors"])
+        )
+
+    print(
+        "export 완료 + identity 검증 PASS → dist/  version=%s  trims=%d  entities=%d"
+        % (version, len(flat), validation["tree_identity_count"])
+    )
     return version
 
 if __name__ == "__main__":
