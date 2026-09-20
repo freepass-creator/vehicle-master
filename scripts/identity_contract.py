@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Stable identity registry for vehicle-master exports.
+"""Durable semantic identity registry for vehicle-master exports.
 
-The existing human-readable ``id`` remains a compatibility identifier. This
-module adds an opaque ``uid`` that is reused across rebuilds. When an
-identity-bearing field is intentionally renamed, declare the move in
-``data/id-aliases.json`` as ``new_legacy_id -> previous_legacy_id`` so the
-same uid is retained.
+The readable hierarchical ``id`` is a compatibility label and is NOT unique
+in the current dataset. Durable identity is based on an explicit semantic
+``identity_key``, persisted in ``dist/identity-map.json``.
+
+When a semantic identity-bearing field must change, declare
+``new_identity_key -> previous_identity_key`` in ``data/id-aliases.json``.
 """
 from __future__ import annotations
 
@@ -14,7 +15,7 @@ import json
 import os
 from typing import Dict, Optional
 
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "2.0"
 TYPE_PREFIX = {
     "manufacturer": "mf",
     "model": "md",
@@ -31,81 +32,85 @@ def _read_json(path: str, default):
         return json.load(f)
 
 
-def stable_uid(entity_type: str, first_legacy_id: str) -> str:
+def stable_uid(entity_type: str, identity_key: str) -> str:
     prefix = TYPE_PREFIX.get(entity_type, "xx")
-    digest = hashlib.sha256(first_legacy_id.encode("utf-8")).hexdigest()[:20]
-    return f"vm_{prefix}_{digest}"
+    digest = hashlib.sha256(
+        ("%s|%s" % (entity_type, identity_key)).encode("utf-8")
+    ).hexdigest()[:20]
+    return "vm_%s_%s" % (prefix, digest)
 
 
 class IdentityRegistry:
     def __init__(self, previous_path: str, alias_path: str, generated: Optional[str] = None):
-        previous = _read_json(previous_path, {"schema_version": SCHEMA_VERSION, "entities": {}})
-        aliases_doc = _read_json(alias_path, {"schema_version": SCHEMA_VERSION, "aliases": {}})
+        previous = _read_json(
+            previous_path,
+            {"schema_version": SCHEMA_VERSION, "entities": {}},
+        )
+        aliases_doc = _read_json(
+            alias_path,
+            {"schema_version": SCHEMA_VERSION, "aliases": {}},
+        )
         if previous.get("schema_version") != SCHEMA_VERSION:
-            raise ValueError("unsupported identity registry schema_version: %r" % previous.get("schema_version"))
+            raise ValueError(
+                "unsupported identity registry schema_version: %r"
+                % previous.get("schema_version")
+            )
         if aliases_doc.get("schema_version") != SCHEMA_VERSION:
-            raise ValueError("unsupported id-aliases schema_version: %r" % aliases_doc.get("schema_version"))
+            raise ValueError(
+                "unsupported id-aliases schema_version: %r"
+                % aliases_doc.get("schema_version")
+            )
 
         self.generated = generated
         self.entities: Dict[str, dict] = {
-            uid: dict(record) for uid, record in previous.get("entities", {}).items()
+            uid: dict(record)
+            for uid, record in previous.get("entities", {}).items()
         }
         self.alias_rules: Dict[str, str] = dict(aliases_doc.get("aliases", {}))
-        self.lookup: Dict[str, str] = {}
-        self.structural_lookup: Dict[tuple, str] = {}
+        self.key_lookup: Dict[str, str] = {}
         self.current_uids = set()
 
         for uid, record in self.entities.items():
-            current_id = record.get("current_id")
-            if current_id:
-                self._register_lookup(current_id, uid)
-            for alias in record.get("aliases", []):
-                self._register_lookup(alias, uid)
-            if record.get("active", True) and current_id:
-                self._register_structural(
-                    record.get("entity_type"), record.get("parent_uid"), current_id, uid
-                )
+            identity_key = record.get("identity_key")
+            if identity_key:
+                self._register_key(identity_key, uid)
+            for alias in record.get("key_aliases", []):
+                self._register_key(alias, uid)
 
-    @staticmethod
-    def _local_identity(legacy_id: str) -> str:
-        return legacy_id.rsplit(".", 1)[-1]
-
-    def _register_structural(
-        self, entity_type: str, parent_uid: Optional[str], legacy_id: str, uid: str
-    ) -> None:
-        key = (entity_type, parent_uid, self._local_identity(legacy_id))
-        existing = self.structural_lookup.get(key)
+    def _register_key(self, identity_key: str, uid: str) -> None:
+        existing = self.key_lookup.get(identity_key)
         if existing and existing != uid:
-            raise ValueError("structural identity maps to multiple uids: %r" % (key,))
-        self.structural_lookup[key] = uid
-
-    def _register_lookup(self, legacy_id: str, uid: str) -> None:
-        existing = self.lookup.get(legacy_id)
-        if existing and existing != uid:
-            raise ValueError("legacy id maps to multiple uids: %s" % legacy_id)
-        self.lookup[legacy_id] = uid
-
-    def resolve(self, entity_type: str, legacy_id: str, parent_uid: Optional[str] = None) -> str:
-        previous_id = self.alias_rules.get(legacy_id, legacy_id)
-        if previous_id != legacy_id and previous_id not in self.lookup:
             raise ValueError(
-                "alias target does not exist in previous identity registry: %s" % previous_id
+                "identity key maps to multiple uids: %s" % identity_key
+            )
+        self.key_lookup[identity_key] = uid
+
+    def resolve(
+        self,
+        entity_type: str,
+        identity_key: str,
+        legacy_id: str,
+        parent_uid: Optional[str] = None,
+    ) -> str:
+        previous_key = self.alias_rules.get(identity_key, identity_key)
+        if previous_key != identity_key and previous_key not in self.key_lookup:
+            raise ValueError(
+                "alias target does not exist in previous identity registry: %s"
+                % previous_key
             )
 
-        uid = self.lookup.get(legacy_id) or self.lookup.get(previous_id)
-        if uid is None:
-            uid = self.structural_lookup.get(
-                (entity_type, parent_uid, self._local_identity(legacy_id))
-            )
+        uid = self.key_lookup.get(identity_key) or self.key_lookup.get(previous_key)
 
         if uid is None:
-            uid = stable_uid(entity_type, legacy_id)
+            uid = stable_uid(entity_type, identity_key)
             if uid in self.entities:
-                raise ValueError("uid collision for %s" % legacy_id)
+                raise ValueError("uid collision for identity key: %s" % identity_key)
             self.entities[uid] = {
                 "entity_type": entity_type,
+                "identity_key": identity_key,
+                "key_aliases": [],
                 "current_id": legacy_id,
-                "aliases": [],
+                "id_history": [],
                 "parent_uid": parent_uid,
                 "first_seen": self.generated,
                 "last_seen": self.generated,
@@ -115,24 +120,39 @@ class IdentityRegistry:
             if record.get("entity_type") != entity_type:
                 raise ValueError(
                     "entity type changed for %s: %s -> %s"
-                    % (legacy_id, record.get("entity_type"), entity_type)
+                    % (identity_key, record.get("entity_type"), entity_type)
                 )
-            old_current = record.get("current_id")
-            if old_current and old_current != legacy_id:
-                aliases = set(record.get("aliases", []))
-                aliases.add(old_current)
-                if previous_id != legacy_id:
-                    aliases.add(previous_id)
-                record["aliases"] = sorted(a for a in aliases if a and a != legacy_id)
+
+            old_key = record.get("identity_key")
+            if old_key and old_key != identity_key:
+                aliases = set(record.get("key_aliases", []))
+                aliases.add(old_key)
+                if previous_key != identity_key:
+                    aliases.add(previous_key)
+                record["key_aliases"] = sorted(
+                    key for key in aliases if key and key != identity_key
+                )
+                record["identity_key"] = identity_key
+
+            old_id = record.get("current_id")
+            if old_id and old_id != legacy_id:
+                history = set(record.get("id_history", []))
+                history.add(old_id)
+                record["id_history"] = sorted(
+                    value for value in history if value and value != legacy_id
+                )
+
             record["current_id"] = legacy_id
             record["parent_uid"] = parent_uid
             record["last_seen"] = self.generated
 
         if uid in self.current_uids:
-            raise ValueError("multiple current entities resolved to the same uid: %s" % uid)
+            raise ValueError(
+                "multiple current entities resolved to the same uid: %s" % uid
+            )
+
         self.current_uids.add(uid)
-        self._register_lookup(legacy_id, uid)
-        self._register_structural(entity_type, parent_uid, legacy_id, uid)
+        self._register_key(identity_key, uid)
         return uid
 
     def document(self) -> dict:
